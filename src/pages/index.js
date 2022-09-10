@@ -4,8 +4,7 @@ import Test from "../components/Test";
 function indexPage() {
   return (
     <Layout>
-      hello world
-      {/* <Test /> */}
+      <Test />
     </Layout>
   );
 }
