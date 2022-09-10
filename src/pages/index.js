@@ -1,8 +1,7 @@
-import React from "react"
-import { Typography } from "@material-ui/core"
-
-export default function Home() {
-  return <div>
-    <Typography variant="body1">abcdef</Typography>
-  </div>
+import React from "react";
+import Test from "../components/test";
+function indexPage() {
+  return <Test />;
 }
+
+export default indexPage;
