@@ -11,9 +11,10 @@ import {
   ListItem,
   ListItemButton,
   ListItemText,
-  ListItemIcon
+  ListItemIcon,
+  Avatar
 } from "@mui/material";
-import { Link } from "gatsby";
+import { Link, graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import HomeIcon from "@mui/icons-material/Home";
@@ -56,6 +57,19 @@ const drawerWidth = 300;
 export default function Navbar() {
   const location = useLocation();
   const [mobileOpen, setMobileOpen] = React.useState(false);
+
+  const data = useStaticQuery(graphql`
+    query Logo {
+      file(relativePath: { eq: "turinghut_logo.png" }) {
+        childImageSharp {
+          fluid {
+            srcSet
+          }
+        }
+      }
+    }
+  `);
+  const logoSrcSet = data.file.childImageSharp.fluid.srcSet;
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -104,6 +118,7 @@ export default function Navbar() {
           >
             <MenuIcon />
           </IconButton>
+          <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Turing Hut
           </Typography>
