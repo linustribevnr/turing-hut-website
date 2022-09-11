@@ -75,7 +75,12 @@ export default function Navbar() {
             style={{ textDecoration: "none" }}
           >
             <ListItem key={item} disablePadding>
-              <ListItemButton sx={{ color: "#000" }}>
+              <ListItemButton
+                sx={{
+                  color: "#000",
+                  bgcolor: location.pathname === item.path ? "#e0e0e0" : "#fff"
+                }}
+              >
                 <ListItemIcon>{item.icon}</ListItemIcon>
                 <ListItemText primary={item.text} />
               </ListItemButton>
@@ -102,7 +107,7 @@ export default function Navbar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Turing Hut
           </Typography>
-          <Box sx={{ display: { sm: "none", md: "block" } }}>
+          <Box sx={{ display: { xs: "none", md: "block" } }}>
             {navItems.map(item => (
               <Link
                 key={item.text}
@@ -139,7 +144,7 @@ export default function Navbar() {
           keepMounted: true
         }}
         sx={{
-          display: { sm: "block", md: "none" },
+          display: { xs: "block", md: "none" },
           "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth }
         }}
       >
