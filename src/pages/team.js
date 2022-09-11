@@ -1,5 +1,6 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 export default function teamPage() {
-  return <div>team</div>;
+  return <Layout>Team Page</Layout>;
 }
