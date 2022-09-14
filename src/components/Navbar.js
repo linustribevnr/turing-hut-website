@@ -119,7 +119,11 @@ export default function Navbar() {
             <MenuIcon />
           </IconButton>
           <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'black' }}>
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ flexGrow: 1, color: "black" }}
+          >
             Turing Hut
           </Typography>
           <Box sx={{ display: { xs: "none", md: "block" } }}>
