@@ -12,6 +12,11 @@ const theme = createTheme({
     secondary: {
       main: "#4C4D4F"
     }
+  },
+  typography: {
+    h5: {
+      fontSize: ["30px", "!important"]
+    }
   }
 });
 
