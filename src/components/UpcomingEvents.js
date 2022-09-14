@@ -32,7 +32,7 @@ export default function UpcomingEvents() {
   var options = { year: "numeric", month: "long", day: "numeric" };
 
   events = events.filter(e => new Date(e.frontmatter.date) >= today);
-  events.sort((a, b) => new Date(a) - new Date(b));
+  events.sort((a, b) => (new Date(a.frontmatter.date)) - (new Date(b.frontmatter.date)));
   events.map(
     e =>
       (e.frontmatter.date = new Date(e.frontmatter.date).toLocaleDateString(
