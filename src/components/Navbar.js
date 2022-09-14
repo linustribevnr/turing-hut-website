@@ -110,7 +110,7 @@ export default function Navbar() {
       <AppBar component="nav" sx={{ bgcolor: "#fff" }}>
         <Toolbar>
           <IconButton
-            color="inherit"
+            color="secondary"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
@@ -119,7 +119,12 @@ export default function Navbar() {
             <MenuIcon />
           </IconButton>
           <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography
+            variant="h6"
+            component="div"
+            color="black"
+            sx={{ flexGrow: 1 }}
+          >
             Turing Hut
           </Typography>
           <Box sx={{ display: { xs: "none", md: "block" } }}>

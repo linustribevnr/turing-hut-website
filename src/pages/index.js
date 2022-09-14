@@ -1,8 +1,13 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Test from "../components/Test";
+import Landing from "../components/landing";
+
 function indexPage() {
-  return <Layout>Home Page</Layout>;
+  return (
+    <Layout>
+      <Landing />
+    </Layout>
+  );
 }
 
 export default indexPage;
