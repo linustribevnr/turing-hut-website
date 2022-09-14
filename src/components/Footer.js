@@ -1,9 +1,8 @@
 import React from 'react';
 import {
     Box,
-    Divider, Typography, Toolbar, Tooltip, Grid
+    Divider, Typography, Tooltip, Grid
   } from "@mui/material";
-  import { Link } from "gatsby";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -44,16 +43,17 @@ export default function Footer() {
             <Grid item xs={12} md={3} sx={{my:2}}>
                 <Box sx={{ textAlign: 'center'}}>
                     {socialMediaItems.map(item => (
-                        <Link
+                        <a
                             key={item.link}
-                            to={item.link}
+                            href={item.link}
                             target='_blank'
+                            rel="noreferrer"
                             style={{ textDecoration: "none", color: "#757575", padding: "10px"}}
                         >
                             <Tooltip title={item.name} placement="top">
                                 {item.icon}
                             </Tooltip>
-                        </Link>
+                        </a>
                     ))}        
                 </Box>
             </Grid>

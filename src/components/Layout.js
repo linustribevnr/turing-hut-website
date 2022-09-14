@@ -1,13 +1,17 @@
 import React from "react";
 import { Box, Toolbar } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { green } from "@mui/material/colors";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const theme = createTheme({
   palette: {
-    primary: green
+    primary: {
+      main: '#16654F'
+    },
+    secondary: {
+      main: '#4C4D4F'
+    }
   }
 });
 
