@@ -7,10 +7,10 @@ import Footer from "./Footer";
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#16654F'
+      main: "#16654F"
     },
     secondary: {
-      main: '#4C4D4F'
+      main: "#4C4D4F"
     }
   }
 });
@@ -20,7 +20,7 @@ export default function Layout({ children }) {
     <ThemeProvider theme={theme}>
       <Box sx={{ display: "flex" }}>
         <Navbar />
-        <Box component="main" sx={{ p: 3, width:1 }}>
+        <Box component="main" sx={{ p: 3, width: 1 }}>
           <Toolbar />
           {children}
           <Footer />
