@@ -88,6 +88,7 @@ export default function Team() {
                 name={member.name}
                 img={member.image}
                 description="Team"
+                twitter={member.twitter}
                 github={member.github}
                 linkedin={member.linkedin}
                 website={member.website}
