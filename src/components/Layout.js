@@ -20,11 +20,11 @@ const theme = createTheme({
   }
 });
 
-export default function Layout({ location, children }) {
+export default function Layout({ children }) {
   return (
     <ThemeProvider theme={theme}>
       <Box sx={{ display: "flex" }}>
-        <Navbar location={location}/>
+        <Navbar/>
         <Box component="main" sx={{ p: 3, width: 1 }}>
           <Toolbar />
           {children}

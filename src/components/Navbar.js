@@ -54,11 +54,9 @@ const navItems = [
 
 const drawerWidth = 300;
 
-export default function Navbar({location}) {
-  // const location = useLocation();
+export default function Navbar() {
+  const location = useLocation();
   const [mobileOpen, setMobileOpen] = React.useState(false);
-
-  console.log(location)
 
   const data = useStaticQuery(graphql`
     query Logo {
@@ -94,7 +92,7 @@ export default function Navbar({location}) {
               <ListItemButton
                 sx={{
                   color: "#000",
-                  bgcolor: (location.pathname === item.path) ? "#e0e0e0" : "#fff"
+                  bgcolor: (location.pathname.includes(item.path)) ? "#e0e0e0" : "#fff"
                 }}
               >
                 <ListItemIcon>{item.icon}</ListItemIcon>
