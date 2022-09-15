@@ -82,25 +82,31 @@ export default function Navbar() {
       </Typography>
       <Divider />
       <List>
-        {navItems.map(item => (
-          <Link
-            key={item.text}
-            to={item.path}
-            style={{ textDecoration: "none" }}
-          >
-            <ListItem key={item} disablePadding>
-              <ListItemButton
-                sx={{
-                  color: "#000",
-                  bgcolor: (location.pathname.includes(item.path)) ? "#e0e0e0" : "#fff"
-                }}
-              >
-                <ListItemIcon>{item.icon}</ListItemIcon>
-                <ListItemText primary={item.text} />
-              </ListItemButton>
-            </ListItem>
-          </Link>
-        ))}
+        {navItems.map(item => {
+          return (
+            <Link
+              key={item.text}
+              to={item.path}
+              style={{ textDecoration: "none" }}
+            >
+              <ListItem key={item} disablePadding>
+                <ListItemButton
+                  sx={{
+                    color: "#000",
+                    bgcolor:
+                      location.pathname === item.path ||
+                      location.pathname === item.path.concat("/")
+                        ? "#e0e0e0"
+                        : "#fff"
+                  }}
+                >
+                  <ListItemIcon>{item.icon}</ListItemIcon>
+                  <ListItemText primary={item.text} />
+                </ListItemButton>
+              </ListItem>
+            </Link>
+          );
+        })}
       </List>
     </Box>
   );
@@ -138,10 +144,16 @@ export default function Navbar() {
                     color: "#000",
                     ":hover": {
                       bgcolor:
-                        location.pathname === item.path ? "#e0e0e0" : "#f5f5f5"
+                        location.pathname === item.path ||
+                        location.pathname === item.path.concat("/")
+                          ? "#e0e0e0"
+                          : "#f5f5f5"
                     },
                     bgcolor:
-                      location.pathname === item.path ? "#e0e0e0" : "#fff",
+                      location.pathname === item.path ||
+                      location.pathname === item.path.concat("/")
+                        ? "#e0e0e0"
+                        : "#fff",
                     textTransform: "none",
                     textDecoration: "none",
                     px: 3,
