@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Grid,
-  Box,
-  Typography,
-  Card,
-  CardContent,
-  CardActions,
-  Button
-} from "@mui/material";
+import { Grid, Box, Typography } from "@mui/material";
 import Diversity3Icon from "@mui/icons-material/Diversity3";
 import CodeIcon from "@mui/icons-material/Code";
 import QuestionAnswerIcon from "@mui/icons-material/QuestionAnswer";
