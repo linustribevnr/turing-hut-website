@@ -58,6 +58,8 @@ export default function Navbar({location}) {
   // const location = useLocation();
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
+  console.log(location)
+
   const data = useStaticQuery(graphql`
     query Logo {
       file(relativePath: { eq: "turinghut_logo.png" }) {
