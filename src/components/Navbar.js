@@ -54,8 +54,8 @@ const navItems = [
 
 const drawerWidth = 300;
 
-export default function Navbar() {
-  const location = useLocation();
+export default function Navbar({location}) {
+  // const location = useLocation();
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const data = useStaticQuery(graphql`
