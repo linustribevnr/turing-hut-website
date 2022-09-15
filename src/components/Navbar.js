@@ -92,7 +92,7 @@ export default function Navbar() {
               <ListItemButton
                 sx={{
                   color: "#000",
-                  bgcolor: location.pathname === item.path ? "#e0e0e0" : "#fff"
+                  bgcolor: (location.pathname === item.path) ? "#e0e0e0" : "#fff"
                 }}
               >
                 <ListItemIcon>{item.icon}</ListItemIcon>

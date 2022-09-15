@@ -15,7 +15,7 @@ import { useState } from "react";
 export default function Faqs() {
   const data = useStaticQuery(graphql`
     query TuringTapeQuery {
-      turingtape: file(relativePath: { eq: "turing_tape.png" }) {
+      file(relativePath: { eq: "turing_tape.png" }) {
         childImageSharp {
           gatsbyImageData(
             width: 350
@@ -97,8 +97,8 @@ export default function Faqs() {
       >
         <Box display="flex" justifyContent={{ xs: "center", md: "flex-end" }}>
           <GatsbyImage
-            alt="Turing Hut Logo"
-            image={data.turingtape.childImageSharp.gatsbyImageData}
+            alt="Turing Tape"
+            image={data.file.childImageSharp.gatsbyImageData}
           />
         </Box>
       </Grid>
