@@ -19,7 +19,7 @@ export default function Landing() {
   `);
 
   return (
-    <Grid container spacing={2} sx={{ }}>
+    <Grid container spacing={2} sx={{ mb: 4 }}>
       <Grid item xs={12} md={4}>
         <Box display="flex" justifyContent={{ xs: "center", md: "flex-end" }}>
           <GatsbyImage
