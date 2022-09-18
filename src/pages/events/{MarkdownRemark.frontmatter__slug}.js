@@ -24,6 +24,9 @@ export const query = graphql`
         slug
         title
         type
+        image
+        recording
+        contestlink
       }
     }
   }

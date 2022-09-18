@@ -7,13 +7,12 @@ export default function EventPage({ html, event_details }) {
       {event_details.image && (
         <div
           style={{
-            height: "250px",
+            height: "320px",
             marginBottom: "10px",
-            display: "flex",
-            alignItems: "end",
             backgroundImage: `url(${event_details.image})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center"
+            backgroundSize: "100% 100%",
+            backgroundPosition: "center center",
+            backgroundRepeat: "no-repeat"
           }}></div>
       )}
       <Box>
@@ -62,18 +61,22 @@ export default function EventPage({ html, event_details }) {
         )}
         {event_details.contestlink && (
           <Button
-            variant="contained"
+            variant="outlined"
             color="success"
+            size="small"
+            style={{ textTransform: "none", marginRight: "10px" }}
             href={event_details.contestlink}>
-            Contest Link
+            Contest
           </Button>
         )}
         {event_details.recording && (
           <Button
-            variant="contained"
+            variant="outlined"
             color="error"
+            size="small"
+            style={{ textTransform: "none", marginRight: "10px" }}
             href={event_details.recording}>
-            Recording Link
+            Recording
           </Button>
         )}
       </Box>
