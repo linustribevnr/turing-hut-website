@@ -47,10 +47,23 @@ export default function EventPage({ html, event_details }) {
             {event_details.type}
           </Typography>
         </div>
+        <div style={{ marginBottom: "10px" }}>
+          <Typography
+            variant="body1"
+            color="black"
+            fontWeight={"bold"}
+            sx={{ display: "inline" }}>
+            Time:&nbsp;
+          </Typography>
+          <Typography variant="body1" sx={{ display: "inline" }}>
+            {event_details.time}
+          </Typography>
+        </div>
         <Typography variant="body1" marginBottom={"10px"}>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </Typography>
-        {(event_details.contestlink || event_details.recording) && (
+        {(event_details.contestlink === "NA" ||
+          event_details.recording === "NA") && (
           <Typography
             variant="body1"
             color="black"
@@ -59,7 +72,7 @@ export default function EventPage({ html, event_details }) {
             Important Links
           </Typography>
         )}
-        {event_details.contestlink && (
+        {event_details.contestlink === "NA" && (
           <Button
             variant="outlined"
             color="success"
@@ -69,7 +82,7 @@ export default function EventPage({ html, event_details }) {
             Contest
           </Button>
         )}
-        {event_details.recording && (
+        {event_details.recording === "NA" && (
           <Button
             variant="outlined"
             color="error"

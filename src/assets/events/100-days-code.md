@@ -1,11 +1,12 @@
 ---
 title: 100 Days of Code
 date: 2022-10-12
+time: 19:00 - 21:00
 type: Contest
 slug: 100-days-of-code
 image: https://user-images.githubusercontent.com/52968975/190902845-98ae0243-6130-47cc-b478-9c3770c89f21.jpeg
-recording: https://www.youtube.com/
-contestlink: https://www.codechef.com/
+recording: NA
+contestlink: NA
 ---
 
 The MLH Fellowship is a 12-week internship alternative for aspiring software engineers. Fellows on the Software Engineering track experience what it's like to collaborate in a small group on a real project from one of our corporate or government partners. The open source track is a great start point to enter the world of free and open software.

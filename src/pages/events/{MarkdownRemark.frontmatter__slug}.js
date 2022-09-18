@@ -23,6 +23,7 @@ export const query = graphql`
         date
         slug
         title
+        time
         type
         image
         recording
