@@ -88,7 +88,7 @@ export default function UpcomingEvents() {
               </CardContent>
               <CardActions>
                 <Link
-                  to={"/events/" + event.frontmatter.slug}
+                  to={`/events/${event.frontmatter.slug}`}
                   style={{ textDecoration: "none" }}
                 >
                   <Button sx={{ textTransform: "none" }}>Learn More</Button>
