@@ -4,7 +4,7 @@ date: 2022-07-21
 time: 18:00 - 19:30
 type: Contest
 slug: code-frenzy-22
-image: https://user-images.githubusercontent.com/52968975/190902845-98ae0243-6130-47cc-b478-9c3770c89f21.jpeg
+image: ../images/events/mlh_session.jpeg
 recording: NA
 contestlink: NA
 ---

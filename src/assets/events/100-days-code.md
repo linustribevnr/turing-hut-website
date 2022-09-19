@@ -4,7 +4,7 @@ date: 2022-10-12
 time: 19:00 - 21:00
 type: Contest
 slug: 100-days-of-code
-image: https://user-images.githubusercontent.com/52968975/190902845-98ae0243-6130-47cc-b478-9c3770c89f21.jpeg
+image: ../images/events/mlh_session.jpeg
 recording: NA
 contestlink: NA
 ---

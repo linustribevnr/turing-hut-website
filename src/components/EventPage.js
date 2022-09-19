@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Typography, Button, Box } from "@mui/material";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default function EventPage({ html, event_details }) {
   const options = { year: "numeric", month: "long", day: "numeric" };
@@ -9,21 +10,18 @@ export default function EventPage({ html, event_details }) {
     options
   );
 
+  console.log(getImage(event_details.image));
+
   return (
-    <Container>
+    <Container sx={{ boxShadow: 2, p: 2 }}>
       {event_details.image && (
-        <div
-          style={{
-            height: "320px",
-            marginBottom: "10px",
-            backgroundImage: `url(${event_details.image})`,
-            backgroundSize: "100% 100%",
-            backgroundPosition: "center center",
-            backgroundRepeat: "no-repeat"
-          }}
-        ></div>
+        <GatsbyImage
+          image={getImage(event_details.image)}
+          alt={event_details.title}
+          style={{ width: "100%", height: "300px" }}
+        />
       )}
-      <Box>
+      <Box sx={{ p: 2 }}>
         <Typography
           variant="h4"
           color="black"
@@ -71,7 +69,7 @@ export default function EventPage({ html, event_details }) {
             {event_details.type}
           </Typography>
         </div>
-        <Typography variant="body1" marginBottom={"10px"}>
+        <Typography variant="body1" marginBottom={"10px"} textAlign={"justify"}>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </Typography>
         {(event_details.contestlink !== "NA" ||

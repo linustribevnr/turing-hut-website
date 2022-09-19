@@ -25,7 +25,15 @@ export const query = graphql`
         title
         time
         type
-        image
+        image {
+          childImageSharp {
+            gatsbyImageData(
+              blurredOptions: { width: 100 }
+              placeholder: BLURRED
+              transformOptions: { fit: COVER }
+            )
+          }
+        }
         recording
         contestlink
       }
