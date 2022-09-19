@@ -15,7 +15,6 @@ export default function TeamCard({
   linkedin,
   website
 }) {
-  console.log(img);
   return (
     <Card sx={{ maxWidth: 345 }}>
       <GatsbyImage alt={name} image={img} />
