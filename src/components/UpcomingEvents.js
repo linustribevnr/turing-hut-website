@@ -21,6 +21,7 @@ export default function UpcomingEvents() {
             slug
             title
             type
+            time
           }
         }
       }
@@ -50,16 +51,14 @@ export default function UpcomingEvents() {
           variant="h5"
           color="black"
           fontWeight={"bold"}
-          sx={{ display: "inline" }}
-        >
+          sx={{ display: "inline" }}>
           Upcoming&nbsp;
         </Typography>
         <Typography
           variant="h5"
           color="primary"
           fontWeight={"bold"}
-          sx={{ display: "inline" }}
-        >
+          sx={{ display: "inline" }}>
           Events.
         </Typography>
       </Box>
@@ -72,29 +71,38 @@ export default function UpcomingEvents() {
       <Grid container spacing={2} sx={{ my: 2 }}>
         {events.map(event => (
           <Grid item xs={12} md={3} key={event.id}>
-            <Card style={{ backgroundColor: "#f4f4f5" }}>
-              <CardContent>
-                <Typography
-                  sx={{ fontSize: 14 }}
-                  color="text.secondary"
-                  gutterBottom
-                >
-                  {event.frontmatter.date}
-                </Typography>
-                <Typography variant="h6">{event.frontmatter.title}</Typography>
-                <Typography variant="body2">
-                  {event.frontmatter.type}
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Link
-                  to={`/events/${event.frontmatter.slug}`}
-                  style={{ textDecoration: "none" }}
-                >
-                  <Button sx={{ textTransform: "none" }}>Learn More</Button>
-                </Link>
-              </CardActions>
-            </Card>
+            <div
+              style={{
+                boxShadow: "0 0 36px rgb(0 0 0 / 15%)",
+                borderRadius: "8px"
+              }}>
+              <Card
+                style={{
+                  backgroundColor: "#f4f4f5"
+                }}>
+                <CardContent>
+                  <Typography
+                    sx={{ fontSize: 14 }}
+                    color="text.secondary"
+                    gutterBottom>
+                    {event.frontmatter.date}
+                  </Typography>
+                  <Typography variant="h6">
+                    {event.frontmatter.title}
+                  </Typography>
+                  <Typography variant="body2">
+                    {event.frontmatter.type}
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Link
+                    to={`/events/${event.frontmatter.slug}`}
+                    style={{ textDecoration: "none" }}>
+                    <Button sx={{ textTransform: "none" }}>Learn More</Button>
+                  </Link>
+                </CardActions>
+              </Card>
+            </div>
           </Grid>
         ))}
       </Grid>

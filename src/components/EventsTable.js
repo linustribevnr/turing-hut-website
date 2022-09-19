@@ -13,18 +13,17 @@ import {
   TablePagination,
   TextField
 } from "@mui/material";
-import { blue, green } from "@mui/material/colors";
 import { visuallyHidden } from "@mui/utils";
 
 import { Link, graphql, useStaticQuery } from "gatsby";
 
 export default function EventsTable() {
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(5);
+  const [rowsPerPage, setRowsPerPage] = React.useState(10);
   const [search, setSearch] = useState("");
   const [order, setOrder] = useState("");
   const [orderBy, setOrderBy] = useState("");
-  const header = ["Name", "Date", "Type", "Status"];
+  const header = ["Name", "Date", "Type"];
   const data = useStaticQuery(graphql`
     query Events {
       allMarkdownRemark {
@@ -42,27 +41,11 @@ export default function EventsTable() {
   `);
 
   const events = data.allMarkdownRemark.nodes.map(event => {
-    const date = event.frontmatter.date.split("-");
-    const formatedDate = new Date(date[2], date[1] - 1, date[0]);
-    const today = new Date();
-    const yyyy = today.getFullYear();
-    let mm = today.getMonth() + 1;
-    let dd = today.getDate();
-    if (dd < 10) dd = "0" + dd;
-    if (mm < 10) mm = "0" + mm;
-    const formattedToday = dd + "-" + mm + "-" + yyyy;
-    console.log(formattedToday, event.frontmatter.date);
     return {
       id: event.id,
       name: event.frontmatter.title,
       date: event.frontmatter.date,
       type: event.frontmatter.type,
-      status:
-        formattedToday === event.frontmatter.date
-          ? "Today"
-          : today - formatedDate > 0
-          ? "Past Event"
-          : "Upcoming Event",
       slug: event.frontmatter.slug
     };
   });
@@ -161,19 +144,6 @@ export default function EventsTable() {
                       </TableCell>
                       <TableCell align="right">{event.date}</TableCell>
                       <TableCell align="right">{event.type}</TableCell>
-                      <TableCell align="right">
-                        <Typography
-                          variant="body2"
-                          color={
-                            event.status === "Today"
-                              ? blue[500]
-                              : event.status.includes("Past")
-                              ? "error"
-                              : green["A700"]
-                          }>
-                          {event.status}
-                        </Typography>
-                      </TableCell>
                       <TableCell align="right">
                         <Link to={`/events/${event.slug}`}>See more</Link>
                       </TableCell>
