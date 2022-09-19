@@ -59,7 +59,7 @@ export default function Landing() {
         <Box>
           <Button
             variant="contained"
-            href="http://www.thevaliantgroup.com/wp-content/uploads/2013/07/time-for-change.jpg"
+            href="https://groups.google.com/g/turing-hut-members"
             target="__blank"
             rel="noreferrer"
             sx={{ m: 1, textTransform: "none" }}
