@@ -100,7 +100,7 @@ export default function EventsTable() {
         />
       </div>
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+        <Table aria-label="event table">
           <TableHead>
             <TableRow>
               {header.map((val, i) => (
