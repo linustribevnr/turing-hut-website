@@ -51,14 +51,16 @@ export default function UpcomingEvents() {
           variant="h5"
           color="black"
           fontWeight={"bold"}
-          sx={{ display: "inline" }}>
+          sx={{ display: "inline" }}
+        >
           Upcoming&nbsp;
         </Typography>
         <Typography
           variant="h5"
           color="primary"
           fontWeight={"bold"}
-          sx={{ display: "inline" }}>
+          sx={{ display: "inline" }}
+        >
           Events.
         </Typography>
       </Box>
@@ -75,16 +77,19 @@ export default function UpcomingEvents() {
               style={{
                 boxShadow: "0 0 36px rgb(0 0 0 / 15%)",
                 borderRadius: "8px"
-              }}>
+              }}
+            >
               <Card
                 style={{
                   backgroundColor: "#f4f4f5"
-                }}>
+                }}
+              >
                 <CardContent>
                   <Typography
                     sx={{ fontSize: 14 }}
                     color="text.secondary"
-                    gutterBottom>
+                    gutterBottom
+                  >
                     {event.frontmatter.date}
                   </Typography>
                   <Typography variant="h6">
@@ -97,7 +102,8 @@ export default function UpcomingEvents() {
                 <CardActions>
                   <Link
                     to={`/events/${event.frontmatter.slug}`}
-                    style={{ textDecoration: "none" }}>
+                    style={{ textDecoration: "none" }}
+                  >
                     <Button sx={{ textTransform: "none" }}>Learn More</Button>
                   </Link>
                 </CardActions>

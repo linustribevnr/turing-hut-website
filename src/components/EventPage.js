@@ -20,14 +20,16 @@ export default function EventPage({ html, event_details }) {
             backgroundSize: "100% 100%",
             backgroundPosition: "center center",
             backgroundRepeat: "no-repeat"
-          }}></div>
+          }}
+        ></div>
       )}
       <Box>
         <Typography
           variant="h4"
           color="black"
           fontWeight={"bold"}
-          marginBottom={"10px"}>
+          marginBottom={"10px"}
+        >
           {event_details.title}
         </Typography>
         <div style={{ marginBottom: "10px" }}>
@@ -35,7 +37,8 @@ export default function EventPage({ html, event_details }) {
             variant="body1"
             color="black"
             fontWeight={"bold"}
-            sx={{ display: "inline" }}>
+            sx={{ display: "inline" }}
+          >
             Date:&nbsp;
           </Typography>
           <Typography variant="body1" sx={{ display: "inline" }}>
@@ -47,7 +50,8 @@ export default function EventPage({ html, event_details }) {
             variant="body1"
             color="black"
             fontWeight={"bold"}
-            sx={{ display: "inline" }}>
+            sx={{ display: "inline" }}
+          >
             Time:&nbsp;
           </Typography>
           <Typography variant="body1" sx={{ display: "inline" }}>
@@ -59,7 +63,8 @@ export default function EventPage({ html, event_details }) {
             variant="body1"
             color="black"
             fontWeight={"bold"}
-            sx={{ display: "inline" }}>
+            sx={{ display: "inline" }}
+          >
             Type:&nbsp;
           </Typography>
           <Typography variant="body1" sx={{ display: "inline" }}>
@@ -75,7 +80,8 @@ export default function EventPage({ html, event_details }) {
             variant="body1"
             color="black"
             fontWeight={"bold"}
-            marginBottom={"10px"}>
+            marginBottom={"10px"}
+          >
             Important Links
           </Typography>
         )}
@@ -86,7 +92,8 @@ export default function EventPage({ html, event_details }) {
             size="small"
             style={{ textTransform: "none", marginRight: "10px" }}
             href={event_details.contestlink}
-            target="_blank">
+            target="_blank"
+          >
             Contest
           </Button>
         )}
@@ -97,7 +104,8 @@ export default function EventPage({ html, event_details }) {
             size="small"
             style={{ textTransform: "none", marginRight: "10px" }}
             href={event_details.recording}
-            target="_blank">
+            target="_blank"
+          >
             Recording
           </Button>
         )}

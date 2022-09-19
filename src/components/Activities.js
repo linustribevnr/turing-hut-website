@@ -38,7 +38,8 @@ export default function Activities() {
           bgcolor: "#F5FFFA",
           border: "1px solid #16654f",
           borderRadius: "5px"
-        }}>
+        }}
+      >
         {activities.map(item => (
           <Grid
             item
@@ -47,7 +48,8 @@ export default function Activities() {
             sm={6}
             md={3}
             textAlign={"center"}
-            sx={{ p: 2 }}>
+            sx={{ p: 2 }}
+          >
             {item.icon}
             <Typography variant="h6">{item.title}</Typography>
             <Typography variant="body2">{item.body}</Typography>

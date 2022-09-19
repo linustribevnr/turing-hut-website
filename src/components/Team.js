@@ -56,27 +56,29 @@ export default function Team() {
 
   return (
     <Box sx={{ my: 4 }}>
-      <Box sx={{ my: 2 }}>
-        <Typography
-          variant="h5"
-          color="black"
-          fontWeight={"bold"}
-          sx={{ display: "inline" }}
-        >
-          Faculty&nbsp;
-        </Typography>
-        <Typography
-          variant="h5"
-          color="primary"
-          fontWeight={"bold"}
-          sx={{ display: "inline" }}
-        >
-          Coordinators.
-        </Typography>
+      <Box>
+        <Box sx={{ my: 2 }}>
+          <Typography
+            variant="h5"
+            color="black"
+            fontWeight={"bold"}
+            sx={{ display: "inline" }}
+          >
+            Faculty&nbsp;
+          </Typography>
+          <Typography
+            variant="h5"
+            color="primary"
+            fontWeight={"bold"}
+            sx={{ display: "inline" }}
+          >
+            Coordinators.
+          </Typography>
+        </Box>
+        <Grid container justifyContent={"center"}>
+          {faculty}
+        </Grid>
       </Box>
-      <Grid container justifyContent={"center"}>
-        {faculty}
-      </Grid>
       <Box display={{ sm: "flex" }} justifyContent={"space-between"}>
         <Box sx={{ my: 2 }}>
           <Typography

@@ -11,7 +11,8 @@ import {
   Typography,
   Paper,
   TablePagination,
-  TextField
+  TextField,
+  TableFooter
 } from "@mui/material";
 import { visuallyHidden } from "@mui/utils";
 
@@ -49,6 +50,10 @@ export default function EventsTable() {
       slug: event.frontmatter.slug
     };
   });
+
+  const emptyRows =
+    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - events.length) : 0;
+
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
   };
@@ -80,17 +85,10 @@ export default function EventsTable() {
 
   return (
     <Box sx={{ my: 4 }}>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center"
-        }}>
-        <div>
-          <Typography variant="h6" color="primary">
-            Directory of events
-          </Typography>
-        </div>
+      <Box display={{ sm: "flex" }} justifyContent={"space-between"}>
+        <Typography variant="h6" color="primary">
+          Directory of events
+        </Typography>
         <TextField
           id="standard-search"
           label="Search field"
@@ -98,9 +96,9 @@ export default function EventsTable() {
           variant="standard"
           onChange={e => setSearch(e.target.value.toLowerCase())}
         />
-      </div>
+      </Box>
       <TableContainer component={Paper}>
-        <Table aria-label="event table">
+        <Table sx={{ minWidth: 500 }} aria-label="event table">
           <TableHead>
             <TableRow>
               {header.map((val, i) => (
@@ -110,10 +108,12 @@ export default function EventsTable() {
                     ["Date", "Type", "Status"].includes(val) ? "right" : "left"
                   }
                   onClick={createSortHandler(val)}
-                  sortDirection={orderBy === val ? order : false}>
+                  sortDirection={orderBy === val ? order : false}
+                >
                   <TableSortLabel
                     active={orderBy === val}
-                    direction={orderBy === val ? order : "asc"}>
+                    direction={orderBy === val ? order : "asc"}
+                  >
                     {val}
                     {orderBy === val ? (
                       <Box component="span" sx={visuallyHidden}>
@@ -129,39 +129,54 @@ export default function EventsTable() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {getSortedEvents(events)
-              .slice(page * rowsPerPage, (page + 1) * rowsPerPage)
-              .map(
-                event =>
-                  event.name.toLowerCase().includes(search) && (
-                    <TableRow
-                      key={event.id}
-                      sx={{
-                        "&:last-child td, &:last-child th": { border: 0 }
-                      }}>
-                      <TableCell component="th" scope="row">
-                        {event.name}
-                      </TableCell>
-                      <TableCell align="right">{event.date}</TableCell>
-                      <TableCell align="right">{event.type}</TableCell>
-                      <TableCell align="right">
-                        <Link to={`/events/${event.slug}`}>See more</Link>
-                      </TableCell>
-                    </TableRow>
-                  )
-              )}
+            {(rowsPerPage > 0
+              ? getSortedEvents(events).slice(
+                  page * rowsPerPage,
+                  page * rowsPerPage + rowsPerPage
+                )
+              : getSortedEvents(events)
+            ).map(
+              event =>
+                event.name.toLowerCase().includes(search) && (
+                  <TableRow
+                    key={event.id}
+                    sx={{
+                      "&:last-child td, &:last-child th": { border: 0 }
+                    }}
+                  >
+                    <TableCell component="th" scope="row">
+                      {event.name}
+                    </TableCell>
+                    <TableCell align="right">{event.date}</TableCell>
+                    <TableCell align="right">{event.type}</TableCell>
+                    <TableCell align="right">
+                      <Link to={`/events/${event.slug}`}>See more</Link>
+                    </TableCell>
+                  </TableRow>
+                )
+            )}
+
+            {emptyRows > 0 && (
+              <TableRow style={{ height: 53 * emptyRows }}>
+                <TableCell colSpan={6} />
+              </TableRow>
+            )}
           </TableBody>
+          <TableFooter>
+            <TableRow>
+              <TablePagination
+                rowsPerPageOptions={[10, 15, 20]}
+                colSpan={3}
+                count={events.length}
+                rowsPerPage={rowsPerPage}
+                page={page}
+                onPageChange={handleChangePage}
+                onRowsPerPageChange={handleChangeRowsPerPage}
+              />
+            </TableRow>
+          </TableFooter>
         </Table>
       </TableContainer>
-      <TablePagination
-        rowsPerPageOptions={[5, 10, 15]}
-        component="div"
-        count={events.length}
-        rowsPerPage={rowsPerPage}
-        page={page}
-        onPageChange={handleChangePage}
-        onRowsPerPageChange={handleChangeRowsPerPage}
-      />
     </Box>
   );
 }
