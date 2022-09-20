@@ -98,7 +98,7 @@ export default function EventsTable() {
         />
       </Box>
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 500 }} aria-label="event table">
+        <Table sx={{ minWidth: 300 }} aria-label="event table">
           <TableHead>
             <TableRow>
               {header.map((val, i) => (
@@ -108,12 +108,10 @@ export default function EventsTable() {
                     ["Date", "Type", "Status"].includes(val) ? "right" : "left"
                   }
                   onClick={createSortHandler(val)}
-                  sortDirection={orderBy === val ? order : false}
-                >
+                  sortDirection={orderBy === val ? order : false}>
                   <TableSortLabel
                     active={orderBy === val}
-                    direction={orderBy === val ? order : "asc"}
-                  >
+                    direction={orderBy === val ? order : "asc"}>
                     {val}
                     {orderBy === val ? (
                       <Box component="span" sx={visuallyHidden}>
@@ -142,8 +140,7 @@ export default function EventsTable() {
                     key={event.id}
                     sx={{
                       "&:last-child td, &:last-child th": { border: 0 }
-                    }}
-                  >
+                    }}>
                     <TableCell component="th" scope="row">
                       {event.name}
                     </TableCell>
