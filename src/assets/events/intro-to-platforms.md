@@ -4,7 +4,7 @@ date: 2022-03-27
 time: 10:30 AM - 12:00 PM
 type: Speaker Session
 slug: intro-coding-platforms
-image: ../images/events/intro_coding_platforms.jpeg
+image: ../images/events/intro_coding_platforms.jpg
 registration: NA
 recording: https://www.youtube.com/watch?v=SlCmsOQVz3s
 contestlink: NA
@@ -25,4 +25,4 @@ Since many of you are having a problem using coding platforms, we are going to c
 
 **Speaker:** K. Yogendra Sai, 3rd year
 
-**Slides:** [https://docs.google.com/presentation/d/1DiFymA1ECespd9Glf7YURXfk_bjE2kvBSspYdBwflIU/edit?usp=sharing](Google Slides Link)
+**Slides:** [Google Slides Link](https://docs.google.com/presentation/d/1DiFymA1ECespd9Glf7YURXfk_bjE2kvBSspYdBwflIU/edit?usp=sharing)
