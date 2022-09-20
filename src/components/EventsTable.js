@@ -23,7 +23,7 @@ export default function EventsTable() {
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
   const [search, setSearch] = useState("");
-  const [order, setOrder] = useState("");
+  const [order, setOrder] = useState("asc");
   const [orderBy, setOrderBy] = useState("Date");
   const header = ["Name", "Date", "Type", "Status"];
   const data = useStaticQuery(graphql`
@@ -100,7 +100,8 @@ export default function EventsTable() {
       <Box
         display={{ sm: "flex" }}
         sx={{ pb: 2 }}
-        justifyContent={"space-between"}>
+        justifyContent={"space-between"}
+      >
         <Typography variant="h6" color="primary">
           Directory of events
         </Typography>
@@ -123,10 +124,12 @@ export default function EventsTable() {
                     ["Date", "Type", "Status"].includes(val) ? "right" : "left"
                   }
                   onClick={createSortHandler(val)}
-                  sortDirection={orderBy === val ? order : false}>
+                  sortDirection={orderBy === val ? order : false}
+                >
                   <TableSortLabel
                     active={orderBy === val}
-                    direction={orderBy === val ? order : "asc"}>
+                    direction={orderBy === val ? order : "asc"}
+                  >
                     {val}
                     {orderBy === val ? (
                       <Box component="span" sx={visuallyHidden}>
@@ -155,7 +158,8 @@ export default function EventsTable() {
                     key={event.id}
                     sx={{
                       "&:last-child td, &:last-child th": { border: 0 }
-                    }}>
+                    }}
+                  >
                     <TableCell component="th" scope="row">
                       {event.name}
                     </TableCell>
@@ -170,7 +174,8 @@ export default function EventsTable() {
                             : event.status.includes("Past")
                             ? "error"
                             : green["A700"]
-                        }>
+                        }
+                      >
                         {event.status}
                       </Typography>
                     </TableCell>
