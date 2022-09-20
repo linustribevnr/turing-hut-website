@@ -21,7 +21,7 @@ export default function EventPage({ html, event_details }) {
           style={{ width: "100%", height: "300px" }}
         />
       )}
-      <Box sx={{ p: 2 }}>
+      <Box sx={{ py: 2 }}>
         <Typography
           variant="h4"
           color="black"
@@ -83,6 +83,18 @@ export default function EventPage({ html, event_details }) {
             Important Links
           </Typography>
         )}
+        {event_details.registration !== "NA" && (
+          <Button
+            variant="contained"
+            color="info"
+            size="small"
+            style={{ textTransform: "none", marginRight: "10px" }}
+            href={event_details.registration}
+            target="_blank"
+          >
+            Registration Form
+          </Button>
+        )}
         {event_details.contestlink !== "NA" && (
           <Button
             variant="contained"
@@ -92,7 +104,7 @@ export default function EventPage({ html, event_details }) {
             href={event_details.contestlink}
             target="_blank"
           >
-            Contest
+            Contest Link
           </Button>
         )}
         {event_details.recording !== "NA" && (

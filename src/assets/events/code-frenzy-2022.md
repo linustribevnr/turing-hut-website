@@ -5,6 +5,7 @@ time: 18:00 - 19:30
 type: Contest
 slug: code-frenzy-22
 image: ../images/events/mlh_session.jpeg
+registration: NA
 recording: NA
 contestlink: NA
 ---

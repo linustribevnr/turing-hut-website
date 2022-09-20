@@ -85,7 +85,11 @@ export default function EventsTable() {
 
   return (
     <Box sx={{ my: 4 }}>
-      <Box display={{ sm: "flex" }} justifyContent={"space-between"}>
+      <Box
+        display={{ sm: "flex" }}
+        sx={{ pb: 2 }}
+        justifyContent={"space-between"}
+      >
         <Typography variant="h6" color="primary">
           Directory of events
         </Typography>
@@ -108,10 +112,12 @@ export default function EventsTable() {
                     ["Date", "Type", "Status"].includes(val) ? "right" : "left"
                   }
                   onClick={createSortHandler(val)}
-                  sortDirection={orderBy === val ? order : false}>
+                  sortDirection={orderBy === val ? order : false}
+                >
                   <TableSortLabel
                     active={orderBy === val}
-                    direction={orderBy === val ? order : "asc"}>
+                    direction={orderBy === val ? order : "asc"}
+                  >
                     {val}
                     {orderBy === val ? (
                       <Box component="span" sx={visuallyHidden}>
@@ -140,7 +146,8 @@ export default function EventsTable() {
                     key={event.id}
                     sx={{
                       "&:last-child td, &:last-child th": { border: 0 }
-                    }}>
+                    }}
+                  >
                     <TableCell component="th" scope="row">
                       {event.name}
                     </TableCell>
@@ -163,7 +170,7 @@ export default function EventsTable() {
             <TableRow>
               <TablePagination
                 rowsPerPageOptions={[10, 15, 20]}
-                colSpan={3}
+                colSpan={4}
                 count={events.length}
                 rowsPerPage={rowsPerPage}
                 page={page}
