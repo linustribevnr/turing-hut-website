@@ -17,6 +17,7 @@ Turing Hut brings to you **A Guided Path for MLH Fellowship**. MLH Fellowship is
 In this session, a past fellow will walk us through the application process, and share their tips for getting selected. We invite interested students from all branches and years to join in and explore this opportunity.
 
 We hope you enjoyed learning about MLH. The applications for MLH Fellowships are open throughout the year, you can apply through the links below:
+
 - **12-week Fellowship**: [https://fellowship.mlh.io/](https://fellowship.mlh.io/)
 - **3-week Prep Fellowship**: [https://fellowship.mlh.io/programs/prep](https://fellowship.mlh.io/)
 

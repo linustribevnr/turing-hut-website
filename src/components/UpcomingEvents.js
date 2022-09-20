@@ -71,46 +71,54 @@ export default function UpcomingEvents() {
         </Link>
       </Typography>
       <Grid container spacing={2} sx={{ my: 2 }}>
-        {events.map(event => (
-          <Grid item xs={12} md={3} key={event.id}>
-            <div
-              style={{
-                boxShadow: "0 0 36px rgb(0 0 0 / 15%)",
-                borderRadius: "8px"
-              }}
-            >
-              <Card
+        {events.length > 0 ? (
+          events.map(event => (
+            <Grid item xs={12} md={3} key={event.id}>
+              <div
                 style={{
-                  backgroundColor: "#f4f4f5"
+                  boxShadow: "0 0 36px rgb(0 0 0 / 15%)",
+                  borderRadius: "8px"
                 }}
               >
-                <CardContent>
-                  <Typography
-                    sx={{ fontSize: 14 }}
-                    color="text.secondary"
-                    gutterBottom
-                  >
-                    {event.frontmatter.date}
-                  </Typography>
-                  <Typography variant="h6">
-                    {event.frontmatter.title}
-                  </Typography>
-                  <Typography variant="body2">
-                    {event.frontmatter.type}
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Link
-                    to={`/events/${event.frontmatter.slug}`}
-                    style={{ textDecoration: "none" }}
-                  >
-                    <Button sx={{ textTransform: "none" }}>Learn More</Button>
-                  </Link>
-                </CardActions>
-              </Card>
-            </div>
-          </Grid>
-        ))}
+                <Card
+                  style={{
+                    backgroundColor: "#f4f4f5"
+                  }}
+                >
+                  <CardContent>
+                    <Typography
+                      sx={{ fontSize: 14 }}
+                      color="text.secondary"
+                      gutterBottom
+                    >
+                      {event.frontmatter.date}
+                    </Typography>
+                    <Typography variant="h6">
+                      {event.frontmatter.title}
+                    </Typography>
+                    <Typography variant="body2">
+                      {event.frontmatter.type}
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Link
+                      to={`/events/${event.frontmatter.slug}`}
+                      style={{ textDecoration: "none" }}
+                    >
+                      <Button sx={{ textTransform: "none" }}>Learn More</Button>
+                    </Link>
+                  </CardActions>
+                </Card>
+              </div>
+            </Grid>
+          ))
+        ) : (
+          <Box sx={{ mx: "auto" }}>
+            <Typography variant="body1" color="secondary">
+              Exciting Events coming soon!
+            </Typography>
+          </Box>
+        )}
       </Grid>
     </Box>
   );

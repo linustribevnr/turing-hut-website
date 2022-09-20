@@ -1,15 +1,34 @@
 ---
-title: Code Frenzy
-date: 2022-07-21
-time: 18:00 - 19:30
+title: Code Frenzy 2022
+date: 2022-06-15
+time: 12:40pm to 3:45pm
 type: Contest
 slug: code-frenzy-22
-image: ../images/events/mlh_session.jpeg
-registration: NA
+image: ../images/events/code_frenzy.jpeg
+registration: https://forms.gle/3fBQERLNcPYVgQE2A
 recording: NA
-contestlink: NA
+contestlink: https://www.hackerrank.com/code-frenzy-2022
 ---
 
-The MLH Fellowship is a 12-week internship alternative for aspiring software engineers. Fellows on the Software Engineering track experience what it's like to collaborate in a small group on a real project from one of our corporate or government partners. The open source track is a great start point to enter the world of free and open software.
+**Code Frenzy** is a Programming Contest conducted by Turing Hut Only for **first years of CSE and CSBS** to introduce them to competitive programming. As already informed, Code Frenzy is scheduled on 15th June Wednesday ,from 12:40pm to 3:45pm. The contest will be conducted offline and all of you are requested to be present in your allocated labs in time.
 
-In this session **Ravisha Sharma**, a past MLH Fellow will walk us through what is MLH, What are the programs it offers, e.........
+To register for the contest kindly fill this google form by tonight: https://forms.gle/3fBQERLNcPYVgQE2A
+
+There will be strict plagarism check after the contest, don't try to seek help from your friends or try to help your friends, doing so both of you will get caught.
+
+Feel free to reach out to us,
+
+- Tapan: 7989773778
+- Guru Bhargava : 7799553910
+
+Wishing you all the best for the contest.
+
+### Update #1
+
+Leaderboard:
+
+1. R Sai Charan Goud - 21071A05H7 - CSE3
+2. K Sreekar Vyas - 21071A0535 - CSE1
+3. L Rahul - 21071A3241 - CSBS
+4. D Nisritha - 21071A05M8 - CSE4
+5. B Rithika Reddy - 21071A0571 - CSE2
