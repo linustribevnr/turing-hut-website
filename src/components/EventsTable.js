@@ -32,7 +32,7 @@ export default function EventsTable() {
         nodes {
           id
           frontmatter {
-            date(formatString: "DD-MM-YYYY")
+            date
             slug
             title
             type
@@ -43,25 +43,22 @@ export default function EventsTable() {
   `);
 
   const events = data.allMarkdownRemark.nodes.map(event => {
-    const date = event.frontmatter.date.split("-");
-    const formatedDate = new Date(date[2], date[1] - 1, date[0]);
+    const givendate = new Date(event.frontmatter.date);
     const today = new Date();
-    const yyyy = today.getFullYear();
-    let mm = today.getMonth() + 1;
-    let dd = today.getDate();
-    if (dd < 10) dd = "0" + dd;
-    if (mm < 10) mm = "0" + mm;
-    const formattedToday = dd + "-" + mm + "-" + yyyy;
+    const options = { year: "numeric", month: "short", day: "numeric" };
 
     return {
       id: event.id,
       name: event.frontmatter.title,
-      date: event.frontmatter.date,
+      date: new Date(event.frontmatter.date).toLocaleDateString(
+        "en-US",
+        options
+      ),
       type: event.frontmatter.type,
       status:
-        formattedToday === event.frontmatter.date
+        givendate === event.today
           ? "Today"
-          : today - formatedDate > 0
+          : today > givendate
           ? "Past Event"
           : "Upcoming Event",
       slug: event.frontmatter.slug
@@ -89,6 +86,14 @@ export default function EventsTable() {
     return events.sort((x, y) => {
       const a = x[orderBy.toLowerCase()];
       const b = y[orderBy.toLowerCase()];
+      if (orderBy === "Date") {
+        const ad = new Date(a);
+        const bd = new Date(b);
+        console.log("ehyy", a, b);
+        if (ad > bd) return order === "asc" ? -1 : 1;
+        else if (ad < bd) return order === "asc" ? 1 : -1;
+        return 0;
+      }
       if (a > b) return order === "asc" ? -1 : 1;
       else if (a < b) return order === "asc" ? 1 : -1;
       return 0;

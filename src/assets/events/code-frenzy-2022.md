@@ -1,7 +1,7 @@
 ---
 title: Code Frenzy 2022
 date: 2022-06-15
-time: 12:40pm to 3:45pm
+time: 12:40 PM to 3:45 PM
 type: Contest
 slug: code-frenzy-22
 image: ../images/events/code_frenzy.jpeg

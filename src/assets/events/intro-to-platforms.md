@@ -1,12 +1,12 @@
 ---
-title: A Guided Path for MLH
-date: 2022-09-16
-time: 4:00 PM - 5:00 PM
+title: Introduction to Coding Platforms
+date: 2022-03-27
+time: 10:30 AM - 12:00 PM
 type: Speaker Session
-slug: mlh-info-session
+slug: intro-coding-platforms
 image: ../images/events/mlh_session.jpeg
 registration: NA
-recording: https://www.youtube.com/watch?v=RaQ5UiU7H8U
+recording: https://www.youtube.com/watch?v=SlCmsOQVz3s
 contestlink: NA
 ---
 
