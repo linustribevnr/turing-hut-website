@@ -49,7 +49,7 @@ export default function Team() {
     const image = result[0].node.childImageSharp.gatsbyImageData;
     return (
       <Grid item xs={10} sm={6} md={3} xl={2} key={i} sx={{ p: 2 }}>
-        <TeamCard name={val.name} img={image} description="Faculty" />
+        <TeamCard name={val.name} img={image} description={val.designation} />
       </Grid>
     );
   });
@@ -125,13 +125,19 @@ export default function Team() {
             var filepath = /[^/]*$/.exec(src)[0];
             return filepath === member.image;
           });
-          const image = result[0].node.childImageSharp.gatsbyImageData;
+          let image;
+          if (result.length === 1) {
+            image = result[0].node.childImageSharp.gatsbyImageData;
+          } else {
+            console.log("Somehitng is wrong");
+          }
+
           return (
             <Grid item xs={10} sm={6} md={3} xl={2} key={i} sx={{ p: 2 }}>
               <TeamCard
                 name={member.name}
                 img={image}
-                description="Team"
+                description={member.designation}
                 twitter={member.twitter}
                 github={member.github}
                 linkedin={member.linkedin}

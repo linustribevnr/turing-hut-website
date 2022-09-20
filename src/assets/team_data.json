@@ -2,45 +2,55 @@
   "faculty": [
     {
       "name": "Dr. S. Nagini",
-      "image": "nagini_founder.jpg"
+      "image": "nagini_founder.jpg",
+      "designation": "HOD, CSE Department"
     },
     {
       "name": "Dr. B. V. Kiranmayee",
-      "image": "bvk_founder.jpg"
+      "image": "bvk_founder.jpg",
+      "designation": "Professor"
     },
     {
       "name": "Mrs. V. Baby",
-      "image": "baby_founder.jpg"
+      "image": "baby_founder.jpg",
+      "designation": "Assistant Professor"
     },
     {
       "name": "Mrs. K. Jhansi",
-      "image": "jhansi.jpg"
+      "image": "jhansi.jpg",
+      "designation": "Assistant Professor"
     }
   ],
   "team": {
     "2017-2018": [
       {
         "name": "Prateek Varma",
-        "image": "prateek_2018.jpg"
+        "image": "prateek_2018.jpg",
+        "designation": "Chief Counsellor",
+        "linkedin": "https://www.linkedin.com/in/prateek2k"
       },
       {
         "name": "Priya Bhandari",
         "image": "priya_2018.jpg",
+        "designation": "Advisor to the Treasury",
         "linkedin": "https://www.linkedin.com/in/bhandaripriya/"
       },
       {
         "name": "Pinnamani Venkat",
         "image": "venkat_2018.jpg",
+        "designation": "Secretary cum Tempe-Treasurer",
         "linkedin": "https://www.linkedin.com/in/venkat-pinnamani-29a870b8/"
       },
       {
         "name": "Tarun Kumar",
         "image": "tarun_2018.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/tarunjairam/"
       },
       {
         "name": "Siddarth Jayakumar",
         "image": "siddarth.jpg",
+        "designation": "President",
         "linkedin": "https://www.linkedin.com/in/siddarth-jayakumar/"
       }
     ],
@@ -48,6 +58,7 @@
       {
         "name": "Shoeb Moin",
         "image": "shoeb_2019.jpg",
+        "designation": "Programming Head",
         "linkedin": "https://www.linkedin.com/in/sky-scraper/"
       }
     ],
@@ -55,11 +66,13 @@
       {
         "name": "Kovid Gajavelly",
         "image": "kovid_2020.jpg",
+        "designation": "Programming Head",
         "linkedin": "https://www.linkedin.com/in/kovid-gajavelly-9703a31a3/"
       },
       {
         "name": "Vineeth Pulluri",
         "image": "vineeth_2020.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/vineeth-pulluri-1a430714b/"
       }
     ],
@@ -67,184 +80,241 @@
       {
         "name": "Gnana Deepak",
         "image": "deepak_2021.jpg",
+        "designation": "President",
         "linkedin": "https://www.linkedin.com/in/gnana-deepak/"
       },
       {
         "name": "Nimmi Agarwal",
         "image": "nimmi_2021.jpg",
+        "designation": "Programming Head",
         "linkedin": "https://www.linkedin.com/in/nimmi-agarwal/"
       },
       {
         "name": "Abhigyan Kola",
         "image": "abhigyan_2021.jpg",
+        "designation": "Programming Head",
         "linkedin": "https://www.linkedin.com/in/abhigyan-kola-aab5a8185"
       },
       {
         "name": "Sindhuja Ponnuru",
         "image": "sindhuja_2021.jpg",
+        "designation": "Programming Head",
         "linkedin": "https://www.linkedin.com/in/sindhuja-ponnuru-a5302617a/"
       }
     ],
     "2021-2022": [
       {
         "name": "K.H.S.Supriya",
-        "image": "supriya.jpg",
-        "linkedin": "https://www.linkedin.com/in/khssupriya/"
+        "image": "supriya_2022.jpg",
+        "designation": "Student Coordinator",
+        "linkedin": "https://www.linkedin.com/in/khssupriya/",
+        "twitter": "https://twitter.com/ytwiz403",
+        "github": "https://github.com/khssupriya"
+      },
+      {
+        "name": "M.Bharath Reddy",
+        "image": "bharath_2022.jpg",
+        "designation": "Student Coordinator",
+        "linkedin": "https://www.linkedin.com/in/bharath-reddy-madha-3b66821b1/",
+        "github": "https://github.com/2711-bharath",
+        "website": "https://2711-bharath.github.io/"
       },
       {
         "name": "Srija Tulasi",
-        "image": "supriya.jpg",
+        "image": "srija_2022.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/srija-tulasi-7423521aa/"
       },
       {
         "name": "G.Avinash",
-        "image": "supriya.jpg",
+        "image": "avinash_2022.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/avinash-reddy-99b37a191/"
       },
       {
         "name": "K.Yogendra",
-        "image": "supriya.jpg",
+        "image": "yogendra_2022.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/yogendrasai/"
       },
       {
         "name": "Ch.Mourya",
-        "image": "supriya.jpg",
-        "linkedin": "https://www.linkedin.com/in/mourya-cheggoju-16b393206"
+        "image": "mourya_2022.jpg",
+        "designation": "Student Coordinator",
+        "linkedin": "https://www.linkedin.com/in/mourya-cheggoju-16b393206",
+        "github": "https://github.com/Mourya03",
+        "website": "https://www.instagram.com/maurya.ch/"
       },
       {
         "name": "Sumanth Kumar",
-        "image": "supriya.jpg",
+        "image": "sumanth_2022.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/ksk-17/"
       },
       {
         "name": "Vinay Kumar",
-        "image": "supriya.jpg",
-        "linkedin": "https://www.linkedin.com/in/vinay-kumar-shanigarapu-7250b4213"
+        "image": "vinay_2022.jpg",
+        "designation": "Student Coordinator",
+        "linkedin": "https://www.linkedin.com/in/vinay-kumar-shanigarapu-7250b4213",
+        "twitter": "https://twitter.com/vinaykohli786",
+        "github": "https://github.com/Vinaykohli77"
       },
       {
         "name": "V.Tejaswini",
-        "image": "supriya.jpg",
-        "linkedin": "https://www.linkedin.com/in/tejaswinivelpula/"
+        "image": "tejaswini_2022.jpg",
+        "designation": "Student Coordinator",
+        "linkedin": "https://www.linkedin.com/in/tejaswinivelpula/",
+        "github": "https://github.com/vtejaswini01"
       },
       {
         "name": "Ch.Harshita",
-        "image": "supriya.jpg",
+        "image": "harshita_2022.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/harshita-chundru-5336311a4"
       },
       {
         "name": "S.R.Pooja",
-        "image": "supriya.jpg",
+        "image": "pooja_2022.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/pooja-s-r-76b919195/"
       },
       {
         "name": "P.Akash",
-        "image": "supriya.jpg",
-        "linkedin": "https://www.linkedin.com/in/akash-punna-0784871b1"
+        "image": "akash_2022.jpg",
+        "designation": "Student Coordinator",
+        "linkedin": "https://www.linkedin.com/in/akash-punna-0784871b1",
+        "github": "https://github.com/akash-punna"
       },
       {
         "name": "V.Venu",
-        "image": "supriya.jpg",
+        "image": "venu_2022.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/venu-vennu-32466b1b3/"
-      },
-      {
-        "name": "M.Bharath Reddy",
-        "image": "supriya.jpg",
-        "linkedin": "https://www.linkedin.com/in/bharath-reddy-madha-3b66821b1/"
       }
     ],
     "2022-2023": [
       {
-        "name": "Gangishetty Manideep",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/gangishetty-manideep-5b9216205",
-        "twitter": "https://www.linkedin.com/in/gangishetty-manideep-5b9216205",
-        "github": "https://www.linkedin.com/in/gangishetty-manideep-5b9216205",
-        "website": "https://www.linkedin.com/in/gangishetty-manideep-5b9216205"
-      },
-      {
-        "name": "Gautham Mallipeddi",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/gautham-mallipeddi-80b2b4214"
-      },
-      {
-        "name": "Sanganbhatla Suraj",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/iamssuraj/"
-      },
-      {
-        "name": "Madhavi batthala",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/madhavi-batthala-36583b204/"
-      },
-      {
-        "name": "Saket Palarapu",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/saket-palarapu-270652204"
-      },
-      {
-        "name": "K.Satwik Reddy",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/k-satwik-reddy-2b996a200/"
-      },
-      {
-        "name": "T. Sai Sarath",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/sarath-tenneti-8911a7225/"
-      },
-      {
-        "name": "Pranav Punnamaraju",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/pranav-punnamaraju-340951225/"
-      },
-      {
-        "name": "K.K.Sai Harshitha",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/kambhampati-kodanda-sai-harshitha-319936216/"
-      },
-      {
-        "name": "Medipally Abinay",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/medipally-abinay-897a84225"
-      },
-      {
-        "name": "KARRE HANISH",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/karre-hanish-4692b7227"
-      },
-      {
         "name": "Naram Tapan Ganesh",
-        "image": "19071A05E8.jpg",
-        "linkedin": "http://linkedin.com/in/tapan-ganesh-naram"
-      },
-      {
-        "name": "S.Rishi Kumar",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/rishi-kumar-b89508222/"
-      },
-      {
-        "name": "EDDI KEERTHANA",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/eddi-keerthana-a07512226"
-      },
-      {
-        "name": "Srilasya Kompella",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/srilasya-kompella-957b28222/"
-      },
-      {
-        "name": "Katakam Ashritha",
-        "image": "19071A05E8.jpg",
-        "linkedin": "https://www.linkedin.com/in/ashritha-katakam-081968212/"
+        "image": "tapan_2023.jpg",
+        "designation": "Lead",
+        "linkedin": "http://linkedin.com/in/tapan-ganesh-naram",
+        "github": "https://github.com/tapanganesh"
       },
       {
         "name": "Guru Bhargava",
-        "image": "19071A05E8.jpg",
+        "image": "bhargava_2023.jpg",
+        "designation": "Student Coordinator",
         "linkedin": "https://www.linkedin.com/in/guru-bhargava-4ab970200/"
       },
       {
-        "name": "MEESALA RITHIN",
-        "image": "19071A05E8.jpg",
+        "name": "Gautham Mallipeddi",
+        "image": "gautham_2023.jpg",
+        "designation": "Problem Setting & Teaching Team",
+        "linkedin": "https://www.linkedin.com/in/gautham-mallipeddi-80b2b4214",
+        "github": "https://github.com/gautham-8"
+      },
+      {
+        "name": "Tejeswara Murthy Palwadi ",
+        "image": "tejeswara_2023.jpg",
+        "designation": "Problem Setting & Development Team",
+        "linkedin": "https://www.linkedin.com/in/gangishetty-manideep-5b9216205",
+        "twitter": "https://twitter.com/tejeswarforever",
+        "github": "https://github.com/tejeswar68",
+        "website": "http://era68.herokuapp.com/"
+      },
+      {
+        "name": "Saket Palarapu",
+        "image": "saket_2023.jpg",
+        "designation": "Problem Setting Team",
+        "linkedin": "https://www.linkedin.com/in/saket-palarapu-270652204",
+        "github": "https://github.com/Saket03-P"
+      },
+      {
+        "name": "EDDI KEERTHANA",
+        "image": "keerthana_2023.jpg",
+        "designation": "Problem Setting Team",
+        "linkedin": "https://www.linkedin.com/in/eddi-keerthana-a07512226"
+      },
+      {
+        "name": "Meesala Rithin",
+        "image": "rithin_2023.jpg",
+        "designation": "Teaching Team",
         "linkedin": "https://www.linkedin.com/in/rithin-meesala-8511a3228"
+      },
+      {
+        "name": "Sanganbhatla Suraj",
+        "image": "suraj_2023.jpg",
+        "designation": "Development Team",
+        "linkedin": "https://www.linkedin.com/in/iamssuraj/"
+      },
+      {
+        "name": "Srilasya Kompella",
+        "image": "srilasya_2023.jpg",
+        "designation": "Development Team",
+        "linkedin": "https://www.linkedin.com/in/srilasya-kompella-957b28222/"
+      },
+      {
+        "name": "S.Rishi Kumar",
+        "image": "rishi_2023.jpg",
+        "designation": "Development Team",
+        "linkedin": "https://www.linkedin.com/in/rishi-kumar-b89508222/"
+      },
+      {
+        "name": "K.K.Sai Harshitha",
+        "image": "harshitha_2023.jpg",
+        "designation": "Design and Content Team",
+        "linkedin": "https://www.linkedin.com/in/kambhampati-kodanda-sai-harshitha-319936216/"
+      },
+      {
+        "name": "Katakam Ashritha",
+        "image": "ashritha_2023.jpg",
+        "designation": "Design and Content Team",
+        "linkedin": "https://www.linkedin.com/in/ashritha-katakam-081968212/"
+      },
+      {
+        "name": "Madhavi batthala",
+        "image": "madhavi_2023.jpg",
+        "designation": "Design and Content Team",
+        "linkedin": "https://www.linkedin.com/in/madhavi-batthala-36583b204/",
+        "twitter": "https://twitter.com/MadhaviBatthala",
+        "github": "https://github.com/Madhavibatthala"
+      },
+      {
+        "name": "Pranav Punnamaraju",
+        "image": "pranav_2023.jpg",
+        "designation": "Mentor",
+        "linkedin": "https://www.linkedin.com/in/pranav-punnamaraju-340951225/"
+      },
+      {
+        "name": "Gangishetty Manideep",
+        "image": "manideep_2023.jpg",
+        "designation": "Mentor",
+        "linkedin": "https://www.linkedin.com/in/gangishetty-manideep-5b9216205"
+      },
+      {
+        "name": "Medipally Abinay",
+        "image": "abhinay_2023.jpg",
+        "designation": "Mentor",
+        "linkedin": "https://www.linkedin.com/in/medipally-abinay-897a84225"
+      },
+      {
+        "name": "Karre Hanish",
+        "image": "hanish_2023.jpg",
+        "designation": "Mentor",
+        "linkedin": "https://www.linkedin.com/in/karre-hanish-4692b7227"
+      },
+      {
+        "name": "K.Satwik Reddy",
+        "image": "satwik_2023.jpg",
+        "designation": "Mentor",
+        "linkedin": "https://www.linkedin.com/in/k-satwik-reddy-2b996a200/",
+        "github": "https://github.com/KSatwik"
+      },
+      {
+        "name": "T. Sai Sarath",
+        "image": "sarath_2023.jpg",
+        "designation": "Mentor",
+        "linkedin": "https://www.linkedin.com/in/sarath-tenneti-8911a7225/"
       }
     ]
   }
