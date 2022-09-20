@@ -25,4 +25,4 @@ Since many of you are having a problem using coding platforms, we are going to c
 
 **Speaker:** K. Yogendra Sai, 3rd year
 
-**Slides:** https://docs.google.com/presentation/d/1DiFymA1ECespd9Glf7YURXfk_bjE2kvBSspYdBwflIU/edit?usp=sharing
+**Slides:** [https://docs.google.com/presentation/d/1DiFymA1ECespd9Glf7YURXfk_bjE2kvBSspYdBwflIU/edit?usp=sharing](Google Slides Link)
