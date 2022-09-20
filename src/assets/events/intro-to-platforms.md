@@ -4,23 +4,27 @@ date: 2022-03-27
 time: 10:30 AM - 12:00 PM
 type: Speaker Session
 slug: intro-coding-platforms
-image: ../images/events/mlh_session.jpeg
+image: ../images/events/intro_coding_platforms.jpeg
 registration: NA
 recording: https://www.youtube.com/watch?v=SlCmsOQVz3s
 contestlink: NA
 ---
 
-Are you waiting to take your first step in open source? Or want to build new projects to add to your portfolio?
+Turing Hut is going to conduct a selection contest for 1st year CSE, CSBS students soon. Based on the contest, we will select some students for Turing Hut teaching sessions, where your seniors will teach you CP concepts and provide guidance.
 
-Turing Hut brings to you **A Guided Path for MLH Fellowship**. MLH Fellowship is a fully remote, 12-week internship where participants earn a stipend and learn to collaborate on real open source projects with peers and engineers from top companies.
 
-In this session, a past fellow will walk us through the application process, and share their tips for getting selected. We invite interested students from all branches and years to join in and explore this opportunity.
+Since many of you are having a problem using coding platforms, we are going to conduct a session where we will guide you on how to use the coding platforms and we will solve some problems, so that you will get an idea of problem solving. After the session, you will have around one week of time to practice after which you will have to attempt the contest. Since you are learning the basics of C language, the implementation of the problems in the contest will be limited to the concepts you have learnt so far.
 
-We hope you enjoyed learning about MLH. The applications for MLH Fellowships are open throughout the year, you can apply through the links below:
+**Agenda of the session:**
+- How to use Hackerrank, Codechef, Codeforces
+- Solving some problems from each of the above platforms
+- How to start problem solving, for beginners
+- General CP guidance
+- Resources to learn concepts, and solve problems.
+- Doubt clarification
 
-- **12-week Fellowship**: [https://fellowship.mlh.io/](https://fellowship.mlh.io/)
-- **3-week Prep Fellowship**: [https://fellowship.mlh.io/programs/prep](https://fellowship.mlh.io/)
+**Speaker:** K. Yogendra Sai, 3rd year
 
-**Feedback Form**: [https://forms.gle/yGeGdRc2zXZ7mfq49](https://fellowship.mlh.io/)
+**Slides:** https://docs.google.com/presentation/d/1DiFymA1ECespd9Glf7YURXfk_bjE2kvBSspYdBwflIU/edit?usp=sharing
 
-Please fill this anonymous form to help us plan future sessions. We encourage you to do more research on the topics discussed, and if you have any questions feel free to reach out to us.
+
