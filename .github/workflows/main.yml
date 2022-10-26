@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     
   # Run workflow manually
-  workflow_dispatched:
+  workflow_dispatch:
 
 
 jobs:
