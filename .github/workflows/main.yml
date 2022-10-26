@@ -20,7 +20,7 @@ jobs:
       - name: Build dependencies
         run: npm run build
       - name: Archive production artifact
-        run: actions/upload-artifact@main
+        uses: actions/upload-artifact@main
         with:
           name: public
           path: public
@@ -33,7 +33,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@main
       - name: Download artifact
-        run: actions/download-artifact@main
+        uses: actions/download-artifact@main
         with:
           name: public
           path: public
