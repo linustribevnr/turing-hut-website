@@ -34,10 +34,8 @@ Leaderboard:
 5. B Rithika Reddy - 21071A0571 - CSE2
 
 ## Pictures from the event
-| | | |
-(
-  |![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)|
-  |:---:|:---:|:---:|
-  |![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)|
-)
+|![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)|
+|:---:|:---:|:---:|
+|![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)|
+
 
