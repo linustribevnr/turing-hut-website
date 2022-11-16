@@ -26,4 +26,6 @@ We hope you enjoyed learning about MLH. The applications for MLH Fellowships are
 Please fill this anonymous form to help us plan future sessions. We encourage you to do more research on the topics discussed, and if you have any questions feel free to reach out to us.
 
 ## Pictures from event
-![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg) | ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg) | ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg) | ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)
+|![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)|
+|:---:|:---:|:---:|
+|![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)| ![event](https://user-images.githubusercontent.com/94124126/202200734-54fd9826-d981-4595-b6bb-292cbe3d7335.jpg)|
