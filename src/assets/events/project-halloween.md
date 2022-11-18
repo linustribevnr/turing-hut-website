@@ -59,3 +59,9 @@ And the best dressed team was :</br>
    Jaka siri</br>
 
 Congratulations to all the winners and participants.
+
+Here are the links to the problems and editorials:</br>
+Round 1: https://drive.google.com/file/d/1F1YtQmWg-Gp9NHfCYBvO0bsn6Jtld1m7/view?usp=sharing</br>
+Round 2: https://docs.google.com/document/d/1eaJhBo_gvioT7gk_bq4xZq6AMSI5Phxu7ic878oMnYE/edit?usp=sharing</br>
+Round 3-1: https://www.hackerrank.com/steps-to-reach-the-hut</br>
+Round 3-2: https://www.hackerrank.com/crack-the-haunted-mystery</br>
