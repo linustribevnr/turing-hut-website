@@ -72,7 +72,7 @@ export default function EventPage({ html, event_details }) {
         <Typography variant="body1" marginBottom={"10px"} textAlign={"justify"}>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </Typography>
-        {(event_details.contestlink !== "NA" ||
+        {(event_details.registration !== "NA" ||
           event_details.recording !== "NA") && (
           <Typography
             variant="body1"
@@ -93,18 +93,6 @@ export default function EventPage({ html, event_details }) {
             target="_blank"
           >
             Registration Form
-          </Button>
-        )}
-        {event_details.contestlink !== "NA" && (
-          <Button
-            variant="contained"
-            color="success"
-            size="small"
-            style={{ textTransform: "none", marginRight: "10px" }}
-            href={event_details.contestlink}
-            target="_blank"
-          >
-            Contest Link
           </Button>
         )}
         {event_details.recording !== "NA" && (
