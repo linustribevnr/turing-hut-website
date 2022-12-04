@@ -3,7 +3,10 @@ import Layout from "../components/Layout";
 import Landing from "../components/Landing";
 import UpcomingEvents from "../components/UpcomingEvents";
 import Activities from "../components/Activities";
-
+import {Seo} from "../components/Seo"
+export const Head = () => (
+  <Seo routename={"Home"}/>
+)
 function indexPage() {
   return (
     <Layout>
