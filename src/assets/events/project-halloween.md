@@ -7,7 +7,6 @@ slug: project-halloween
 image: ../images/events/halloween-poster.jpeg
 registration: https://forms.gle/7duETapDudmZANV19
 recording: NA
-contestlink: https://www.hackerrank.com/steps-to-reach-the-hut
 ---
 
 **PROJECT HALLOWEEN** is a theme based Coding Contest conducted by Turing Hut for **second and third years of all branches of VNR VJIET**. As already informed, Project Halloween is scheduled on 9th November Wednesday ,from 10:00am to 4:40pm. The contest will be conducted offline and all of you are requested to be present in your allocated labs in time.

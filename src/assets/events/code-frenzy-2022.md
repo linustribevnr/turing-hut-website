@@ -7,7 +7,7 @@ slug: code-frenzy-22
 image: ../images/events/code_frenzy.jpeg
 registration: https://forms.gle/3fBQERLNcPYVgQE2A
 recording: NA
-contestlink: https://www.hackerrank.com/code-frenzy-2022
+
 ---
 
 **Code Frenzy** is a Programming Contest conducted by Turing Hut Only for **first years of CSE and CSBS** to introduce them to competitive programming. As already informed, Code Frenzy is scheduled on 15th June Wednesday ,from 12:40pm to 3:45pm. The contest will be conducted offline and all of you are requested to be present in your allocated labs in time.
@@ -32,3 +32,6 @@ Leaderboard:
 3. L Rahul - 21071A3241 - CSBS
 4. D Nisritha - 21071A05M8 - CSE4
 5. B Rithika Reddy - 21071A0571 - CSE2
+
+Here is the link to the contest and editorial:</br>
+contest-link: https://www.hackerrank.com/code-frenzy-2022
