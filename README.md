@@ -13,5 +13,3 @@ npm install
 ```shell
 npm run start
 ```
-
-Testing Hoisting
