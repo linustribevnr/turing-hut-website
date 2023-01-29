@@ -22,6 +22,14 @@ module.exports = {
         name: `events`,
         path: `${__dirname}/src/assets/events`
       }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `newsletters`,
+        path: `${__dirname}/src/assets/newsletters`
+      }
+
     }
   ]
 };

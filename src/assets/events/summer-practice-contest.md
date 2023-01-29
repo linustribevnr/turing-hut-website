@@ -8,6 +8,8 @@ image: ../images/events/generic_coding.jpg
 registration: NA
 recording: NA
 contestlink: https://www.hackerrank.com/turing-hut-practice-contest-2025
+markdownType: event
+
 ---
 
 We, Turing Hut, the official Programming club from VNRVJIET are conducting a Practice Contest. It is just for your practice and we are not going to consider your scores or your rank in this contest so solve the problems honestly.
