@@ -37,6 +37,7 @@ export const query = graphql`
         registration
         recording
         contestlink
+        eventImages
       }
     }
   }

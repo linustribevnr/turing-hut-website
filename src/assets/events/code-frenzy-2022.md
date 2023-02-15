@@ -8,6 +8,12 @@ image: ../images/events/code_frenzy.jpeg
 registration: https://forms.gle/3fBQERLNcPYVgQE2A
 recording: NA
 contestlink: https://www.hackerrank.com/code-frenzy-2022
+eventImages:
+  [
+    "one.png",
+    "two.png",
+    "three.png"
+  ]
 ---
 
 **Code Frenzy** is a Programming Contest conducted by Turing Hut Only for **first years of CSE and CSBS** to introduce them to competitive programming. As already informed, Code Frenzy is scheduled on 15th June Wednesday ,from 12:40pm to 3:45pm. The contest will be conducted offline and all of you are requested to be present in your allocated labs in time.
