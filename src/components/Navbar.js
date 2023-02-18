@@ -49,6 +49,11 @@ const navItems = [
     text: "Contact",
     icon: <LocalPhoneIcon />,
     path: "/contact"
+  },
+  {
+    text: "Turing Cup",
+    icon: <LocalPhoneIcon />,
+    path: "/turingcup"
   }
 ];
 
