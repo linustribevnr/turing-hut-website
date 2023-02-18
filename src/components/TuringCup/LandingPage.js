@@ -1,102 +1,49 @@
-import React from 'react'
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-function LandingPage() {
-  const particlesInit = useCallback(async engine => {
-    console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    await loadFull(engine);
-}, []);
+import React from "react";
+import {Typography,Box,Grid} from "@mui/material"
+import landing_page from "../../assets/images/Turingcup/landing_page_2.jpg"
 
-const particlesLoaded = useCallback(async container => {
-    await console.log(container);
-}, []);
-  return (
-    <div>
+const styles = {
+    landingPage : {
+        backgroundImage: `url(${landing_page})`,
+        backgroundRepeat : "no-repeat",
+        backgroundSize:"cover",
+        color :"white"
+    },
+    backDrop: {
+        backdropFilter: "blur(5px)",
+        backgroundColor:'rgba(255,255,255,0.2)',
+        border: '1px solid white',
+        webkitTextStrokeWidth: " 1px ",
+        webkitTextStrokeColor: "black",
+      
+      },
+};
+function LandingPage()
+{
 
-<Particles
-            width='100'
-            id="tsparticles"
-            init={particlesInit}
-            loaded={particlesLoaded}
-            options={{
-                background: {
-                    color: {
-                        value: "#000000",
-                    },
-                },
-                fpsLimit: 60,
-                interactivity: {
-                    events: {
-                        onClick: {
-                            enable: true,
-                            mode: "push",
-                        },
-                        onHover: {
-                            enable: true,
-                            mode: "repulse",
-                        },
-                        resize: true,
-                    },
-                    modes: {
-                        push: {
-                            quantity: 4,
-                        },
-                        repulse: {
-                            distance: 200,
-                            duration: 1,
-                        },
-                    },
-                },
-                particles: {
-                    color: {
-                        value: "#ffffff",
-                    },
-                    links: {
-                        color: "#ffffff",
-                        distance: 150,
-                        enable: true,
-                        opacity: 0.5,
-                        width: 1,
-                    },
-                    collisions: {
-                        enable: true,
-                    },
-                    move: {
-                        directions: "none",
-                        enable: true,
-                        outModes: {
-                            default: "bounce",
-                        },
-                        random: false,
-                        speed: 2,
-                        straight: false,
-                    },
-                    number: {
-                        density: {
-                            enable: true,
-                            area: 800,
-                        },
-                        value: 80,
-                    },
-                    opacity: {
-                        value: 0.5,
-                    },
-                    shape: {
-                        type: "circle",
-                    },
-                    size: {
-                        value: { min: 1, max: 5 },
-                    },
-                },
-                detectRetina: true,
-            }}
-        />
-    </div>
-  )
+    return(
+
+    <Box border={1} borderRadius={1} padding={2} style={styles.landingPage}>
+    <Grid item xs={12} sm={10} md={8} lg={6} xl={4} >
+    <Grid container justifyContent="center" marginTop={5} sx={{ textAlign: "center" }}  >
+    <Typography  border={1} borderRadius={2} padding={1}  style={styles.backDrop} > 
+    <Typography fontSize="7vw">TURING CUP</Typography>
+    <Typography variant="caption" fontSize="2vw">ONE TEAM,ONE DREAM</Typography></Typography>
+    </Grid>
+          
+
+    <Grid container justifyContent="flex-end" marginTop={5} >
+    <Typography variant="h6"  border={1} borderRadius={2} padding={1} style={styles.backDrop}>EDITION 2K22</Typography>
+    </Grid>
+          
+    <Grid container justifyContent="center" marginTop={5} >
+    <Typography variant="body1" border={1} borderRadius={2} padding={1} style={styles.backDrop} >25-03-2022 • VNRVJIET • HYDERABAD</Typography>
+    </Grid>
+
+    </Grid>
+    </Box>
+
+    )
 }
 
 export default LandingPage
