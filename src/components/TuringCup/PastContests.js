@@ -4,15 +4,14 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import {Grid} from "@mui/material"
 
 const styles = {
   accordion: {
-    backgroundColor: '#F5FFFA',
     borderRadius: '8px',
     margin: '10px',
   },
   summary: {
-    backgroundColor: '#f4f4f5',
     color: '#16654f',
     borderBottom: '1px solid rgba(255, 255, 255, .3)',
   },
@@ -21,64 +20,64 @@ const styles = {
   },
   container: {
     margin: "auto",
-    width: "50%"
+    width: "75vw",
+    // height : "10vw"
   }
 };
 
+const contestdetails = [
+    {
+        "year":"2022",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sint quidem corporis consectetur quas. Laboriosam fugit enim veniam neque aliquid accusantium, et dicta impedit, explicabo officiis harum magni odio!",
+        "winners" : {
+            "first" : "",
+            "second " : "",
+            "third" : ""
+        }
+    },
+    {   "year" : "2020",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sint quidem corporis consectetur quas. Laboriosam fugit enim veniam neque aliquid accusantium, et dicta impedit, explicabo officiis harum magni odio!",
+        "winners" : {
+            "first" : "",
+            "second " : "",
+            "third" : ""
+        }
+    },
+    {   "year" : "2019",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sint quidem corporis consectetur quas. Laboriosam fugit enim veniam neque aliquid accusantium, et dicta impedit, explicabo officiis harum magni odio!",
+        "winners" : {
+            "first" : "",
+            "second " : "",
+            "third" : ""
+        }
+    }
+];
+
 function PastContests() {
   return (
-    <div style={styles.container}>
-      <Accordion style={styles.accordion}>
+    <Grid style={styles.container} sx={{margin:5}}>
+        {
+         contestdetails.map((item,key)=>
+         (
+            <Accordion style={styles.accordion} >
         <AccordionSummary
           style={styles.summary}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Turing Cup 2022</Typography>
+          <Typography sx={{border:'1px solid green'}}>{item.year}</Typography>
         </AccordionSummary>
         <AccordionDetails style={styles.details}>
+            <Typography>ABOUT</Typography>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+           {item.info}
           </Typography>
         </AccordionDetails>
       </Accordion>
-
-      <Accordion style={styles.accordion}>
-        <AccordionSummary
-          style={styles.summary}
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Turing Cup 2021</Typography>
-        </AccordionSummary>
-        <AccordionDetails style={styles.details}>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      <Accordion style={styles.accordion}>
-        <AccordionSummary
-          style={styles.summary}
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3a-content"
-          id="panel3a-header"
-        >
-          <Typography>Turing Cup 2020</Typography>
-        </AccordionSummary>
-        <AccordionDetails style={styles.details}>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-    </div>
+         ))   
+        }
+    </Grid>
   );
 }
 

@@ -81,7 +81,7 @@ export default function Navbar() {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle}>
+    <Box onClick={handleDrawerToggle} sx={{color : 'black'}}>
       <Typography variant="h6" sx={{ mx: 2, my: 1 }}>
         Turing Hut
       </Typography>

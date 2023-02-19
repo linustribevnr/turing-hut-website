@@ -23,7 +23,7 @@ function LandingPage()
 
     return(
 
-    <Box border={1} borderRadius={1} padding={2} style={styles.landingPage}>
+    <Box border={1} borderRadius={1}  style={styles.landingPage}>
     <Grid item xs={12} sm={10} md={8} lg={6} xl={4} >
     <Grid container justifyContent="center" marginTop={5} sx={{ textAlign: "center" }}  >
     <Typography  border={1} borderRadius={2} padding={1}  style={styles.backDrop} > 
