@@ -9,12 +9,12 @@ export default function TuringCupPrizePool() {
         display="flex"
         justifyContent="center"
         alignItems="center"
-        height="70vh"
-        width="70vw"
-        // sx={{
-        //   maxHeight: { xs: 233, md: 500 },
-        //   maxWidth: { xs: 350, md: 550 }
-        // }}
+        height="60vh"
+        width="90vw"
+        sx={{
+          maxHeight: { xs: 360, md: 540, lg: 720 },
+          maxWidth: { xs: 540, md: 810, lg: 1080 }
+        }}
         alt="gif"
         src={gif}
       />
