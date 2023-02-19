@@ -45,6 +45,17 @@ return (
           <TuringCupPrizePool/>
           <TuringCupSponsors/>
           <PastContests/>
+          <div className="geometric-form child-1"></div>
+          <div className="geometric-form child-2"></div>
+          <div className="geometric-form child-3"></div>
+          <div className="geometric-form child-4"></div>
+          <div className="geometric-form child-5"></div>
+          <div className="geometric-form child-6"></div>
+          <div className="geometric-form child-7"></div>
+          <div className="geometric-form child-8"></div>
+          <div className="geometric-form child-9"></div>
+          <div className="geometric-form child-10"></div>
+          <div className="geometric-form child-11"></div>
           <Footer />
         </Box>
       </Box>
