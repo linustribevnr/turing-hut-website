@@ -12,8 +12,8 @@ const Item = styled (Paper) (({ theme }) => ({
     textAlign: 'center',
     background: '#fff',
     height: 100,
-    color: '#16654f',
-    border: '1px solid #16654f',
+    color: '#7edb9e',
+    border: '1px solid #7edb9e',
     borderRadius: '5px'
 }));
 
@@ -86,7 +86,7 @@ function Timers() {
         borderRadius: '5px',
         paddingTop: '20px',
         }}>
-        <h2 style={{color: '#16654f' }}>
+        <h2 style={{color: '#7edb9e' }}>
             Round 1 starts in: 
         </h2>
 
@@ -132,9 +132,9 @@ function Timers() {
             <Button sx={{ 
                 backgroundColor: 'black',
                 border : '1px solid green',
-                color: '#16654f',
+                color: '#7edb9e',
                 '&:hover': {
-                    backgroundColor: '#16654f',
+                    backgroundColor: '#7edb9e',
                     color: '#fff'
                 },  }} 
                 variant='contained' 
@@ -146,10 +146,10 @@ function Timers() {
 
             <Button sx={{ 
                 backgroundColor: 'black', 
-                color: '#16654f',
+                color: '#7edb9e',
                 border : '1px solid green',
                 '&:hover': {
-                    backgroundColor: '#16654f',
+                    backgroundColor: '#7edb9e',
                     color: '#fff'
                 },  }} 
                 id= 'add-to-calendar-btn'

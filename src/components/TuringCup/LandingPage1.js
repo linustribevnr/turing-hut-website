@@ -421,13 +421,13 @@ export default function LandingPage1() {
             </Helmet>
             <section id="home" class="home-cover">
                 <div class="sparkle">
-                    <ul data-time="1000">
+                    <ul data-time="1500">
                         <li data-saturation="0" data-lightness="100">ONE TEAM.</li>
                     </ul>
-                    <ul data-time="1000">
+                    <ul data-time="1500">
                         <li data-saturation="0" data-lightness="100">ONE DREAM.</li>
                     </ul>
-                    <ul data-time="1000">
+                    <ul data-time="1500">
                         <li data-hue="144" data-saturation="47" data-lightness="55">TURING CUP.</li>
                     </ul>
                 </div>
