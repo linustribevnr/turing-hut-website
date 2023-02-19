@@ -15,11 +15,11 @@ export const Head = () => (
 function turingcup() {
 return (
   <Layout>
-    {/* <LandingPage/> */}
-    {/* <Timers/> */}
-    {/* <TuringCupPrizePool/> */}
-    {/* <TuringCupSponsors/> */}
-    {/* <PastContests/> */}
+    <LandingPage/>
+    <Timers margin={2}/>
+    <TuringCupPrizePool/>
+    <TuringCupSponsors/>
+    <PastContests/>
   </Layout>
 )
 }
