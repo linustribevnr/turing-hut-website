@@ -2,6 +2,7 @@ import React from "react";
 import {Typography,Box,Grid} from "@mui/material"
 import landing_page from "../../assets/images/Turingcup/landing_page_2.jpg"
 
+
 const styles = {
     landingPage : {
         backgroundImage: `url(${landing_page})`,

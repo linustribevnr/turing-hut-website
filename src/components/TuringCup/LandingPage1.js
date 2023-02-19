@@ -211,8 +211,8 @@ class TextSparks
         particle.s = 0.003 + this.randFromList(r1, r2) / 10;
         particle.l = 0;
 
-        particle.mx = Math.cos(rad) * (particle.s / (r1 < 0.05 ? 10 : 400));
-        particle.my = Math.sin(rad) * (particle.s / (r1 < 0.05 ? 10 : 400));
+        particle.mx = Math.cos(rad) * (particle.s / (r1 < 0.05 ? 10 : 300));
+        particle.my = Math.sin(rad) * (particle.s / (r1 < 0.05 ? 10 : 300));
 
         particle.c = this.drawParticle;
     }
@@ -431,7 +431,10 @@ export default function LandingPage1() {
                         <li data-hue="144" data-saturation="47" data-lightness="55">TURING CUP.</li>
                     </ul>
                 </div>
+                
+               
                 <canvas></canvas>
+
             </section>
         </div>
     );

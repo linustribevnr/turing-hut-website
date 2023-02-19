@@ -122,7 +122,7 @@ export default function Navbar() {
       {
         location.pathname === '/turingcup'?
         <Box>
-          <AppBar component="nav" sx={{ bgcolor:"black" }}>
+          <AppBar component="nav" sx={{ bgcolor:"#101820FF" }}>
             <Toolbar>
               <IconButton
                 color="secondary"
@@ -152,12 +152,12 @@ export default function Navbar() {
                       sx={{
                         color: 
                           location.pathname === item.path || location.pathname === item.path.concat("/")
-                          ? "#4fae76"
+                          ? "#F2AA4DFF"
                           : "white",
                         ":hover": {
-                          color: "#7bf6bc"
+                          color: "#F2AA4CFF"
                         },
-                        bgcolor: "black",
+                        bgcolor: "#101820FF",
                         textTransform: "none",
                         textDecoration: "none",
                         px: 3,

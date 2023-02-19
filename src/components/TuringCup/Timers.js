@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Container, Button, Grid, Paper, Stack } from '@mui/material';
 import HowToRegRoundedIcon from '@mui/icons-material/HowToRegRounded';
 import InsertInvitationRoundedIcon from '@mui/icons-material/InsertInvitationRounded';
+import './headingstyles.css';
 import { styled } from '@mui/material/styles';
 
 // npm install add-to-calendar-button to avail features of add to calendar.
@@ -86,7 +87,7 @@ function Timers() {
         borderRadius: '5px',
         paddingTop: '20px',
         }}>
-        <h2 style={{color: '#7edb9e' }}>
+        <h2 style={{color: '#16654f' }} className='one'>
             Round 1 starts in: 
         </h2>
 

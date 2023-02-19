@@ -43,7 +43,7 @@ export default function TuringCupSponsors() {
       }}
     >
       <h2
-        style={{align:'center', color: '#16654f' }}>
+        style={{textAlign:'center', color: '#16654f' }}>
           Our sponsors
       </h2>
       <Stack

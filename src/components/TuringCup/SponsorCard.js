@@ -16,22 +16,19 @@ export default function SponsorCard({ name, img, desc, link }) {
     >
       <FrontSide
         style={{
-          backgroundColor: "#114336",
+          backgroundColor: "black",
           color: "white"
         }}>
         <GatsbyImage
           alt={name}
           image={img}
           style={{
-            maxWidth: "50%",
+            maxWidth: "65%",
             // maxHeight: "50%",
             border: "2px solid",
             borderRadius: "15px 30px"
           }}
         />
-        <Typography gutterBottom variant="body1" component="div">
-          {name}
-        </Typography>
       </FrontSide>
       <BackSide style={{ backgroundColor: "#16654f", color: "white"}}>
         <p>

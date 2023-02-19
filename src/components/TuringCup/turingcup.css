@@ -1,7 +1,11 @@
-body{
+.fullpage{
   z-index: 0;
+  background-color: #101820FF;
+  color: #F2AA4CFF;
+  margin: "0px";
+  padding: "0px";
 }
-
+/* 
   .infoo
   {
     z-index: 2;
@@ -15,7 +19,9 @@ body{
     z-index: 1;
     overflow: hidden;
   }
-  
+
+ 
+    
   .geometric-form {
     position: absolute;
     background: rgba(255, 255, 255, 0.2);
@@ -119,4 +125,4 @@ body{
         opacity: 1;
         bottom: 100%;
     }
-  }
+  } */

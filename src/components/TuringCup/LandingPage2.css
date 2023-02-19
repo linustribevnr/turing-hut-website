@@ -1,0 +1,53 @@
+.fullpage
+{
+    /* background-color: #101820FF;
+    color: #F2AA4CFF; */
+    width: 100%;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+svg text 
+{
+    stroke: #F2AA4CFF;
+    font-weight: 700;
+    stroke-width: 5;
+    animation: strokeanim 5s infinite alternate;
+}
+.bigh
+{
+    font-size: 8rem;
+}
+.smallh
+{
+    font-size: 4rem;
+}
+
+@keyframes strokeanim {
+
+    0%   {
+		fill: #101820FF;
+        stroke: #F2AA4CFF;
+		stroke-dashoffset: 25%; 
+        stroke-dasharray: 0 50%; 
+        stroke-width: 5;
+	}
+	70%  {
+        fill: #101820FF;
+        stroke: #F2AA4CFF; 
+    }
+	80%  {
+        fill: #101820FF;
+        stroke: #F2AA4CFF; 
+        stroke-width: 3; 
+    }
+	100% {
+		fill: #F2AA4CFF; 
+        stroke: #101820FF;
+		stroke-dashoffset: -25%; 
+        stroke-dasharray: 50% 0; 
+        stroke-width: 0;
+	}
+    
+    
+}
+
