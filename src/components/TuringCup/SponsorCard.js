@@ -1,9 +1,9 @@
 import React from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 import { GatsbyImage } from "gatsby-plugin-image";
-import { Typography } from "@mui/material";
+import { Typography, Button } from "@mui/material";
 
-export default function SponsorCard({ name, img, desc }) {
+export default function SponsorCard({ name, img, desc, link }) {
   return (
     <Flippy
       flipOnHover={true} // default false
@@ -16,14 +16,15 @@ export default function SponsorCard({ name, img, desc }) {
     >
       <FrontSide
         style={{
-          backgroundColor: "#41669d"
+          backgroundColor: "#114336",
+          color: "white"
         }}>
         <GatsbyImage
           alt={name}
           image={img}
           style={{
             maxWidth: "50%",
-            maxHeight: "50%",
+            // maxHeight: "50%",
             border: "2px solid",
             borderRadius: "15px 30px"
           }}
@@ -32,7 +33,24 @@ export default function SponsorCard({ name, img, desc }) {
           {name}
         </Typography>
       </FrontSide>
-      <BackSide style={{ backgroundColor: "#175852" }}>{desc}</BackSide>
+      <BackSide style={{ backgroundColor: "#16654f", color: "white"}}>
+        <p>
+          {desc}
+        </p>
+        <Button sx={{ 
+          backgroundColor: '#fff', 
+          color: '#114336',
+          '&:hover': {
+              backgroundColor: '#114336',
+              color: '#fff'
+            },
+          }} 
+          variant='contained' 
+          href={link}
+          target='__blank'>
+          Know more!
+        </Button>
+      </BackSide>
     </Flippy>
   );
 }

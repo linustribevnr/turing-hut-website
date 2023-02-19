@@ -37,7 +37,15 @@ export default function TuringCupSponsors() {
   `);
   const nodes = data.allFile.edges;
   return (
-    <Box>
+    <Box 
+      sx={{ 
+      margin: '0 auto', 
+      }}
+    >
+      <h2
+        style={{align:'center', color: '#16654f' }}>
+          Our sponsors
+      </h2>
       <Stack
         direction={{ xs: "column", sm: "row" }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
@@ -65,6 +73,7 @@ export default function TuringCupSponsors() {
                 name={sponsor.name}
                 img={image}
                 desc={sponsor.details}
+                link={sponsor.link}
                 key={i}
               />
             </Item>

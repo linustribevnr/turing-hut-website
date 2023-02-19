@@ -13,7 +13,6 @@ const Item = styled (Paper) (({ theme }) => ({
     background: '#fff',
     height: 100,
     color: '#16654f',
-    minWidth: '50px',
     border: '1px solid #16654f',
     borderRadius: '5px'
 }));
@@ -78,18 +77,17 @@ function Timers() {
       };    
 
   return (
-    <Container sx={{ 
+    <Grid sx={{ 
         fontFamily: 'Roboto, Helvetica, Arial, sans-serif', 
-        width: '50vw',  
-        minWidth: '350px', 
         color: 'primary', 
         margin: '0 auto', 
         textAlign: 'center', 
-        background: '#f4f4f5',
+        // background: '#f4f4f5',
         borderRadius: '5px',
+        paddingTop: '20px',
         }}>
-        <h2 style={{ paddingTop: '20px', color: '#16654f' }}>
-            Round 1 starts in : 
+        <h2 style={{color: '#16654f' }}>
+            Round 1 starts in: 
         </h2>
 
         <Grid container justifyContent={ 'space-evenly' }>
@@ -130,7 +128,7 @@ function Timers() {
             </Grid>                                  
         </Grid>
 
-        <Stack sx={{ py: '20px', justifyContent: 'center' }} direction={{ xs: 'column', md: 'row' }} spacing={2} >
+        <Stack sx={{ py: 5, justifyContent: 'center' }} direction={{ xs: 'column', md: 'row' }} spacing={2} >
             <Button sx={{ 
                 backgroundColor: '#fff', 
                 color: '#16654f',
@@ -159,7 +157,7 @@ function Timers() {
                 Add to Calendar
             </Button>
         </Stack>
-    </Container>
+    </Grid>
   )
 }
 
