@@ -82,7 +82,7 @@ function Timers() {
         color: 'primary', 
         margin: '0 auto', 
         textAlign: 'center', 
-        // background: '#f4f4f5',
+        background: 'black',
         borderRadius: '5px',
         paddingTop: '20px',
         }}>
@@ -91,8 +91,8 @@ function Timers() {
         </h2>
 
         <Grid container justifyContent={ 'space-evenly' }>
-            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}>
-                <Item elevation={0} >
+            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}  >
+                <Item elevation={0} sx = {{backgroundColor:'black',border:'1px solid green'}}>
                     <h1>
                         { daysLeft }
                     </h1>
@@ -100,8 +100,8 @@ function Timers() {
                 </Item>                 
             </Grid>  
 
-            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}>
-                <Item elevation={0} >
+            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}  >
+                <Item elevation={0} sx = {{backgroundColor:'black',border:'1px solid green'}}>
                     <h1>
                         { hoursLeft }
                     </h1>
@@ -109,8 +109,8 @@ function Timers() {
                 </Item>                 
             </Grid>
 
-            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}>
-                <Item elevation={0} >
+            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}  >
+                <Item elevation={0} sx = {{backgroundColor:'black',border:'1px solid green'}}>
                     <h1>
                         { minutesLeft }
                     </h1>
@@ -118,8 +118,8 @@ function Timers() {
                 </Item>                 
             </Grid>
 
-            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}>
-                <Item elevation={0} >
+            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}  >
+                <Item elevation={0} sx = {{backgroundColor:'black',border:'1px solid green'}}>
                     <h1>
                         { secondsLeft }
                     </h1>
@@ -130,7 +130,8 @@ function Timers() {
 
         <Stack sx={{ py: 5, justifyContent: 'center' }} direction={{ xs: 'column', md: 'row' }} spacing={2} >
             <Button sx={{ 
-                backgroundColor: '#fff', 
+                backgroundColor: 'black',
+                border : '1px solid green',
                 color: '#16654f',
                 '&:hover': {
                     backgroundColor: '#16654f',
@@ -144,8 +145,9 @@ function Timers() {
             </Button>
 
             <Button sx={{ 
-                backgroundColor: '#fff', 
+                backgroundColor: 'black', 
                 color: '#16654f',
+                border : '1px solid green',
                 '&:hover': {
                     backgroundColor: '#16654f',
                     color: '#fff'

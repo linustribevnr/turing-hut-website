@@ -12,16 +12,13 @@ body{
   {
     position: relative;
     width: 100%;
-    height: 100%;
     z-index: 1;
+    overflow: hidden;
   }
   
   .geometric-form {
     position: absolute;
-    background-image: linear-gradient(to right bottom, 
-      #2700b7, #006aff, 
-      #009df6, #00c8b0, 
-      #12eb5d);
+    background: rgba(255, 255, 255, 0.2);
     animation: geometric-form-animation 10s linear infinite;
     clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 
       94% 78%, 68% 100%, 32% 100%, 
@@ -108,18 +105,18 @@ body{
   }
   @keyframes geometric-form-animation {
     0% {
-      transform: translateY(0) rotate(0deg);
+      transform: rotate(0deg);
       opacity: 1;
       bottom: 0%;
     }
     50% {
-        transform: translateY(-400px)rotate(180deg);
-        opacity: 0.5;
+        transform: rotate(180deg);
+        opacity: 1;
         bottom: 50%;
     }
     100% {
-        transform: translateY(-800px)rotate(360deg);
-        opacity: 0;
+        transform: rotate(360deg);
+        opacity: 1;
         bottom: 100%;
     }
   }

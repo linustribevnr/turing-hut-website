@@ -35,16 +35,16 @@ const theme = createTheme({
 
 function turingcup() {
 return (
-  <ThemeProvider theme={theme}>
-      <Box sx={{ display: "flex" }}>
+  <ThemeProvider theme={theme} >
+      <Box sx={{ display: "flex" ,backgroundColor:"black"}}>
         <Navbar />
-        <Box component="main">
+        <Box component="main" className="geometric-container">
           <Toolbar />
-          <LandingPage style={{ margin:"0px",padding:"0px"}}/>
-          <Timers/>
-          <TuringCupPrizePool/>
-          <TuringCupSponsors/>
-          <PastContests/>
+          <LandingPage className="infoo" style={{ margin:"0px",padding:"0px"}}/>
+          <Timers className="infoo"/>
+          <TuringCupPrizePool className="infoo"/>
+          <TuringCupSponsors className="infoo"/>
+          <PastContests className="infoo"/>
           <div className="geometric-form child-1"></div>
           <div className="geometric-form child-2"></div>
           <div className="geometric-form child-3"></div>
