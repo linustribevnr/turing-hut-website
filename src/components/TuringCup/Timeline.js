@@ -53,11 +53,14 @@ export default function CustomizedTimeline() {
                                 {item.dateTime}
                             </TimelineOppositeContent>
                             <TimelineSeparator>
-                            <TimelineConnector />
-                            <TimelineDot style={{ backgroundColor: "#F2AA4CFF" }}>
-                                {item.icon}
-                            </TimelineDot>
-                            <TimelineConnector />
+                                <TimelineConnector />
+                                <TimelineDot style={{ backgroundColor: "#F2AA4CFF" }}>
+                                    {item.icon}
+                                </TimelineDot>
+                                {/* <TimelineConnector /> */}
+                                {
+                                    item.title==="Round-2"?<></>:<TimelineConnector />
+                                }
                             </TimelineSeparator>
                             <TimelineContent sx={{ py: '12px', px: 2 }}>
                             <Typography variant="h6" component="span" color="#F2AA4CFF">
