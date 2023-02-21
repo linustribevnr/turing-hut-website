@@ -27,7 +27,7 @@ function Timers() {
     let interval= useRef();
 
     const startTimer = () => {
-        const countdownDate= new Date('March 11, 2023 19:00:00').getTime();
+        const countdownDate= new Date('March 11, 2023 19:30:00').getTime();
 
         interval= setInterval(() => {
             const now= new Date().getTime();
@@ -67,8 +67,8 @@ function Timers() {
         name: '[Reminder] Turing Cup 2K23 Round - 1',
         description: 'Check your mail for the Contest Links',
         startDate: '2023-03-11',
-        startTime: '18:45',
-        endTime: '21:00',
+        startTime: '19:30',
+        endTime: '22:00',
         options: ['Google', 'Apple', 'Outlook.com'],
         timeZone: 'Asia/Calcutta',
       };
@@ -87,7 +87,6 @@ function Timers() {
         borderRadius: '5px',
         paddingTop: '20px',
         }}>
-         <hr style={{textColor: '#F2AA4CFF' }} />
         <h2 style={{color: '#F2AA4CFF' }}>
             ROUND-1
         </h2>
@@ -140,7 +139,7 @@ function Timers() {
                     color: '#fff'
                 },  }}
                 variant='contained' 
-                href='https://docs.google.com/forms/d/e/1FAIpQLSd5huRp7I0Ecz2pgjQ_Sm4NtCq9-1U0w6CyhHbdA2DjTM3aPA/viewform'
+                href='https://unstop.com/o/ue5gaLR?lb=Wqrocjv'
                 target='__blank'
                 startIcon={ <HowToRegRoundedIcon /> }>
                 Register Now
