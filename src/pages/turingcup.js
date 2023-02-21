@@ -40,33 +40,16 @@ const theme = createTheme({
 function turingcup() {
 return (
 
-  <ThemeProvider theme={theme} >
-        <div style={{backgroundColor:"#101820FF",padding:'5'}}>
-           {/* <Grid sx={{backgroundColor:"#101820FF",padding:'5'}}> */}
-        <Navbar />
-        <Box component="main" className="geometric-container">
-          <Toolbar />
-          <Landingpage2  />
-          <Timers />
-          <Timeline />
-          <TuringCupPrizePool />
-          <TuringCupSponsors />
-          <PastContests />
-          <Footer />
-        </Box>
-      {/* </Grid> */}
-        </div>
-     
-  </ThemeProvider>
-  // <Layout classname ="fullpage" >
-  //     <Box sx={{ backgroundColor: "#101820FF",color: "#F2AA4CFF"}}>
-  //       <Landingpage2 style={{ margin:"0px",padding:"0px"}}/>
-  //       <Timers/>
-  //       <TuringCupPrizePool/>
-  //       <TuringCupSponsors/>
-  //       <PastContests/>
-  //     </Box>
-  // </Layout>
+  
+  <Layout sx={{margin:0}} >
+      <Box sx={{ backgroundColor: "#101820FF",color: "#F2AA4CFF"}}>
+        <Landingpage2 style={{ margin:"0px",padding:"0px"}}/>
+        <Timers/>
+        <TuringCupPrizePool/>
+        <TuringCupSponsors/>
+        <PastContests/>
+      </Box>
+  </Layout>
 )
 }
 

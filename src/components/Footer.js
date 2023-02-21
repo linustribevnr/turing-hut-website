@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Box, Divider, Typography, Tooltip, Grid } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+
+
 
 const socialMediaItems = [
   {
@@ -28,11 +30,24 @@ const socialMediaItems = [
   }
 ];
 
+
+
 export default function Footer() {
+  const[bgcol,setbgcol] = useState('white');
+  useEffect(()=>
+{
+ if(window.location.pathname == '/turingcup')
+  setbgcol('#101820FF');
+else
+  setbgcol('white')
+
+  console.log(bgcol);
+});
+
   return (
-    <Box sx={{ my: 2 }}>
+    <Box sx={{ my: 2 ,bgcolor : `${bgcol}` }}>
       <Divider />
-      <Grid container spacing={0}>
+      <Grid container spacing={0} >
         <Grid
           item
           xs={12}
