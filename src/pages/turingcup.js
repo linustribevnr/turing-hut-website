@@ -10,6 +10,7 @@ import { Box } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import Landingpage2 from '../components/TuringCup/Landingpage2';
 import Timelinee from '../components/TuringCup/Timelinee';
+import '../styles/global.css';
 
 
 export const Head = () => ( 
