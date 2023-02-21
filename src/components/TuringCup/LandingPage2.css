@@ -3,9 +3,20 @@
     /* background-color: #101820FF;
     color: #F2AA4CFF; */
     width: 100%;
-    height: 80vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+@media screen and (min-width: 801px) {
+.fullpage
+{
+    height: 85vh;
+}
+}
+@media screen and (max-width: 800px) {
+    .fullpage
+    {
+        height: 30vh;
+    }
+    }
 svg text 
 {
     stroke: #F2AA4CFF;

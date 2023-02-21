@@ -32,6 +32,7 @@
     "react-flippy": "^1.1.0",
     "react-helmet": "^6.1.0",
     "react-tsparticles": "^2.8.0",
+    "react-vertical-timeline-component": "^3.6.0",
     "tsparticles": "^2.8.0",
     "tsparticles-slim": "^2.8.0"
   },

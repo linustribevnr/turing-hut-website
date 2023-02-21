@@ -1,7 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
 *
 {
 background-color: '#101820FF';
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Gruppo', cursive;
+
+}
+.p
+{
+  font-size: '4px';
 }
 /* 
   .infoo
