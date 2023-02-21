@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop && npm run format",
     "start": "gatsby develop && npm run format",
-    "build": "gatsby build && npm run format",
+    "build": "gatsby build && npm config set legacy-peer-deps true &&  npm run format",
     "serve": "gatsby serve && npm run format",
     "clean": "gatsby clean",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
