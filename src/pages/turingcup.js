@@ -26,7 +26,7 @@ return (
         <Timers/>
         <Timelinee/>
         <TuringCupPrizePool/>
-        <TuringCupSponsors/>
+        {/* <TuringCupSponsors/> */}
         <PastContests/>
       </Box>
   </Layout>
