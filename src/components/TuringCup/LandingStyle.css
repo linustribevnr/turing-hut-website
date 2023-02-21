@@ -1,0 +1,16 @@
+.sparkle{
+    display: none;
+}
+canvas {
+    width:100vw;
+    height:100vh;
+}
+.home-cover {
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0px !important;
+    padding: 0px !important;
+}
