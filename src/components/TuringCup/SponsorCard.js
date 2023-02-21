@@ -27,11 +27,12 @@ export default function SponsorCard({ name, img, desc, link }) {
             maxWidth: "65%",
             // maxHeight: "50%",
             borderRadius: "15px 30px",
-            border: "2px solid #F2AA4CFF"
+            border: "2px solid #F2AA4CFF",
+            padding : "5px"
           }}
         />
       </FrontSide>
-      <BackSide style={{ backgroundColor: "#101820FF", color: "white",border: "2px solid #F2AA4CFF",borderRadius:"30px"}}>
+      <BackSide style={{ backgroundColor: "#101820FF", color: "white",border: "2px solid #F2AA4CFF"}}>
         <p>
           {desc}
         </p>
