@@ -11,10 +11,10 @@ import { atcb_action } from 'add-to-calendar-button';
 const Item = styled (Paper) (({ theme }) => ({
     ...theme.typography.body2,
     textAlign: 'center',
-    background: '#fff',
+    background: '#101820FF',
     height: 100,
-    color: '#7edb9e',
-    border: '1px solid #7edb9e',
+    color: '#F2AA4CFF',
+    border: '1px solid #F2AA4CFF',
     borderRadius: '5px'
 }));
 
@@ -83,17 +83,18 @@ function Timers() {
         color: 'primary', 
         margin: '0 auto', 
         textAlign: 'center', 
-        background: 'black',
+        background: '#101820FF',
         borderRadius: '5px',
         paddingTop: '20px',
         }}>
-        <h2 style={{color: '#16654f' }} className='one'>
-            Round 1 starts in: 
+         <hr style={{textColor: '#F2AA4CFF' }} />
+        <h2 style={{color: '#F2AA4CFF' }}>
+            ROUND-1
         </h2>
 
         <Grid container justifyContent={ 'space-evenly' }>
             <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}  >
-                <Item elevation={0} sx = {{backgroundColor:'black',border:'1px solid green'}}>
+                <Item elevation={0} sx = {{backgroundColor:'#101820FF',border:'1px solid #F2AA4CFF'}}>
                     <h1>
                         { daysLeft }
                     </h1>
@@ -102,7 +103,7 @@ function Timers() {
             </Grid>  
 
             <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}  >
-                <Item elevation={0} sx = {{backgroundColor:'black',border:'1px solid green'}}>
+                <Item elevation={0} sx = {{backgroundColor:'#101820FF',border:'1px solid #F2AA4CFF'}}>
                     <h1>
                         { hoursLeft }
                     </h1>
@@ -111,7 +112,7 @@ function Timers() {
             </Grid>
 
             <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}  >
-                <Item elevation={0} sx = {{backgroundColor:'black',border:'1px solid green'}}>
+                <Item elevation={0} sx = {{backgroundColor:'#101820FF',border:'1px solid #F2AA4CFF'}}>
                     <h1>
                         { minutesLeft }
                     </h1>
@@ -120,7 +121,7 @@ function Timers() {
             </Grid>
 
             <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}  >
-                <Item elevation={0} sx = {{backgroundColor:'black',border:'1px solid green'}}>
+                <Item elevation={0} sx = {{backgroundColor:'#101820FF',border:'1px solid #F2AA4CFF'}}>
                     <h1>
                         { secondsLeft }
                     </h1>
@@ -131,13 +132,13 @@ function Timers() {
 
         <Stack sx={{ py: 5, justifyContent: 'center' }} direction={{ xs: 'column', md: 'row' }} spacing={2} >
             <Button sx={{ 
-                backgroundColor: 'black',
-                border : '1px solid green',
-                color: '#7edb9e',
+                backgroundColor: '#101820FF', 
+                color: '#F2AA4CFF',
+                border : '1px solid #F2AA4CFF',
                 '&:hover': {
-                    backgroundColor: '#7edb9e',
+                    backgroundColor: '#F2AA4CFF',
                     color: '#fff'
-                },  }} 
+                },  }}
                 variant='contained' 
                 href='https://docs.google.com/forms/d/e/1FAIpQLSd5huRp7I0Ecz2pgjQ_Sm4NtCq9-1U0w6CyhHbdA2DjTM3aPA/viewform'
                 target='__blank'
@@ -146,11 +147,11 @@ function Timers() {
             </Button>
 
             <Button sx={{ 
-                backgroundColor: 'black', 
-                color: '#7edb9e',
-                border : '1px solid green',
+                backgroundColor: '#101820FF', 
+                color: '#F2AA4CFF',
+                border : '1px solid #F2AA4CFF',
                 '&:hover': {
-                    backgroundColor: '#7edb9e',
+                    backgroundColor: '#F2AA4CFF',
                     color: '#fff'
                 },  }} 
                 id= 'add-to-calendar-btn'

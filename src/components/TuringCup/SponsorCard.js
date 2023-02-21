@@ -16,8 +16,9 @@ export default function SponsorCard({ name, img, desc, link }) {
     >
       <FrontSide
         style={{
-          backgroundColor: "black",
-          color: "white"
+          backgroundColor: "#101820FF",
+          color: "white",
+          
         }}>
         <GatsbyImage
           alt={name}
@@ -25,12 +26,12 @@ export default function SponsorCard({ name, img, desc, link }) {
           style={{
             maxWidth: "65%",
             // maxHeight: "50%",
-            border: "2px solid",
-            borderRadius: "15px 30px"
+            borderRadius: "15px 30px",
+            border: "2px solid #F2AA4CFF"
           }}
         />
       </FrontSide>
-      <BackSide style={{ backgroundColor: "#16654f", color: "white"}}>
+      <BackSide style={{ backgroundColor: "#101820FF", color: "white",border: "2px solid #F2AA4CFF",borderRadius:"30px"}}>
         <p>
           {desc}
         </p>

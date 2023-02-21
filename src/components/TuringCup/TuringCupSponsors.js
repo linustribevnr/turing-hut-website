@@ -44,7 +44,7 @@ export default function TuringCupSponsors() {
     >
       <h2
         style={{textAlign:'center', color: '#16654f' }}>
-          Our sponsors
+          OUR SPONSORS
       </h2>
       <Stack
         direction={{ xs: "column", sm: "row" }}
@@ -65,7 +65,7 @@ export default function TuringCupSponsors() {
           if (result.length === 1) {
             image = result[0].node.childImageSharp.gatsbyImageData;
           } else {
-            console.log("Somehitng is wrong");
+            console.log("Something is wrong");
           }
           return (
             <Item key={i}>

@@ -1,5 +1,5 @@
 import React from "react";
-import gif from "../../assets/images/Turingcup/Bgblackprizepool.gif";
+import gif from "../../assets/images/Turingcup/FinalPrizePool.gif";
 import { Box } from "@mui/material";
 export default function TuringCupPrizePool() {
   return (

@@ -31,51 +31,63 @@ const contestdetails = [
       "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sint quidem corporis consectetur quas. Laboriosam fugit enim veniam neque aliquid accusantium, et dicta impedit, explicabo officiis harum magni odio!",
       "winners" : {
         "first" : {
-          names: ["Sushmanth Reddy"],
-          college: "Marri Lakshman Reddy Institute of Technology, Hyderabad"
+          "mem1" :  "Sushmanth Reddy",
+          "mem2" : "",
+          "mem3" : "",
+          "college": "Marri Lakshman Reddy Institute of Technology, Hyderabad"
         },
-        "second " : {
-          names: ["P. Benny Joseph", "Ankan Mahapatra"],
-          college: "Vasavi College of Engineering, Hyderabad"
+        "second" : {
+          "mem1": "P. Benny Joseph",
+          "mem2":"Ankan Mahapatra",
+          "mem3" : "",
+          "college" : "Vasavi College of Engineering, Hyderabad"
         },
         "third" : {
-          names: ["Gedela Jothi Venkata Kiran", "Bharath Goud"],
-          college: "Institute of Aeronautical Engineering, Hyderabad "
+          "mem1" : "Gedela Jothi",
+          "mem2" : "Bharath Goud",
+          "mem3" : "Venkata Kiran",
+          "college" : "Institute of Aeronautical Engineering, Hyderabad "
         }
       }
     },
-    {   
-      "year" : "2020",
-      "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sint quidem corporis consectetur quas. Laboriosam fugit enim veniam neque aliquid accusantium, et dicta impedit, explicabo officiis harum magni odio!",
-      "winners" : {
-          "first" : {
-            names: [],
-            college: ""
-          },
-          "second " : {
-            names: [],
-            college: ""
-          },
-          "third" : {
-            names: [],
-            college: ""
-          }
-      }
-    },
+    // {   
+    //   "year" : "2020",
+    //   "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sint quidem corporis consectetur quas. Laboriosam fugit enim veniam neque aliquid accusantium, et dicta impedit, explicabo officiis harum magni odio!",
+    //   "winners" : {
+    //       "first" : {
+    //         names: [],
+    //         college: ""
+    //       },
+    //       "second" : {
+    //         names: [],
+    //         college: ""
+    //       },
+    //       "third" : {
+    //         names: [],
+    //         college: ""
+    //       }
+    //   }
+    // },
     {   
       "year" : "2019",
         "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem sint quidem corporis consectetur quas. Laboriosam fugit enim veniam neque aliquid accusantium, et dicta impedit, explicabo officiis harum magni odio!",
         "winners" : {
           "first" : {
-            names: ["Kug3lBlitzz"],
+                "mem1": "Kug3lBlitzz",
+                "mem2":"",
+                "mem3":"",
             college: "VNR Vignana Jyothi Institute of Engineering & Technology"
           },
-          "second " : {
-            names: ["Sage_of_Six_Paths"],
+          "second" : {
+                "mem1" : "Sage_of_Six_Paths",
+                "mem2":"",
+                "mem3":"",
             college: "Gokaraju Rangaraju Institute of Engineering and Technology, Hyderabad"
           },
           "third" : {
-            names: ["LogunsPPPPD"],
+                "mem1": "LogunsPPPPD",
+                "mem2":"",
+                "mem3":"",
             college: "University College of Engineering, Osmania University Hyderabad"
           }
         }
@@ -98,10 +110,27 @@ function PastContests() {
                 <Typography sx={{border:'1px solid green'}}>{item.year}</Typography>
               </AccordionSummary>
               <AccordionDetails style={styles.details}>
-                <Typography>Winners</Typography>
                 <Typography>
                   {item.info}
                 </Typography>
+                <Typography  variant="h5">FIRST PRIZE</Typography>
+                {item.winners.first.mem1.length>0 &&<Typography>{item.winners.first.mem1}</Typography>}
+                {item.winners.first.mem2.length>0 &&<Typography>{item.winners.first.mem2}</Typography>}
+                {item.winners.first.mem3.length>0 &&<Typography>{item.winners.first.mem3}</Typography>}
+                <Typography>COLLEGE:{item.winners.first.college}</Typography>
+
+                <Typography  variant="h5">SECOND PRIZE</Typography>
+                {item.winners.second.mem1.length>0 &&<Typography>{item.winners.second.mem1}</Typography>}
+                {item.winners.second.mem2.length>0 &&<Typography>{item.winners.second.mem2}</Typography>}
+                {item.winners.second.mem3.length>0 &&<Typography>{item.winners.second.mem3}</Typography>}
+                <Typography>COLLEGE:{item.winners.second.college}</Typography>
+
+                <Typography  variant="h5">THIRD PRIZE</Typography>
+                {item.winners.third.mem1.length>0 &&<Typography>{item.winners.third.mem1}</Typography>}
+                {item.winners.third.mem2.length>0 &&<Typography>{item.winners.third.mem2}</Typography>}
+                {item.winners.third.mem3.length>0 &&<Typography>{item.winners.third.mem3}</Typography>}
+                <Typography>COLLEGE:{item.winners.third.college}</Typography>
+                
               </AccordionDetails>
             </Accordion>
           ))   
