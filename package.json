@@ -8,9 +8,9 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop && npm run format",
+    "develop": "npm install --legacy-peer-deps && gatsby develop && npm run format",
     "start": "gatsby develop && npm run format",
-    "build": "gatsby build && npm run format",
+    "build": "npm install --legacy-peer-deps && gatsby build && npm run format",
     "serve": "gatsby serve && npm run format",
     "clean": "gatsby clean",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
@@ -29,7 +29,7 @@
     "gatsby-transformer-sharp": "^4.22.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-flippy": "~1.1.0",
+    "react-flippy": "^1.1.0",
     "react-helmet": "^6.1.0",
     "react-tsparticles": "^2.8.0",
     "react-vertical-timeline-component": "^3.6.0",
