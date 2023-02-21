@@ -12,6 +12,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Landingpage2 from '../components/TuringCup/Landingpage2';
+import Timeline from '../components/TuringCup/Timeline'
 
 import {Grid} from "@mui/material"
 
@@ -47,6 +48,7 @@ return (
           <Toolbar />
           <Landingpage2  />
           <Timers />
+          <Timeline />
           <TuringCupPrizePool />
           <TuringCupSponsors />
           <PastContests />

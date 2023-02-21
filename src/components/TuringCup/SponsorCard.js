@@ -38,9 +38,9 @@ export default function SponsorCard({ name, img, desc, link }) {
         </p>
         <Button sx={{ 
           backgroundColor: '#fff', 
-          color: '#114336',
+          color: '#F2AA4CFF',
           '&:hover': {
-              backgroundColor: '#114336',
+              backgroundColor: '#F2AA4CFF',
               color: '#fff'
             },
           }} 
