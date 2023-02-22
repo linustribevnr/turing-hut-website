@@ -97,13 +97,13 @@ function Timers() {
             ROUND-1
         </h2>
 
-        <Grid container justifyContent={ 'space-evenly' }>
+        <Grid container justifyContent={ 'space-evenly' } >
             <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }} >
                 <Item elevation={0} sx = {{backgroundColor:'#101820FF',border:'1px solid #F2AA4CFF'}}>
                     <h1>
                         { daysLeft }
                     </h1>
-                    <h4>DAYS</h4>
+                    <h4 style={{fontFamily: "'Gruppo', cursive"}}>DAYS</h4>
                 </Item>                 
             </Grid>  
 
@@ -112,7 +112,7 @@ function Timers() {
                     <h1>
                         { hoursLeft }
                     </h1>
-                    <h4>HOURS</h4>
+                    <h4 style={{fontFamily: "'Gruppo', cursive"}}>HOURS</h4>
                 </Item>                 
             </Grid>
 
@@ -121,7 +121,7 @@ function Timers() {
                     <h1>
                         { minutesLeft }
                     </h1>
-                    <h4>MINUTES</h4>
+                    <h4 style={{fontFamily: "'Gruppo', cursive"}}>MINUTES</h4>
                 </Item>                 
             </Grid>
 
@@ -130,7 +130,7 @@ function Timers() {
                     <h1>
                         { secondsLeft }
                     </h1>
-                    <h4>SECONDS</h4>
+                    <h4 style={{fontFamily: "'Gruppo', cursive"}}>SECONDS</h4>
                 </Item>                 
             </Grid>                                  
         </Grid>
