@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 
+.timeline{
+  font-size: 25px !important;
+  padding: 10px !important;
+}
 
 *
 {

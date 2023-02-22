@@ -120,7 +120,7 @@ export default function Navbar() {
   return (
     <div>
       {
-        location.pathname === '/turingcup'?
+        location.pathname.includes('/turingcup')?
         <Box>
           <AppBar component="nav" sx={{ bgcolor:"#101820FF" }}>
             <Toolbar>

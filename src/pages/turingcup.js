@@ -10,6 +10,7 @@ import { Box } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import Landingpage2 from '../components/TuringCup/Landingpage2';
 import Timelinee from '../components/TuringCup/Timelinee';
+import TuringCupSponsors from '../components/TuringCup/TuringCupSponsors';
 import '../styles/global.css';
 
 
@@ -27,7 +28,7 @@ return (
         <Timers/>
         <Timelinee/>
         <TuringCupPrizePool/>
-        {/* <TuringCupSponsors/> */}
+        <TuringCupSponsors/>
         <PastContests/>
       </Box>
   </Layout>
