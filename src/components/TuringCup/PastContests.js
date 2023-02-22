@@ -39,7 +39,9 @@ const styles = {
 const contestdetails = [
     {
       "year":"2022",
+
       "info": "Students from all colleges across the nation can participate by forming a team of up to 2 members. The contest has 3 rounds. 753 teams from 50+ different colleges across the nation have registered for the contest. 690 teams have participated in the contest, out of which 80 teams have been invited to the Onsite round, and all the teams have attended the Onsite round, from which top 20 teams qualified for the Final Round.",
+      
       "winners" : {
         "first" : {
           "mem1" :  "Sushmanth Reddy",

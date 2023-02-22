@@ -12,7 +12,11 @@ import Landingpage2 from '../components/TuringCup/Landingpage2';
 import Timelinee from '../components/TuringCup/Timelinee';
 import TuringCupSponsors from '../components/TuringCup/TuringCupSponsors';
 import '../styles/global.css';
+
+import Faqs from '../components/TuringCup/Faqs'
+
 import About from '../components/TuringCup/About';
+
 
 
 export const Head = () => ( 
@@ -35,6 +39,7 @@ return (
         <TuringCupPrizePool/>
         <TuringCupSponsors/>
         <PastContests/>
+        <Faqs />
       </Box>
       </div>
   </Layout>

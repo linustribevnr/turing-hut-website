@@ -24,7 +24,7 @@ function OurSponsors({ name, img, desc, link }) {
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
     return (
-        <div id="overlay">
+        <div>
             <Button
                 sx={{ 
                     background: '#101820FF',
