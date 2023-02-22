@@ -39,7 +39,7 @@ const styles = {
 const contestdetails = [
     {
       "year":"2022",
-      "info": "Turing Cup 2k22 is the national level annual coding competition of VNRVJIET, conducted by Turing Hut (Official programming club of VNRVJIET). Students from all colleges across the nation can participate by forming a team of up to 2 members. The contest has 3 rounds. 753 teams from 50+ different colleges across the nation have registered for the contest. 690 teams have participated in the contest, out of which 80 teams have been invited to the Onsite round, and all the teams have attended the Onsite round, from which top 20 teams qualified for the Final Round.",
+      "info": "Turing Cup 2k22 is the national level annual coding competition of VNRVJIET, conducted by Turing Hut (Official programming club of VNRVJIET). Students from all colleges across the nation have participated by forming a team of upto 2 members. The contest had 3 rounds. 753 teams from 50+ different colleges across the nation have registered for the contest. 690 teams have participated in the contest, out of which 80 teams have been invited to the Onsite round, and all the teams have attended the Onsite round, from which top 20 teams qualified for the Final Round.",
       "winners" : {
         "first" : {
           "mem1" :  "Sushmanth Reddy",
@@ -81,7 +81,7 @@ const contestdetails = [
     // },
     {   
       "year" : "2019",
-        "info": "Turing Cup 2k19 is the national level annual coding competition of VNRVJIET, conducted by Turing Hut (Official programming club of VNRVJIET). Students from all colleges across the nation can participate by forming a team of up to 3 members. The contest has 2 rounds. 285 teams from both Telangana and Andhra Pradesh states have registered for the contest. 240 teams have participated in the contest, out of which 50 teams have been invited to the Onsite round, 36 teams have attended the Onsite round.",
+        "info": "Turing Cup 2k19 is the national level annual coding competition of VNRVJIET, conducted by Turing Hut (Official programming club of VNRVJIET). Students from all colleges across the nation have participated by forming a team of upto 3 members. The contest had 2 rounds. 285 teams from both Telangana and Andhra Pradesh states have registered for the contest. 240 teams have participated in the contest, out of which 50 teams have been invited to the Onsite round, 36 teams have attended the Onsite round.",
         "winners" : {
           "first" : {
                 "mem1": "Kug3lBlitzz",
