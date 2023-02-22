@@ -12,25 +12,31 @@ import Landingpage2 from '../components/TuringCup/Landingpage2';
 import Timelinee from '../components/TuringCup/Timelinee';
 import TuringCupSponsors from '../components/TuringCup/TuringCupSponsors';
 import '../styles/global.css';
+import About from '../components/TuringCup/About';
 
 
 export const Head = () => ( 
     <Seo routename={"Turing Cup"}/>
 )
-
+var divStyle = {
+  margin: 0
+}
 function turingcup() {
 return (
 //
   
   <Layout sx={{margin:0}} >
-      <Box sx={{ backgroundColor: "#101820FF",color: "#F2AA4CFF"}}>
-        <Landingpage2 style={{ margin:"0px",padding:"0px"}}/>
+    <div style={divStyle}>
+      <Box sx={{ backgroundColor: "#101820FF",color: "#F2AA4CFF" , fontFamily: "'Gruppo', cursive"}}>
+        <Landingpage2 style={{ margin:"0px",padding:"0px", fontFamily: "'Gruppo', cursive"}}/>
+        <About/>
         <Timers/>
         <Timelinee/>
         <TuringCupPrizePool/>
         <TuringCupSponsors/>
         <PastContests/>
       </Box>
+      </div>
   </Layout>
 )
 }

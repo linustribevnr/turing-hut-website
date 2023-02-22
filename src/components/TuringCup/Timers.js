@@ -4,7 +4,7 @@ import HowToRegRoundedIcon from '@mui/icons-material/HowToRegRounded';
 import InsertInvitationRoundedIcon from '@mui/icons-material/InsertInvitationRounded';
 import './headingstyles.css';
 import { styled } from '@mui/material/styles';
-
+import useMediaQuery from '@mui/material/useMediaQuery';
 // npm install add-to-calendar-button to avail features of add to calendar.
 import { atcb_action } from 'add-to-calendar-button';
 
@@ -15,7 +15,10 @@ const Item = styled (Paper) (({ theme }) => ({
     height: 100,
     color: '#F2AA4CFF',
     border: '1px solid #F2AA4CFF',
-    borderRadius: '5px'
+    borderRadius: '5px',
+    width: '100%',
+    
+
 }));
 
 function Timers() {
@@ -76,7 +79,7 @@ function Timers() {
       const handleClick = () => {
         atcb_action(config, document.getElementById('add-to-calendar-btn'));
       };    
-
+      const isLargeScreen = useMediaQuery((theme) => theme.breakpoints.up('lg'));
   return (
     <Grid sx={{ 
         fontFamily: 'Roboto, Helvetica, Arial, sans-serif', 
@@ -86,13 +89,16 @@ function Timers() {
         background: '#101820FF',
         borderRadius: '5px',
         paddingTop: '20px',
+        '@media (min-width: 960px)': {
+            width: '75%',
+        },
         }}>
         <h2 style={{color: '#F2AA4CFF' }}>
             ROUND-1
         </h2>
 
         <Grid container justifyContent={ 'space-evenly' }>
-            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }}  >
+            <Grid item xs={ 6 } md={ 3 } sx={{ p: 2 }} >
                 <Item elevation={0} sx = {{backgroundColor:'#101820FF',border:'1px solid #F2AA4CFF'}}>
                     <h1>
                         { daysLeft }
