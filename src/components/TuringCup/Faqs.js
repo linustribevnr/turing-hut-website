@@ -73,12 +73,12 @@ export default function Faqs() {
                 expandIcon={<ExpandMore sx={{ color: "#F2AA4CFF" }} />}
                 aria-label="Expand"
                 sx={ind !== 0 ? { borderTop: "1px solid #F2AA4CFF" } : null}>
-                <Typography variant="body1" sx={{ color: "#F2AA4CFF" }}>
+                <Typography variant="body1" sx={{ color: "#F2AA4CFF", fontFamily: "'Gruppo', cursive" }}>
                   {item.question}
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography variant="body1" sx={{ color: "white" }}>
+                <Typography variant="body1" sx={{ color: "white", fontFamily: "'Gruppo', cursive" }}>
                   {item.answer}
                 </Typography>
               </AccordionDetails>
@@ -92,7 +92,8 @@ export default function Faqs() {
           pb: 2,
           textAlign: "center",
           color: "#F2AA4CFF",
-          marginTop: "50px"
+          marginTop: "50px",
+          fontFamily: "'Gruppo', cursive"
         }}>
         For further queries, feel free to reach out to us via Email, WhatsApp or
         Phone <br />
