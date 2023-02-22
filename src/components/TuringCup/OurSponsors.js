@@ -1,31 +1,19 @@
-import React,{useState} from 'react'
+import React, { useState } from "react";
 import { Button, Box } from "@mui/material";
-import Modal from '@mui/material/Modal';
-import Typography from '@mui/material/Typography';
+import Modal from "@mui/material/Modal";
+import TouchAppTwoToneIcon from "@mui/icons-material/TouchAppTwoTone";
+import Typography from "@mui/material/Typography";
 import { GatsbyImage } from "gatsby-plugin-image";
-import './Sponsors.css'
-
-const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: 400,
-    bgcolor: '#101820FF',
-    color: 'white',
-    border: '2px solid #000',
-    boxShadow: 24,
-    p: 4,
-};
+import "./SponsorsCard.css";
 
 function OurSponsors({ name, img, desc, link }) {
-    // const [isFlipped, setIsFlipped] = useState(true);
-    const [open, setOpen] = React.useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
-    return (
-        <div>
-            <Button
+  // const [isFlipped, setIsFlipped] = useState(true);
+  // const [open, setOpen] = React.useState(false);
+  // const handleOpen = () => setOpen(true);
+  // const handleClose = () => setOpen(false);
+  return (
+    <div>
+      {/* <Button
                 sx={{ 
                     background: '#101820FF',
                     '&:hover': {
@@ -78,9 +66,37 @@ function OurSponsors({ name, img, desc, link }) {
                         Know more!
                     </Button>
                 </Box>
-            </Modal>
+            </Modal> */}
+      <div className="SponsorBox">
+        <div className="SponsorFlipBox">
+          <div className="SponsorFront">
+            <div className="SponsorDiv">
+              <p><TouchAppTwoToneIcon/></p>
+            </div>
+            <GatsbyImage
+              className="Sponsorimg"
+              alt={name}
+              image={img}
+              style={{
+                maxWidth: "100%",
+                maxHeight: "100%",
+                borderRadius: "30px"
+                // border: "2px solid #F2AA4CFF",
+                // padding: "5px"
+              }}
+            />
+          </div>
+          <div className="SponsorBack">
+            <div>
+              <h3>This Is Title Article</h3>
+              <p>{desc}</p>
+              <a href={link}>Learn More</a>
+            </div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default OurSponsors
+export default OurSponsors;
