@@ -71,7 +71,9 @@ function OurSponsors({ name, img, desc, link }) {
         <div className="SponsorFlipBox">
           <div className="SponsorFront">
             <div className="SponsorDiv">
-              <p><TouchAppTwoToneIcon/></p>
+              <p>
+                <TouchAppTwoToneIcon />
+              </p>
             </div>
             <GatsbyImage
               className="Sponsorimg"
@@ -88,7 +90,7 @@ function OurSponsors({ name, img, desc, link }) {
           </div>
           <div className="SponsorBack">
             <div>
-              <h3>This Is Title Article</h3>
+              <h3>{name}</h3>
               <p>{desc}</p>
               <a href={link}>Learn More</a>
             </div>
