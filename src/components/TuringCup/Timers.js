@@ -93,7 +93,7 @@ function Timers() {
             width: '75%',
         },
         }}>
-        <h2 style={{color: '#F2AA4CFF' }}>
+        <h2 style={{color: '#F2AA4CFF', fontFamily: "'Gruppo', cursive"}}>
             ROUND-1
         </h2>
 
