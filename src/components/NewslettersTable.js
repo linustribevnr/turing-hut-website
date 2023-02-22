@@ -27,7 +27,7 @@ export default function NewslettersTable() {
   const [orderBy, setOrderBy] = useState("Date");
   const header = ["Name", "Date", "Type", "Status"];
   const data = useStaticQuery(graphql`
-    query Newsletters {
+    query newsletters {
       allMarkdownRemark {
         nodes {
           id
@@ -188,7 +188,7 @@ export default function NewslettersTable() {
                       </Typography>
                     </TableCell>
                     <TableCell align="right">
-                      <Link to={`/newsletters/${newsletter}`}>See more</Link>
+                      <Link to={`/newsletters/${newsletter.slug}`}>See more</Link>
                     </TableCell>
                   </TableRow>
                 )
