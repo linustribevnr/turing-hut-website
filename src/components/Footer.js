@@ -36,7 +36,7 @@ export default function Footer() {
   const[bgcol,setbgcol] = useState('white');
   useEffect(()=>
 {
- if(window.location.pathname == '/turingcup')
+ if(window.location.pathname.includes('/turingcup'))
   setbgcol('#101820FF');
 else
   setbgcol('white')
