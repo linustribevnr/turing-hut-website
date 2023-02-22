@@ -7,7 +7,7 @@ import { styled } from "@mui/material/styles";
 import { graphql, useStaticQuery } from "gatsby";
 // /turingcupSponsors
 import sponsordata from "../../assets/sponsors23.json";
-import SponsorCard from "../../components/TuringCup/SponsorCard";
+import SponsorCard from "../../components/TuringCup/OurSponsors";
 
 // import Logo from "../components/TuringCupPrizePool"
 

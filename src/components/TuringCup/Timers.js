@@ -131,6 +131,10 @@ function Timers() {
 
         <Stack sx={{ py: 5, justifyContent: 'center' }} direction={{ xs: 'column', md: 'row' }} spacing={2} >
             <Button sx={{ 
+                fontFamily: [
+                    '"Gruppo"',
+                    'cursive'
+                ].join(','),
                 backgroundColor: '#101820FF', 
                 color: '#F2AA4CFF',
                 border : '1px solid #F2AA4CFF',
@@ -146,6 +150,10 @@ function Timers() {
             </Button>
 
             <Button sx={{ 
+                fontFamily: [
+                    '"Gruppo"',
+                    'cursive'
+                ].join(','),
                 backgroundColor: '#101820FF', 
                 color: '#F2AA4CFF',
                 border : '1px solid #F2AA4CFF',
