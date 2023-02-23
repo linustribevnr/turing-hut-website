@@ -22,7 +22,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import GroupsIcon from "@mui/icons-material/Groups";
 import InfoIcon from "@mui/icons-material/Info";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { useLocation } from "@reach/router";
 
 const navItems = [
@@ -82,7 +82,7 @@ export default function Navbar() {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{color : 'black'}}>
+    <Box onClick={handleDrawerToggle} sx={{ color: "black" }}>
       <Typography variant="h6" sx={{ mx: 2, my: 1 }}>
         Turing Hut
       </Typography>
@@ -94,7 +94,7 @@ export default function Navbar() {
               key={item.text}
               to={item.path}
               style={{ textDecoration: "none" }}
-            >
+              >
               <ListItem key={item} disablePadding>
                 <ListItemButton
                   sx={{
@@ -104,8 +104,7 @@ export default function Navbar() {
                       location.pathname === item.path.concat("/")
                         ? "#e0e0e0"
                         : "#fff"
-                  }}
-                >
+                  }}>
                   <ListItemIcon>{item.icon}</ListItemIcon>
                   <ListItemText primary={item.text} />
                 </ListItemButton>
@@ -119,26 +118,23 @@ export default function Navbar() {
 
   return (
     <div>
-      {
-        location.pathname.includes('/turingcup')?
+      {location.pathname.includes("/turingcup") ? (
         <Box>
-          <AppBar component="nav" sx={{ bgcolor:"#101820FF" }}>
+          <AppBar component="nav" sx={{ bgcolor: "#101820FF" }}>
             <Toolbar>
               <IconButton
                 color="secondary"
                 aria-label="open drawer"
                 edge="start"
                 onClick={handleDrawerToggle}
-                sx={{ mr: 2, display: { md: "none" } }}
-              >
+                sx={{ mr: 2, display: { md: "none" } }}>
                 <MenuIcon />
               </IconButton>
               <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
               <Typography
                 variant="h6"
                 component="div"
-                sx={{ flexGrow: 1, color: "#e0e0e0" }}
-              >
+                sx={{ flexGrow: 1, color: "#e0e0e0" }}>
                 Turing Cup
               </Typography>
               <Box sx={{ display: { xs: "none", md: "block" } }}>
@@ -146,14 +142,14 @@ export default function Navbar() {
                   <Link
                     key={item.text}
                     to={item.path}
-                    style={{ textDecoration: "none" }}
-                  >
+                    style={{ textDecoration: "none" }}>
                     <Button
                       sx={{
-                        color: 
-                          location.pathname === item.path || location.pathname === item.path.concat("/")
-                          ? "#F2AA4DFF"
-                          : "white",
+                        color:
+                          location.pathname === item.path ||
+                          location.pathname === item.path.concat("/")
+                            ? "#F2AA4DFF"
+                            : "white",
                         ":hover": {
                           color: "#F2AA4CFF"
                         },
@@ -162,8 +158,7 @@ export default function Navbar() {
                         textDecoration: "none",
                         px: 3,
                         mx: 0.5
-                      }}
-                    >
+                      }}>
                       {item.text}
                     </Button>
                   </Link>
@@ -180,31 +175,31 @@ export default function Navbar() {
             }}
             sx={{
               display: { xs: "block", md: "none" },
-              "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth }
-            }}
-          >
+              "& .MuiDrawer-paper": {
+                boxSizing: "border-box",
+                width: drawerWidth
+              }
+            }}>
             {drawer}
           </Drawer>
         </Box>
-        :
+      ) : (
         <Box>
-          <AppBar component="nav" sx={{ bgcolor:"white" }}>
+          <AppBar component="nav" sx={{ bgcolor: "white" }}>
             <Toolbar>
               <IconButton
                 color="secondary"
                 aria-label="open drawer"
                 edge="start"
                 onClick={handleDrawerToggle}
-                sx={{ mr: 2, display: { md: "none" } }}
-              >
+                sx={{ mr: 2, display: { md: "none" } }}>
                 <MenuIcon />
               </IconButton>
               <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
               <Typography
                 variant="h6"
                 component="div"
-                sx={{ flexGrow: 1, color: "black" }}
-              >
+                sx={{ flexGrow: 1, color: "black" }}>
                 Turing Hut
               </Typography>
               <Box sx={{ display: { xs: "none", md: "block" } }}>
@@ -212,8 +207,7 @@ export default function Navbar() {
                   <Link
                     key={item.text}
                     to={item.path}
-                    style={{ textDecoration: "none" }}
-                  >
+                    style={{ textDecoration: "none" }}>
                     <Button
                       sx={{
                         color: "#000",
@@ -233,8 +227,7 @@ export default function Navbar() {
                         textDecoration: "none",
                         px: 3,
                         mx: 0.5
-                      }}
-                    >
+                      }}>
                       {item.text}
                     </Button>
                   </Link>
@@ -251,13 +244,15 @@ export default function Navbar() {
             }}
             sx={{
               display: { xs: "block", md: "none" },
-              "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth }
-            }}
-          >
+              "& .MuiDrawer-paper": {
+                boxSizing: "border-box",
+                width: drawerWidth
+              }
+            }}>
             {drawer}
           </Drawer>
         </Box>
-      }
+      )}
     </div>
   );
 }

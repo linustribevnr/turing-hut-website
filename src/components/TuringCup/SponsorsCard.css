@@ -1,0 +1,116 @@
+.SponsorBox{
+	position:relative;
+	width:250px;
+	min-height:200px;
+	transform-style:preserve-3d;
+	perspective:800px;
+	transition:1s;
+	margin:10px;
+}
+.SponsorBox .SponsorFlipBox{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+	transition:1s;
+	transform-style:preserve-3d;
+	box-shadow:0px 0px 10px 2px rgba(0,0,0,.3);
+    border-radius: 33px;
+    border: 2px solid #F2AA4CFF;
+    padding:5px;
+}
+.SponsorBox .SponsorFront,
+.SponsorBox .SponsorBack{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	cursor:pointer;
+	transition:.5s;
+	backface-visibility:hidden;
+}
+
+.SponsorBox .SponsorBack{
+	background-color:#101820FF;
+	color:#fff;
+    border-radius: 30px;
+    /* border: 2px solid #F2AA4CFF; */
+	display:table;
+	transform:rotateY(180deg);
+}
+.SponsorBox .SponsorBack div{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	/* padding:20px; */
+}
+.SponsorBox .SponsorBack div h3{
+	font-size:15px;
+    color: #F2AA4CFF;
+}
+.SponsorBox .SponsorBack div p{
+	font-size:13px;
+	margin-top:3px;
+}
+.SponsorBox .SponsorBack div a{
+	color:#F2AA4CFF;
+	text-decoration:none;
+	display:flex;
+	justify-content: center;
+    align-items: center;
+    margin: auto;
+	width:120px;
+	height:40px;
+	background-color:#F2AA4CFF;
+	color:#101820FF;
+	line-height:45px;
+	box-shadow:0px 0px 10px rgba(0,0,0,.5);
+	transition:.5s;
+	font-weight:bold;
+}
+.SponsorBox .SponsorBack div a:hover{
+	background-color:#101820FF;
+	color:#F2AA4CFF;
+    border: 1px solid white;
+}
+.SponsorBox:hover .SponsorFlipBox{
+	transform:rotateY(180deg);
+}
+.SponsorBox:hover{
+	transform:translateY(-30px);
+	z-index:2;
+}
+.SponsorDiv{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    margin: auto;
+    display: none;
+    justify-content: end;
+}
+.SponsorDiv p{
+    color:#F2AA4CFF;
+	width: 50px;
+}
+@media (max-width:780px){
+	.SponsorBox:not(:last-child):hover{
+		transform:translateY(0px);
+		z-index:2;
+	}
+    .SponsorDiv{
+        display:flex;
+    }
+}
+@media (max-width:520px){
+	.SponsorBox:hover{
+		transform:translateY(0px);
+		z-index:2;
+	}
+}
+@media (max-width:255px){
+	.SponsorBox{
+		width:100%;
+	}
+}

@@ -3,10 +3,10 @@ import React from "react";
 export default function About() {
     return (
         <div>
-        <h1 style={{
+        <h2 style={{
             display:"flex",
             justifyContent:"center",    
-        }}>ABOUT</h1>
+        }}>ABOUT</h2>
         <p style={{
             fontSize : "1.5rem",
             width : "70%",

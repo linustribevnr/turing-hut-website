@@ -25,7 +25,7 @@ export default function Layout({ children }) {
   const [defp, setdefp] = useState(3);
   // const[defw,setdefw] = useState(1);
   useEffect(() => {
-    if (window.location.pathname == "/turingcup") {
+    if (window.location.pathname.includes("/turingcup")) {
       setbgcol("#101820FF");
       setdefp(0);
       // setdefw(0);
@@ -43,7 +43,9 @@ export default function Layout({ children }) {
         sx={{
           display: "flex",
           bgcolor: `${bgcol}`,
-          margin: window.location.pathname == "/turingcup" ? "0px" : "8px"
+          margin: window.location.pathname.includes("/turingcup")
+            ? "0px"
+            : "8px"
         }}>
         <Navbar />
         <Box component="main" sx={{ width: 1, margin: 0 }}>
