@@ -125,29 +125,29 @@ function PastContests() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography sx={{border:'1px solid #F2AA4CFF', borderRadius: '2px', padding: '8.6px'}}>{item.year}</Typography>
+                <Typography sx={{border:'1px solid #F2AA4CFF', borderRadius: '2px', padding: '8.6px', fontFamily: "'Gruppo', cursive"}}>{item.year}</Typography>
               </AccordionSummary>
               <AccordionDetails style={styles.details}>
-                <Typography>
+                <Typography sx={{fontFamily: "'Gruppo', cursive", color:"white"}}>
                   {item.info}
                 </Typography>
                 <LooksOneOutlinedIcon sx={{color: 'white', marginTop: '10px'}} fontSize='large' />
-                {item.winners.first.mem1.length>0 &&<Typography>{item.winners.first.mem1}</Typography>}
-                {item.winners.first.mem2.length>0 &&<Typography>{item.winners.first.mem2}</Typography>}
-                {item.winners.first.mem3.length>0 &&<Typography>{item.winners.first.mem3}</Typography>}
-                <Typography><i>{item.winners.first.college}</i></Typography>
+                {item.winners.first.mem1.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.first.mem1}</Typography>}
+                {item.winners.first.mem2.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.first.mem2}</Typography>}
+                {item.winners.first.mem3.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.first.mem3}</Typography>}
+                <Typography sx={{fontFamily: "'Gruppo', cursive", color:"white"}}><i>{item.winners.first.college}</i></Typography>
 
                 <LooksTwoOutlinedIcon sx={{color: 'white', marginTop: '10px'}} fontSize='large' />
-                {item.winners.second.mem1.length>0 &&<Typography>{item.winners.second.mem1}</Typography>}
-                {item.winners.second.mem2.length>0 &&<Typography>{item.winners.second.mem2}</Typography>}
-                {item.winners.second.mem3.length>0 &&<Typography>{item.winners.second.mem3}</Typography>}
-                <Typography><i>{item.winners.second.college}</i></Typography>
+                {item.winners.second.mem1.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.second.mem1}</Typography>}
+                {item.winners.second.mem2.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.second.mem2}</Typography>}
+                {item.winners.second.mem3.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.second.mem3}</Typography>}
+                <Typography sx={{fontFamily: "'Gruppo', cursive", color:"white"}}><i>{item.winners.second.college}</i></Typography>
 
                 <Looks3OutlinedIcon sx={{color: 'white', marginTop: '10px'}} fontSize='large' />
-                {item.winners.third.mem1.length>0 &&<Typography>{item.winners.third.mem1}</Typography>}
-                {item.winners.third.mem2.length>0 &&<Typography>{item.winners.third.mem2}</Typography>}
-                {item.winners.third.mem3.length>0 &&<Typography>{item.winners.third.mem3}</Typography>}
-                <Typography><i>{item.winners.third.college}</i></Typography>
+                {item.winners.third.mem1.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.third.mem1}</Typography>}
+                {item.winners.third.mem2.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.third.mem2}</Typography>}
+                {item.winners.third.mem3.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.third.mem3}</Typography>}
+                <Typography sx={{fontFamily: "'Gruppo', cursive", color:"white"}}><i>{item.winners.third.college}</i></Typography>
                 
               </AccordionDetails>
             </Accordion>
