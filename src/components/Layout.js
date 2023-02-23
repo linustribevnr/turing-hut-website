@@ -23,15 +23,18 @@ const theme = createTheme({
 export default function Layout({ children }) {
   const [bgcol, setbgcol] = useState("white");
   const [defp, setdefp] = useState(3);
+  const [is_turingcup_page, setTuringCupPage] = useState(false);
   // const[defw,setdefw] = useState(1);
   useEffect(() => {
     if (window.location.pathname.includes("/turingcup")) {
       setbgcol("#101820FF");
       setdefp(0);
+      setTuringCupPage(true);
       // setdefw(0);
     } else {
       setbgcol("white");
       setdefp(3);
+      setTuringCupPage(false);
       // setdefw(1);
     }
     // console.log(bgcol);
@@ -43,9 +46,7 @@ export default function Layout({ children }) {
         sx={{
           display: "flex",
           bgcolor: `${bgcol}`,
-          margin: window.location.pathname.includes("/turingcup")
-            ? "0px"
-            : "8px"
+          margin: is_turingcup_page ? "0px" : "8px"
         }}>
         <Navbar />
         <Box component="main" sx={{ width: 1, margin: 0 }}>
