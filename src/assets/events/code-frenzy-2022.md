@@ -7,7 +7,6 @@ slug: code-frenzy-22
 image: ../images/events/code_frenzy.jpeg
 registration: https://forms.gle/3fBQERLNcPYVgQE2A
 recording: NA
-contestlink: https://www.hackerrank.com/code-frenzy-2022
 markdownType: event
 ---
 
@@ -33,3 +32,6 @@ Leaderboard:
 3. L Rahul - 21071A3241 - CSBS
 4. D Nisritha - 21071A05M8 - CSE4
 5. B Rithika Reddy - 21071A0571 - CSE2
+
+Here is the link to the contest and editorial:</br>
+contest-link: https://www.hackerrank.com/code-frenzy-2022

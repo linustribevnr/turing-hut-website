@@ -1,7 +1,10 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { Typography, Grid, Box } from "@mui/material";
-
+import {Seo} from "../components/Seo"
+export const Head = () => (
+  <Seo routename={"Contact"}/>
+)
 export default function contactPage() {
   return (
     <Layout>

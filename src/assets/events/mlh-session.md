@@ -7,7 +7,6 @@ slug: mlh-info-session
 image: ../images/events/mlh_session.jpeg
 registration: NA
 recording: https://www.youtube.com/watch?v=RaQ5UiU7H8U
-contestlink: NA
 markdownType: event
 
 ---

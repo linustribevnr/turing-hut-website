@@ -7,7 +7,6 @@ slug: intro-coding-platforms
 image: ../images/events/intro_coding_platforms.jpg
 registration: NA
 recording: https://www.youtube.com/watch?v=SlCmsOQVz3s
-contestlink: NA
 markdownType: event
 
 ---

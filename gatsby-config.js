@@ -2,7 +2,18 @@ const { HubTwoTone } = require("@mui/icons-material");
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Turing Hut`,
+    description: `The Programming Club of VNR VJIET`,
+    siteUrl: `https://turinghut.org/`,
+    keywords: `vnrvjiet,
+    Turing hut,
+    Turinghut,
+    VNR,
+    Coding club,
+    Programming club,
+    club,
+    VNR cse,
+    VNRVJIET`,
   },
   plugins: [
     `gatsby-plugin-image`,

@@ -1,5 +1,5 @@
-import React from "react";
-import { Box, Toolbar } from "@mui/material";
+import React,{useState,useEffect} from "react";
+import { Box, Toolbar,Grid } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -21,16 +21,38 @@ const theme = createTheme({
 });
 
 export default function Layout({ children }) {
+
+  const[bgcol,setbgcol] = useState('white');
+  const[defp,setdefp] = useState(3);
+  // const[defw,setdefw] = useState(1);
+  useEffect(()=>
+{
+ if(window.location.pathname == '/turingcup')
+ {
+  setbgcol('#101820FF');
+  setdefp(0);
+  // setdefw(0);
+ }
+else
+{
+  setbgcol('white');
+  setdefp(3);
+  // setdefw(1);
+}
+  // console.log(bgcol);
+});
+
+
   return (
-    <ThemeProvider theme={theme}>
-      <Box sx={{ display: "flex" }}>
+    <ThemeProvider theme={theme} >
+      <Grid sx={{ display: "flex" ,bgcolor:`${bgcol}`}}>
         <Navbar />
-        <Box component="main" sx={{ p: 3, width: 1 }}>
+    <Box component="main" sx={{ width: 1,margin:0, }}>
           <Toolbar />
           {children}
           <Footer />
         </Box>
-      </Box>
+      </Grid>
     </ThemeProvider>
   );
 }

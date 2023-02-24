@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+.timeline{
+  font-size: 25px !important;
+  padding: 10px !important;
+}
+
+*
+{
+background-color: '#101820FF';
+font-family: 'Gruppo', cursive;
+
+}
+.p
+{
+  font-size: '4px';
+}
+/* 
+  .infoo
+  {
+    z-index: 2;
+    position: relative;
+  }
+
+  .geometric-container
+  {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+ 
+    
+  .geometric-form {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    animation: geometric-form-animation 10s linear infinite;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 
+      94% 78%, 68% 100%, 32% 100%, 
+      6% 78%, 0% 43%, 17% 12%);
+    box-shadow: 2px 2px 31px 5px rgba(0,0,0,0.71);
+  }
+
+  .child-1
+  {
+    height: 70px;
+    width: 70px;
+    left: 10%;
+    animation-delay: 3s;
+  }
+  .child-2
+  {
+    height: 30px;
+    width: 30px;
+    left: 90%;
+    animation-delay: 2s;
+  }
+  .child-3
+  {
+    height: 40px;
+    width: 40px;
+    left: 20%;
+    animation-delay: 5s;
+  }
+  .child-4
+  {
+    height: 10px;
+    width: 10px;
+    right: 5%;
+    animation-delay: 7s;
+  }
+  .child-5
+  {
+    height: 30px;
+    width: 30px;
+    left: 40%;
+    animation-delay: 1s;
+  }
+  .child-6
+  {
+    height: 50px;
+    width: 50px;
+    left: 50%;
+    animation-delay: 10s;
+  }
+  .child-7
+  {
+    height: 35px;
+    width: 35px;
+    left: 25%;
+    animation-delay: 2s;
+  }
+  .child-8
+  {
+    height: 100px;
+    width: 100px;
+    left: 45%;
+    animation-delay: 5s;
+  }
+  .child-9
+  {
+    height: 29px;
+    width: 29px;
+    left: 65%;
+    animation-delay: 2s;
+  }
+  .child-10
+  {
+    height: 33px;
+    width: 33px;
+    left: 53%;
+    animation-delay: 2s;
+  }
+  .child-11
+  {
+    height: 30px;
+    width: 30px;
+    left: 60%;
+    animation-delay: 6s;
+  }
+  @keyframes geometric-form-animation {
+    0% {
+      transform: rotate(0deg);
+      opacity: 1;
+      bottom: 0%;
+    }
+    50% {
+        transform: rotate(180deg);
+        opacity: 1;
+        bottom: 50%;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+        bottom: 100%;
+    }
+  } */

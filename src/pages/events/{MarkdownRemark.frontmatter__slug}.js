@@ -2,7 +2,7 @@ import * as React from "react";
 import { graphql } from "gatsby";
 import Layout from "../../components/Layout";
 import EventPage from "../../components/EventPage";
-
+import {Seo} from "../../components/Seo"
 const BlogPost = ({ data }) => {
   return (
     <Layout>
@@ -10,6 +10,7 @@ const BlogPost = ({ data }) => {
         html={data.markdownRemark.html}
         event_details={data.markdownRemark.frontmatter}
       />
+      <Seo routename = {data.markdownRemark.frontmatter.title}/>
     </Layout>
   );
 };
@@ -36,7 +37,6 @@ export const query = graphql`
         }
         registration
         recording
-        contestlink
       }
     }
   }

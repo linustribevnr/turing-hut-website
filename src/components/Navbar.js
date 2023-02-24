@@ -22,6 +22,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import GroupsIcon from "@mui/icons-material/Groups";
 import InfoIcon from "@mui/icons-material/Info";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import { useLocation } from "@reach/router";
 
 const navItems = [
@@ -49,6 +50,11 @@ const navItems = [
     text: "Contact",
     icon: <LocalPhoneIcon />,
     path: "/contact"
+  },
+  {
+    text: "Turing Cup",
+    icon: <EmojiEventsIcon />,
+    path: "/turingcup"
   },
   {
     text: "Newsletters",
@@ -81,7 +87,7 @@ export default function Navbar() {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle}>
+    <Box onClick={handleDrawerToggle} sx={{color : 'black'}}>
       <Typography variant="h6" sx={{ mx: 2, my: 1 }}>
         Turing Hut
       </Typography>
@@ -117,75 +123,146 @@ export default function Navbar() {
   );
 
   return (
-    <Box>
-      <AppBar component="nav" sx={{ bgcolor: "#fff" }}>
-        <Toolbar>
-          <IconButton
-            color="secondary"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { md: "none" } }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{ flexGrow: 1, color: "black" }}
-          >
-            Turing Hut
-          </Typography>
-          <Box sx={{ display: { xs: "none", md: "block" } }}>
-            {navItems.map(item => (
-              <Link
-                key={item.text}
-                to={item.path}
-                style={{ textDecoration: "none" }}
+    <div>
+      {
+        location.pathname.includes('/turingcup')?
+        <Box>
+          <AppBar component="nav" sx={{ bgcolor:"#101820FF" }}>
+            <Toolbar>
+              <IconButton
+                color="secondary"
+                aria-label="open drawer"
+                edge="start"
+                onClick={handleDrawerToggle}
+                sx={{ mr: 2, display: { md: "none" } }}
               >
-                <Button
-                  sx={{
-                    color: "#000",
-                    ":hover": {
-                      bgcolor:
-                        location.pathname === item.path ||
-                        location.pathname === item.path.concat("/")
-                          ? "#e0e0e0"
-                          : "#f5f5f5"
-                    },
-                    bgcolor:
-                      location.pathname === item.path ||
-                      location.pathname === item.path.concat("/")
-                        ? "#e0e0e0"
-                        : "#fff",
-                    textTransform: "none",
-                    textDecoration: "none",
-                    px: 3,
-                    mx: 0.5
-                  }}
-                >
-                  {item.text}
-                </Button>
-              </Link>
-            ))}
-          </Box>
-        </Toolbar>
-      </AppBar>
-      <Drawer
-        variant="temporary"
-        open={mobileOpen}
-        onClose={handleDrawerToggle}
-        ModalProps={{
-          keepMounted: true
-        }}
-        sx={{
-          display: { xs: "block", md: "none" },
-          "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth }
-        }}
-      >
-        {drawer}
-      </Drawer>
-    </Box>
+                <MenuIcon />
+              </IconButton>
+              <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
+              <Typography
+                variant="h6"
+                component="div"
+                sx={{ flexGrow: 1, color: "#e0e0e0" }}
+              >
+                Turing Cup
+              </Typography>
+              <Box sx={{ display: { xs: "none", md: "block" } }}>
+                {navItems.map(item => (
+                  <Link
+                    key={item.text}
+                    to={item.path}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <Button
+                      sx={{
+                        color: 
+                          location.pathname === item.path || location.pathname === item.path.concat("/")
+                          ? "#F2AA4DFF"
+                          : "white",
+                        ":hover": {
+                          color: "#F2AA4CFF"
+                        },
+                        bgcolor: "#101820FF",
+                        textTransform: "none",
+                        textDecoration: "none",
+                        px: 3,
+                        mx: 0.5
+                      }}
+                    >
+                      {item.text}
+                    </Button>
+                  </Link>
+                ))}
+              </Box>
+            </Toolbar>
+          </AppBar>
+          <Drawer
+            variant="temporary"
+            open={mobileOpen}
+            onClose={handleDrawerToggle}
+            ModalProps={{
+              keepMounted: true
+            }}
+            sx={{
+              display: { xs: "block", md: "none" },
+              "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth }
+            }}
+          >
+            {drawer}
+          </Drawer>
+        </Box>
+        :
+        <Box>
+          <AppBar component="nav" sx={{ bgcolor:"white" }}>
+            <Toolbar>
+              <IconButton
+                color="secondary"
+                aria-label="open drawer"
+                edge="start"
+                onClick={handleDrawerToggle}
+                sx={{ mr: 2, display: { md: "none" } }}
+              >
+                <MenuIcon />
+              </IconButton>
+              <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
+              <Typography
+                variant="h6"
+                component="div"
+                sx={{ flexGrow: 1, color: "black" }}
+              >
+                Turing Hut
+              </Typography>
+              <Box sx={{ display: { xs: "none", md: "block" } }}>
+                {navItems.map(item => (
+                  <Link
+                    key={item.text}
+                    to={item.path}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <Button
+                      sx={{
+                        color: "#000",
+                        ":hover": {
+                          bgcolor:
+                            location.pathname === item.path ||
+                            location.pathname === item.path.concat("/")
+                              ? "#e0e0e0"
+                              : "#f5f5f5"
+                        },
+                        bgcolor:
+                          location.pathname === item.path ||
+                          location.pathname === item.path.concat("/")
+                            ? "#e0e0e0"
+                            : "#fff",
+                        textTransform: "none",
+                        textDecoration: "none",
+                        px: 3,
+                        mx: 0.5
+                      }}
+                    >
+                      {item.text}
+                    </Button>
+                  </Link>
+                ))}
+              </Box>
+            </Toolbar>
+          </AppBar>
+          <Drawer
+            variant="temporary"
+            open={mobileOpen}
+            onClose={handleDrawerToggle}
+            ModalProps={{
+              keepMounted: true
+            }}
+            sx={{
+              display: { xs: "block", md: "none" },
+              "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth }
+            }}
+          >
+            {drawer}
+          </Drawer>
+        </Box>
+      }
+    </div>
   );
 }
