@@ -13,6 +13,7 @@ import SponsorCard from "../../components/TuringCup/OurSponsors";
 
 const Item = styled(Paper)(({ theme }) => ({
   textAlign: "center",
+  backgroundColor: "#101820FF"
 }));
 
 export default function TuringCupSponsors() {

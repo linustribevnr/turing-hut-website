@@ -39,7 +39,9 @@ const styles = {
 const contestdetails = [
     {
       "year":"2022",
-      "info": "Turing Cup 2k22 is the national level annual coding competition of VNRVJIET, conducted by Turing Hut (Official programming club of VNRVJIET). Students from all colleges across the nation can participate by forming a team of up to 2 members. The contest has 3 rounds. 753 teams from 50+ different colleges across the nation have registered for the contest. 690 teams have participated in the contest, out of which 80 teams have been invited to the Onsite round, and all the teams have attended the Onsite round, from which top 20 teams qualified for the Final Round.",
+
+      "info": "Students from all colleges across the nation can participate by forming a team of up to 2 members. The contest has 3 rounds. 753 teams from 50+ different colleges across the nation have registered for the contest. 690 teams have participated in the contest, out of which 80 teams have been invited to the Onsite round, and all the teams have attended the Onsite round, from which top 20 teams qualified for the Final Round.",
+      
       "winners" : {
         "first" : {
           "mem1" :  "Sushmanth Reddy",
@@ -81,7 +83,7 @@ const contestdetails = [
     // },
     {   
       "year" : "2019",
-        "info": "Turing Cup 2k19 is the national level annual coding competition of VNRVJIET, conducted by Turing Hut (Official programming club of VNRVJIET). Students from all colleges across the nation can participate by forming a team of up to 3 members. The contest has 2 rounds. 285 teams from both Telangana and Andhra Pradesh states have registered for the contest. 240 teams have participated in the contest, out of which 50 teams have been invited to the Onsite round, 36 teams have attended the Onsite round.",
+        "info": "Students from all colleges across the nation can participate by forming a team of up to 3 members. The contest has 2 rounds. 285 teams from both Telangana and Andhra Pradesh states have registered for the contest. 240 teams have participated in the contest, out of which 50 teams have been invited to the Onsite round, 36 teams have attended the Onsite round.",
         "winners" : {
           "first" : {
                 "mem1": "Kug3lBlitzz",
@@ -123,29 +125,29 @@ function PastContests() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography sx={{border:'1px solid #F2AA4CFF', borderRadius: '2px', padding: '8.6px'}}>{item.year}</Typography>
+                <Typography sx={{border:'1px solid #F2AA4CFF', borderRadius: '2px', padding: '8.6px', fontFamily: "'Gruppo', cursive"}}>{item.year}</Typography>
               </AccordionSummary>
               <AccordionDetails style={styles.details}>
-                <Typography>
+                <Typography sx={{fontFamily: "'Gruppo', cursive", color:"white"}}>
                   {item.info}
                 </Typography>
                 <LooksOneOutlinedIcon sx={{color: 'white', marginTop: '10px'}} fontSize='large' />
-                {item.winners.first.mem1.length>0 &&<Typography>{item.winners.first.mem1}</Typography>}
-                {item.winners.first.mem2.length>0 &&<Typography>{item.winners.first.mem2}</Typography>}
-                {item.winners.first.mem3.length>0 &&<Typography>{item.winners.first.mem3}</Typography>}
-                <Typography><i>{item.winners.first.college}</i></Typography>
+                {item.winners.first.mem1.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.first.mem1}</Typography>}
+                {item.winners.first.mem2.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.first.mem2}</Typography>}
+                {item.winners.first.mem3.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.first.mem3}</Typography>}
+                <Typography sx={{fontFamily: "'Gruppo', cursive", color:"white"}}><i>{item.winners.first.college}</i></Typography>
 
                 <LooksTwoOutlinedIcon sx={{color: 'white', marginTop: '10px'}} fontSize='large' />
-                {item.winners.second.mem1.length>0 &&<Typography>{item.winners.second.mem1}</Typography>}
-                {item.winners.second.mem2.length>0 &&<Typography>{item.winners.second.mem2}</Typography>}
-                {item.winners.second.mem3.length>0 &&<Typography>{item.winners.second.mem3}</Typography>}
-                <Typography><i>{item.winners.second.college}</i></Typography>
+                {item.winners.second.mem1.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.second.mem1}</Typography>}
+                {item.winners.second.mem2.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.second.mem2}</Typography>}
+                {item.winners.second.mem3.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.second.mem3}</Typography>}
+                <Typography sx={{fontFamily: "'Gruppo', cursive", color:"white"}}><i>{item.winners.second.college}</i></Typography>
 
                 <Looks3OutlinedIcon sx={{color: 'white', marginTop: '10px'}} fontSize='large' />
-                {item.winners.third.mem1.length>0 &&<Typography>{item.winners.third.mem1}</Typography>}
-                {item.winners.third.mem2.length>0 &&<Typography>{item.winners.third.mem2}</Typography>}
-                {item.winners.third.mem3.length>0 &&<Typography>{item.winners.third.mem3}</Typography>}
-                <Typography><i>{item.winners.third.college}</i></Typography>
+                {item.winners.third.mem1.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.third.mem1}</Typography>}
+                {item.winners.third.mem2.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.third.mem2}</Typography>}
+                {item.winners.third.mem3.length>0 &&<Typography sx={{fontFamily: "'Gruppo', cursive"}}>{item.winners.third.mem3}</Typography>}
+                <Typography sx={{fontFamily: "'Gruppo', cursive", color:"white"}}><i>{item.winners.third.college}</i></Typography>
                 
               </AccordionDetails>
             </Accordion>

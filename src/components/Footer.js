@@ -5,8 +5,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
-
-
 const socialMediaItems = [
   {
     name: "GitHub",
@@ -30,35 +28,35 @@ const socialMediaItems = [
   }
 ];
 
-
-
 export default function Footer() {
-  const[bgcol,setbgcol] = useState('white');
-  useEffect(()=>
-{
- if(window.location.pathname == '/turingcup')
-  setbgcol('#101820FF');
-else
-  setbgcol('white')
+  const [bgcol, setbgcol] = useState("white");
+  useEffect(() => {
+    console.log(window.location.pathname);
 
-  console.log(bgcol);
-});
+    if (
+      window.location.pathname.includes("/turingcup") ||
+      window.location.pathname.includes("/turingcup/")
+    ){
+
+      setbgcol("#101820FF");
+    }
+    else setbgcol("white");
+    console.log(bgcol);
+  });
 
   return (
-    <Box sx={{ my: 2 ,bgcolor : `${bgcol}` }}>
+    <Box sx={{ my: 2, bgcolor: `${bgcol}` }}>
       <Divider />
-      <Grid container spacing={0} >
+      <Grid container spacing={0}>
         <Grid
           item
           xs={12}
           md={9}
-          sx={{ my: 2, textAlign: { xs: "center", md: "left" } }}
-        >
+          sx={{ my: 2, textAlign: { xs: "center", md: "left" } }}>
           <Typography
             variant="body2"
             component="div"
-            sx={{ flexGrow: 1, color: "#757575" }}
-          >
+            sx={{ flexGrow: 1, color: "#757575" }}>
             “The most damaging phrase in the language is.. it's always been done
             this way” - Grace Hopper
           </Typography>
@@ -75,8 +73,7 @@ else
                   textDecoration: "none",
                   color: "#757575",
                   padding: "10px"
-                }}
-              >
+                }}>
                 <Tooltip title={item.name} placement="top">
                   {item.icon}
                 </Tooltip>
