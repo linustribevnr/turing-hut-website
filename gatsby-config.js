@@ -13,7 +13,10 @@ module.exports = {
     Programming club,
     club,
     VNR cse,
-    VNRVJIET`,
+    VNRVJIET`
+  },
+  flags: {
+    DEV_SSR: true
   },
   plugins: [
     `gatsby-plugin-image`,

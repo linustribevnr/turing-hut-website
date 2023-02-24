@@ -8,13 +8,13 @@
 @media screen and (min-width: 801px) {
 .fullpage
 {
-    height: 85vh;
+    height: calc(100vh - 84px);
 }
 }
 @media screen and (max-width: 800px) {
     .fullpage
     {
-        height: 30vh;
+        height: auto;
     }
     }
 svg text 
