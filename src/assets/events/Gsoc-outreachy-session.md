@@ -7,6 +7,8 @@ slug: gsoc-outreachy-session
 image: ../images/events/gsoc-outreachy.jpeg
 registration: NA
 recording: NA
+markdownType: event
+
 ---
 
 **The Google Summer of Code (GSoC) and Outreachy programs** give new contributors to open source the opportunity to gain real world experience by working on a 12+ week coding project with one of about 200 open source organizations under the guidance of dedicated mentors. They also pay a competitive stipend during the internship period. If you are interested in learning about these programs join us this Saturday at 6pm. 
