@@ -1,6 +1,6 @@
 ---
 title: NewsLetter 1
-date: 2022-10-19
+date: 2022-10-11
 time: 11-05-2022, 12:00 PM to 22-05-2022, 23:59 PM
 type: Newsletter
 slug: '1'

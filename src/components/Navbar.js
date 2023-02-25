@@ -24,6 +24,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { useLocation } from "@reach/router";
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 const navItems = [
   {
@@ -58,7 +59,7 @@ const navItems = [
   },
   {
     text: "Newsletters",
-    icon: <LocalPhoneIcon />,
+    icon: <EmailOutlinedIcon />,
     path: "/newsletters"
   }
 ];
