@@ -46,12 +46,12 @@ export default function UpcomingEvents() {
 
   return (
     <Box sx={{ my: 4 }}>
-      <Box sx={{ my: 2 }}>
+      <Box sx={{ my: 2, textAlign:"center" }}>
         <Typography
           variant="h5"
           color="black"
           fontWeight={"bold"}
-          sx={{ display: "inline" }}
+          sx={{ display: "inline"}}
         >
           Upcoming&nbsp;
         </Typography>
@@ -64,13 +64,13 @@ export default function UpcomingEvents() {
           Events.
         </Typography>
       </Box>
-      <Typography variant="body1" color="initial">
+      <Typography variant="body1" color="initial" align="center">
         Future events ordered chronologically. View all past events&nbsp;
         <Link to="/events" style={{ color: "primary" }}>
           here
         </Link>
       </Typography>
-      <Grid container spacing={2} sx={{ my: 2 }}>
+      <Grid container spacing={2} sx={{ my: 2, display:"flex", justifyContent:"space-around" }}>
         {events.length > 0 ? (
           events.map(event => (
             <Grid item xs={12} md={3} key={event.id}>
@@ -102,7 +102,7 @@ export default function UpcomingEvents() {
                   </CardContent>
                   <CardActions>
                     <Link
-                      to={`/events/${event.frontmatter.slug}`}
+                      to={`${event.frontmatter.slug}`.includes("turing-cup-2023") ? "/turingcup" : `/events/${event.frontmatter.slug}`}  
                       style={{ textDecoration: "none" }}
                     >
                       <Button sx={{ textTransform: "none" }}>Learn More</Button>
