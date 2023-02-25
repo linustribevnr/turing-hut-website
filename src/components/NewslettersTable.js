@@ -19,7 +19,7 @@ import { visuallyHidden } from "@mui/utils";
 
 import { Link, graphql, useStaticQuery } from "gatsby";
 
-export default function EventsTable() {
+export default function NewslettersTable() {
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
   const [search, setSearch] = useState("");
@@ -27,7 +27,7 @@ export default function EventsTable() {
   const [orderBy, setOrderBy] = useState("Date");
   const header = ["Name", "Date", "Type", "Status"];
   const data = useStaticQuery(graphql`
-    query Events {
+    query newsletters {
       allMarkdownRemark {
         nodes {
           id
@@ -43,50 +43,50 @@ export default function EventsTable() {
     }
   `);
 
-  const events = data.allMarkdownRemark.nodes.map(event => {
-    const givendate = new Date(event.frontmatter.date);
+  const newsletters = data.allMarkdownRemark.nodes.map(newsletter => {
+    const givendate = new Date(newsletter.frontmatter.date);
     const today = new Date();
     const options = { year: "numeric", month: "short", day: "numeric" };
 
     return {
-      id: event.id,
-      name: event.frontmatter.title,
-      date: new Date(event.frontmatter.date).toLocaleDateString(
+      id: newsletter.id,
+      name: newsletter.frontmatter.title,
+      date: new Date(newsletter.frontmatter.date).toLocaleDateString(
         "en-US",
         options
       ),
-      type: event.frontmatter.type,
+      type: newsletter.frontmatter.type,
       status:
-        givendate === event.today
+        givendate === newsletter.today
           ? "Today"
           : today > givendate
-          ? "Past Event"
-          : "Upcoming Event",
-      slug: event.frontmatter.slug,
-      markdown_type: event.frontmatter.markdownType
+          ? "Past newsletter"
+          : "Upcoming newsletter",
+      slug: newsletter.frontmatter.slug,
+      markdown_type: newsletter.frontmatter.markdownType
 
     };
-  }).filter(event=>event.markdown_type==='event');
+  }).filter(newsletter=>newsletter.markdown_type==='newsletter');
 
   const emptyRows =
-    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - events.length) : 0;
+    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - newsletters.length) : 0;
 
-  const handleChangePage = (event, newPage) => {
+  const handleChangePage = (newsletter, newPage) => {
     setPage(newPage);
   };
 
-  const handleChangeRowsPerPage = event => {
-    setRowsPerPage(parseInt(event.target.value, 10));
+  const handleChangeRowsPerPage = newsletter => {
+    setRowsPerPage(parseInt(newsletter.target.value, 10));
     setPage(0);
   };
 
-  const createSortHandler = property => event => {
+  const createSortHandler = property => newsletter => {
     setOrderBy(property);
     setOrder(order === "asc" ? "desc" : "asc");
   };
 
-  function getSortedEvents(events) {
-    return events.sort((x, y) => {
+  function getSortednewsletters(newsletters) {
+    return newsletters.sort((x, y) => {
       const a = x[orderBy.toLowerCase()];
       const b = y[orderBy.toLowerCase()];
       if (orderBy === "Date") {
@@ -111,7 +111,7 @@ export default function EventsTable() {
         justifyContent={"space-between"}
       >
         <Typography variant="h6" color="primary">
-          Directory of events
+          Directory of newsletters
         </Typography>
         <TextField
           id="standard-search"
@@ -122,7 +122,7 @@ export default function EventsTable() {
         />
       </Box>
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 300 }} aria-label="event table">
+        <Table sx={{ minWidth: 300 }} aria-label="newsletter table">
           <TableHead>
             <TableRow>
               {header.map((val, i) => (
@@ -154,41 +154,41 @@ export default function EventsTable() {
           </TableHead>
           <TableBody>
             {(rowsPerPage > 0
-              ? getSortedEvents(events).slice(
+              ? getSortednewsletters(newsletters).slice(
                   page * rowsPerPage,
                   page * rowsPerPage + rowsPerPage
                 )
-              : getSortedEvents(events)
+              : getSortednewsletters(newsletters)
             ).map(
-              event =>
-                event.name.toLowerCase().includes(search) && (
+              newsletter =>
+                newsletter.name.toLowerCase().includes(search) && (
                   <TableRow
-                    key={event.id}
+                    key={newsletter.id}
                     sx={{
                       "&:last-child td, &:last-child th": { border: 0 }
                     }}
                   >
                     <TableCell component="th" scope="row">
-                      {event.name}
+                      {newsletter.name}
                     </TableCell>
-                    <TableCell align="right">{event.date}</TableCell>
-                    <TableCell align="right">{event.type}</TableCell>
+                    <TableCell align="right">{newsletter.date}</TableCell>
+                    <TableCell align="right">{newsletter.type}</TableCell>
                     <TableCell align="right">
                       <Typography
                         variant="body2"
                         color={
-                          event.status === "Today"
+                          newsletter.status === "Today"
                             ? blue[500]
-                            : event.status.includes("Past")
+                            : newsletter.status.includes("Past")
                             ? "error"
                             : green["A700"]
                         }
                       >
-                        {event.status}
+                        {newsletter.status}
                       </Typography>
                     </TableCell>
                     <TableCell align="right">
-                      <Link to={`/events/${event.slug}`}>See more</Link>
+                      <Link to={`/newsletters/${newsletter.slug}`}>See more</Link>
                     </TableCell>
                   </TableRow>
                 )
@@ -205,7 +205,7 @@ export default function EventsTable() {
               <TablePagination
                 rowsPerPageOptions={[10, 15, 20]}
                 colSpan={4}
-                count={events.length}
+                count={newsletters.length}
                 rowsPerPage={rowsPerPage}
                 page={page}
                 onPageChange={handleChangePage}

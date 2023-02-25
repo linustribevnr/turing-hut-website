@@ -55,6 +55,11 @@ const navItems = [
     text: "Turing Cup",
     icon: <EmojiEventsIcon />,
     path: "/turingcup"
+  },
+  {
+    text: "Newsletters",
+    icon: <LocalPhoneIcon />,
+    path: "/newsletters"
   }
 ];
 
