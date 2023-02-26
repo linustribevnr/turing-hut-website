@@ -27,7 +27,10 @@ Can you believe it's already the third week of the new year? Time is flying, but
 
 <h1>Highlights</h1>
 
-![Alt text](../images/newsletter/convergencecodingcontest.jpg)
+<img src="https://ci6.googleusercontent.com/proxy/jjfjcqpZPIfD4anmgFIyIuzXh_yAb7ixj5nn0_nQjK89Cnml4Ji-9PmGI7CRoyqmBhUZ6mQk2-qo79luxjqbELPNuXX_OdJw7brM64YizkwHgX03Nkp_C_SAU15zCt93gG1tYRYu3Hj9MmzLP2njSe1UsL_eYQ=s0-d-e1-ft#https://mcusercontent.com/17aa3e32a29b75850b6f118ee/images/057e7a6f-b525-25ae-b149-c449c20d2d38.jpg" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;">
 
 Convergence coding contest (Qualifier Round) was held on 21 Jan, 2023, with a significant number of teams participating. Now, it's your opportunity to share your experience from the event. How was your overall experience with the contest? Which question did you find interesting? Which question did you find challenging? Feel free to share your thoughts in the form attached below. Are you excited for the final round?
 

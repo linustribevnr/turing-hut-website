@@ -23,10 +23,6 @@ markdownType: newsletter
 
 
 
-<h1>Highlights</h1>
-
-
-The Big, We recently conducted Turing Hut orientation on 2nd December. It was indeed a pleasant event which received a lot of positive responses from the batch (2022-2026). It was an informative session and our alumnus of Turing hut Gnana Deepak, who was placed at Amazon in SDE role have spoken about his coding journey. The committee members also have spoken about their achievements, experiences and given tips for coding. Turing hut is always open for students who have enthusiasm to code and learn. We are looking forward for more involvement in further events.
 
 # Reading picks
 

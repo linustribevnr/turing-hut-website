@@ -3,6 +3,7 @@ import { Container, Typography, Button, Box } from "@mui/material";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { StaticImage } from "gatsby-plugin-image"
 import img from "../assets/images/newsletter/img.jpeg"
+import { WidthFull } from "@mui/icons-material";
 
 
 export default function NewslettersPage({ html, newletter_details }) {
@@ -17,13 +18,7 @@ export default function NewslettersPage({ html, newletter_details }) {
         <StaticImage
           src="../assets/images/newsletter/img.jpeg"
           alt={newletter_details.title}
-          
-          sx={{
-            content: {
-                xs: "../assets/images/newsletter/img.jpeg",
-                md: "../assets/images/newsletter/img.jpeg"
-            }
-        }}
+          style={{width:"100%"}}
           
         />
       )}

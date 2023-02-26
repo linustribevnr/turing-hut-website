@@ -28,7 +28,10 @@ New academic year, new faces and here we go new learning experiences & Team Turi
 
 <h1>Highlights</h1>
 
-![Alt text](../images/newsletter/orientation.jpg)
+<img src="https://ci6.googleusercontent.com/proxy/NGKu4u_pMKEMgBJ9MvEgupak3wBUJEGQpWhwJwiyfkpaey9t6iFS5RKiWMl4-LF30LW8DNMWZyqarmw-OJEGioDWsrMby3ggfjS2wIgVAgKAOIRy7gYggrcYbdscYzubXBsQP7LPx5_B7hGhcx9XL1ZrwAY-4vE=s0-d-e1-ft#https://mcusercontent.com/fdd0c58c772c3d76189e3ccf6/images/fb9cb681-3c83-c72c-f5f4-7036fda4036d.jpeg" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;">
 
 The Big, We recently conducted Turing Hut orientation on 2nd December. It was indeed a pleasant event which received a lot of positive responses from the batch (2022-2026). It was an informative session and our alumnus of Turing hut Gnana Deepak, who was placed at Amazon in SDE role have spoken about his coding journey. The committee members also have spoken about their achievements, experiences and given tips for coding. Turing hut is always open for students who have enthusiasm to code and learn. We are looking forward for more involvement in further events.
 

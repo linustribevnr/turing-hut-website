@@ -24,7 +24,10 @@ markdownType: newsletter
 
 
 <h1>Highlights</h1>
-
+<img src="https://ci3.googleusercontent.com/proxy/cmV3v060lmRu-QDlY1cgw1JTRFlfi637MRl2HOkaq3ulf3RCJVo46SQBQG5ZT3cY0wWO_37aNwCyu_-vLN424BaEn9y95Q5U3KAAJtJyKp4pVPs1Z29UXXoc0Xu5N2uMgusQaql-cdJuM0Kbp-qMx1o0VYFjpQ=s0-d-e1-ft#https://mcusercontent.com/c4870e3dc983e8797bf341813/images/36cf38ca-7930-b91c-6f75-63f1f80ca5f5.jpg" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;">
 
 The United States' Silicon Valley, which has historically been a reliable source of well-paying jobs and rising stock prices, is currently going through a rough patch as a result of major big tech companies like Microsoft, Meta, Amazon, Twitter, Snap, and Twitter announcing mass layoffs that have left tens of thousands of people without work. The reasons for layoffs are usually corporate restructuring, cost-cutting measures to reduce excessive workforce, or redundancies due to job eliminations. Some articles even started to address this period as the "season of layoffs". 
 
