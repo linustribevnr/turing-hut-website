@@ -28,9 +28,18 @@ Thank you for filling out the feedback form, we will be continuing the newslette
 
 **Participating in HackWithInfy 2022**
 
+<img src="https://ci6.googleusercontent.com/proxy/JZBpuGKyIbJwjtlM268edMFTZvHcfbT9TPaxH_5oNzJljHwZH94Zx6T4gcyx5qCvkK2z9p_rdsWT-oxzlPdm1zV14pJtvmn5AHU2sr7d96cNwltwvG0PKwDbb8XvOObwu63qK6xtyzWDIx5Cl2RqNluqiN4GCjc=s0-d-e1-ft#https://mcusercontent.com/c4870e3dc983e8797bf341813/images/39d8b70a-0928-253e-2af4-4da214a8f0fe.jpeg" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;">
+
 HackWithInfy is a coding competition for engineering students organized every year by Infosys. It involves a coding assessment followed by a hackathon for the shortlisted participants. A. Rukmananda Reddy, a final-year CSE student was one of the students to qualify for the hackathon. For the hackathon, his team worked on Drone based Bio-Diversity Management using machine learning. The team secured fourth position in the hackathon. He says it was an invaluable experience from traveling to a new city to learning with his team and mentors. 
  
  **Editorial for Project Halloween (Round-1 and Round-2)**
+ <img src="https://ci4.googleusercontent.com/proxy/ZGrc97Heyz4Z85BX2ZdClTKQYcOpvtKkiOwVsajV6tO9-VyeO9n2abWHSNMOcSQTCDxNc6rBuI9mNJfxc0VQxeFNaEunoocBY5OJc42LObPV24RS6lI4VPOcrBhhciYkdztvAvaE9JoPVlRda1Dp0avj10n3jw=s0-d-e1-ft#https://mcusercontent.com/c4870e3dc983e8797bf341813/images/3db013fa-16a9-4e80-6406-ef55e89bc1f7.jpg" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;">
  We are delighted by your participation and enthusiasm in Project Halloween and we hope you continue the same in future events. Here are the links to the problems and editorials.
  **Round 1:** [Collecting the weapons](https://drive.google.com/file/d/1F1YtQmWg-Gp9NHfCYBvO0bsn6Jtld1m7/view)
  **Round 2:**[Map the Graveyard](https://docs.google.com/document/d/1eaJhBo_gvioT7gk_bq4xZq6AMSI5Phxu7ic878oMnYE/edit)
