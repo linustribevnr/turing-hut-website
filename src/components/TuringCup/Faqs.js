@@ -108,7 +108,7 @@ export default function Faqs() {
           target="_blank">
           <WhatsAppIcon
             fontSize="large"
-            sx={{ bgcolor: "#25D366", color: "white", borderRadius: "20%" }}
+            sx={{ bgcolor: "", color: "rgb(117, 117, 117)", borderRadius: "20%" }}
           />
         </Button>
         <Button href="tel:7989773778">

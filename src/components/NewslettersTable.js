@@ -103,7 +103,7 @@ export default function NewslettersTable() {
         sx={{ pb: 2 }}
         justifyContent={"space-between"}
       >
-        <Typography variant="h6" color="primary">
+        <Typography variant="h6" color="primary" align="center">
           Directory of Newsletters
         </Typography>
         <TextField
