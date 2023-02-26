@@ -22,7 +22,10 @@ markdownType: newsletter
 
 
 <h1>Two Coders, One Vision: A Real Life Story of a Coding Collaboration</h1>
-<img src="https://ci5.googleusercontent.com/proxy/ExOrSqTmZ1VR52oTyDxS948T94bZjwrePdQPOtUAP3WVoxkdtAcuHWlojuqluDFkFyiHKmc_cpDbw7nRT3x2STsTRcCyp55ehH4GXffA0GtMqZY0iYVX1tc8HZEwkXYBl3dRaxXvQ8ZXo4I=s0-d-e1-ft#https://t4.ftcdn.net/jpg/00/97/11/21/360_F_97112118_v0pSkcIV0KoHGSV7fD5t3NYuCXu1W0wI.jpg" style="margin-left:180px ">
+<img src="https://ci5.googleusercontent.com/proxy/ExOrSqTmZ1VR52oTyDxS948T94bZjwrePdQPOtUAP3WVoxkdtAcuHWlojuqluDFkFyiHKmc_cpDbw7nRT3x2STsTRcCyp55ehH4GXffA0GtMqZY0iYVX1tc8HZEwkXYBl3dRaxXvQ8ZXo4I=s0-d-e1-ft#https://t4.ftcdn.net/jpg/00/97/11/21/360_F_97112118_v0pSkcIV0KoHGSV7fD5t3NYuCXu1W0wI.jpg" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;">
 
 <b>Ankan</b> and <b>Sushmanth</b>, two passionate coders with a knack for problem-solving, met at the Turing Cup contest, which is organized annually by VNRVJIET's programming club, Turing Hut. Despite being from different colleges, Ankan and Sushmanth quickly found common ground in their shared interest in Competitve Coding. Ankan and Sushmanth's partnership in coding competitions was a winning combination. They consistently participated in other numerous highly competitive coding competitions and emerged victorious. The two coders didn't limit themselves to just winning coding contests, they also collaborated on challenging web development projects, constantly pushing each other to improve.
 

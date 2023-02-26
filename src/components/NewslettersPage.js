@@ -9,7 +9,7 @@ export default function NewslettersPage({ html, newletter_details }) {
   const options = { year: "numeric", month: "long", day: "numeric" };
 
 
-  console.log(getImage(newletter_details.image));
+  // console.log(getImage(newletter_details.image));
 
   return (
     <Container sx={{ boxShadow: 2, p: 2 }}>
@@ -17,7 +17,14 @@ export default function NewslettersPage({ html, newletter_details }) {
         <StaticImage
           src="../assets/images/newsletter/img.jpeg"
           alt={newletter_details.title}
-          style={{ width: "100%", height: "200px"}}
+          
+          sx={{
+            content: {
+                xs: "../assets/images/newsletter/img.jpeg",
+                md: "../assets/images/newsletter/img.jpeg"
+            }
+        }}
+          
         />
       )}
       
