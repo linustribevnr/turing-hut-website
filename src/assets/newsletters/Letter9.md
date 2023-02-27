@@ -47,3 +47,5 @@ Here's an amazing problem you should consider solving, set by our problem setter
 Have something to share? Want your blog to reach a wider audience? Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfdaR5IK8B9RZx-5G3cd4_G4RMsLIaHRMWpGWzTwMyuMdCeWg/viewform) to be featured in our next newsletter.
 
 Special Thanks to Ankan and Sushmanth for sharing their story.
+
+Thanks to Tejeswara, Bharath and Suraj for contributing to the newsletter.
