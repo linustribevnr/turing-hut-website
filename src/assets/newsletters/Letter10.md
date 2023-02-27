@@ -3,7 +3,7 @@ title: NewsLetter 10
 date: 2023-02-22
 time: 05-02-2023, 12:00 PM to 22-05-2022, 23:59 PM
 type: Newsletter
-slug: '9'
+slug: '10'
 image: ../images/newsletter/img.jpeg
 registration: NA
 recording: NA
