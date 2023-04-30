@@ -36,11 +36,9 @@ export default function Footer() {
     if (
       window.location.pathname.includes("/turingcup") ||
       window.location.pathname.includes("/turingcup/")
-    ){
-
+    ) {
       setbgcol("#101820FF");
-    }
-    else setbgcol("white");
+    } else setbgcol("white");
     console.log(bgcol);
   });
 
@@ -52,11 +50,13 @@ export default function Footer() {
           item
           xs={12}
           md={9}
-          sx={{ my: 2, textAlign: { xs: "center", md: "left" } }}>
+          sx={{ my: 2, textAlign: { xs: "center", md: "left" } }}
+        >
           <Typography
             variant="body2"
             component="div"
-            sx={{ flexGrow: 1, color: "#757575" }}>
+            sx={{ flexGrow: 1, color: "#757575" }}
+          >
             “The most damaging phrase in the language is.. it's always been done
             this way” - Grace Hopper
           </Typography>
@@ -73,7 +73,8 @@ export default function Footer() {
                   textDecoration: "none",
                   color: "#757575",
                   padding: "10px"
-                }}>
+                }}
+              >
                 <Tooltip title={item.name} placement="top">
                   {item.icon}
                 </Tooltip>

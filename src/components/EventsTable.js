@@ -43,30 +43,31 @@ export default function EventsTable() {
     }
   `);
 
-  const events = data.allMarkdownRemark.nodes.map(event => {
-    const givendate = new Date(event.frontmatter.date);
-    const today = new Date();
-    const options = { year: "numeric", month: "short", day: "numeric" };
+  const events = data.allMarkdownRemark.nodes
+    .map(event => {
+      const givendate = new Date(event.frontmatter.date);
+      const today = new Date();
+      const options = { year: "numeric", month: "short", day: "numeric" };
 
-    return {
-      id: event.id,
-      name: event.frontmatter.title,
-      date: new Date(event.frontmatter.date).toLocaleDateString(
-        "en-US",
-        options
-      ),
-      type: event.frontmatter.type,
-      status:
-        givendate === event.today
-          ? "Today"
-          : today > givendate
-          ? "Past Event"
-          : "Upcoming Event",
-      slug: event.frontmatter.slug,
-      markdown_type: event.frontmatter.markdownType
-
-    };
-  }).filter(event=>event.markdown_type==='event');
+      return {
+        id: event.id,
+        name: event.frontmatter.title,
+        date: new Date(event.frontmatter.date).toLocaleDateString(
+          "en-US",
+          options
+        ),
+        type: event.frontmatter.type,
+        status:
+          givendate === event.today
+            ? "Today"
+            : today > givendate
+            ? "Past Event"
+            : "Upcoming Event",
+        slug: event.frontmatter.slug,
+        markdown_type: event.frontmatter.markdownType
+      };
+    })
+    .filter(event => event.markdown_type === "event");
 
   const emptyRows =
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - events.length) : 0;

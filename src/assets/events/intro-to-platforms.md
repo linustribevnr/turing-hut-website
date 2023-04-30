@@ -8,7 +8,6 @@ image: ../images/events/intro_coding_platforms.jpg
 registration: NA
 recording: https://www.youtube.com/watch?v=SlCmsOQVz3s
 markdownType: event
-
 ---
 
 Turing Hut is going to conduct a selection contest for 1st year CSE, CSBS students soon. Based on the contest, we will select some students for Turing Hut teaching sessions, where your seniors will teach you CP concepts and provide guidance.
