@@ -47,7 +47,8 @@ export default function Layout({ children }) {
           display: "flex",
           bgcolor: `${bgcol}`,
           margin: is_turingcup_page ? "0px" : "8px"
-        }}>
+        }}
+      >
         <Navbar />
         <Box component="main" sx={{ width: 1, margin: 0 }}>
           <Toolbar />

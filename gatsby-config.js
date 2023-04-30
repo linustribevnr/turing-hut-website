@@ -43,7 +43,6 @@ module.exports = {
         name: `newsletters`,
         path: `${__dirname}/src/assets/newsletters`
       }
-
     }
   ]
 };

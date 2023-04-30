@@ -3,13 +3,12 @@ title: NewsLetter 10
 date: 2023-02-22
 time: 05-02-2023, 12:00 PM to 22-05-2022, 23:59 PM
 type: Newsletter
-slug: '10'
+slug: "10"
 image: ../images/newsletter/img.jpeg
 registration: NA
 recording: NA
 contestlink: https://www.hackerrank.com/turing-hut-practice-contest-2025
 markdownType: newsletter
-
 ---
 
 # Oppurtunites
@@ -18,7 +17,6 @@ markdownType: newsletter
 - **Summer Research Internship Program - IIT Gandhinagar**: [srip.iitgn.ac.in](https://srip.iitgn.ac.in/info/)
 - **LFX Mentorship (New mentorships added)**:[mentorship.lfx](https://mentorship.lfx.linuxfoundation.org/#projects_accepting)
 - **World-class Women Software Engineers**:[talentsprint](https://we.talentsprint.com/)
-
 
 <h1>Highlights</h1>
 <h1>Indian Executives Continue to Make Waves: Another CEO Appointment Announced</h1>
@@ -38,23 +36,20 @@ Have you heard news about the Indian man who became the new CEO of YouTube? Neal
   margin-right: auto;
   width: 75%;">
 
-
-  Do you use ChatGPT? Google Bard is here! It's the latest chatbot developed by Google and it's causing a stir in the tech world. It's still in the testing stage. Everyone's wondering if it can take on ChatGPT. One thing that makes Google Bard stand out is that it can use real-time data, which is way cooler than ChatGPT that only uses data up until 2021. Bard uses this fancy LaMDA technology on top of Google's Transformer neural network architecture. This architecture is also used as the foundation for other AI generative tools, including ChatGPT's GPT-3 language model.
-
-
+Do you use ChatGPT? Google Bard is here! It's the latest chatbot developed by Google and it's causing a stir in the tech world. It's still in the testing stage. Everyone's wondering if it can take on ChatGPT. One thing that makes Google Bard stand out is that it can use real-time data, which is way cooler than ChatGPT that only uses data up until 2021. Bard uses this fancy LaMDA technology on top of Google's Transformer neural network architecture. This architecture is also used as the foundation for other AI generative tools, including ChatGPT's GPT-3 language model.
 
 # Reading picks
 
 - **What is Full-Text Search and How Does it Work?** <br/>
-		Full-text search refers to searching some text inside extensive text data stored electronically and returning results that contain some or all of the words from the query. In contrast, traditional search would return exact matches. While traditional databases are great for storing and retrieving general data, performing full-text searches has been challenging. Frequently, additional tooling is required to achieve this. Read more [here](https://www.mongodb.com/basics/full-text-search).
+  Full-text search refers to searching some text inside extensive text data stored electronically and returning results that contain some or all of the words from the query. In contrast, traditional search would return exact matches. While traditional databases are great for storing and retrieving general data, performing full-text searches has been challenging. Frequently, additional tooling is required to achieve this. Read more [here](https://www.mongodb.com/basics/full-text-search).
 - **How Levels.fyi scaled to millions of users with Google Sheets as a backend?** <br/>
-		Levels.fyi has emerged as a go-to career site for professionals across the world. With approximately 1-2 million unique users visiting the site every month, its user base is spread far and wide. Back in 2017, the site's vision was simple yet ambitious - to help professionals get paid fairly for their work. Within a short span of a couple of years, the website gained significant traction and became the foremost resource for tech professionals in the United States.Read more [here](https://www.levels.fyi/blog/scaling-to-millions-with-google-sheets.html?s=08).
+  Levels.fyi has emerged as a go-to career site for professionals across the world. With approximately 1-2 million unique users visiting the site every month, its user base is spread far and wide. Back in 2017, the site's vision was simple yet ambitious - to help professionals get paid fairly for their work. Within a short span of a couple of years, the website gained significant traction and became the foremost resource for tech professionals in the United States.Read more [here](https://www.levels.fyi/blog/scaling-to-millions-with-google-sheets.html?s=08).
 - **How did India's largest stock broker choose their tech platform?** <br/>
-		Zerodha's team developed their flagship trading platform Kite's first mobile version as a native Android app in 2015. However, they later built a cross-platform version in React Native in 2017 before finally deciding to rewrite the app in Flutter in 2018. This decision turned out to be highly successful for Zerodha. Read more [here](https://zerodha.tech/blog/from-native-to-react-native-to-flutter/).
-# Todo Problem 
+  Zerodha's team developed their flagship trading platform Kite's first mobile version as a native Android app in 2015. However, they later built a cross-platform version in React Native in 2017 before finally deciding to rewrite the app in Flutter in 2018. This decision turned out to be highly successful for Zerodha. Read more [here](https://zerodha.tech/blog/from-native-to-react-native-to-flutter/).
+
+# Todo Problem
 
 Here's an amazing problem you should consider solving, set by our problem setters: [problem link](https://www.codechef.com/problems/SDICE)
-
 
 Have something to share? Want your blog to reach a wider audience? Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfdaR5IK8B9RZx-5G3cd4_G4RMsLIaHRMWpGWzTwMyuMdCeWg/viewform) to be featured in our next newsletter.
 

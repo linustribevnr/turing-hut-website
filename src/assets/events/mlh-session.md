@@ -8,7 +8,6 @@ image: ../images/events/mlh_session.jpeg
 registration: NA
 recording: https://www.youtube.com/watch?v=RaQ5UiU7H8U
 markdownType: event
-
 ---
 
 Are you waiting to take your first step in open source? Or want to build new projects to add to your portfolio?
