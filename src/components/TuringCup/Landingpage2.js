@@ -24,14 +24,16 @@ function Landingpage2() {
   return (
     <Grid
       className="fullpage"
-      style={{ fontFamily: "'Gruppo', cursive", marginBottom: "16px" }}>
+      style={{ fontFamily: "'Gruppo', cursive", marginBottom: "16px" }}
+    >
       <svg viewBox="0 0 1300 300">
         <text
           x="50%"
           y="70%"
           fill="transparent"
           textAnchor="middle"
-          className="bigh">
+          className="bigh"
+        >
           TURING CUP
         </text>
       </svg>
@@ -41,7 +43,8 @@ function Landingpage2() {
           y="26%"
           fill="transparent"
           textAnchor="middle"
-          className="smallh">
+          className="smallh"
+        >
           ONE TEAM , ONE DREAM!
         </text>
       </svg>
@@ -51,7 +54,8 @@ function Landingpage2() {
         style={{ marginTop: "-40px" }}
         sx={{ p: 5, justifyContent: "center" }}
         direction={{ xs: "column", md: "row" }}
-        spacing={2}>
+        spacing={2}
+      >
         <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
@@ -66,7 +70,8 @@ function Landingpage2() {
           variant="contained"
           href="https://unstop.com/o/ue5gaLR?lb=Wqrocjv"
           target="__blank"
-          startIcon={<HowToRegRoundedIcon />}>
+          startIcon={<HowToRegRoundedIcon />}
+        >
           Register Now
         </Button>
 
@@ -84,7 +89,8 @@ function Landingpage2() {
           id="add-to-calendar-btn"
           onClick={handleClick}
           variant="contained"
-          endIcon={<InsertInvitationRoundedIcon />}>
+          endIcon={<InsertInvitationRoundedIcon />}
+        >
           Add to Calendar
         </Button>
       </Stack>

@@ -38,20 +38,18 @@ export default function TuringCupSponsors() {
   `);
   const nodes = data.allFile.edges;
   return (
-    <Box 
-      sx={{ 
-      margin: '0 auto', 
+    <Box
+      sx={{
+        margin: "0 auto"
       }}
     >
-      <h2
-        style={{textAlign:'center', color: '#F2AA4CFF' }}>
-          OUR SPONSORS
-      </h2>
+      <h2 style={{ textAlign: "center", color: "#F2AA4CFF" }}>OUR SPONSORS</h2>
       <Stack
         direction={{ xs: "column", sm: "row" }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
         justifyContent="space-around"
-        alignItems="center">
+        alignItems="center"
+      >
         {sponsordata["sponsors"].map((sponsor, i) => {
           console.log(nodes);
           const result = nodes.filter(item => {

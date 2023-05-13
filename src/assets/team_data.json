@@ -258,8 +258,7 @@
         "image": "rishi_2023.jpg",
         "designation": "Development Team",
         "linkedin": "https://www.linkedin.com/in/rishi-kumar-b89508222/",
-        "github":"https://github.com/Rishi-srk"
-        
+        "github": "https://github.com/Rishi-srk"
       },
       {
         "name": "K.K.Sai Harshitha",
@@ -317,6 +316,122 @@
         "image": "sarath_2023.jpg",
         "designation": "Mentor",
         "linkedin": "https://www.linkedin.com/in/sarath-tenneti-8911a7225/"
+      }
+    ],
+    "2023-2024": [
+      {
+        "name": "Kurudi Sreekar Vyas",
+        "image": "sreekar_2024.jpg",
+        "designation": "Lead",
+        "linkedin": "https://www.linkedin.com/in/sreekar-vyas-0515b4258/",
+        "twitter": "https://twitter.com/sreekarkurudi",
+        "github": "https://github.com/sreekarVyas"
+      },
+      {
+        "name": "Dampuru Nisritha",
+        "image": "nisritha_2024.jpg",
+        "designation": "Lead",
+        "linkedin": "https://www.linkedin.com/in/nisritha-reddy-30jn04/"
+      },
+      {
+        "name": "Avvaru Guru Sai Nandan",
+        "image": "nandan_2024.png",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/gurusainandanavvaru/",
+        "twitter": "https://twitter.com/AGuruSaiNandan1",
+        "github": "https://github.com/Guru-Sai-Nandan"
+      },
+      {
+        "name": "Sreya Mula",
+        "image": "sreya_2024.jpg",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/sreya-mula-99714a229",
+        "twitter": "https://twitter.com/MulaSreya",
+        "github": "https://github.com/Sreya-883"
+      },
+      {
+        "name": "Prabhas",
+        "image": "prabhas_2024.jpg",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/prabhas-koya-66b884236/",
+        "twitter": "https://twitter.com/KoyaPrabhas",
+        "github": "https://github.com/mega-bots"
+      },
+      {
+        "name": "K Manorath Reddy",
+        "image": "manorath_2024.jpg",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/manorath-reddy-83005a264/",
+        "twitter": "https://twitter.com/ReddyManorath",
+        "github": "https://github.com/manorath13"
+      },
+      {
+        "name": "Maturi Abhinay Goud",
+        "image": "abhinay_2024.jpg",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/maturi-abhinay-goud-86b599231/",
+        "twitter": "https://twitter.com/abhinaygoud2004",
+        "github": "https://github.com/abhinaygoud2004"
+      },
+      {
+        "name": "Lingala Rahul",
+        "image": "rahul_2024.jpg",
+        "designation": "Development",
+        "linkedin": "https://www.linkedin.com/in/lingala-rahul-he-him-043465236/",
+        "github": "https://github.com/Phantom-23"
+      },
+      {
+        "name": "Shreya Konduru",
+        "image": "shreya_2024.jpg",
+        "designation": "Development",
+        "linkedin": "https://www.linkedin.com/in/shreya-konduru-a36b03241/",
+        "github": "https://github.com/ripper-7"
+      },
+      {
+        "name": "Thoparam Sai Nithish",
+        "image": "nithish_2024.jpg",
+        "designation": "Development",
+        "linkedin": "https://www.linkedin.com/in/thoparam-sai-nithish-705467220/",
+        "twitter": "https://twitter.com/Nithishthoparam",
+        "github": "https://github.com/Thoparam-sai-nithish"
+      },
+      {
+        "name": "Suraksha Dusa",
+        "image": "suraksha_2024.jpg",
+        "designation": "Development",
+        "linkedin": "https://www.linkedin.com/in/suraksha-dusa-750815248/",
+        "github": "https://github.com/Suraksha25"
+      },
+      {
+        "name": "B Varsha Reddy",
+        "image": "varsha_2024.jpg",
+        "designation": "Design and Content",
+        "linkedin": "https://www.linkedin.com/in/varsha-reddy-barla-654156243",
+        "github": "https://github.com/varshareddy03"
+      },
+      {
+        "name": "M Abhinav",
+        "image": "abhinav_2024.jpg",
+        "designation": "Design and Content",
+        "linkedin": "https://www.linkedin.com/in/abhinav-mogi-995605265/",
+        "twitter": "https://twitter.com/abhinav_mogi",
+        "github": "https://github.com/abhinav-mogi"
+      },
+      {
+        "name": "Sai Jahnavi Rallapalli",
+        "image": "jahnavi_2024.jpg",
+        "designation": "Design and Content",
+        "linkedin": "https://www.linkedin.com/in/sai-jahnavi-62a87b227/",
+        "twitter": "https://twitter.com/jahnavei",
+        "github": "https://github.com/saijahnavir"
+      },
+      {
+        "name": "Sai Rakshita Narsingh",
+        "image": "rakshita_2024.jpg",
+        "designation": "Social Media",
+        "linkedin": "https://www.linkedin.com/in/sai-rakshita-n-7bb408229/",
+        "twitter": "https://twitter.com/sai_rtn1165",
+        "github": "https://github.com/sai-rakshita-narsingh"
       }
     ]
   }

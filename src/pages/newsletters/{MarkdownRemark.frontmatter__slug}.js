@@ -2,10 +2,10 @@ import * as React from "react";
 import { graphql } from "gatsby";
 import Layout from "../../components/Layout";
 import EventPage from "../../components/EventPage";
-import NewslettersPage from '../../components/NewslettersPage';
+import NewslettersPage from "../../components/NewslettersPage";
 
 const NewsletterPost = ({ data }) => {
-  console.log(data)
+  console.log(data);
   return (
     <Layout>
       <NewslettersPage

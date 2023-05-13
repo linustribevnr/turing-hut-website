@@ -31,7 +31,8 @@ function turingcup() {
             backgroundColor: "#101820FF",
             color: "#F2AA4CFF",
             fontFamily: "'Gruppo', cursive"
-          }}>
+          }}
+        >
           <Landingpage2
             style={{
               margin: "0px",
