@@ -14,6 +14,7 @@ import {
   ListItemIcon,
   Avatar
 } from "@mui/material";
+
 import { Link, graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -25,6 +26,8 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { useLocation } from "@reach/router";
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+
+
 
 const navItems = [
   {
@@ -136,7 +139,7 @@ export default function Navbar() {
                 sx={{ mr: 2, display: { md: "none" } }}>
                 <MenuIcon />
               </IconButton>
-              <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
+              <Link to="/"><Avatar srcSet={logoSrcSet} sx={{ mx: 1 } } ></Avatar></Link>
               <Typography
                 variant="h6"
                 component="div"
@@ -201,7 +204,7 @@ export default function Navbar() {
                 sx={{ mr: 2, display: { md: "none" } }}>
                 <MenuIcon />
               </IconButton>
-              <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
+              <Link to="/"><Avatar srcSet={logoSrcSet} sx={{ mx: 1 } } ></Avatar></Link>
               <Typography
                 variant="h6"
                 component="div"
