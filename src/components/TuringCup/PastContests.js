@@ -38,6 +38,33 @@ const styles = {
 
 const contestdetails = [
   {
+    "year": "2023",
+
+    "info":
+      "Students from all colleges across the nation can participate by forming a team of up to 2 members. The contest has 3 rounds. 1078 teams from 190 different colleges across the nation have registered for the contest. 738 teams have participated in the contest, out of which 60 teams have been invited to the Onsite round, and all the teams have attended the Onsite round, from which top 10 teams qualified for the Final Round.",
+
+    "winners": {
+      "first": {
+        "mem1": "Shiven Sinha",
+        "mem2": "",
+        "mem3": "",
+        "college": "Indian Institute of Information Technology, Hyderabad"
+      },
+      "second": {
+        "mem1": "Kishore Kumar",
+        "mem2": "Vidit Jain",
+        "mem3": "",
+        "college": "Indian Institute of Information Technology, Hyderabad"
+      },
+      "third": {
+        "mem1": "Pranab Singh",
+        "mem2": "",
+        "mem3": "",
+        "college": "Indian Institute of Information Technology Design and Manufacturing, Kurnool"
+      }
+    }
+  },
+  {
     "year": "2022",
 
     "info":

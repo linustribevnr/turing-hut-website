@@ -1,6 +1,6 @@
 import { Button, Grid, Stack } from "@mui/material";
 import HowToRegRoundedIcon from "@mui/icons-material/HowToRegRounded";
-import InsertInvitationRoundedIcon from "@mui/icons-material/InsertInvitationRounded";
+// import InsertInvitationRoundedIcon from "@mui/icons-material/InsertInvitationRounded";
 // npm install add-to-calendar-button to avail features of add to calendar.
 import { atcb_action } from "add-to-calendar-button";
 
@@ -17,9 +17,9 @@ function Landingpage2() {
     timeZone: "Asia/Calcutta"
   };
 
-  const handleClick = () => {
-    atcb_action(config, document.getElementById("add-to-calendar-btn"));
-  };
+  // const handleClick = () => {
+  //   atcb_action(config, document.getElementById("add-to-calendar-btn"));
+  // };
 
   return (
     <Grid
@@ -75,7 +75,7 @@ function Landingpage2() {
           Register Now
         </Button>
 
-        <Button
+        {/* <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             backgroundColor: "#101820FF",
@@ -92,7 +92,7 @@ function Landingpage2() {
           endIcon={<InsertInvitationRoundedIcon />}
         >
           Add to Calendar
-        </Button>
+        </Button> */}
       </Stack>
     </Grid>
   );

@@ -1,5 +1,5 @@
 ---
-title: Turing Cup 2023(Round-1)
+title: Turing Cup 2023
 date: 2023-03-11
 time: 7:30 PM to 10:00 PM
 type: Contest
