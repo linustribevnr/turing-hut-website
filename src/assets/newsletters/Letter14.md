@@ -26,3 +26,5 @@ markdownType: newsletter
 Here's an amazing problem, you should check out: [problem link](https://leetcode.com/problems/regular-expression-matching/)
 
 Do you want to share any opportunity, blog, or experience? Fill out this [form](https://forms.gle/uidTBY1e3cALgHtC6) to be featured in our next newsletter.
+
+Thanks to Bhargav and Suraj for contributing to the newsletter.

@@ -44,3 +44,5 @@ We congratulate all the first-years on successfully participating in the worksho
 Here's an amazing problem, you should check out: [problem link](https://cses.fi/problemset/task/1193)
 
 Do you want to share any opportunity, blog, or experience? Fill out this [form](https://forms.gle/uidTBY1e3cALgHtC6) to be featured in our next newsletter.
+
+Thanks to Mohanavamshi, Sai Rakshita and Sreekar for contributing to the newsletter
