@@ -8,7 +8,6 @@ image: ../images/events/halloween-poster.jpeg
 registration: https://forms.gle/7duETapDudmZANV19
 recording: NA
 markdownType: event
-
 ---
 
 **PROJECT HALLOWEEN** is a theme based Coding Contest conducted by Turing Hut for **second and third years of all branches of VNR VJIET**. As already informed, Project Halloween is scheduled on 9th November Wednesday ,from 10:00am to 4:40pm. The contest will be conducted offline and all of you are requested to be present in your allocated labs in time.
@@ -19,9 +18,9 @@ It will be conducted in 3 rounds in which students can participate in teams of s
 
 - Round 1 : Collecting weapons
 - Round 2 : Map the Graveyard
-- Round 3 : 
-    Level 1 - Steps to reach the hut<br/>
-    Level 2 - Crack the haunted mystery
+- Round 3 :
+  Level 1 - Steps to reach the hut<br/>
+  Level 2 - Crack the haunted mystery
 
 Utilize this opportunity to work in teams and improve your problem-solving capabilities.
 Feel free to reach out to us,
@@ -48,16 +47,16 @@ The teams that managed to solve the haunted mystery and grab the prices were :
    KESIREDDY ANIL REDDY - 3rd CSE</br>
 
 3. Team Name: Callisto
-   Chitimuti Hitaish Kumar Reddy - 3rd CSE-DS</br> 
+   Chitimuti Hitaish Kumar Reddy - 3rd CSE-DS</br>
    Yathin Rasineni - 3rd CSE-DS</br>
    Neeraj Ashish -3rd CSE-DS</br>
 
 And the best dressed team was :</br>
 
-   Team Halloweed:</br>
-   Karumanchi tarun </br>
-   Malloju sathvika </br>
-   Jaka siri</br>
+Team Halloweed:</br>
+Karumanchi tarun </br>
+Malloju sathvika </br>
+Jaka siri</br>
 
 Congratulations to all the winners and participants.
 

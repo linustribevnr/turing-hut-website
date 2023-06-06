@@ -1,16 +1,16 @@
 {
-    "sponsors":[
-        {
-            "name": " KC Overseas",
-            "image":"kcOverseasLogo.png",
-            "details":"KC Overseas is a rapidly growing EdTech Company that assists students in searching and applying to overseas universities through our extensive network of 65+ offices across India, Bangladesh, Malaysia, Nepal, Nigeria, Sri Lanka and Vietnam with the help of over 800+ dedicated professionals.",
-            "link":"https://www.studies-overseas.com/"
-        },
-        {
-            "name": " WE3 Infra",
-            "image":"we3infra.png",
-            "details":"The vision of we3 infra is to provide functionally integrated construction services unmatched in the industry. They are engaged in civil construction services that include electrical works, plumbing works, road works, etc.",
-            "link":"https://www.facebook.com/wethreeinfra/"
-        }
-    ]
+  "sponsors": [
+    {
+      "name": " KC Overseas",
+      "image": "kcOverseasLogo.png",
+      "details": "KC Overseas is a rapidly growing EdTech Company that assists students in searching and applying to overseas universities through our extensive network of 65+ offices across India, Bangladesh, Malaysia, Nepal, Nigeria, Sri Lanka and Vietnam with the help of over 800+ dedicated professionals.",
+      "link": "https://www.studies-overseas.com/"
+    },
+    {
+      "name": " WE3 Infra",
+      "image": "we3infra.png",
+      "details": "The vision of we3 infra is to provide functionally integrated construction services unmatched in the industry. They are engaged in civil construction services that include electrical works, plumbing works, road works, etc.",
+      "link": "https://www.facebook.com/wethreeinfra/"
+    }
+  ]
 }
