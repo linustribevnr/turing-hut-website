@@ -32,6 +32,7 @@ const styles = {
   container: {
     margin: "auto",
     width: "75vw"
+    
     // height : "10vw"
   }
 };
