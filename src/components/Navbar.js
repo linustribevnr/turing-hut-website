@@ -141,11 +141,7 @@ export default function Navbar() {
               >
                 <MenuIcon />
               </IconButton>
-<<<<<<< HEAD
-              <Link to="/"><Avatar srcSet={logoSrcSet} sx={{ mx: 1 } } ></Avatar></Link>
-=======
-              <Link to="/"><Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} /></Link>
->>>>>>> 307a05730fe87404855e628c8c449ef57a5ec297
+              <Link to="/"><Avatar srcSet={logoSrcSet} sx={{ mx: 1 } } /></Link>
               <Typography
                 variant="h6"
                 component="div"
