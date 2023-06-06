@@ -21,16 +21,8 @@ const styles = {
     color: "#F2AA4CFF",
     borderRadius: "5px",
     border: "1px solid #F2AA4CFF"
-    color: "#F2AA4CFF",
-    borderRadius: "5px",
-    border: "1px solid #F2AA4CFF"
   },
   details: {
-    color: "#F2AA4CFF",
-    borderRadius: "10px",
-    margin: "10px",
-    border: "1px solid #F2AA4CFF",
-    textAlign: "center"
     color: "#F2AA4CFF",
     borderRadius: "10px",
     margin: "10px",
@@ -40,7 +32,7 @@ const styles = {
   container: {
     margin: "auto",
     width: "75vw"
-    width: "75vw"
+    
     // height : "10vw"
   }
 };
