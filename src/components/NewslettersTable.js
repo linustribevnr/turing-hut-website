@@ -43,23 +43,24 @@ export default function NewslettersTable() {
     }
   `);
 
-  const newsletters = data.allMarkdownRemark.nodes.map(newsletter => {
-    const givendate = new Date(newsletter.frontmatter.date);
-    const today = new Date();
-    const options = { year: "numeric", month: "short", day: "numeric" };
+  const newsletters = data.allMarkdownRemark.nodes
+    .map(newsletter => {
+      const givendate = new Date(newsletter.frontmatter.date);
+      const today = new Date();
+      const options = { year: "numeric", month: "short", day: "numeric" };
 
-    return {
-      id: newsletter.id,
-      name: newsletter.frontmatter.title,
-      date: new Date(newsletter.frontmatter.date).toLocaleDateString(
-        "en-US",
-        options
-      ),
-      slug: newsletter.frontmatter.slug,
-      markdown_type: newsletter.frontmatter.markdownType
-
-    };
-  }).filter(newsletter=>newsletter.markdown_type==='newsletter');
+      return {
+        id: newsletter.id,
+        name: newsletter.frontmatter.title,
+        date: new Date(newsletter.frontmatter.date).toLocaleDateString(
+          "en-US",
+          options
+        ),
+        slug: newsletter.frontmatter.slug,
+        markdown_type: newsletter.frontmatter.markdownType
+      };
+    })
+    .filter(newsletter => newsletter.markdown_type === "newsletter");
 
   const emptyRows =
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - newsletters.length) : 0;
@@ -121,9 +122,7 @@ export default function NewslettersTable() {
               {header.map((val, i) => (
                 <TableCell
                   key={i}
-                  align={
-                    ["Name","Date"].includes("Name") ? "center" : "right"
-                  }
+                  align={["Name", "Date"].includes("Name") ? "center" : "right"}
                   onClick={createSortHandler(val)}
                   sortDirection={orderBy === val ? order : false}
                 >
@@ -165,9 +164,11 @@ export default function NewslettersTable() {
                       {newsletter.name}
                     </TableCell>
                     <TableCell align="center">{newsletter.date}</TableCell>
-                    
+
                     <TableCell align="center">
-                      <Link to={`/newsletters/${newsletter.slug}`}>See more</Link>
+                      <Link to={`/newsletters/${newsletter.slug}`}>
+                        See more
+                      </Link>
                     </TableCell>
                   </TableRow>
                 )

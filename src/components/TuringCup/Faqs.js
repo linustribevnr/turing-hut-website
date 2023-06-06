@@ -59,7 +59,8 @@ export default function Faqs() {
               textAlign: "center",
               color: "#F2AA4CFF",
               marginTop: "50px"
-            }}>
+            }}
+          >
             FAQs
           </h2>
           {faqs.map((item, ind) => (
@@ -68,17 +69,25 @@ export default function Faqs() {
               expanded={expanded === ind}
               onChange={handleChange(ind)}
               key={ind}
-              sx={{ bgcolor: "#101820FF" }}>
+              sx={{ bgcolor: "#101820FF" }}
+            >
               <AccordionSummary
                 expandIcon={<ExpandMore sx={{ color: "#F2AA4CFF" }} />}
                 aria-label="Expand"
-                sx={ind !== 0 ? { borderTop: "1px solid #F2AA4CFF" } : null}>
-                <Typography variant="body1" sx={{ color: "#F2AA4CFF", fontFamily: "'Gruppo', cursive" }}>
+                sx={ind !== 0 ? { borderTop: "1px solid #F2AA4CFF" } : null}
+              >
+                <Typography
+                  variant="body1"
+                  sx={{ color: "#F2AA4CFF", fontFamily: "'Gruppo', cursive" }}
+                >
                   {item.question}
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography variant="body1" sx={{ color: "white", fontFamily: "'Gruppo', cursive" }}>
+                <Typography
+                  variant="body1"
+                  sx={{ color: "white", fontFamily: "'Gruppo', cursive" }}
+                >
                   {item.answer}
                 </Typography>
               </AccordionDetails>
@@ -94,7 +103,8 @@ export default function Faqs() {
           color: "#F2AA4CFF",
           marginTop: "50px",
           fontFamily: "'Gruppo', cursive"
-        }}>
+        }}
+      >
         For further queries, feel free to reach out to us via Email, WhatsApp or
         Phone <br />
         <Button href="mailto: 20071a05d9@vnrvjiet.in" target="_blank">
@@ -105,10 +115,15 @@ export default function Faqs() {
         </Button>
         <Button
           href="https://api.whatsapp.com/send?phone=7989773778"
-          target="_blank">
+          target="_blank"
+        >
           <WhatsAppIcon
             fontSize="large"
-            sx={{ bgcolor: "", color: "rgb(117, 117, 117)", borderRadius: "20%" }}
+            sx={{
+              bgcolor: "",
+              color: "rgb(117, 117, 117)",
+              borderRadius: "20%"
+            }}
           />
         </Button>
         <Button href="tel:7989773778">

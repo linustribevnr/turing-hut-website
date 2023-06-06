@@ -2,7 +2,7 @@ import * as React from "react";
 import { graphql } from "gatsby";
 import Layout from "../../components/Layout";
 import EventPage from "../../components/EventPage";
-import {Seo} from "../../components/Seo"
+import { Seo } from "../../components/Seo";
 const BlogPost = ({ data }) => {
   return (
     <Layout>
@@ -10,7 +10,7 @@ const BlogPost = ({ data }) => {
         html={data.markdownRemark.html}
         event_details={data.markdownRemark.frontmatter}
       />
-      <Seo routename = {data.markdownRemark.frontmatter.title}/>
+      <Seo routename={data.markdownRemark.frontmatter.title} />
     </Layout>
   );
 };

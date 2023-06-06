@@ -3,14 +3,14 @@ import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
 import "../components/TuringCup/turingcup.css";
 import PastContests from "../components/TuringCup/PastContests";
-import Timers from "../components/TuringCup/Timers";
-import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
+// import Timers from "../components/TuringCup/Timers";
+// import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
 // import TuringCupSponsors from '../components/TuringCup/TuringCupSponsors';
 import { Box } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
-import Timelinee from "../components/TuringCup/Timelinee";
-import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
+// import Timelinee from "../components/TuringCup/Timelinee";
+//import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
 
 import Faqs from "../components/TuringCup/Faqs";
 
@@ -31,7 +31,8 @@ function turingcup() {
             backgroundColor: "#101820FF",
             color: "#F2AA4CFF",
             fontFamily: "'Gruppo', cursive"
-          }}>
+          }}
+        >
           <Landingpage2
             style={{
               margin: "0px",
@@ -40,10 +41,10 @@ function turingcup() {
             }}
           />
           <About />
-          <Timers />
-          <Timelinee />
-          <TuringCupPrizePool />
-          <TuringCupSponsors />
+          {/* <Timers /> */}
+          {/* <Timelinee /> */}
+          {/* <TuringCupPrizePool /> */}
+          {/* <TuringCupSponsors /> */}
           <PastContests />
           <Faqs />
         </Box>

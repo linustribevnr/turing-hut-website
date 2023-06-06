@@ -46,12 +46,12 @@ export default function UpcomingEvents() {
 
   return (
     <Box sx={{ my: 4 }}>
-      <Box sx={{ my: 2, textAlign:"center" }}>
+      <Box sx={{ my: 2, textAlign: "center" }}>
         <Typography
           variant="h5"
           color="black"
           fontWeight={"bold"}
-          sx={{ display: "inline"}}
+          sx={{ display: "inline" }}
         >
           Upcoming&nbsp;
         </Typography>
@@ -70,7 +70,11 @@ export default function UpcomingEvents() {
           here
         </Link>
       </Typography>
-      <Grid container spacing={2} sx={{ my: 2, display:"flex", justifyContent:"space-around" }}>
+      <Grid
+        container
+        spacing={2}
+        sx={{ my: 2, display: "flex", justifyContent: "space-around" }}
+      >
         {events.length > 0 ? (
           events.map(event => (
             <Grid item xs={12} md={3} key={event.id}>
@@ -102,7 +106,11 @@ export default function UpcomingEvents() {
                   </CardContent>
                   <CardActions>
                     <Link
-                      to={`${event.frontmatter.slug}`.includes("turing-cup-2023") ? "/turingcup" : `/events/${event.frontmatter.slug}`}  
+                      to={
+                        `${event.frontmatter.slug}`.includes("turing-cup-2023")
+                          ? "/turingcup"
+                          : `/events/${event.frontmatter.slug}`
+                      }
                       style={{ textDecoration: "none" }}
                     >
                       <Button sx={{ textTransform: "none" }}>Learn More</Button>

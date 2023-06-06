@@ -24,7 +24,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { useLocation } from "@reach/router";
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 
 const navItems = [
   {
@@ -100,7 +100,7 @@ export default function Navbar() {
               key={item.text}
               to={item.path}
               style={{ textDecoration: "none" }}
-              >
+            >
               <ListItem key={item} disablePadding>
                 <ListItemButton
                   sx={{
@@ -110,7 +110,8 @@ export default function Navbar() {
                       location.pathname === item.path.concat("/")
                         ? "#e0e0e0"
                         : "#fff"
-                  }}>
+                  }}
+                >
                   <ListItemIcon>{item.icon}</ListItemIcon>
                   <ListItemText primary={item.text} />
                 </ListItemButton>
@@ -133,14 +134,16 @@ export default function Navbar() {
                 aria-label="open drawer"
                 edge="start"
                 onClick={handleDrawerToggle}
-                sx={{ mr: 2, display: { md: "none" } }}>
+                sx={{ mr: 2, display: { md: "none" } }}
+              >
                 <MenuIcon />
               </IconButton>
-              <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
+              <Link to="/"><Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} /></Link>
               <Typography
                 variant="h6"
                 component="div"
-                sx={{ flexGrow: 1, color: "#e0e0e0" }}>
+                sx={{ flexGrow: 1, color: "#e0e0e0" }}
+              >
                 Turing Cup
               </Typography>
               <Box sx={{ display: { xs: "none", md: "block" } }}>
@@ -148,7 +151,8 @@ export default function Navbar() {
                   <Link
                     key={item.text}
                     to={item.path}
-                    style={{ textDecoration: "none" }}>
+                    style={{ textDecoration: "none" }}
+                  >
                     <Button
                       sx={{
                         color:
@@ -164,7 +168,8 @@ export default function Navbar() {
                         textDecoration: "none",
                         px: 3,
                         mx: 0.5
-                      }}>
+                      }}
+                    >
                       {item.text}
                     </Button>
                   </Link>
@@ -185,7 +190,8 @@ export default function Navbar() {
                 boxSizing: "border-box",
                 width: drawerWidth
               }
-            }}>
+            }}
+          >
             {drawer}
           </Drawer>
         </Box>
@@ -198,14 +204,16 @@ export default function Navbar() {
                 aria-label="open drawer"
                 edge="start"
                 onClick={handleDrawerToggle}
-                sx={{ mr: 2, display: { md: "none" } }}>
+                sx={{ mr: 2, display: { md: "none" } }}
+              >
                 <MenuIcon />
               </IconButton>
               <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
               <Typography
                 variant="h6"
                 component="div"
-                sx={{ flexGrow: 1, color: "black" }}>
+                sx={{ flexGrow: 1, color: "black" }}
+              >
                 Turing Hut
               </Typography>
               <Box sx={{ display: { xs: "none", md: "block" } }}>
@@ -213,7 +221,8 @@ export default function Navbar() {
                   <Link
                     key={item.text}
                     to={item.path}
-                    style={{ textDecoration: "none" }}>
+                    style={{ textDecoration: "none" }}
+                  >
                     <Button
                       sx={{
                         color: "#000",
@@ -233,7 +242,8 @@ export default function Navbar() {
                         textDecoration: "none",
                         px: 3,
                         mx: 0.5
-                      }}>
+                      }}
+                    >
                       {item.text}
                     </Button>
                   </Link>
@@ -254,7 +264,8 @@ export default function Navbar() {
                 boxSizing: "border-box",
                 width: drawerWidth
               }
-            }}>
+            }}
+          >
             {drawer}
           </Drawer>
         </Box>
