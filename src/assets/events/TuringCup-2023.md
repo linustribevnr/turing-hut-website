@@ -19,8 +19,6 @@ Feel free to reach out to us,
 - Tapan: 7989773778
 - Guru Bhargava : 7799553910
 
-### Update #1
-
 ## ROUND 1
 
 o Date : 11/03/2023 - Saturday<br/>
