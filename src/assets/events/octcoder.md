@@ -23,5 +23,34 @@ For any inquiries or further information, feel free to contact:
 - D. Nisritha - 73374 92327
 - Sreekar Vyas - 81211 70046
 
+### Update#1
+Leaderboard:
+
+The teams who solved the mystery and won the prizes are:
+
+1. Team Name:ZEBDUCK<br/>
+   I Venakata Shashank Varma (21071A0418)<br/>
+   Miriyala Surya (21071A0430)<br/>
+   K Sai Prashanth reddy (21071A0426)<br/>
+
+2. Team Name:grassKnife<br/>
+   Yathin Rasineni (20071A6749)<br/>
+   Hitaish Chitimuti (20071A6706)<br/>
+
+3. Team Name:ANK<br/>
+   Gunnai Nishanth (21071A0523)<br/>
+   Shabad Nitin (21071A0556)<br/>
+
+Congratulations to all the winners and participants.
+
+
+### Upadate#2:
+
+Here are the links to the problems and editorials:</br>
+Round 1: http://www.hackerrank.com/octcoder-round-1-evf</br>
+Round 2: http://www.hackerrank.com/codecraft2-0-avn</br>
+Round 3: https://www.hackerrank.com/contests/midnight-codefest-evf</br>
+https://codeforces.com/contestInvitation/ccf81c02102d0f68a318d215a43b9c9c1bb37e91</br>
+
 Don't miss this chance to participate and win exciting cash prizes! We look forward to seeing you there!
 
