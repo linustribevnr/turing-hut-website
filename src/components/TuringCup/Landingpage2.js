@@ -68,7 +68,7 @@ function Landingpage2() {
             }
           }}
           variant="contained"
-          href="https://unstop.com/o/ue5gaLR?lb=Wqrocjv"
+          href="https://unstop.com/p/turing-cup-2k24-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-898184"
           target="__blank"
           startIcon={<HowToRegRoundedIcon />}
         >

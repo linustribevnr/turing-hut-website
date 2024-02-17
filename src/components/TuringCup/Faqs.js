@@ -107,14 +107,14 @@ export default function Faqs() {
       >
         For further queries, feel free to reach out to us via Email, WhatsApp or
         Phone <br />
-        <Button href="mailto: 20071a05d9@vnrvjiet.in" target="_blank">
+        <Button href="mailto: kurudisreekar@gmail.com" target="_blank">
           <EmailIcon
             fontSize="large"
             sx={{ bgcolor: "", color: "rgb(117, 117, 117)" }}
           />
         </Button>
         <Button
-          href="https://api.whatsapp.com/send?phone=7989773778"
+          href="https://api.whatsapp.com/send?phone=8121170046"
           target="_blank"
         >
           <WhatsAppIcon
@@ -126,7 +126,7 @@ export default function Faqs() {
             }}
           />
         </Button>
-        <Button href="tel:7989773778">
+        <Button href="tel:8121170046">
           <CallIcon
             fontSize="large"
             sx={{ bgcolor: "", color: "rgb(117, 117, 117)" }}
