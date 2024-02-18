@@ -1,11 +1,12 @@
 import { Button, Grid, Stack } from "@mui/material";
 import HowToRegRoundedIcon from "@mui/icons-material/HowToRegRounded";
-// import InsertInvitationRoundedIcon from "@mui/icons-material/InsertInvitationRounded";
+import InsertInvitationRoundedIcon from "@mui/icons-material/InsertInvitationRounded";
 // npm install add-to-calendar-button to avail features of add to calendar.
 import { atcb_action } from "add-to-calendar-button";
 
 import React from "react";
 import "./LandingPage2.css";
+import TuringCupSponsors from "./TuringCupSponsors";
 function Landingpage2() {
   const config = {
     name: "[Reminder] Turing Cup 2K23 Round - 1",
@@ -17,9 +18,9 @@ function Landingpage2() {
     timeZone: "Asia/Calcutta"
   };
 
-  // const handleClick = () => {
-  //   atcb_action(config, document.getElementById("add-to-calendar-btn"));
-  // };
+  const handleClick = () => {
+    atcb_action(config, document.getElementById("add-to-calendar-btn"));
+  };
 
   return (
     <Grid
@@ -75,7 +76,7 @@ function Landingpage2() {
           Register Now
         </Button>
 
-        {/* <Button
+         <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             backgroundColor: "#101820FF",
@@ -84,7 +85,7 @@ function Landingpage2() {
             "&:hover": {
               backgroundColor: "#F2AA4CFF",
               color: "#fff"
-            }
+            } 
           }}
           id="add-to-calendar-btn"
           onClick={handleClick}
@@ -92,10 +93,12 @@ function Landingpage2() {
           endIcon={<InsertInvitationRoundedIcon />}
         >
           Add to Calendar
-        </Button> */}
+        </Button> 
       </Stack>
+      
+
     </Grid>
   );
 }
 
-export default Landingpage2;
+export default Landingpage2; 

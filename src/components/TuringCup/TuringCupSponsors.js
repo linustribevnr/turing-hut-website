@@ -6,9 +6,8 @@ import { styled } from "@mui/material/styles";
 // import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { graphql, useStaticQuery } from "gatsby";
 // /turingcupSponsors
-import sponsordata from "../../assets/sponsors23.json";
+import sponsordata from "../../assets/sponsors24.json";
 import SponsorCard from "../../components/TuringCup/OurSponsors";
-
 // import Logo from "../components/TuringCupPrizePool"
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -18,14 +17,14 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function TuringCupSponsors() {
   const data = useStaticQuery(graphql`
-    query SponsorQuery {
-      allFile(filter: { relativeDirectory: { eq: "sponsors23" } }) {
+    query SponsorQuery { 
+      allFile(filter: { relativeDirectory: { eq: "sponsors24" } }) {
         edges {
           node {
             childImageSharp {
               gatsbyImageData(
-                width: 300
-                height: 300
+                width: 1000
+                height: 1000
                 blurredOptions: { width: 100 }
                 placeholder: BLURRED
                 transformOptions: { fit: COVER }
@@ -37,13 +36,14 @@ export default function TuringCupSponsors() {
     }
   `);
   const nodes = data.allFile.edges;
+  console.log("nodes :",nodes);
   return (
     <Box
       sx={{
-        margin: "0 auto"
+        margin: "50px auto"
       }}
     >
-      <h2 style={{ textAlign: "center", color: "#F2AA4CFF" }}>OUR SPONSORS</h2>
+      <h2 style={{ textAlign: "center", color: "#F2AA4CFF" }}>OUR SPONSORS </h2>
       <Stack
         direction={{ xs: "column", sm: "row" }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
@@ -51,20 +51,20 @@ export default function TuringCupSponsors() {
         alignItems="center"
       >
         {sponsordata["sponsors"].map((sponsor, i) => {
-          console.log(nodes);
           const result = nodes.filter(item => {
             const src =
-              item.node?.childImageSharp?.gatsbyImageData.images.fallback.src;
+              item?.node?.childImageSharp?.gatsbyImageData.images.fallback.src;
             var filepath = /[^/]*$/.exec(src)[0];
             // console.log(src, filepath, sponsor.image);
             return filepath === sponsor.image;
           });
-          //   console.log(result);
+            // console.log('result :',result);
           let image;
           if (result.length === 1) {
             image = result[0].node.childImageSharp.gatsbyImageData;
+            // console.log(image)
           } else {
-            console.log("Something is wrong");
+            console.log("Something is wrong in TurinCupSponsors.js");
           }
           return (
             <Item key={i}>

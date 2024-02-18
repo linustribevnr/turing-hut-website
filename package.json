@@ -20,7 +20,7 @@
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.3",
     "@mui/material": "^5.10.4",
-    "add-to-calendar-button": "^2.1.2",
+    "add-to-calendar-button": "^2.5.10",
     "gatsby": "^4.22.1",
     "gatsby-plugin-image": "^2.22.0",
     "gatsby-plugin-sharp": "^4.23.0",
