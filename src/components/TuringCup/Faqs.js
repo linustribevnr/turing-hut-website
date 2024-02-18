@@ -30,16 +30,31 @@ export default function Faqs() {
       answer:
         "The accomodation will be provided for teams whose college is based outside Hyderabad."
     },
-    {
-      question: "Will transport be provided?",
-      // answer:
-      //   "Transport will not be provided to teams based out of Hyderabad. The details of transport for teams based in Hyderabad will be informed shortly."
-      answer: "Transport will not be provided."
-    },
+    // {
+    //   question: "Will transport be provided?",
+    //   // answer:
+    //   //   "Transport will not be provided to teams based out of Hyderabad. The details of transport for teams based in Hyderabad will be informed shortly."
+    //   answer: "Transport will not be provided."
+    // },
     {
       question: "Is there any swag for the event?",
       answer:
         "Yes, swags will be provided for the participants who appear for the onsite round."
+    },
+    {
+      question:"When and where will the link to round 1 be published?",
+      answer:
+        "Round 1 participation link will be mailed to respective team leader's mail ID 3 hours before the commencement of the contest"
+    },
+    {
+        question:"What are the eligibility criteria",
+        answer:
+          "only Undergraduate students residing in India are eligible"
+    },
+    {
+      question:"when the round-1 results are published",
+      answer:
+        "Shortlisted teams will be notified via email"
     }
   ];
 
