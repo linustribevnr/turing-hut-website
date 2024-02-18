@@ -3,13 +3,13 @@ import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
 import "../components/TuringCup/turingcup.css";
 import PastContests from "../components/TuringCup/PastContests";
-// import Timers from "../components/TuringCup/Timers";
+import Timers from "../components/TuringCup/Timers";
 // import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
 import TuringCupSponsors from '../components/TuringCup/TuringCupSponsors';
 import { Box } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
-// import Timelinee from "../components/TuringCup/Timelinee";
+import Timelinee from "../components/TuringCup/Timelinee";
 //import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
 
 import Faqs from "../components/TuringCup/Faqs";
@@ -41,8 +41,8 @@ function turingcup() {
             }}
           />
           <About />
-          {/* <Timers /> */}
-          {/* <Timelinee /> */}
+          <Timers />
+          <Timelinee />
           {/* <TuringCupPrizePool /> */}
           <TuringCupSponsors/>
           <PastContests />

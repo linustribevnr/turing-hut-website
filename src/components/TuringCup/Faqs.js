@@ -19,7 +19,7 @@ export default function Faqs() {
     {
       question: "Is the registration free?",
       answer:
-        "The registration is free for the first round. However, to take part in further rounds you need to pay a fee of Rs.100 per team."
+        "The registration is free for the first round. However, to take part in further rounds you need to pay a fee of Rs.300 per team."
     },
     {
       question: "Will lunch/snacks be provided on the day of onsite rounds?",
@@ -49,7 +49,7 @@ export default function Faqs() {
     {
       question:"What is the eligibility criteria? ",
       answer:
-        "Only undergraduate students residing in India are eligible."
+        "All undergraduate students, pursuing a full-time degree in any branch."
     },
     {
       question:"when the round-1 results will be published?",
