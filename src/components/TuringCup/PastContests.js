@@ -143,7 +143,7 @@ function PastContests() {
   return (
     <>
       <h2
-        style={{ textAlign: "center", color: "#F2AA4CFF", marginTop: "50px" }}
+        style={{textAlign: "center", color: "#F2AA4CFF", marginTop: "50px" }}
       >
         PREVIOUS EDITIONS
       </h2>

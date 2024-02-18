@@ -7,10 +7,10 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import "./SponsorsCard.css";
 
 function OurSponsors({ name, img, desc, link }) {
-  // const [isFlipped, setIsFlipped] = useState(true);
-  // const [open, setOpen] = React.useState(false);
-  // const handleOpen = () => setOpen(true);
-  // const handleClose = () => setOpen(false);
+  const [isFlipped, setIsFlipped] = useState(true);
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   return (
     <div>
       {/* <Button
@@ -23,8 +23,8 @@ function OurSponsors({ name, img, desc, link }) {
                 }}
                 // ENABLE THIS FOR MODAL
                 // onClick={handleOpen}
-                href={link}
-                target="_blank"
+                // href={link}
+                // target="_blank"
             >
                 <GatsbyImage
                     alt={name}
@@ -37,14 +37,14 @@ function OurSponsors({ name, img, desc, link }) {
                         padding : "5px"
                     }}
                 />
-            </Button>
+            </Button> */}
             <Modal
                 open={open}
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
             >
-                <Box sx={style}>
+                <Box>
                     <h1>{name}</h1>
                     <Button id = "x" onClick={handleClose}>
                         X
@@ -66,7 +66,7 @@ function OurSponsors({ name, img, desc, link }) {
                         Know more!
                     </Button>
                 </Box>
-            </Modal> */}
+            </Modal>
       <div className="SponsorBox">
         <div className="SponsorFlipBox">
           <div className="SponsorFront">
@@ -81,7 +81,7 @@ function OurSponsors({ name, img, desc, link }) {
               image={img}
               style={{
                 maxWidth: "100%",
-                maxHeight: "100%",
+                height: "100%",
                 borderRadius: "30px"
                 // border: "2px solid #F2AA4CFF",
                 // padding: "5px"
