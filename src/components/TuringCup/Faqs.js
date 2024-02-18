@@ -44,17 +44,17 @@ export default function Faqs() {
     {
       question:"When and where will the link to round 1 be published?",
       answer:
-        "Round 1 participation link will be mailed to respective team leader's mail ID 3 hours before the commencement of the contest"
+        "Round 1 participation link will be mailed to respective team leader's mail ID 3 hours before the commencement of the contest."
     },
     {
-        question:"What are the eligibility criteria",
-        answer:
-          "only Undergraduate students residing in India are eligible"
-    },
-    {
-      question:"when the round-1 results are published",
+      question:"What is the eligibility criteria? ",
       answer:
-        "Shortlisted teams will be notified via email"
+        "Only undergraduate students residing in India are eligible."
+    },
+    {
+      question:"when the round-1 results will be published?",
+      answer:
+        "The shortlisted teams will receive notification via email after the contest concludes."
     }
   ];
 
