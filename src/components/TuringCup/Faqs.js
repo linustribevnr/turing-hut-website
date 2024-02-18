@@ -30,16 +30,31 @@ export default function Faqs() {
       answer:
         "The accomodation will be provided for teams whose college is based outside Hyderabad."
     },
-    {
-      question: "Will transport be provided?",
-      // answer:
-      //   "Transport will not be provided to teams based out of Hyderabad. The details of transport for teams based in Hyderabad will be informed shortly."
-      answer: "Transport will not be provided."
-    },
+    // {
+    //   question: "Will transport be provided?",
+    //   // answer:
+    //   //   "Transport will not be provided to teams based out of Hyderabad. The details of transport for teams based in Hyderabad will be informed shortly."
+    //   answer: "Transport will not be provided."
+    // },
     {
       question: "Is there any swag for the event?",
       answer:
         "Yes, swags will be provided for the participants who appear for the onsite round."
+    },
+    {
+      question:"When and where will the link to round 1 be published?",
+      answer:
+        "Round 1 participation link will be mailed to respective team leader's mail ID 3 hours before the commencement of the contest."
+    },
+    {
+      question:"What is the eligibility criteria? ",
+      answer:
+        "Only undergraduate students residing in India are eligible."
+    },
+    {
+      question:"when the round-1 results will be published?",
+      answer:
+        "The shortlisted teams will receive notification via email after the contest concludes."
     }
   ];
 
@@ -107,14 +122,14 @@ export default function Faqs() {
       >
         For further queries, feel free to reach out to us via Email, WhatsApp or
         Phone <br />
-        <Button href="mailto: 20071a05d9@vnrvjiet.in" target="_blank">
+        <Button href="mailto: kurudisreekar@gmail.com" target="_blank">
           <EmailIcon
             fontSize="large"
             sx={{ bgcolor: "", color: "rgb(117, 117, 117)" }}
           />
         </Button>
         <Button
-          href="https://api.whatsapp.com/send?phone=7989773778"
+          href="https://api.whatsapp.com/send?phone=8121170046"
           target="_blank"
         >
           <WhatsAppIcon
@@ -126,7 +141,7 @@ export default function Faqs() {
             }}
           />
         </Button>
-        <Button href="tel:7989773778">
+        <Button href="tel:8121170046">
           <CallIcon
             fontSize="large"
             sx={{ bgcolor: "", color: "rgb(117, 117, 117)" }}
