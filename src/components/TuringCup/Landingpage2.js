@@ -9,7 +9,7 @@ import "./LandingPage2.css";
 import TuringCupSponsors from "./TuringCupSponsors";
 function Landingpage2() {
   const config = {
-    name: "[Reminder] Turing Cup 2K23 Round - 1",
+    name: "[Reminder] Turing Cup 2K24 Round - 1",
     description: "Check your mail for the Contest Links",
     startDate: "2024-03-09",
     startTime: "18:00",

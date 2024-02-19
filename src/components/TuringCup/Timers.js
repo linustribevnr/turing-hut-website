@@ -24,7 +24,7 @@ function Timers() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("March 11, 2023 19:30:00").getTime();
+    const countdownDate = new Date("March 9, 2024 18:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -62,9 +62,9 @@ function Timers() {
       clearInterval(intervalId);
     };
 
-    // return () => {
-    //     clearInterval(interval.current);
-    // }
+    return () => {
+        clearInterval(interval.current);
+    }
   });
 
   const isLargeScreen = useMediaQuery(theme => theme.breakpoints.up("lg"));
@@ -84,7 +84,7 @@ function Timers() {
       }}
     >
       <h2 style={{ color: "#F2AA4CFF", fontFamily: "'Gruppo', cursive" }}>
-        STARTS IN
+        ROUND-1 STARTS IN
       </h2>
 
       <Grid container justifyContent={"space-evenly"}>
