@@ -72,7 +72,7 @@ function Timelinee() {
           className="vertical-timeline-element--work"
           contentStyle={{
             border: "2px solid #F2AA4CFF",
-            background: "none",git
+            background: "none",
             color: "#F2AA4CFF"
           }}
           contentArrowStyle={{ borderRight: "7px solid  #F2AA4CFF" }}
