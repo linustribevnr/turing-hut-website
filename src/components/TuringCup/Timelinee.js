@@ -59,10 +59,10 @@ function Timelinee() {
             The qualifier round 1 for the Turing Cup 2024 coding contest. <br />
             Date: 09/03/2024 - Saturday <br />
             Time: 06:00 PM - 08:00 PM (IST)<br />
-            Platform: Hacker rank <br />
+            Platform: TBD <br />
             Location: Online <br />
             Duration: 02h 00m <br />
-            Contest format: IOI <br />
+            Contest format: TBD <br />
             {/* (No penalty for wrong submissions and tie breaks are based on time
             of submission(Last AC)) <br /> */}
             Ranklist will be finalized after plagiarism check. <br />

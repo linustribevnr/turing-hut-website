@@ -17,7 +17,6 @@ function Landingpage2() {
     options: ["Google", "Apple", "Outlook.com"],
     timeZone: "Asia/Calcutta"
   };
-
   const handleClick = () => {
     atcb_action(config, document.getElementById("add-to-calendar-btn"));
   };
@@ -57,7 +56,7 @@ function Landingpage2() {
         direction={{ xs: "column", md: "row" }}
         spacing={2}
       >
-        <Button
+        {/* <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             backgroundColor: "#101820FF",
@@ -73,10 +72,10 @@ function Landingpage2() {
           target="__blank"
           startIcon={<HowToRegRoundedIcon />}
         >
-          Register Now
-        </Button>
+          Register For Round-2
+        </Button> */}
 
-         <Button
+         {/* <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             backgroundColor: "#101820FF",
@@ -93,7 +92,7 @@ function Landingpage2() {
           endIcon={<InsertInvitationRoundedIcon />}
         >
           Add to Calendar
-        </Button> 
+        </Button>  */}
       </Stack>
       
 
