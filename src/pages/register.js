@@ -71,7 +71,7 @@ const RegisterForm = () => {
   const addDocFun = async(collectionRef,data)=>{
     try{
       await addDoc(collectionRef, {...data});
-      alert("Document added succesfully")
+      alert("Payment is registered succesully")
     }catch(e){
       alert("Something went wrong!")
       console.log("Error :",e)
