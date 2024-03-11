@@ -3,15 +3,14 @@ import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
 import "../components/TuringCup/turingcup.css";
 import PastContests from "../components/TuringCup/PastContests";
-// import Timers from "../components/TuringCup/Timers";
+import Timers from "../components/TuringCup/Timers";
 // import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
 import TuringCupSponsors from '../components/TuringCup/TuringCupSponsors';
-import { Box } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 // import { createTheme } from "@mui/material/styles";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
 import Timelinee from "../components/TuringCup/Timelinee";
-import RegistrationForm from "../pages/register";
-
+import HowToRegRoundedIcon from "@mui/icons-material/HowToRegRounded";
 
 import Faqs from "../components/TuringCup/Faqs";
 
@@ -41,13 +40,52 @@ function turingcup() {
               fontFamily: "'Gruppo', cursive"
             }}
           />
-          <RegistrationForm/>          
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              marginTop: "100px"
+            }}
+          >
+            <Typography
+              variant="h5"
+              fontWeight="bold"
+              sx={{
+                pb: 2,
+                fontFamily: ['"Gruppo"', "cursive"].join(","),
+                color: "#F2AA4CFF",
+                fontSize: "1.5rem"
+              }}
+            >
+              REGISTRATION FOR ROUND-2
+            </Typography>
+            <Button
+              sx={{
+                fontFamily: ['"Gruppo"', "cursive"].join(","),
+                backgroundColor: "#101820FF",
+                color: "#F2AA4CFF",
+                border: "1px solid #F2AA4CFF",
+                "&:hover": {
+                  backgroundColor: "#F2AA4CFF",
+                  color: "#fff"
+                }
+              }}
+              variant="contained"
+              href="/register"
+              startIcon={<HowToRegRoundedIcon />}
+            >
+              Register Now
+            </Button>
+          </div>
           <About />
-          {/* <Timers /> */}
+          <Timers />
           <Timelinee />
           {/* <TuringCupPrizePool /> */}
           <TuringCupSponsors/>
           <PastContests />
+          
           <Faqs />
         </Box>
       </div>

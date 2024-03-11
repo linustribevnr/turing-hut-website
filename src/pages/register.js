@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from "react";
-import { collection, query, where, getDocs, updateDoc, doc, addDoc,deleteDoc } from '@firebase/firestore';
+import { toast, Toaster } from 'react-hot-toast';
+import { collection, query, where, getDocs, addDoc } from '@firebase/firestore';
+import DB from '../../.firebase/ConfigFirebase'
 import { useForm } from "react-hook-form";
 import { Seo } from "../components/Seo";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 // import { border } from "@mui/system";
-import { Firestore } from "../../.firebase/ConfigFirebase";
+import Layout from "../components/Layout";
 import { format } from 'date-fns'; 
 export const Head = () => <Seo routename={"Register"} />;
 
-// const goldColor = "#F2AA4CFF";
-const goldColor = 'white'
+// STYLES
+
+const goldColor = "#F2AA4CFF";
+// const goldColor = 'white'
 
 const textFieldStyle = {
   mt: 2,
@@ -49,94 +53,19 @@ const textFieldStyle = {
   }
 };
 
+
 const RegisterForm = () => {
   const [formStep, setFormStep] = useState(1);
   const [verified, setVerified] = useState(false);
-  
-  // FIREBASE ACTIONS
-  const shortlistsCollectionRef = collection(Firestore,"shortlists")
-  const paymentsCollectionRef = collection(Firestore,"payments")
-  const [shortlistedList, setShortlistedList] = useState([])
-  const [paymentsList, setPaymentList] = useState([])
   const [email, setEmail] = useState()
-  const [name, setName] = useState()
+  const shortlistsCollectionRef = collection(DB, 'shortlists');
+  const paymentsCollectionRef = collection(DB,'payments');
   const  [noticePoints, setNoticePoints] = useState([
     "Pay the 300/- rupees per team in a single payment",
     "Once paid money will not be refunded",
     "prefer phonePay, google Pay, PayTM (Net Banking is not allowed)",
     "If you have any quries reach out Sreekar : 8121170046 , Nisritha : 7337492327"
-  ]);
-
-  // ADD DOC
-  const addDocFun = async(collectionRef,data)=>{
-    try{
-      await addDoc(collectionRef, {...data});
-      alert("Payment is registered succesully")
-    }catch(e){
-      alert("Something went wrong!")
-      console.log("Error :",e)
-    }
-    console.log(data);
-  }
-
-  // READ DOCS
-  const readDocsFun = async()=>{
-    // get shortlisted emails
-    // try{
-    //   const querySnapshot = await getDocs(shortlistsCollectionRef);
-    //   const shortlistedDocs = []
-    //   querySnapshot.forEach((doc)=>{
-    //     shortlistedDocs.push({id:doc.id, ...doc.data()});
-    //   })
-    //   setShortlistedList(shortlistedDocs)
-    // } catch(e){
-    //   alert("Something went wrong!")
-    //   console.log("Error :",e)
-    // }
-    // get payments details
-    // try{
-    //   const querySnapshot = await getDocs(paymentsCollectionRef);
-    //   const paymentsDocs = []
-    //   querySnapshot.forEach((doc)=>{
-    //     paymentsDocs.push({id:doc.id, ...doc.data()});
-    //   })
-    //   setPaymentList(paymentsDocs)
-    // } catch(e){
-    //   alert("Something went wrong!")
-    //   console.log("Error :",e)
-    // }
-  }
-
-  // UPDATE DOC
-  const updateDocFun = async(collectionRef,data)=>{
-    const q = query(collectionRef, where('email', '==', email));
-  
-    try {
-      const querySnapshot = await getDocs(q);
-      querySnapshot.forEach(async (doc) => {
-        await updateDoc(doc.ref, {email,name, status:true});
-        alert(`Document with email ${email} updated successfully!`);
-      });
-    } catch (error) {
-      alert('Error updating document: ', error);
-    }
-  }
-
-  // DELETE DOC
-  const deleteDocFun = async(collectionRef,data)=>{
-    const q = query(collectionRef, where('email', '==', email));
-    try {
-      const querySnapshot = await getDocs(q);
-      querySnapshot.forEach(async (doc) => {
-        await deleteDoc(doc.ref);
-        alert(`Document with email ${email} deleted successfully!`);
-      });
-    } catch (error) {
-      alert('Error deleting document: ', error);
-    }
-  }
-
-
+  ]); 
 
   const {
     register,
@@ -145,59 +74,79 @@ const RegisterForm = () => {
     reset
   } = useForm();
 
-  const onSubmit = async(data) => {
-    data.verified = false;
-    const currentDate = new Date();
-    const formattedDateTime = await format(currentDate, "dd/MM/yyyy, HH:mm:ss 'IST'");
-    data.timestamp = formattedDateTime;
-    console.log(data);
-    if(verified == false){
-      setFormStep(1);
-      reset();
-      window.alert('Your email id is not yet verified! Please verify your email id')
+
+  const getDocByEmail = async (collectionRef, email) => {
+    try {
+      const shortlistedDocs = []
+      const q = query(collectionRef, where('email', '==', email));
+      const querySnapshot = await getDocs(q);
+      querySnapshot.forEach((doc) => {
+        shortlistedDocs.push({ id:doc.id, ...doc.data()});
+      });
+      console.log('Shortlisted Documents :', shortlistedDocs)
+      return shortlistedDocs;
+    } catch (error) {
+      console.error('Error getting document:', error);
     }
-    else{
-      await addDocFun(paymentsCollectionRef,data)
-      reset();
-    }
-    window.location.href = "/turingcup";
-    // window.alert("Form submitted successfully!");
+    return []
   };
 
-  const handleNext = async() => {
-    if (formStep === 1 && Object.keys(errors).length === 0) {
-      const shortlistedDocs = [];
-      try{
-        const q = query(shortlistsCollectionRef, where('email', '==', email));
-        const querySnapshot = await getDocs(q);
-        querySnapshot.forEach((doc) => {
-          shortlistedDocs.push({ id: doc.id, ...doc.data() });
-        });
-      } catch(e){
-        alert("Something went wrong!");
-        console.log("Error :", e);
-      }
 
-      if(shortlistedDocs.length === 1 ) {
+  const addNewDoc = async (collectionRef, data) => {
+    try {
+      console.log("Adding document with data:", data);
+      const docRef = await addDoc(collectionRef, data);
+      console.log('New Document ID:', docRef.id);
+    } catch (e) {
+      console.log("Error occurred:", e);
+    }
+  }
+  
+  const onSubmit = async (data) => {
+    data.verified = false;
+    const currentDate = new Date();
+    const formattedDateTime = await format(
+      currentDate,
+      "dd/MM/yyyy, HH:mm:ss 'IST'"
+    );
+    data.timestamp = formattedDateTime;
+    console.log("New Data to be submitted : ", data);
+    if (verified === false) {
+      setFormStep(1);
+      toast.error('Your email id is not yet verified! Please verify your email id');
+    } else {
+      await addNewDoc(paymentsCollectionRef, data);
+      toast.success("Form submitted successfully!");
+      // Navigate programmatically using React Router or history API
+      // Example using React Router useHistory hook
+      // history.push("/turingcup");
+    }
+  };
+  
+
+
+
+  const handleNext = async() => {
+    if (formStep === 1) {
+      const shortlistedDocs = await getDocByEmail(shortlistsCollectionRef,email);
+
+      if(shortlistedDocs.length !== 0 ) {
         setVerified(true);
         setFormStep(formStep+1)
       }
       else{
         setVerified(false);
         setFormStep(1);
-        window.alert("your team is not shortlisted. please provide the correct email of team leader")
-        reset();  
-        window.location.href = "/turingcup";
+        toast.error("your team is not shortlisted. please provide the correct email of team leader");
+        // window.location.href = "/register";
       }
     }
   };
 
-  useEffect(()=>{
-    readDocsFun();
-  },[]);
-
   return (
-    <div
+    <Layout>
+      <Toaster />
+      <div
       className="fullpage"
       style={{
         display: "flex",
@@ -226,23 +175,25 @@ const RegisterForm = () => {
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             color: goldColor,
             fontSize: "2.5rem"
-          }}
-        >
+          }}>
           REGISTRATION FOR ROUND-2
-          {/* Displaying notice points */}
-          <div style={{ marginBottom: "20px" }}>
-            {noticePoints.map((point, index) => (
-                <Typography key={index} sx={{ marginBottom: "10px" }}
-                  style={{
-                    color:'#F2AA4CFF',
-                    marginTop:'10px'
-                  }}
-                >
-                    <li>{point}</li>
-                </Typography>
-            ))}
-          </div>
         </Typography>
+        {/* Displaying notice points */}
+        <div style={{ marginBottom: "20px" }}>
+            {noticePoints.map((point, index) => (
+              <Typography
+                key={index}
+                variant="h4"
+                fontWeight="bold"
+                sx={{
+                  fontFamily: ['"Gruppo"', "cursive"].join(","),
+                  color: goldColor,
+                  fontSize: "1.15rem"
+                }}>
+                <li>{point}</li>
+              </Typography>
+            ))}
+        </div>
         {formStep === 1 && (
           <>
             <TextField
@@ -277,7 +228,7 @@ const RegisterForm = () => {
         )}
         {formStep === 2 && verified && (
           <>
-             <Typography
+            <Typography
                 variant="h4"
                 fontWeight="bold"
                 marginTop="50px"
@@ -291,14 +242,14 @@ const RegisterForm = () => {
                 Make payment to : 8121170046 (Kurudi Sreekarvyas)
               </Typography>
             <TextField
-               label="Team Name"
-               {...register("teamName", { required: true })}
-               error={errors.teamName ? true : false}
-               helperText={errors.teamName ? "Team Name is required" : ""}
-               sx={textFieldStyle}
-               variant="outlined"
-               autoComplete="new-name"
-             />
+              label="Team Name"
+              {...register("teamName", { required: true })}
+              error={errors.teamName ? true : false}
+              helperText={errors.teamName ? "Team Name is required" : ""}
+              sx={textFieldStyle}
+              variant="outlined"
+              autoComplete="new-name"
+            />
             <TextField
               label="Team Leader Name"
               {...register("leaderName", { required: true })}
@@ -363,6 +314,7 @@ const RegisterForm = () => {
         )}
       </form>
     </div>
+  </Layout>
   );
 };
 

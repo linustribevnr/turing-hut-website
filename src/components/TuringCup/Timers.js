@@ -24,7 +24,7 @@ function Timers() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("March 9, 2024 18:00:00").getTime();
+    const countdownDate = new Date("March 28, 2024 10:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

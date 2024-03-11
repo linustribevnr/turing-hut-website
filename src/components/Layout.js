@@ -26,7 +26,7 @@ export default function Layout({ children }) {
   const [is_turingcup_page, setTuringCupPage] = useState(false);
   // const[defw,setdefw] = useState(1);
   useEffect(() => {
-    if (window.location.pathname.includes("/turingcup")) {
+    if (window.location.pathname.includes("/turingcup") || window.location.pathname.includes("/register")) {
       setbgcol("#101820FF");
       setdefp(0);
       setTuringCupPage(true);
