@@ -32,7 +32,7 @@ const styles = {
   container: {
     margin: "auto",
     width: "75vw"
-    
+
     // height : "10vw"
   }
 };
@@ -61,7 +61,8 @@ const contestdetails = [
         "mem1": "Pranab Singh",
         "mem2": "",
         "mem3": "",
-        "college": "Indian Institute of Information Technology Design and Manufacturing, Kurnool"
+        "college":
+          "Indian Institute of Information Technology Design and Manufacturing, Kurnool"
       }
     }
   },
@@ -143,7 +144,7 @@ function PastContests() {
   return (
     <>
       <h2
-        style={{textAlign: "center", color: "#F2AA4CFF", marginTop: "50px" }}
+        style={{ textAlign: "center", color: "#F2AA4CFF", marginTop: "50px" }}
       >
         PREVIOUS EDITIONS
       </h2>

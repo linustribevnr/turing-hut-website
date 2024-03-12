@@ -15,15 +15,18 @@ markdownType: event
 The coding event is designed to be beneficial for participants who aspire to compete in various contests, such as the International Collegiate Programming Contest (ICPC) and Meta’s Hacker cup, and wish to enhance their preparation and performance for such competitions.
 
 This event is a 12+ hours competitive programming contest consisting of 3 rounds with ateam size of 1-3:
+
 - Round 1 : Fastest finger first
 - Round 2 : Code craft 2.0
 - Round 3 : Midnight CodeFest
 
 For any inquiries or further information, feel free to contact:
+
 - D. Nisritha - 73374 92327
 - Sreekar Vyas - 81211 70046
 
 ### Update#1
+
 Leaderboard:
 
 The teams who solved the mystery and won the prizes are:
@@ -43,7 +46,6 @@ The teams who solved the mystery and won the prizes are:
 
 Congratulations to all the winners and participants.
 
-
 ### Upadate#2:
 
 Here are the links to the problems and editorials:</br>
@@ -53,4 +55,3 @@ Round 3: https://www.hackerrank.com/contests/midnight-codefest-evf</br>
 https://codeforces.com/contestInvitation/ccf81c02102d0f68a318d215a43b9c9c1bb37e91</br>
 
 Don't miss this chance to participate and win exciting cash prizes! We look forward to seeing you there!
-

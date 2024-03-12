@@ -47,7 +47,6 @@ function LandingPage() {
             borderRadius={2}
             padding={1}
             style={styles.backDrop}
-            
           >
             EDITION 2K22
           </Typography>

@@ -1,4 +1,7 @@
 const { HubTwoTone } = require("@mui/icons-material");
+require("dotenv").config({
+  path: ".env"
+});
 
 module.exports = {
   siteMetadata: {
@@ -11,7 +14,7 @@ module.exports = {
     VNR,
     Coding club,
     Programming club,
-    club,
+    club,c
     VNR cse,
     VNRVJIET`
   },

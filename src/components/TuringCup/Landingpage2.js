@@ -51,7 +51,7 @@ function Landingpage2() {
       </svg>
 
       {/* <h1>hi</h1> */}
-      <Stack
+      {/* <Stack
         style={{ marginTop: "-40px" }}
         sx={{ p: 5, justifyContent: "center" }}
         direction={{ xs: "column", md: "row" }}
@@ -76,7 +76,7 @@ function Landingpage2() {
           Register Now
         </Button>
 
-         <Button
+        <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             backgroundColor: "#101820FF",
@@ -85,7 +85,7 @@ function Landingpage2() {
             "&:hover": {
               backgroundColor: "#F2AA4CFF",
               color: "#fff"
-            } 
+            }
           }}
           id="add-to-calendar-btn"
           onClick={handleClick}
@@ -93,12 +93,10 @@ function Landingpage2() {
           endIcon={<InsertInvitationRoundedIcon />}
         >
           Add to Calendar
-        </Button> 
-      </Stack>
-      
-
+        </Button>
+      </Stack> */}
     </Grid>
   );
 }
 
-export default Landingpage2; 
+export default Landingpage2;

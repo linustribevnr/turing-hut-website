@@ -1,17 +1,16 @@
 {
-    "sponsors": [
-      {
-        "name": " CanAuz Overseas Careers",
-        "image": "canauzOverseas.png",
-        "details": "Canauz Overseas is a visa assistance and immigration consultancy company in Hyderabad, India. They offer a range of services, including visa processing.",
-        "link": "https://canauzoverseas.com/"
-      },
-      {
-        "name": "CrossPapers",
-        "image": "crossPaperslogo.png",
-        "details": "CrossPapers is software company with a moto 'Empowering Education Through Innovative Software'. They develop software tools that are intuitive, adaptable, and tailored to modern learning environments.",
-        "link": "https://crosspapers.com"
-      }
-    ]
-  }
-  
+  "sponsors": [
+    {
+      "name": " CanAuz Overseas Careers",
+      "image": "canauzOverseas.png",
+      "details": "Canauz Overseas is a visa assistance and immigration consultancy company in Hyderabad, India. They offer a range of services, including visa processing.",
+      "link": "https://canauzoverseas.com/"
+    },
+    {
+      "name": "CrossPapers",
+      "image": "crossPaperslogo.png",
+      "details": "CrossPapers is software company with a moto 'Empowering Education Through Innovative Software'. They develop software tools that are intuitive, adaptable, and tailored to modern learning environments.",
+      "link": "https://crosspapers.com"
+    }
+  ]
+}

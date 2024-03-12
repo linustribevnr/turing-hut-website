@@ -58,7 +58,8 @@ function Timelinee() {
           <h4>
             The qualifier round 1 for the Turing Cup 2024 coding contest. <br />
             Date: 09/03/2024 - Saturday <br />
-            Time: 06:00 PM - 08:00 PM (IST)<br />
+            Time: 06:00 PM - 08:00 PM (IST)
+            <br />
             Platform: TBD <br />
             Location: Online <br />
             Duration: 02h 00m <br />
@@ -86,7 +87,8 @@ function Timelinee() {
             The onsite round for the Turing Cup 2024 for the qualified teams of
             Round-1. <br />
             Date: 28/03/2024 - Thursday <br />
-            Time: 10:30 AM - 12:30 PM (IST)<br />
+            Time: 10:30 AM - 12:30 PM (IST)
+            <br />
             Platform: TBD <br />
             Location: VNR VJIET Campus, Bachupally, Hyderabad <br />
             Duration: 02h 00m <br />
@@ -113,7 +115,8 @@ function Timelinee() {
             The third and final round (Onsite) of Turing Cup 2024 coding contest{" "}
             <br />
             Date: 28/03/2024 - Thursday <br />
-            Time: 2:00 PM - 4:00 PM (IST)<br />
+            Time: 2:00 PM - 4:00 PM (IST)
+            <br />
             Platform: TBD <br />
             Location: VNR VJIET Campus, Bachupally, Hyderabad <br />
             Duration: 02h 00m <br />

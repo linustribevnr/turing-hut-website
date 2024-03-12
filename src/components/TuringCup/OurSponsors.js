@@ -38,35 +38,35 @@ function OurSponsors({ name, img, desc, link }) {
                     }}
                 />
             </Button> */}
-            <Modal
-                open={open}
-                onClose={handleClose}
-                aria-labelledby="modal-modal-title"
-                aria-describedby="modal-modal-description"
-            >
-                <Box>
-                    <h1>{name}</h1>
-                    <Button id = "x" onClick={handleClose}>
-                        X
-                    </Button>
-                    <p>
-                        {desc}
-                    </p>
-                    <Button sx={{ 
-                    backgroundColor: '#fff', 
-                    color: '#F2AA4CFF',
-                    '&:hover': {
-                        backgroundColor: '#F2AA4CFF',
-                        color: '#fff'
-                        },
-                    }} 
-                    variant='contained' 
-                    href={link}
-                    target='__blank'>
-                        Know more!
-                    </Button>
-                </Box>
-            </Modal>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box>
+          <h1>{name}</h1>
+          <Button id="x" onClick={handleClose}>
+            X
+          </Button>
+          <p>{desc}</p>
+          <Button
+            sx={{
+              backgroundColor: "#fff",
+              color: "#F2AA4CFF",
+              "&:hover": {
+                backgroundColor: "#F2AA4CFF",
+                color: "#fff"
+              }
+            }}
+            variant="contained"
+            href={link}
+            target="__blank"
+          >
+            Know more!
+          </Button>
+        </Box>
+      </Modal>
       <div className="SponsorBox">
         <div className="SponsorFlipBox">
           <div className="SponsorFront">

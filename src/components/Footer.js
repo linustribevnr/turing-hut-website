@@ -36,6 +36,7 @@ export default function Footer() {
     if (
       window.location.pathname.includes("/turingcup") ||
       window.location.pathname.includes("/turingcup/")
+      // window.location.pathname.includes("/register")
     ) {
       setbgcol("#101820FF");
     } else setbgcol("white");

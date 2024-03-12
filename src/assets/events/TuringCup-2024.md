@@ -5,7 +5,7 @@ time: 6:00 PM to 08:00 PM
 type: Contest
 slug: turing-cup-2024
 image: ../images/events/turingcup2024.png
-registration:  https://unstop.com/o/CrlhSpi?lb=btnY88sc
+registration: https://unstop.com/o/CrlhSpi?lb=btnY88sc
 recording: NA
 markdownType: event
 ---
@@ -21,9 +21,6 @@ To register for the contest kindly check this link here: [Registration Form](htt
 There will be strict plagarism check after the contest, don't try to seek help from your friends or try to help your friends, doing so both of you will get caught.
 
 If you have any queries, contact:
+
 - Sreekar Vyas: 8121170046
 - D. Nisritha: 7337492327
-
-
-
-
