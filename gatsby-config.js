@@ -1,4 +1,7 @@
 const { HubTwoTone } = require("@mui/icons-material");
+require('dotenv').config({
+  path: `.env`,
+});
 
 module.exports = {
   siteMetadata: {
@@ -43,6 +46,19 @@ module.exports = {
         name: `newsletters`,
         path: `${__dirname}/src/assets/newsletters`
       }
-    }
+    },
+    // {
+    //   resolve: `gatsby-plugin-env-variables`,
+    //   options: {
+    //     // Define your environment variables here
+    //     API_KEY: process.env.API_KEY,
+    //     AUTH_DOMAIN: process.env.AUTH_DOMAIN,
+    //     PROJECT_ID: process.env.PROJECT_ID,
+    //     STORAGE_BUCKET: process.env.STORAGE_BUCKET,
+    //     MESSAGING_SENDER_ID: process.env.MESSAGING_SENDER_ID,
+    //     APP_ID: process.env.APP_ID,
+    //     // Add more variables if needed
+    //   },
+    // },
   ]
 };
