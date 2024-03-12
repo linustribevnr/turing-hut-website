@@ -85,7 +85,7 @@ function Turingcup() {
             >
               {isRegistering ? 'Close Form' : 'Register For Round-2 Here'}
             </Button>
-            {isRegistering&& <RegisterForm/>}
+            {isRegistering&& <RegisterForm />}
           </div>
 
           <About  />

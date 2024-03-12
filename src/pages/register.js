@@ -15,7 +15,6 @@ export const Head = () => <Seo routename={"Register"} />;
 // STYLES
 
 const goldColor = "#F2AA4CFF";
-// const goldColor = 'white'
 
 const textFieldStyle = {
   mt: 2,
@@ -61,13 +60,13 @@ const RegisterForm = () => {
   const shortlistsCollectionRef = collection(DB, 'shortlists');
   const paymentsCollectionRef = collection(DB,'payments');
   const  [noticePoints, setNoticePoints] = useState([
-    "Dont fill the multiple forms",
-    "Please fill in the information of the Team Leader which matches the one you provided in Round-1 Registration",
-    "The registration fee for each team is Rs 300; make sure to pay within a single transaction",
+    "Don't fill the form multiple times",
+    "Please provide the details of the Team Leader that match the information provided in Round-1 Registration",
+    "The registration fee for each team is Rs 300 , Make sure to pay within a single transaction.",
     "We will not issue any kind of refund",
-    "Prefer phonePay, google Pay, PayTM (Net Banking is not allowed)",
-    "If you have any queries reach out Sreekar : 8121170046 , Nisritha : 7337492327",
-    "Make sure the Transaction ID you gave is valid"
+    "You can pay using PhonePay, Google Pay, PayTM (Net Banking is not available)",
+    "If you have any queries, reach out to Sreekar : 8121170046 , Nisritha : 7337492327",
+    "Make sure the transaction ID you give is valid"
   ]); 
 
   const {
@@ -142,11 +141,11 @@ const RegisterForm = () => {
         toast.success(`Form submitted successfully!\nTeam Name : ${ackwnloedggement[0]['teamName']}\nEmail : ${ackwnloedggement[0]['email']}`);
         else 
           toast.error("An error occured. please contact the admin")
+
       }catch(error){
         console.log("Error occured : ",error)
       }
     }
-    window.location.reload()
   };
   
 
@@ -195,19 +194,19 @@ const RegisterForm = () => {
         }}
       >
         <Typography
-          variant="h4"
+          variant="h5"
           fontWeight="bold"
           marginTop="50px"
-          
+          textAlign={'center'}
           sx={{
             pb: 2,
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             color: goldColor,
-            fontSize: "1.7rem",
+            fontSize: "1.5rem",
             display:'flex',
             justifyContent: 'center',
             flexWrap:"wrap",
-            width:'100%',            
+            width:'100%',
           }}>
           REGISTRATION FOR ROUND-2
         </Typography>
@@ -217,7 +216,7 @@ const RegisterForm = () => {
               <Typography
                 key={index}
                 variant="h4"
-                fontWeight="bold"
+                maxWidth={'500px'}
                 sx={{
                   fontFamily: ['"Gruppo"', "cursive"].join(","),
                   color: goldColor,
