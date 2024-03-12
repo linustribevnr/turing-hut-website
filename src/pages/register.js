@@ -91,6 +91,21 @@ const RegisterForm = () => {
     return []
   };
 
+  const getPaymentByEmail = async (collectionRef, email)=>{
+    try{
+      const paymentsDocs = []
+      const q = query(collectionRef, where('email', '==', email));
+      const querySnapshot = await getDocs(q);
+      querySnapshot.forEach((doc) => {
+        paymentsDocs.push({ id:doc.id, ...doc.data()});
+      });
+      console.log('Payments Documents :', paymentsDocs)
+      return paymentsDocs;
+    }catch(e){
+      console.error("Error in getting document : ", e);
+    }
+    return []
+  }
 
   const addNewDoc = async (collectionRef, data) => {
     try {
@@ -111,16 +126,24 @@ const RegisterForm = () => {
     );
     data.timestamp = formattedDateTime;
     console.log("New Data to be submitted : ", data);
+
     if (verified === false) {
       setFormStep(1);
       toast.error('Your email id is not yet verified! Please verify your email id');
     } else {
-      await addNewDoc(paymentsCollectionRef, data);
-      toast.success("Form submitted successfully!");
-      // Navigate programmatically using React Router or history API
-      // Example using React Router useHistory hook
-      // history.push("/turingcup");
+      try{
+        await addNewDoc(paymentsCollectionRef, data);
+
+        const ackwnloedggement = await getPaymentByEmail(paymentsCollectionRef,data.email);
+        if(ackwnloedggement.length !== 0)
+        toast.success(`Form submitted successfully!\nTeam Name : ${ackwnloedggement[0]['teamName']}\nEmail : ${ackwnloedggement[0]['email']}`);
+        else 
+          toast.error("An error occured. please contact the admin")
+      }catch(error){
+        console.log("Error occured : ",error)
+      }
     }
+    window.location.reload()
   };
   
 

@@ -9,7 +9,7 @@ import "./LandingPage2.css";
 import TuringCupSponsors from "./TuringCupSponsors";
 function Landingpage2() {
 
-  console.log("PROCESS>ENV  : ", process.env.API_KEY)
+  // console.log("PROCESS>ENV  : ", process.env.API_KEY)
 
   const config = {
     name: "[Reminder] Turing Cup 2K24 Round - 1",

@@ -31,7 +31,7 @@
   export default function Footer() {
     const [bgcol, setbgcol] = useState("white");
     useEffect(() => {
-      console.log(window.location.pathname);
+      // console.log(window.location.pathname);
 
       if (
         window.location.pathname.includes("/turingcup") ||
@@ -40,7 +40,7 @@
       ) {
         setbgcol("#101820FF");
       } else setbgcol("white");
-      console.log(bgcol);
+      // console.log(bgcol);
     });
 
     return (
