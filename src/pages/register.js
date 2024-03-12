@@ -61,6 +61,7 @@ const RegisterForm = () => {
   const shortlistsCollectionRef = collection(DB, 'shortlists');
   const paymentsCollectionRef = collection(DB,'payments');
   const  [noticePoints, setNoticePoints] = useState([
+    "Dont fill the multiple forms",
     "Please fill in the information of the Team Leader which matches the one you provided in Round-1 Registration",
     "The registration fee for each team is Rs 300; make sure to pay within a single transaction",
     "We will not issue any kind of refund",
@@ -223,7 +224,7 @@ const RegisterForm = () => {
                   fontSize: "1.1rem",
                 }}>
                 <li
-                  style={{textAlign:'justify',}}
+                  style={{textAlign:'justify',marginTop:'5px'}}
                 >{point}</li>
               </Typography>
             ))}

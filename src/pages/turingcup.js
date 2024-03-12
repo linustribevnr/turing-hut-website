@@ -80,10 +80,10 @@ function Turingcup() {
               }}
               variant="contained"
               // href="/register"
-              onClick={()=>setIsRegistering(true)}
+              onClick={()=>setIsRegistering(!isRegistering)}
               startIcon={<HowToRegRoundedIcon />}
             >
-              Register For Round-2 Here
+              {isRegistering ? 'Close Form' : 'Register For Round-2 Here'}
             </Button>
             {isRegistering&& <RegisterForm/>}
           </div>
