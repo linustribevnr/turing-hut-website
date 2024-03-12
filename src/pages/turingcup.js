@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
 import "../components/TuringCup/turingcup.css";
@@ -11,7 +11,7 @@ import { Box, Button, Typography } from "@mui/material";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
 import Timelinee from "../components/TuringCup/Timelinee";
 import HowToRegRoundedIcon from "@mui/icons-material/HowToRegRounded";
-
+import RegisterForm from "./register";
 import Faqs from "../components/TuringCup/Faqs";
 
 import About from "../components/TuringCup/About";
@@ -20,7 +20,10 @@ export const Head = () => <Seo routename={"Turing Cup"} />;
 var divStyle = {
   margin: 0
 };
-function turingcup() {
+function Turingcup() {
+
+  const [isRegistering, setIsRegistering] =useState(false)
+
   return (
     //
 
@@ -37,30 +40,33 @@ function turingcup() {
             style={{
               margin: "0px",
               padding: "0px",
-              fontFamily: "'Gruppo', cursive"
+              fontFamily: "'Gruppo', cursive",
+              border:'1px solid white'
             }}
           />
+
           <div
             style={{
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              marginTop: "100px"
+              marginTop: "100px",
             }}
           >
-            <Typography
+            {/* <Typography
               variant="h5"
               fontWeight="bold"
               sx={{
                 pb: 2,
                 fontFamily: ['"Gruppo"', "cursive"].join(","),
                 color: "#F2AA4CFF",
-                fontSize: "1.5rem"
+                fontSize: "1.5rem",
+                width:'70%'
               }}
             >
               REGISTRATION FOR ROUND-2
-            </Typography>
+            </Typography> */}
             <Button
               sx={{
                 fontFamily: ['"Gruppo"', "cursive"].join(","),
@@ -73,13 +79,16 @@ function turingcup() {
                 }
               }}
               variant="contained"
-              href="/register"
+              // href="/register"
+              onClick={()=>setIsRegistering(true)}
               startIcon={<HowToRegRoundedIcon />}
             >
-              Register Now
+              Register For Round-2 Here
             </Button>
+            {isRegistering&& <RegisterForm/>}
           </div>
-          <About />
+
+          <About  />
           <Timers />
           <Timelinee />
           {/* <TuringCupPrizePool /> */}
@@ -93,4 +102,4 @@ function turingcup() {
   );
 }
 
-export default turingcup;
+export default Turingcup;

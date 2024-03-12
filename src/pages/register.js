@@ -144,37 +144,44 @@ const RegisterForm = () => {
   };
 
   return (
-    <Layout>
-      <Toaster />
-      <div
-      className="fullpage"
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center", 
-        backgroundColor: "#101820FF",
-        minHeight: "110vh",
-        borderRadius:"5px",
-        margin:"auto",
-      }}
+    // <Layout>
+    <div
+    className="fullpage"
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center", 
+      backgroundColor: "#101820FF",
+      minHeight: "110vh",
+      borderRadius:"5px",
+      margin:"auto",
+      width:'100%',
+    }}
     >
+      <Toaster /> 
       <form
         onSubmit={handleSubmit(onSubmit)}
         style={{
           display: "flex",
           flexDirection: "column",
-          alignItems: "center"
+          alignItems: "center",
+          width:'80%',
         }}
       >
         <Typography
           variant="h4"
           fontWeight="bold"
           marginTop="50px"
+          
           sx={{
             pb: 2,
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             color: goldColor,
-            fontSize: "2.5rem"
+            fontSize: "1.7rem",
+            display:'flex',
+            justifyContent: 'center',
+            flexWrap:"wrap",
+            width:'100%',            
           }}>
           REGISTRATION FOR ROUND-2
         </Typography>
@@ -188,9 +195,11 @@ const RegisterForm = () => {
                 sx={{
                   fontFamily: ['"Gruppo"', "cursive"].join(","),
                   color: goldColor,
-                  fontSize: "1.15rem"
+                  fontSize: "1.1rem",
                 }}>
-                <li>{point}</li>
+                <li
+                  style={{textAlign:'justify',}}
+                >{point}</li>
               </Typography>
             ))}
         </div>
@@ -239,7 +248,7 @@ const RegisterForm = () => {
                   fontSize: "1.5rem"
                 }}
               >
-                Make payment to : 8121170046 (Kurudi Sreekarvyas)
+                Make payment to : 8121170046 <br/> (Kurudi Sreekarvyas)
               </Typography>
             <TextField
               label="Team Name"
@@ -314,8 +323,8 @@ const RegisterForm = () => {
         )}
       </form>
     </div>
-  </Layout>
   );
+  {/* </Layout> */}
 };
 
 export default RegisterForm;

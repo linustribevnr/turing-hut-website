@@ -27,7 +27,7 @@ function Landingpage2() {
   return (
     <Grid
       className="fullpage"
-      style={{ fontFamily: "'Gruppo', cursive", marginBottom: "16px" }}
+      style={{ fontFamily: "'Gruppo', cursive", marginBottom: "16px"}}
     >
       <svg viewBox="0 0 1300 300">
         <text
