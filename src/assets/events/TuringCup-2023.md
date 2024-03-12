@@ -76,8 +76,6 @@ The top five performers of round 2 were:
 5.  Team members:<br/>
     Shiva Nanda - KMIT<br/>
     Laxmi Kanth - KMIT<br/>
-    
-
 
 ## FINALS
 
@@ -96,7 +94,6 @@ o There are no more scorable problems, or 2.5 hours have elapsed.<br/>
 o Location : Onsite, at VNR VJIET campus<br/>
 o Registration fee : FREE<br/>
 
-
 TOP 10 teams from round 2 are qualified for round 3
 Leaderboard:
 
@@ -110,12 +107,9 @@ The teams that managed to get into the top 3 of final round and grab the prices 
 3.  Team members:<br/>
     Pranab singh - IIIT D & M Kurnool<br/>
 
-
-
 Congratulations to all the winners and participants.
 
 Here are the links to the problems and editorials:</br>
 Qualification Round: https://www.hackerrank.com/turing-cup-2k23-round-1</br>
 Semi Finals Round: https://www.hackerrank.com/turing-cup-2k23-round-2</br>
 Final Round: https://www.hackerrank.com/turing-cup-2k23-round-3</br>
-

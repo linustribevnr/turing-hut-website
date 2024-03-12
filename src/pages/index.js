@@ -5,7 +5,7 @@ import UpcomingEvents from "../components/UpcomingEvents";
 import Activities from "../components/Activities";
 import { Seo } from "../components/Seo";
 import "../styles/global.css";
- 
+
 export const Head = () => <Seo routename={"Home"} />;
 
 function indexPage() {

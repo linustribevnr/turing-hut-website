@@ -63,8 +63,8 @@ function Timers() {
     };
 
     return () => {
-        clearInterval(interval.current);
-    }
+      clearInterval(interval.current);
+    };
   });
 
   const isLargeScreen = useMediaQuery(theme => theme.breakpoints.up("lg"));

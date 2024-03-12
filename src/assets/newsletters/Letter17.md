@@ -20,6 +20,7 @@ Team Turing Hut is back to provide you with the latest tech news to ensure you'r
 - [Startup Accelerator Program - India Accelerator](https://unstop.com/competitions/startup-accelerator-program-india-accelerator-mdi-gurgaon-692947)
 
 # Highlights
+
 <img src="https://ci6.googleusercontent.com/proxy/cZ9M-r-G7WsciZP5SX9m6KEqi2bcLOV6j5XoQd9hILK4PONa4ZNMQrYVi2cVPJ3yiQxlPZvesQqN5sRsFQbtsqPuIetu5_0jH1FF8RD3V-4BN-fqPEljJaDrFp0_92ffkFMyOf3vSNENmfLyV3rOP9WrIIEIFBrz5BVtdA=s0-d-e1-ft#https://mcusercontent.com/851ebdd596565ee1d48824907/_compresseds/0e8b2cfe-938d-c859-0eee-357ca3435275.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto; 
@@ -42,4 +43,4 @@ Here's an amazing problem, you should check out: [problem link](https://cses.fi/
 
 Do you want to share any opportunity, blog, or experience? Fill out this [form](https://forms.gle/uidTBY1e3cALgHtC6) to be featured in our next newsletter.
 
-Thanks to Mohanavamshi Devulapally,  Tarun Vishnav Burugupalli and Sai Rakshita for contributing to the newsletter
+Thanks to Mohanavamshi Devulapally, Tarun Vishnav Burugupalli and Sai Rakshita for contributing to the newsletter

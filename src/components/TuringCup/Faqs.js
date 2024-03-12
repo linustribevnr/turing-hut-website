@@ -42,17 +42,17 @@ export default function Faqs() {
         "Yes, swags will be provided for the participants who appear for the onsite round."
     },
     {
-      question:"When and where will the link to round 1 be published?",
+      question: "When and where will the link to round 1 be published?",
       answer:
         "Round 1 participation link will be mailed to respective team leader's mail ID 3 hours before the commencement of the contest."
     },
     {
-      question:"What is the eligibility criteria? ",
+      question: "What is the eligibility criteria? ",
       answer:
         "All undergraduate students, pursuing a full-time degree in any branch."
     },
     {
-      question:"when the round-1 results will be published?",
+      question: "when the round-1 results will be published?",
       answer:
         "The shortlisted teams will receive notification via email after the contest concludes."
     }

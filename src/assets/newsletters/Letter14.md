@@ -11,8 +11,6 @@ contestlink: https://www.hackerrank.com/turing-hut-practice-contest-2025
 markdownType: newsletter
 ---
 
-
-
 # Interesting Reads
 
 - **How to win Kaggle Competitions** <br/>Tomohiro Takesako is one of 263 Kaggle Competition Grandmasters. He has participated in over 40 competitions on Kaggle. In this blog, he tells us how he got started and the process he used when competing on Kaggle. He also reveals what you need to do to earn the coveted title of a Kaggle Competitions Grandmaster. Read more [here](https://medium.com/google-developer-experts/how-to-win-kaggle-competitions-187e1df2204f)

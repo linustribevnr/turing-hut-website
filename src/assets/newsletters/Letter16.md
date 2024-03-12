@@ -20,6 +20,7 @@ Team Turing Hut hopes that you are all enjoying your well deserved vacation, and
 - [The Linux Foundation Mentorships](https://mentorship.lfx.linuxfoundation.org/#projects_accepting)
 
 # Highlights
+
 <img src="https://ci4.googleusercontent.com/proxy/soH_zUHO3JvveNfBp_w2qifaK_XcUzS9lZhM40rfrEcJv1kXY5V_Gg7u0-R0Oan2N1FJDPBK220DffFxvmwqsIdBzlaaq30GWYWGPZbKFvGiN9g6wONJhIVH5ISzzG0s7s6cCYFi1u7vSpiMXLii-9-vXcD8IQ=s0-d-e1-ft#https://mcusercontent.com/851ebdd596565ee1d48824907/images/d9b8d9a5-60bf-8250-f898-37e5aff4796a.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto; 
@@ -35,7 +36,7 @@ For a better insight into what the Apple Vision Pro is, and how it impacts the a
 - **Self-healing code is right around the corner** <br/>Imagine a world where programs can automatically detect and resolve errors, bugs and vulnerabilities all by themselves. This dream is steadily becoming a reality through the development of self-healing code. This concept integrates the techniques of artificial intelligence and machine learning, paving the way to a future where programs operate autonomously, with negligible human intervention.For more details, refer to this [article](https://stackoverflow.blog/2023/06/07/self-healing-code-is-the-future-of-software-development/?utm_source=tldrnewsletter)
   <hr/>
 - **The Age of AI: And Our Human Future - By Daniel Huttenlocher, Eric Schmidt and Henry Kissinger** <br/>
-  This book delves into the profound impact artificial intelligence has had on society, and how this is influencing our future. Three experts in this field of technology have come together to share their unique perspectives on the opportunities and challenges AI presents. The thought-provoking insights given provide an in-depth understanding of how AI is redefining industries. This book explores the intersection of artificial intelligence and human civilization, and the need for balance between the two. For a better insight into the book, refer to this  [review](https://www.financialexpress.com/lifestyle/book-review-the-age-of-ai-and-our-human-future-by-henry-a-kissinger-eric-schmidt-daniel-huttenlocher/2395897/)
+  This book delves into the profound impact artificial intelligence has had on society, and how this is influencing our future. Three experts in this field of technology have come together to share their unique perspectives on the opportunities and challenges AI presents. The thought-provoking insights given provide an in-depth understanding of how AI is redefining industries. This book explores the intersection of artificial intelligence and human civilization, and the need for balance between the two. For a better insight into the book, refer to this [review](https://www.financialexpress.com/lifestyle/book-review-the-age-of-ai-and-our-human-future-by-henry-a-kissinger-eric-schmidt-daniel-huttenlocher/2395897/)
   <hr/>
 
 # Todo Problem
@@ -43,6 +44,5 @@ For a better insight into what the Apple Vision Pro is, and how it impacts the a
 Here's an amazing problem, you should check out: [problem link](https://codeforces.com/contest/1811/problem/C)
 
 Do you want to share any opportunity, blog, or experience? Fill out this [form](https://forms.gle/uidTBY1e3cALgHtC6) to be featured in our next newsletter.
-
 
 Thanks to Mohanavamshi, Sai Nandan and Sai Rakshita for contributing to the newsletter

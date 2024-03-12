@@ -27,8 +27,6 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { useLocation } from "@reach/router";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 
-
-
 const navItems = [
   {
     text: "Home",
@@ -128,7 +126,8 @@ export default function Navbar() {
 
   return (
     <div>
-      {(location.pathname.includes("/turingcup") || location.pathname.includes("/register"))? (
+      {location.pathname.includes("/turingcup") ||
+      location.pathname.includes("/register") ? (
         <Box>
           <AppBar component="nav" sx={{ bgcolor: "#101820FF" }}>
             <Toolbar>
@@ -141,7 +140,9 @@ export default function Navbar() {
               >
                 <MenuIcon />
               </IconButton>
-              <Link to="/"><Avatar srcSet={logoSrcSet} sx={{ mx: 1 } } /></Link>
+              <Link to="/">
+                <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }} />
+              </Link>
               <Typography
                 variant="h6"
                 component="div"
@@ -211,7 +212,9 @@ export default function Navbar() {
               >
                 <MenuIcon />
               </IconButton>
-              <Link to="/"><Avatar srcSet={logoSrcSet} sx={{ mx: 1 } } ></Avatar></Link>
+              <Link to="/">
+                <Avatar srcSet={logoSrcSet} sx={{ mx: 1 }}></Avatar>
+              </Link>
               <Typography
                 variant="h6"
                 component="div"

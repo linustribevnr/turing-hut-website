@@ -18,6 +18,9 @@
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@firebase/app": "^0.9.28",
+    "@firebase/firestore": "^4.4.3",
+    "@gatsbyjs/relay-compiler": "^2.0.0-printer-fix.4",
     "@mui/icons-material": "^5.10.3",
     "@mui/material": "^5.10.4",
     "add-to-calendar-button": "^2.5.10",
