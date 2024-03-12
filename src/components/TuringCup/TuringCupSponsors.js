@@ -36,7 +36,7 @@ export default function TuringCupSponsors() {
     }
   `);
   const nodes = data.allFile.edges;
-  console.log("nodes :", nodes);
+  // console.log("nodes :",nodes);
   return (
     <Box
       sx={{
