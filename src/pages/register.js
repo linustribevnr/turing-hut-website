@@ -61,10 +61,12 @@ const RegisterForm = () => {
   const shortlistsCollectionRef = collection(DB, 'shortlists');
   const paymentsCollectionRef = collection(DB,'payments');
   const  [noticePoints, setNoticePoints] = useState([
-    "Pay the 300/- rupees per team in a single payment",
-    "Once paid money will not be refunded",
-    "prefer phonePay, google Pay, PayTM (Net Banking is not allowed)",
-    "If you have any quries reach out Sreekar : 8121170046 , Nisritha : 7337492327"
+    "Please fill in the information of the Team Leader which matches the one you provided in Round-1 Registration",
+    "The registration fee for each team is Rs 300; make sure to pay within a single transaction",
+    "We will not issue any kind of refund",
+    "Prefer phonePay, google Pay, PayTM (Net Banking is not allowed)",
+    "If you have any queries reach out Sreekar : 8121170046 , Nisritha : 7337492327",
+    "Make sure the Transaction ID you gave is valid"
   ]); 
 
   const {
