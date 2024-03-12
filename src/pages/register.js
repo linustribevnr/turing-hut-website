@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import { toast, Toaster } from 'react-hot-toast';
 import { collection, query, where, getDocs, addDoc } from '@firebase/firestore';
 import DB from '../../.firebase/ConfigFirebase'
@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 // import { border } from "@mui/system";
-import Layout from "../components/Layout";
+// import Layout from "../components/Layout";
 import { format } from 'date-fns'; 
 export const Head = () => <Seo routename={"Register"} />;
 
@@ -60,20 +60,20 @@ const RegisterForm = () => {
   const shortlistsCollectionRef = collection(DB, 'shortlists');
   const paymentsCollectionRef = collection(DB,'payments');
   const  [noticePoints, setNoticePoints] = useState([
+    "Verify your team leader's email  and proceed to the payment",
     "Don't fill the form multiple times",
     "Please provide the details of the Team Leader that match the information provided in Round-1 Registration",
     "The registration fee for each team is Rs 300 , Make sure to pay within a single transaction.",
     "We will not issue any kind of refund",
     "You can pay using PhonePay, Google Pay, PayTM (Net Banking is not available)",
     "If you have any queries, reach out to Sreekar : 8121170046 , Nisritha : 7337492327",
-    "Make sure the transaction ID you give is valid"
+    "Make sure the transaction ID you give is valid"
   ]); 
 
   const {
     register,
     handleSubmit,
-    formState: { errors },
-    reset
+    formState: { errors }
   } = useForm();
 
 
@@ -85,7 +85,7 @@ const RegisterForm = () => {
       querySnapshot.forEach((doc) => {
         shortlistedDocs.push({ id:doc.id, ...doc.data()});
       });
-      console.log('Shortlisted Documents :', shortlistedDocs)
+      // console.log('Shortlisted Documents :', shortlistedDocs)
       return shortlistedDocs;
     } catch (error) {
       console.error('Error getting document:', error);
@@ -169,18 +169,18 @@ const RegisterForm = () => {
   };
 
   return (
-    // <Layout>
     <div
-    className="fullpage"
+    // className="fullpage"
     style={{
       display: "flex",
       flexDirection: "column",
       alignItems: "center", 
       backgroundColor: "#101820FF",
-      minHeight: "110vh",
+      // minHeight: "110vh",
       borderRadius:"5px",
       margin:"auto",
       width:'100%',
+      paddingBottom:'150px'
     }}
     >
       <Toaster /> 
@@ -215,8 +215,7 @@ const RegisterForm = () => {
             {noticePoints.map((point, index) => (
               <Typography
                 key={index}
-                variant="h4"
-                maxWidth={'500px'}
+                variant="h4" 
                 sx={{
                   fontFamily: ['"Gruppo"', "cursive"].join(","),
                   color: goldColor,
@@ -349,7 +348,6 @@ const RegisterForm = () => {
       </form>
     </div>
   );
-  {/* </Layout> */}
 };
 
 export default RegisterForm;

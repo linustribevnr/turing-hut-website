@@ -6,7 +6,7 @@ import PastContests from "../components/TuringCup/PastContests";
 import Timers from "../components/TuringCup/Timers";
 // import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
 import TuringCupSponsors from '../components/TuringCup/TuringCupSponsors';
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button } from "@mui/material";
 // import { createTheme } from "@mui/material/styles";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
 import Timelinee from "../components/TuringCup/Timelinee";
@@ -51,7 +51,7 @@ function Turingcup() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              marginTop: "100px",
+              marginBottom: "50px",
             }}
           >
             {/* <Typography
