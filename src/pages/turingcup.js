@@ -45,7 +45,7 @@ function Turingcup() {
             }}
           />
 
-          <div
+          {/* <div
             style={{
               display: "flex",
               flexDirection: "column",
@@ -54,7 +54,7 @@ function Turingcup() {
               marginBottom: "50px",
             }}
           >
-            {/* <Typography
+            <Typography
               variant="h5"
               fontWeight="bold"
               sx={{
@@ -66,7 +66,7 @@ function Turingcup() {
               }}
             >
               REGISTRATION FOR ROUND-2
-            </Typography> */}
+            </Typography>
             <Button
               sx={{
                 fontFamily: ['"Gruppo"', "cursive"].join(","),
@@ -86,7 +86,7 @@ function Turingcup() {
               {isRegistering ? 'Close Form' : 'Register For Round-2 Here'}
             </Button>
             {isRegistering&& <RegisterForm />}
-          </div>
+          </div> */}
 
           <About  />
           <Timers />
