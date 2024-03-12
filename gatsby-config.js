@@ -1,6 +1,6 @@
 const { HubTwoTone } = require("@mui/icons-material");
-require('dotenv').config({
-  path: `.env`,
+require("dotenv").config({
+  path: `.env`
 });
 
 module.exports = {
@@ -46,7 +46,7 @@ module.exports = {
         name: `newsletters`,
         path: `${__dirname}/src/assets/newsletters`
       }
-    },
+    }
     // {
     //   resolve: `gatsby-plugin-env-variables`,
     //   options: {

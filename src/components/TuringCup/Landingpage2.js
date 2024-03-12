@@ -96,7 +96,7 @@ function Landingpage2() {
         >
           Add to Calendar
         </Button>  */}
-      </Stack>
+      {/* </Stack> */}
       
 
     </Grid>

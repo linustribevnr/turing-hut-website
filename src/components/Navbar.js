@@ -126,7 +126,8 @@ export default function Navbar() {
 
   return (
     <div>
-      {(location.pathname.includes("/turingcup") || location.pathname.includes("/register"))? (
+      {location.pathname.includes("/turingcup") ||
+      location.pathname.includes("/register") ? (
         <Box>
           <AppBar component="nav" sx={{ bgcolor: "#101820FF" }}>
             <Toolbar>
