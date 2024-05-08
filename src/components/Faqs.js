@@ -31,7 +31,7 @@ export default function Faqs() {
     {
       question: "Are we restricted to certain branches?",
       answer:
-        "Most of our offline events are usually restricted to CSE and CSBS branch students. But we do make exceptions if you get the required permissions to attend our session from your department. Our online activities are open for everyone."
+        "No. We welcome students from all branches who are interested in coding."
     },
     {
       question: "Is there a membership fees?",

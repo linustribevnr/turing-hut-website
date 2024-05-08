@@ -449,7 +449,7 @@
         "linkedin" : "www.linkedin.com/in/divyasri-soma-156258247" 
       },
       {
-        "name" : "K.Shailesh Reddy",
+        "name" : "K Shailesh Reddy",
         "image" : "shailesh_2025.jpg",
         "designation" : "Teaching and Problem setting",
         "linkedin" : "https://www.linkedin.com/in/shailesh-reddy-kanchanakuntla-a9b4502a0/"
@@ -483,12 +483,12 @@
         "linkedin" : "https://www.linkedin.com/in/venkata-giridhar-a9093a277"
       },
       {
-        "name" : "Uday Sagar",
-        "image" : "udaySagar_2025.jpg",
-        "designation" : "Development",
-        "linkedin" : "https://www.linkedin.com/in/udaysagar-in/",
-        "twitter" : "https://twitter.com/UdaySagar_twt",
-        "github" : "https://github.com/udaySagar-Git/"
+        "name" : "Salsabil Shehnaz",
+        "image" : "shehnaz_2025.jpg",
+        "designation" : "Teaching",
+        "linkedin" : "https://www.linkedin.com/in/shehnaz-salsabil/",
+        "twitter" : "https://twitter.com/shehn_aww_z",
+        "github" : "https://github.com/shehnaz70804"
       },
       {
         "name" : "Vangari Vighnesh",
@@ -496,6 +496,14 @@
         "designation" : "Development",
         "linkedin" : "https://www.linkedin.com/in/vighneshvangari/",
         "github" : "https://github.com/vighnesh-7/"
+      },
+      {
+        "name" : "Uday Sagar",
+        "image" : "udaySagar_2025.jpg",
+        "designation" : "Development",
+        "linkedin" : "https://www.linkedin.com/in/udaysagar-in/",
+        "twitter" : "https://twitter.com/UdaySagar_twt",
+        "github" : "https://github.com/udaySagar-Git/"
       },
       {
         "name" : "G Sai Nikhilesh",
