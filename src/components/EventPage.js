@@ -10,7 +10,7 @@ export default function EventPage({ html, event_details }) {
     options
   );
 
-  console.log(getImage(event_details.image));
+  // console.log(getImage(event_details.image));
 
   return (
     <Container sx={{ boxShadow: 2, p: 2 }}>
