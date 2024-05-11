@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
 import "../components/TuringCup/turingcup.css";
@@ -23,6 +23,7 @@ var divStyle = {
 function Turingcup() {
 
   const [isRegistering, setIsRegistering] =useState(false)
+
 
   return (
     //
