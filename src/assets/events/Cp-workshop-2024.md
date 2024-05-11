@@ -20,10 +20,18 @@ The Workshop will be followed by a Practice Contest on the 10th May, from 3 PM t
 The Leaderboard will not be taken into consideration.
 This session will be a foundation for Coding fundamentals, so try to engage as much as possible.
 
-**Open to all Branches of VNRVJIET!**
-
+**Open to all branches of VNRVJIET!**
 
 Feel free to reach out to us,
-
 - Koushik Shanker: 73969 1024
 - M Srikruthi: 91009 72802
+
+### Update #1
+**Session Links:** 
+</br>
+
+ - [Session 1](https://youtu.be/NHT0Ens23y4) 
+ - [Session 2](https://youtu.be/NniAKmzcEAk)
+
+Here is the link to the contest and editorial:</br>
+contest-link :  https://www.hackerrank.com/contests/turing-hut-workshop-practice-2k24-elixir
