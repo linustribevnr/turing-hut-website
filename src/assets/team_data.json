@@ -446,7 +446,7 @@
         "name" : "Soma Divya Sri",
         "image" : "divyaSri_2025.jpg",
         "designation" : "Lead",
-        "linkedin" : "www.linkedin.com/in/divyasri-soma-156258247" 
+        "linkedin" : "https://www.linkedin.com/in/divyasri-soma-156258247" 
       },
       {
         "name" : "K Shailesh Reddy",
@@ -455,20 +455,20 @@
         "linkedin" : "https://www.linkedin.com/in/shailesh-reddy-kanchanakuntla-a9b4502a0/"
       },
       {
-        "name" : "Adithya Sai Ram",
-        "image" : "adithya_2025.jpg",
-        "designation" : "Teaching and Problem setting",
-        "linkedin" : "https://www.linkedin.com/in/adithya-sai-ram-ab409b250/",
-        "twitter" : "https://twitter.com/Adithyasairam54",
-        "github" : "https://github.com/adithyasai28"
-      },
-      {
         "name" : "Tummala Naveen",
         "image" : "naveen_2025.jpg",
         "designation" : "Teaching and Problem setting",
         "linkedin" : "https://www.linkedin.com/in/t-naveen-161161229/",
         "twitter" : "https://twitter.com/TNaveen2308",
         "github" : "https://github.com/T-Naveen-2308"
+      },
+      {
+        "name" : "Adithya Sai Ram",
+        "image" : "adithya_2025.jpg",
+        "designation" : "Teaching and Problem setting",
+        "linkedin" : "https://www.linkedin.com/in/adithya-sai-ram-ab409b250/",
+        "twitter" : "https://twitter.com/Adithyasairam54",
+        "github" : "https://github.com/adithyasai28"
       },
       {
         "name" : "Madikuntawar Srikar",
@@ -560,7 +560,7 @@
         "name" : "Akshaya Banoth",
         "image" : "akshaya_2025.jpg",
         "designation" : "Social Media",
-        "linkedin" : "www.linkedin.com/in/akshaya-banoth",
+        "linkedin" : "https://www.linkedin.com/in/akshaya-banoth",
         "twitter" : "https://twitter.com/akshayaroy_be",
         "github" : "https://github.com/AkshayaBe"
       }
