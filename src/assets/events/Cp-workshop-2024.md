@@ -6,7 +6,7 @@ type: Workshop
 slug: cp-workshop-24
 image: ../images/events/Cp_workshop2k24.jpg
 registration: https://rb.gy/ekqvhc
-recording: NA
+recording: https://www.youtube.com/playlist?list=PLJUqxQro1e1rSDD32JPJjIQi4dSpebFbI
 markdownType: event
 ---
 
@@ -27,3 +27,13 @@ Feel free to reach out to us,
 
 - Koushik Shanker: 73969 1024
 - M Srikruthi: 91009 72802
+
+### Update#1
+
+The top three performers of the Practice Contest were:
+1.  Marri Bhuvaneshwar ([21241A05G3](https://www.hackerrank.com/profile/21241A05G3))<br/>
+2.  Karthik K ([Speedster1010](https://www.hackerrank.com/profile/Speedster1010))<br/>
+3.  Koushik sonu ([koushiksonu012](https://www.hackerrank.com/profile/koushiksonu012))<br/>
+
+Here are the links to the problems and editorials:</br>
+Practice Contest: https://www.hackerrank.com/contests/turing-hut-workshop-practice-2k24-elixir</br>
