@@ -30,10 +30,5 @@ Feel free to reach out to us,
 
 ### Update#1
 
-The top three performers of the Practice Contest were:
-1. Marri Bhuvaneshwar ([21241A05G3](https://www.hackerrank.com/profile/21241A05G3))<br/>
-2. Karthik K ([Speedster1010](https://www.hackerrank.com/profile/Speedster1010))<br/>
-3. Koushik sonu ([koushiksonu012](https://www.hackerrank.com/profile/koushiksonu012))<br/>
-
 Here is the link to the contest and editorial:</br>
 Practice Contest: https://www.hackerrank.com/contests/turing-hut-workshop-practice-2k24-elixir</br>
