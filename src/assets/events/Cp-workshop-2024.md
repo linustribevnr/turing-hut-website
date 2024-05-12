@@ -35,5 +35,5 @@ The top three performers of the Practice Contest were:
 2.  Karthik K ([Speedster1010](https://www.hackerrank.com/profile/Speedster1010))<br/>
 3.  Koushik sonu ([koushiksonu012](https://www.hackerrank.com/profile/koushiksonu012))<br/>
 
-Here are the links to the problems and editorials:</br>
+Here is the link to the contest and editorial:</br>
 Practice Contest: https://www.hackerrank.com/contests/turing-hut-workshop-practice-2k24-elixir</br>
