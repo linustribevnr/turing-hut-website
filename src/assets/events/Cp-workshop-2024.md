@@ -34,5 +34,5 @@ Here is the link to the contest and editorial:</br>
 Practice Contest: https://www.hackerrank.com/contests/turing-hut-workshop-practice-2k24-elixir</br>
 
 ### Update#2 
-Here is the link to summer practice problems : </br>
+Here is the link to summer practice problems: </br>
 Practice Problems: https://www.hackerrank.com/turing-hut-summer-practice-2k24</br>
