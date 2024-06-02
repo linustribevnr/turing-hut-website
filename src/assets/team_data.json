@@ -21,6 +21,26 @@
       "designation": "Assistant Professor"
     }
   ],
+  "founders": [
+    {
+      "name": "Prateek Varma",
+      "image": "prateek_2018.jpg",
+      "designation": "Chief Counsellor",
+      "linkedin": "https://www.linkedin.com/in/prateek2k"
+    },
+    {
+      "name": "Pinnamani Venkat",
+      "image": "venkat_2018.jpg",
+      "designation": "Secretary cum Tempe-Treasurer",
+      "linkedin": "https://www.linkedin.com/in/venkat-pinnamani-29a870b8/"
+    },
+    {
+      "name": "Tarun Kumar",
+      "image": "tarun_2018.jpg",
+      "designation": "Student Coordinator",
+      "linkedin": "https://www.linkedin.com/in/tarunjairam/"
+    }
+  ],
   "team": {
     "2017-2018": [
       {
@@ -49,7 +69,7 @@
       },
       {
         "name": "Siddarth Jayakumar",
-        "image": "siddarth.jpg",
+        "image": "siddarth_2018.jpg",
         "designation": "President",
         "linkedin": "https://www.linkedin.com/in/siddarth-jayakumar/"
       }
@@ -434,135 +454,135 @@
         "github": "https://github.com/sai-rakshita-narsingh"
       }
     ],
-    "2024-2025":[
+    "2024-2025": [
       {
-        "name" : "Koushik Shanker",
-        "image" : "koushik_2025.jpg",
-        "designation" : "Lead",
-        "linkedin" : "https://www.linkedin.com/in/koushik-nagula-a991882a4/",
-        "twitter" : "https://x.com/Koushik35335973?t=xbnbv46GZgV-s1Rop4yLRw&s=09"
+        "name": "Koushik Shanker",
+        "image": "koushik_2025.jpg",
+        "designation": "Lead",
+        "linkedin": "https://www.linkedin.com/in/koushik-nagula-a991882a4/",
+        "twitter": "https://x.com/Koushik35335973?t=xbnbv46GZgV-s1Rop4yLRw&s=09"
       },
       {
-        "name" : "Soma Divya Sri",
-        "image" : "divyaSri_2025.jpg",
-        "designation" : "Lead",
-        "linkedin" : "https://www.linkedin.com/in/divyasri-soma-156258247" 
+        "name": "Soma Divya Sri",
+        "image": "divyaSri_2025.jpg",
+        "designation": "Lead",
+        "linkedin": "https://www.linkedin.com/in/divyasri-soma-156258247"
       },
       {
-        "name" : "K Shailesh Reddy",
-        "image" : "shailesh_2025.jpg",
-        "designation" : "Teaching and Problem setting",
-        "linkedin" : "https://www.linkedin.com/in/shailesh-reddy-kanchanakuntla-a9b4502a0/"
+        "name": "K Shailesh Reddy",
+        "image": "shailesh_2025.jpg",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/shailesh-reddy-kanchanakuntla-a9b4502a0/"
       },
       {
-        "name" : "Tummala Naveen",
-        "image" : "naveen_2025.jpg",
-        "designation" : "Teaching and Problem setting",
-        "linkedin" : "https://www.linkedin.com/in/t-naveen-161161229/",
-        "twitter" : "https://twitter.com/TNaveen2308",
-        "github" : "https://github.com/T-Naveen-2308"
+        "name": "Tummala Naveen",
+        "image": "naveen_2025.jpg",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/t-naveen-161161229/",
+        "twitter": "https://twitter.com/TNaveen2308",
+        "github": "https://github.com/T-Naveen-2308"
       },
       {
-        "name" : "Adithya Sai Ram",
-        "image" : "adithya_2025.jpg",
-        "designation" : "Teaching and Problem setting",
-        "linkedin" : "https://www.linkedin.com/in/adithya-sai-ram-ab409b250/",
-        "twitter" : "https://twitter.com/Adithyasairam54",
-        "github" : "https://github.com/adithyasai28"
+        "name": "Adithya Sai Ram",
+        "image": "adithya_2025.jpg",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/adithya-sai-ram-ab409b250/",
+        "twitter": "https://twitter.com/Adithyasairam54",
+        "github": "https://github.com/adithyasai28"
       },
       {
-        "name" : "Madikuntawar Srikar",
-        "image" : "srikar_2025.jpg",
-        "designation" : "Teaching and Problem setting", 
-        "linkedin" : "https://www.linkedin.com/in/srikar-madikuntawar-030b69266/"
+        "name": "Madikuntawar Srikar",
+        "image": "srikar_2025.jpg",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/srikar-madikuntawar-030b69266/"
       },
       {
-        "name" : " Venkata Giridhar ",
-        "image" : "giridhar_2025.jpg",
-        "designation" : "Teaching and Problem setting",
-        "linkedin" : "https://www.linkedin.com/in/venkata-giridhar-a9093a277"
+        "name": " Venkata Giridhar ",
+        "image": "giridhar_2025.jpg",
+        "designation": "Teaching and Problem setting",
+        "linkedin": "https://www.linkedin.com/in/venkata-giridhar-a9093a277"
       },
       {
-        "name" : "Salsabil Shehnaz",
-        "image" : "shehnaz_2025.jpg",
-        "designation" : "Teaching",
-        "linkedin" : "https://www.linkedin.com/in/shehnaz-salsabil/",
-        "twitter" : "https://twitter.com/shehn_aww_z",
-        "github" : "https://github.com/shehnaz70804"
+        "name": "Salsabil Shehnaz",
+        "image": "shehnaz_2025.jpg",
+        "designation": "Teaching",
+        "linkedin": "https://www.linkedin.com/in/shehnaz-salsabil/",
+        "twitter": "https://twitter.com/shehn_aww_z",
+        "github": "https://github.com/shehnaz70804"
       },
       {
-        "name" : "Vangari Vighnesh",
-        "image" : "vighnesh_2025.jpg",
-        "designation" : "Development",
-        "linkedin" : "https://www.linkedin.com/in/vighneshvangari/",
-        "github" : "https://github.com/vighnesh-7/"
+        "name": "Vangari Vighnesh",
+        "image": "vighnesh_2025.jpg",
+        "designation": "Development",
+        "linkedin": "https://www.linkedin.com/in/vighneshvangari/",
+        "github": "https://github.com/vighnesh-7/"
       },
       {
-        "name" : "Uday Sagar",
-        "image" : "udaySagar_2025.jpg",
-        "designation" : "Development",
-        "linkedin" : "https://www.linkedin.com/in/udaysagar-in/",
-        "twitter" : "https://twitter.com/UdaySagar_twt",
-        "github" : "https://github.com/udaySagar-Git/"
+        "name": "Uday Sagar",
+        "image": "udaySagar_2025.jpg",
+        "designation": "Development",
+        "linkedin": "https://www.linkedin.com/in/udaysagar-in/",
+        "twitter": "https://twitter.com/UdaySagar_twt",
+        "github": "https://github.com/udaySagar-Git/"
       },
       {
-        "name" : "G Sai Nikhilesh",
-        "image" : "nikhilesh_2025.jpg",
-        "designation" : "Development",
-        "linkedin" : "https://www.linkedin.com/in/nikhilesh002/",
-        "github" : "https://github.com/Nikhilesh002"
+        "name": "G Sai Nikhilesh",
+        "image": "nikhilesh_2025.jpg",
+        "designation": "Development",
+        "linkedin": "https://www.linkedin.com/in/nikhilesh002/",
+        "github": "https://github.com/Nikhilesh002"
       },
       {
-        "name" :"Viswa Prateek Tummala ",
-        "image" : "viswa_2025.jpg",
-        "designation" : "Development",
-        "linkedin" : "https://www.linkedin.com/in/viswaprateek/",
-        "twitter" : "https://twitter.com/PrateekViswa",
-        "github" : "https://github.com/viswaprateek"
+        "name": "Viswa Prateek Tummala ",
+        "image": "viswa_2025.jpg",
+        "designation": "Development",
+        "linkedin": "https://www.linkedin.com/in/viswaprateek/",
+        "twitter": "https://twitter.com/PrateekViswa",
+        "github": "https://github.com/viswaprateek"
       },
       {
-        "name" : "Yashwanth Pothala",
-        "image" : "yashwanth_2025.jpg",
-        "designation" : "Design and Content",
-        "linkedin" : "https://www.linkedin.com/in/yashwanth-pothala-419023259/",
-        "twitter" : "https://twitter.com/Yash__04__",
-        "github" : "https://github.com/Yashwanth-2004"
+        "name": "Yashwanth Pothala",
+        "image": "yashwanth_2025.jpg",
+        "designation": "Design and Content",
+        "linkedin": "https://www.linkedin.com/in/yashwanth-pothala-419023259/",
+        "twitter": "https://twitter.com/Yash__04__",
+        "github": "https://github.com/Yashwanth-2004"
       },
       {
-        "name" : "Srikruthi Muthyam",
-        "image" : "srikruthi_2025.jpg",
-        "designation" : "Design and Content",
-        "linkedin" : "https://www.linkedin.com/in/srikruthi-muthyam-844a04281",
-        "github" : "https://github.com/Srikruthi-M"
+        "name": "Srikruthi Muthyam",
+        "image": "srikruthi_2025.jpg",
+        "designation": "Design and Content",
+        "linkedin": "https://www.linkedin.com/in/srikruthi-muthyam-844a04281",
+        "github": "https://github.com/Srikruthi-M"
       },
       {
-        "name" : "Neeharika gopina",
-        "image" : "neeharika_2025.jpg",
-        "designation" : "Design and Content"
+        "name": "Neeharika gopina",
+        "image": "neeharika_2025.jpg",
+        "designation": "Design and Content"
       },
       {
-        "name" : "B Naga Sai Kiran" ,
-        "image" : "saiKiran_2025.jpg",
-        "designation" : "Design and Content",
-        "linkedin" : "https://www.linkedin.com/in/saikiran-battina",
-        "twitter" : "https://twitter.com/kiran_battina",
-        "github" : "https://github.com/basedonsai"
+        "name": "B Naga Sai Kiran",
+        "image": "saiKiran_2025.jpg",
+        "designation": "Design and Content",
+        "linkedin": "https://www.linkedin.com/in/saikiran-battina",
+        "twitter": "https://twitter.com/kiran_battina",
+        "github": "https://github.com/basedonsai"
       },
       {
-        "name" : "Tirupate Aniketh",
-        "image" : "aniketh_2025.jpg",
-        "designation" : "Social Media",
-        "linkedin" : "https://www.linkedin.com/in/aniketh-tirupate-36666a296/",
-        "twitter" : "https://twitter.com/AnikethT62502",
-        "github" : "https://github.com/aniketh25-lmo"
+        "name": "Tirupate Aniketh",
+        "image": "aniketh_2025.jpg",
+        "designation": "Social Media",
+        "linkedin": "https://www.linkedin.com/in/aniketh-tirupate-36666a296/",
+        "twitter": "https://twitter.com/AnikethT62502",
+        "github": "https://github.com/aniketh25-lmo"
       },
       {
-        "name" : "Akshaya Banoth",
-        "image" : "akshaya_2025.jpg",
-        "designation" : "Social Media",
-        "linkedin" : "https://www.linkedin.com/in/akshaya-banoth",
-        "twitter" : "https://twitter.com/akshayaroy_be",
-        "github" : "https://github.com/AkshayaBe"
+        "name": "Akshaya Banoth",
+        "image": "akshaya_2025.jpg",
+        "designation": "Social Media",
+        "linkedin": "https://www.linkedin.com/in/akshaya-banoth",
+        "twitter": "https://twitter.com/akshayaroy_be",
+        "github": "https://github.com/AkshayaBe"
       }
     ]
   }
