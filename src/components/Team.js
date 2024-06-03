@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import jsondata from "../assets/team_data.json";
 import {
   Box,
-  Typography,
-  Grid,
   FormControl,
+  Grid,
   InputLabel,
+  MenuItem,
   Select,
-  MenuItem
+  Typography
 } from "@mui/material";
-import TeamCard from "../components/TeamCard";
 import { graphql, useStaticQuery } from "gatsby";
+import React, { useState } from "react";
+import jsondata from "../assets/team_data.json";
+import TeamCard from "../components/TeamCard";
 
 export default function Team() {
   const data = useStaticQuery(graphql`
@@ -40,19 +40,36 @@ export default function Team() {
 
   const nodes = data.allFile.edges;
 
-  const faculty = jsondata["faculty"].map((val, i) => {
+  const getImage = val => {
     const result = nodes.filter(item => {
       const src = item.node.childImageSharp.gatsbyImageData.images.fallback.src;
       var filepath = /[^/]*$/.exec(src)[0];
       return filepath === val.image;
     });
-    const image = result[0].node.childImageSharp.gatsbyImageData;
-    return (
+    return result.length > 0
+      ? result[0].node.childImageSharp.gatsbyImageData
+      : null;
+  };
+
+  const renderMembers = data => {
+    return data.map((val, i) => (
       <Grid item xs={10} sm={6} md={3} xl={2} key={i} sx={{ p: 2 }}>
-        <TeamCard name={val.name} img={image} description={val.designation} />
+        <TeamCard
+          name={val.name}
+          img={getImage(val)}
+          description={val.designation}
+          twitter={val.twitter}
+          github={val.github}
+          linkedin={val.linkedin}
+          website={val.website}
+        />
       </Grid>
-    );
-  });
+    ));
+  };
+
+  const faculty = renderMembers(jsondata["faculty"]);
+  const founders = renderMembers(jsondata["founders"]);
+  const students = renderMembers(jsondata.team[year]);
 
   return (
     <Box sx={{ my: 4 }}>
@@ -77,6 +94,21 @@ export default function Team() {
         </Box>
         <Grid container justifyContent={"center"}>
           {faculty}
+        </Grid>
+      </Box>
+      <Box>
+        <Box sx={{ my: 2 }}>
+          <Typography
+            variant="h5"
+            color="black"
+            fontWeight={"bold"}
+            sx={{ display: "inline" }}
+          >
+            Founders&nbsp;
+          </Typography>
+        </Box>
+        <Grid container justifyContent={"center"}>
+          {founders}
         </Grid>
       </Box>
       <Box display={{ sm: "flex" }} justifyContent={"space-between"}>
@@ -118,34 +150,7 @@ export default function Team() {
         </FormControl>
       </Box>
       <Grid container justifyContent={"center"}>
-        {jsondata.team[year].map((member, i) => {
-          const result = nodes.filter(item => {
-            const src =
-              item.node.childImageSharp.gatsbyImageData.images.fallback.src;
-            var filepath = /[^/]*$/.exec(src)[0];
-            return filepath === member.image;
-          });
-          let image;
-          if (result.length === 1) {
-            image = result[0].node.childImageSharp.gatsbyImageData;
-          } else {
-            console.log("Somehitng is wrong");
-          }
-
-          return (
-            <Grid item xs={10} sm={6} md={3} xl={2} key={i} sx={{ p: 2 }}>
-              <TeamCard
-                name={member.name}
-                img={image}
-                description={member.designation}
-                twitter={member.twitter}
-                github={member.github}
-                linkedin={member.linkedin}
-                website={member.website}
-              />
-            </Grid>
-          );
-        })}
+        {students}
       </Grid>
     </Box>
   );

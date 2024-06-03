@@ -1,10 +1,10 @@
-import React from "react";
-import { Card, CardContent, Typography, IconButton, Box } from "@mui/material";
-import { GatsbyImage } from "gatsby-plugin-image";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LinkIcon from "@mui/icons-material/Link";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import { Box, Card, CardContent, IconButton, Typography } from "@mui/material";
+import { GatsbyImage } from "gatsby-plugin-image";
+import React from "react";
 
 export default function TeamCard({
   name,
@@ -17,7 +17,7 @@ export default function TeamCard({
 }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <GatsbyImage alt={name} image={img} />
+      {img && <GatsbyImage alt={name} image={img} />}
       <CardContent>
         <Typography gutterBottom variant="body1" component="div">
           {name}
