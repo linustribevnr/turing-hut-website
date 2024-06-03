@@ -5,11 +5,11 @@ time: Oct 13th,2023 to Oct 14th,2023
 type: Contest
 slug: octcoder
 image: ../images/events/octcoder.jpg
-registration: https://docs.google.com/forms/d/e/1FAIpQLSdmXVZgPxJLpNrdtcHgr_-4Cap7hoBq-S0J3BeWmdsvY-yWPA/viewform?usp=sharing
+registration: NA
 recording: NA
 markdownType: event
 ---
-
+<!-- registration expired https://docs.google.com/forms/d/e/1FAIpQLSdmXVZgPxJLpNrdtcHgr_-4Cap7hoBq-S0J3BeWmdsvY-yWPA/viewform?usp=sharing -->
 **OctCoder : Code under the stars**, a theme-based coding contest designed exclusively for **students from all academic years and branches of VNRVJIET**. We cordially invite teams consisting of members from diverse branches and various years to join us in this exciting event!
 
 The coding event is designed to be beneficial for participants who aspire to compete in various contests, such as the International Collegiate Programming Contest (ICPC) and Meta’s Hacker cup, and wish to enhance their preparation and performance for such competitions.
@@ -53,4 +53,6 @@ Round 3: https://www.hackerrank.com/contests/midnight-codefest-evf</br>
 https://codeforces.com/contestInvitation/ccf81c02102d0f68a318d215a43b9c9c1bb37e91</br>
 
 Don't miss this chance to participate and win exciting cash prizes! We look forward to seeing you there!
+
+### For more details [CLICK HERE!](https://drive.google.com/file/d/1Yo233lfQGQ2C1Ar7lyftUn7gcprKo4Sa/view)
 

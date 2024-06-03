@@ -25,3 +25,5 @@ Congratulations to all of the participants and outstanding achievers.
 
 Here is the link to the contest and editorial:</br>
 contest-link: https://www.hackerrank.com/contests/code-frenzy-2k23-samnpns/challenges
+
+### For more details [CLICK HERE!](https://docs.google.com/document/d/1293dO1sxrQD4FoCbQBWLp3sEJQvdv2rs/edit)
