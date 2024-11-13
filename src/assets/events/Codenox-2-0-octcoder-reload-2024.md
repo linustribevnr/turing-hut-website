@@ -6,6 +6,7 @@ type: Contest
 slug: codenox-2-0-octcoder-reload-2024
 image: ../images/events/codenox-2-0.jpeg
 registration: https://docs.google.com/forms/d/1o2UxAAjezptfPRMhndqC70t0s9YMe300x4HtU4XFqRg
+recording: NA
 markdownType: event
 ---
 
