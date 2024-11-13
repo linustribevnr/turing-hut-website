@@ -3,8 +3,8 @@ title: CodeNox 2.0 - Code Under the Stars
 date: 2024-11-04
 time: 1:00 PM to 3:30 PM
 type: Contest
-slug: Codenox-2.0-octcoder-reload-2024
-image: ../images/events/codenox-2.0
+slug: codenox-2-0-octcoder-reload-2024
+image: ../images/events/codenox-2-0.jpeg
 registration: https://docs.google.com/forms/d/1o2UxAAjezptfPRMhndqC70t0s9YMe300x4HtU4XFqRg
 markdownType: event
 ---
