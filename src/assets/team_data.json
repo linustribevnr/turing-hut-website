@@ -1,19 +1,19 @@
 {
   "faculty": [
     {
+      "name": "Mrs. V. Baby",
+      "image": "baby_founder.jpg",
+      "designation": "HOD, CSE Department"
+    },
+    {
       "name": "Dr. S. Nagini",
       "image": "nagini_founder.jpg",
-      "designation": "HOD, CSE Department"
+      "designation": "Associate Professor"
     },
     {
       "name": "Dr. B. V. Kiranmayee",
       "image": "bvk_founder.jpg",
       "designation": "Professor"
-    },
-    {
-      "name": "Mrs. V. Baby",
-      "image": "baby_founder.jpg",
-      "designation": "Associate Professor"
     },
     {
       "name": "Mrs. K. Jhansi",

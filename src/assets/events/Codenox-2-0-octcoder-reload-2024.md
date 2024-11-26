@@ -22,7 +22,6 @@ Organized by Turing Hut, we proudly present **CODENOX 2.0**—a thrilling onsite
 - **Round 3 (Midnight Codefest)**: 9:00 PM (Nov 4) - 7:00 AM (Nov 5)
 - **Mode**: Onsite
 - **Venue**: VNR VJIET Campus
-- **Type**: Competitive Programming
 
 ---
 
@@ -31,7 +30,6 @@ Register to participate and grab your chance to shine! ✨
 **Registration Fee**: ₹50 per participant  
 To register, submit the form by **November 3, 2024, 11:59 PM (Sunday)**.
 
-👉 [**Registration Form**](https://docs.google.com/forms/d/1o2UxAAjezptfPRMhndqC70t0s9YMe300x4HtU4XFqRg/)
 👉 [**Feedback Form**](https://forms.gle/GBwnL6VPcnuhgvSL6)
 
 
@@ -42,28 +40,25 @@ To register, submit the form by **November 3, 2024, 11:59 PM (Sunday)**.
    - **Date**: November 4, 2024
    - **Time**: 4:00 PM - 4:20 PM
    - **Platform**: [Hackerrank](https://www.hackerrank.com/codenox-2-0-code-flash-erenyeager)
-   - **Format**: ACM Leaderboard  
    - **Qualification**: Top 98 teams advance to Round 2
 
 2. **Round 2: Attack on Code** ⚔️
    - **Date**: November 4, 2024
    - **Time**: 5:00 PM - 6:30 PM
    - **Platform**: [Hackerrank](https://www.hackerrank.com/codenox-2-0-attack-on-code-ayanokoji)
-   - **Format**: ICPC Leaderboard  
    - **Qualification**: Top 25 teams advance to Round 3
 
 3. **Round 3: Midnight Codefest** 🌙
    - **Date**: November 4 (9:00 PM) - November 5 (7:00 AM)
    - **Platform**: [Codeforces](https://events.turinghut.org/events/codenox-2/dashboard)
-   - **Format**: Lockout style
-   - **Final Winners**: Top 3 teams will be crowned champions! 🏅
+   - **Final Winners**: Top 3 teams will be crowned champions! 
 
 ---
 
 ## 💰 Prizes:
 - **1st Prize**: ₹7,000 🥇  
   **Winning Team**: *Code Commandos*  
-  **Team Members**: Bogem Guru Koushik, Bellam Bhanu Prasad, Adapa Rohith Reddy  
+  **Team Members**: Bellam Bhanu Prasad, Adapa Rohith Reddy  
 
 - **2nd Prize**: ₹5,000 🥈  
   **Winning Team**: *Senshi*  
@@ -71,7 +66,7 @@ To register, submit the form by **November 3, 2024, 11:59 PM (Sunday)**.
 
 - **3rd Prize**: ₹3,000 🥉  
   **Winning Team**: *Drink Water*  
-  **Team Members**: I Venkata Shashan Varma  
+  **Team Members**: I Venkata Shashank Varma  
 
 ---
 
@@ -97,7 +92,7 @@ To register, submit the form by **November 3, 2024, 11:59 PM (Sunday)**.
 
 ---
 
-## ❓ Need Help
+## ℹ️ Need Help
 For any queries, reach out to:
 - **Koushik**: 7396910024
 - **Divya**: 9704606266
