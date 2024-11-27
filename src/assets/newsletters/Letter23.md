@@ -10,6 +10,7 @@ recording: NA
 contestlink: https://www.hackerrank.com/turing-hut-practice-contest-2025
 markdownType: newsletter
 ---
+
 Greetings readers,<br/>
 Finally, exam season is over, and we're all back for a new year, new semester, and a whole new adventure! Here’s Turing Hut with the latest happenings in the tech world.
 
@@ -20,16 +21,14 @@ Finally, exam season is over, and we're all back for a new year, new semester, a
 - [STEM stars Scholarship: Infosys](https://unstop.com/scholarships/infosys-foundation-stem-stars-scholarship-program-infosys-foundation-1112959)
 - [Flipkart Grid 6.0: Robotics Challenge](https://unstop.com/hackathons/flipkart-grid-60-robotics-challenge-flipkart-grid-60-flipkart-1024253)
 
-
-
 # Highlights
+
 <img src="https://ci4.googleusercontent.com/proxy/m_1XramqUrD4Fg0R1dUzMp2w7COOS87_BgAv7YKIrG3Y4A427VamFs6ts5vzV5zsGClXyKdDtLYWtnvW7cMwz3KfqfZPyUvECA9ysncEtPAw7u6yhBuziyEI6LjbcJVvCY_PTydh7nJa69z02gaw6b0HDDT2Xg=s0-d-e1-ft#https://mcusercontent.com/4ffd2fefe72dbd0f20196f8f7/images/08b7781a-757a-8d7a-a680-a112f848a2c5.png" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   width: 75%;">
 
 On 10th August, we bid farewell to another outstanding batch of final-year students (TH 2k22-2k24) who have been instrumental in shaping the Turing Hut that we know today. Their unyielding determination, remarkable vision, and profound valor have made Turing Hut an amazing place for nurturing new talents and hosting exhilarating events. As we celebrate the memories we share and all the achievements we've accomplished, we recognize the honesty and capability with which they worked. We look forward to maintaining their legacy by stepping into their shoes with all that we've learned from them, and hope to take Turing Hut to even greater heights. We wish them all the very best in their new and exciting endeavors, as their journey will continue to inspire and guide us.
-
 
 # Interesting Reads
 
@@ -43,7 +42,5 @@ On 10th August, we bid farewell to another outstanding batch of final-year stude
 Here's the link to a wonderful question that you should check out: [problem link](https://www.codechef.com/problems/DIVISIBLEBY8).
 
 Do you have any opportunities, articles or experiences you would like to share? Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfdaR5IK8B9RZx-5G3cd4_G4RMsLIaHRMWpGWzTwMyuMdCeWg/viewform) for a chance to be featured in our next newsletter.
-
-
 
 Thanks to Akshaya, Aniketh and Shailesh for contributing to the newsletter

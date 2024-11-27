@@ -35,8 +35,8 @@ function Timelinee() {
           </h3>
           <h4
             style={{
-              opacity:0.8,
-              lineHeight:"20px"
+              opacity: 0.8,
+              lineHeight: "20px"
             }}
           >
             Registration details: Eligibility: All undergraduate students,
@@ -62,13 +62,15 @@ function Timelinee() {
           <h3 className="vertical-timeline-element-title">ROUND-1</h3>
           <h4
             style={{
-              opacity:0.8,
-              lineHeight:"20px"
-            }}  
+              opacity: 0.8,
+              lineHeight: "20px"
+            }}
           >
-            The qualifier round 1 for the Turing Cup 2024 coding contest. <br /><br/>
+            The qualifier round 1 for the Turing Cup 2024 coding contest. <br />
+            <br />
             Date : 09/03/2024 - Saturday <br />
-            Time : 06:00 PM - 08:00 PM (IST)<br />
+            Time : 06:00 PM - 08:00 PM (IST)
+            <br />
             Platform : TBD <br />
             Location : Online <br />
             Duration : 02h 00m <br />
@@ -92,16 +94,18 @@ function Timelinee() {
           icon={<Looks3OutlinedIcon />}
         >
           <h3 className="vertical-timeline-element-title">ROUND-2</h3>
-          <h4 
+          <h4
             style={{
-              opacity:0.8,
-              lineHeight:"20px"
+              opacity: 0.8,
+              lineHeight: "20px"
             }}
           >
             The onsite round for the Turing Cup 2024 for the qualified teams of
-            Round-1. <br /><br/>
+            Round-1. <br />
+            <br />
             Date : 28/03/2024 - Thursday <br />
-            Time : 10:30 AM - 12:30 PM (IST)<br />
+            Time : 10:30 AM - 12:30 PM (IST)
+            <br />
             Platform : TBD <br />
             Location : VNR VJIET Campus, Bachupally, Hyderabad <br />
             Duration : 02h 00m <br />
@@ -122,18 +126,21 @@ function Timelinee() {
           date="28-03-2024"
           dateClassName={"timeline"}
           icon={<Looks4OutlinedIcon />}
-        >  
+        >
           <h3 className="vertical-timeline-element-title">ROUND-3</h3>
-          <h4 
+          <h4
             style={{
-              opacity:0.8,
-              lineHeight:"20px"
+              opacity: 0.8,
+              lineHeight: "20px"
             }}
           >
             The third and final round (Onsite) of Turing Cup 2024 coding contest{" "}
-            <br /><br/>
-            Date : 28/03/2024 - Thursday<br />
-            Time  : 2:00 PM - 4:30 PM (IST)<br />
+            <br />
+            <br />
+            Date : 28/03/2024 - Thursday
+            <br />
+            Time : 2:00 PM - 4:30 PM (IST)
+            <br />
             Platform : TBD <br />
             Location : VNR VJIET Campus, Bachupally, Hyderabad <br />
             Duration : 02h 30m <br />

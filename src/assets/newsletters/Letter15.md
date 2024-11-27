@@ -20,15 +20,15 @@ The sun is shining and the days are growing longer... It's time to turn on our v
 - [Tata Crucible Campus Quiz 2023](https://unstop.com/quiz/tata-crucible-campus-quiz-2023-tata-637872)
 
 # Highlights
+
 <img src="https://ci5.googleusercontent.com/proxy/IQqNq5luVe_TEXcktncuEGxkt9TsyTBQc2LAgNpghq3--AuSTheIAsNBmHJaBYPVqoE7KJBUd1Yh89a1hMeG7fnbasl9CJ0Qff-iVL5tW0RAJ9IEbXPuiDHL8H6vjwzCc8MpLtT46WajuOafu2E6c3lLZzvMqg=s0-d-e1-ft#https://mcusercontent.com/851ebdd596565ee1d48824907/images/81e98b77-ac34-a995-8771-5b38cebc9403.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   width: 75%;">
-Team Turing Hut hosted a workshop and practice contest to familiarise the first year CSE and CSBS students with competitive programming. This interactive two-day event was followed by the selection contest, through which we welcomed the latest additions to the club! 
+Team Turing Hut hosted a workshop and practice contest to familiarise the first year CSE and CSBS students with competitive programming. This interactive two-day event was followed by the selection contest, through which we welcomed the latest additions to the club!
 The star performers of the contest were:
 1.Salsabil Shehnaz - 22071A0555 (CSE A)
-2.Rajamahendravarapu Venkata Giridhar - 22071A05Q8 (CSE D)
-3. Muvvala Thoran Chandra - 22071A3237 (CSBS)
+2.Rajamahendravarapu Venkata Giridhar - 22071A05Q8 (CSE D) 3. Muvvala Thoran Chandra - 22071A3237 (CSBS)
 We congratulate all the first-years on successfully participating in the workshop and contests.
 
 # Interesting Reads

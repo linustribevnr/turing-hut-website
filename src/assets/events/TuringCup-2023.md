@@ -9,7 +9,9 @@ registration: NA
 recording: NA
 markdownType: event
 ---
+
 <!-- registration link expired https://unstop.com/o/ue5gaLR?lb=MF8vPuG -->
+
 **Turing Cup** is a National level Programming Contest conducted by Turing Hut for all the undergraduate students from across the country who are passionate about coding. As already informed, Turing Cup Round-1 is scheduled on 11th March Saturday, from 7:30pm to 10:00pm. The Round-1 contest will be conducted online. To participate in the contest, you need to register yourself at Unstop. The registration for the first round will be open until March 8th, 2023. The first round will be conducted online, and the registered participants will receive further instructions via email.To register for the contest kindly check this link here: [Registration Form](https://unstop.com/o/ue5gaLR?lb=MF8vPuG)
 
 There will be strict plagarism check after the contest, don't try to seek help from your friends or try to help your friends, doing so both of you will get caught.
@@ -76,8 +78,6 @@ The top five performers of round 2 were:
 5.  Team members:<br/>
     Shiva Nanda - KMIT<br/>
     Laxmi Kanth - KMIT<br/>
-    
-
 
 ## FINALS
 
@@ -96,7 +96,6 @@ o There are no more scorable problems, or 2.5 hours have elapsed.<br/>
 o Location : Onsite, at VNR VJIET campus<br/>
 o Registration fee : FREE<br/>
 
-
 TOP 10 teams from round 2 are qualified for round 3
 Leaderboard:
 
@@ -109,8 +108,6 @@ The teams that managed to get into the top 3 of final round and grab the prices 
     Vidit Jain - IIIT Hyderabad<br/>
 3.  Team members:<br/>
     Pranab singh - IIIT D & M Kurnool<br/>
-
-
 
 Congratulations to all the winners and participants.
 
