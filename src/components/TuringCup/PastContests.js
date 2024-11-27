@@ -43,7 +43,8 @@ const contestdetails = [
   {
     "year": "2024",
     "image": "TC_Winners2024.jpg",
-    "report": "https://drive.google.com/file/d/1SrWLA-6psSmkW8QLzJukpljjif39AqGi/view",
+    "report":
+      "https://drive.google.com/file/d/1SrWLA-6psSmkW8QLzJukpljjif39AqGi/view",
     "info":
       "Students from all colleges across the nation can participate by forming a team of up to 2 members. The contest has 3 rounds. 1438 teams from 148 different colleges across the nation have registered for the contest. 746 teams have participated in the contest, out of which 60 teams have been invited to the Onsite round, and all the teams have attended the Onsite round, from which top 10 teams qualified for the Final Round.",
     "winners": {
@@ -70,7 +71,8 @@ const contestdetails = [
   {
     "year": "2023",
     "image": "TC_Winners2023.jpg",
-    "report": "https://drive.google.com/file/d/1KiwvD_QynytS_SljFAQGW6uV3pAmD1cp/view",
+    "report":
+      "https://drive.google.com/file/d/1KiwvD_QynytS_SljFAQGW6uV3pAmD1cp/view",
     "info":
       "Students from all colleges across the nation can participate by forming a team of up to 2 members. The contest has 3 rounds. 1078 teams from 190 different colleges across the nation have registered for the contest. 738 teams have participated in the contest, out of which 60 teams have been invited to the Onsite round, and all the teams have attended the Onsite round, from which top 10 teams qualified for the Final Round.",
 
@@ -91,7 +93,8 @@ const contestdetails = [
         "mem1": "Pranab Singh",
         "mem2": "",
         "mem3": "",
-        "college": "Indian Institute of Information Technology Design and Manufacturing, Kurnool"
+        "college":
+          "Indian Institute of Information Technology Design and Manufacturing, Kurnool"
       }
     }
   },
@@ -202,7 +205,7 @@ function PastContests() {
   const getImage = val => {
     const result = nodes.filter(item => {
       const src = item.node.name;
-      var filename = val.split('.')[0];
+      var filename = val.split(".")[0];
       return filename === src;
     });
     return result.length > 0
@@ -244,8 +247,12 @@ function PastContests() {
                 {item.info}
               </Typography>
               {item.image !== "NA" && (
-                <Box sx={{ width: '60%', margin: '0 auto' }}>
-                  <GatsbyImage alt="winners here" style={{ borderRadius: "10px", }} image={getImage(item.image)} />
+                <Box sx={{ width: "60%", margin: "0 auto" }}>
+                  <GatsbyImage
+                    alt="winners here"
+                    style={{ borderRadius: "10px" }}
+                    image={getImage(item.image)}
+                  />
                 </Box>
               )}
               <LooksOneOutlinedIcon
@@ -322,16 +329,25 @@ function PastContests() {
               >
                 <i>{item.winners.third.college}</i>
               </Typography>
-              {item.report !== "NA" &&
+              {item.report !== "NA" && (
                 <Typography
                   sx={{ fontFamily: "'Gruppo', cursive", color: "red" }}
                 >
-                  For more details&nbsp; <a target="_blank" rel="noreferrer" href={item.report}>
-                    <Typography sx={{ display: "inline", fontFamily: "'Gruppo', cursive", color: "blue" }}>
+                  For more details&nbsp;{" "}
+                  <a target="_blank" rel="noreferrer" href={item.report}>
+                    <Typography
+                      sx={{
+                        display: "inline",
+                        fontFamily: "'Gruppo', cursive",
+                        color: "blue"
+                      }}
+                    >
                       click here
-                    </Typography></a>.
+                    </Typography>
+                  </a>
+                  .
                 </Typography>
-              }
+              )}
             </AccordionDetails>
           </Accordion>
         ))}

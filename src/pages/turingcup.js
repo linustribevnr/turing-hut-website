@@ -5,7 +5,7 @@ import "../components/TuringCup/turingcup.css";
 import PastContests from "../components/TuringCup/PastContests";
 import Timers from "../components/TuringCup/Timers";
 // import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
-import TuringCupSponsors from '../components/TuringCup/TuringCupSponsors';
+import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
 import { Box, Button } from "@mui/material";
 // import { createTheme } from "@mui/material/styles";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
@@ -21,9 +21,7 @@ var divStyle = {
   margin: 0
 };
 function Turingcup() {
-
-  const [isRegistering, setIsRegistering] =useState(false)
-
+  const [isRegistering, setIsRegistering] = useState(false);
 
   return (
     //
@@ -42,7 +40,7 @@ function Turingcup() {
               margin: "0px",
               padding: "0px",
               fontFamily: "'Gruppo', cursive",
-              border:'1px solid white'
+              border: "1px solid white"
             }}
           />
 
@@ -52,7 +50,7 @@ function Turingcup() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              marginBottom: "50px",
+              marginBottom: "50px"
             }}
           >
             {/* <Typography
@@ -81,21 +79,21 @@ function Turingcup() {
               }}
               variant="contained"
               // href="/register"
-              onClick={()=>setIsRegistering(!isRegistering)}
+              onClick={() => setIsRegistering(!isRegistering)}
               startIcon={<HowToRegRoundedIcon />}
             >
-              {isRegistering ? 'Close Form' : 'Register For Round-2 Here'}
+              {isRegistering ? "Close Form" : "Register For Round-2 Here"}
             </Button>
-            {isRegistering&& <RegisterForm />}
+            {isRegistering && <RegisterForm />}
           </div>
 
-          <About  />
+          <About />
           <Timers />
           <Timelinee />
           {/* <TuringCupPrizePool /> */}
-          <TuringCupSponsors/>
+          <TuringCupSponsors />
           <PastContests />
-          
+
           <Faqs />
         </Box>
       </div>

@@ -18,10 +18,11 @@ We hope college is treating you well and that you're savouring every moment. Her
 
 - [Micron Scholarship Program](https://www.uramscholarship.co.in/)
 - [Tata Imagination Challenge](https://unstop.com/competitions/tata-imagination-challenge-2023-tata-group-750864?ref=qVTFEJlp)
-- [P&G Summer Internship Program](https://www.pgcareers.com/global/en/job/R000089123/Summer-Internship-Program---IT?utm_source=Summer_Internship_(IT_Intern)_unstop&utm_medium=listing&utm_campaign=unstop)
+- [P&G Summer Internship Program](<https://www.pgcareers.com/global/en/job/R000089123/Summer-Internship-Program---IT?utm_source=Summer_Internship_(IT_Intern)_unstop&utm_medium=listing&utm_campaign=unstop>)
 - [Kotak Kanya Scholarship](https://kotakeducation.org/kotak-kanya-scholarship/)
 
 # Highlights
+
 <img src="https://ci4.googleusercontent.com/proxy/guphPbSsQ98iWpvO1W-eNbwmXBC4ZHJYbMJLsQhGsHnFBRGtkvKznwIAUKatHz_Dsm6DZtQmnIauVrdAENZdmpMWN0TtatcI6cK6ts2Fzw5J1YqbEyp3ypdlpBNFRIfB6t4D9zcderOhkiaOCJS44zKXlotp-A=s0-d-e1-ft#https://mcusercontent.com/851ebdd596565ee1d48824907/images/55dbab59-bc0c-bae5-9d12-91c0aadee7a2.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto; 

@@ -21,6 +21,7 @@ Greetings to everyone! As we gear up for exam season, team Turing Hut is here to
 - [TezAsia Hackathon 3.0](https://unstop.com/competitions/tezasia-hackathon-30-tezos-india-695650?ref=UPDAqhCN)
 
 # Highlights
+
 <img src="https://ci5.googleusercontent.com/proxy/KftY3Yc6A2rIfjjWDkbX_gZJLBGkjsPhijyvMg1lC7NFD4Rk3p_JIUB2FiBZOS1Z5jSWipCuhFNqAiGbv-Kn_XdFg4YkIiUnSPcY_qeO9ajLdMefY2Yg0u7INY2AdrypDVJVtrrQInmkRzpqUrcsTDyW3yXPWZ0bunhsfQ=s0-d-e1-ft#https://mcusercontent.com/851ebdd596565ee1d48824907/_compresseds/9bd74f0b-826c-28ae-92d2-b97ce2d40bb1.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto; 
@@ -42,4 +43,4 @@ Here's an amazing problem, you should check out: [problem link](https://codeforc
 
 Do you want to share any opportunity, blog, or experience? Fill out this [form](https://forms.gle/uidTBY1e3cALgHtC6) to be featured in our next newsletter.
 
-Thanks to Mohanavamshi Devulapally,  Tarun Vishnav Burugupalli and Sai Rakshita for contributing to the newsletter
+Thanks to Mohanavamshi Devulapally, Tarun Vishnav Burugupalli and Sai Rakshita for contributing to the newsletter

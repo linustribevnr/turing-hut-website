@@ -8,7 +8,6 @@ import React from "react";
 import "./LandingPage2.css";
 import TuringCupSponsors from "./TuringCupSponsors";
 function Landingpage2() {
-
   // console.log("PROCESS>ENV  : ", process.env.API_KEY)
 
   const config = {
@@ -27,7 +26,7 @@ function Landingpage2() {
   return (
     <Grid
       className="fullpage"
-      style={{ fontFamily: "'Gruppo', cursive", marginBottom: "16px"}}
+      style={{ fontFamily: "'Gruppo', cursive", marginBottom: "16px" }}
     >
       <svg viewBox="0 0 1300 300">
         <text
@@ -78,7 +77,7 @@ function Landingpage2() {
           Register For Round-2
         </Button> */}
 
-         {/* <Button
+        {/* <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             backgroundColor: "#101820FF",
@@ -97,10 +96,8 @@ function Landingpage2() {
           Add to Calendar
         </Button>  */}
       </Stack>
-      
-
     </Grid>
   );
 }
 
-export default Landingpage2; 
+export default Landingpage2;

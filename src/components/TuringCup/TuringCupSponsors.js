@@ -17,7 +17,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function TuringCupSponsors() {
   const data = useStaticQuery(graphql`
-    query SponsorQuery { 
+    query SponsorQuery {
       allFile(filter: { relativeDirectory: { eq: "sponsors24" } }) {
         edges {
           node {
@@ -58,7 +58,7 @@ export default function TuringCupSponsors() {
             // console.log(src, filepath, sponsor.image);
             return filepath === sponsor.image;
           });
-            // console.log('result :',result);
+          // console.log('result :',result);
           let image;
           if (result.length === 1) {
             image = result[0].node.childImageSharp.gatsbyImageData;

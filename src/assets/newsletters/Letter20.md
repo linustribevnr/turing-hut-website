@@ -10,6 +10,7 @@ recording: NA
 contestlink: https://www.hackerrank.com/turing-hut-practice-contest-2025
 markdownType: newsletter
 ---
+
 Hey there,
 What an incredible month it's been, from representing our college's coding prowess at the ICPC Regionals, to warmly welcoming the first years to Turing Hut. Here are the latest tech opportunities awaiting you - grab them before they're gone!
 
@@ -21,6 +22,7 @@ What an incredible month it's been, from representing our college's coding prowe
 - [Google Summer Software Engineering Intern](https://www.google.com/about/careers/applications/jobs/results/132226329299821254-software-engineering-intern-summer-2024)
 
 # Highlights
+
 <img src="https://ci3.googleusercontent.com/meips/ADKq_NbiB1LboFUoTUo4T3o1-uZYFnn7EAv1WVXQn2pBZcn7FyLvKpt68mkuPCtA5v403Dl9e6XiimP-8yWsD68xpSZ0A_l7ZqrTLdOcpf_bfrmnAwEJNphkaJU3gAv21-C19y_ZlxpbMvdz270eP7Jc4yxL1NK7UY0iuPY=s0-d-e1-ft#https://mcusercontent.com/851ebdd596565ee1d48824907/images/ca7af940-71a3-b65b-4855-5f811263f9fb.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto; 
@@ -41,6 +43,5 @@ Representing our college, team "Wrong Angled Triangle" - Shashank Varma (3rd yea
 Here's an amazing problem, you should check out: [problem link](https://codeforces.com/contest/1878/problem/E).
 
 Do you want to share any opportunity, blog, or experience? Fill out this [form](https://forms.gle/uidTBY1e3cALgHtC6) to be featured in our next newsletter.
-
 
 Thanks to Nisritha, Nithish Thoparam, Sreekar Vyas and Sai Rakshita for contributing to the newsletter

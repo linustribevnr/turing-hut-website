@@ -10,6 +10,7 @@ recording: NA
 contestlink: https://www.hackerrank.com/turing-hut-practice-contest-2025
 markdownType: newsletter
 ---
+
 Hey there!
 Hope you had a great summer vacation, we've had a great start with our Competitive Programming workshop. We're all set to bring something even more exciting as we come back from the break. In the mean time, stay updated with our newsletter and don't forget to keep an eye out for the latest tech opportunities!
 
@@ -19,8 +20,8 @@ Hope you had a great summer vacation, we've had a great start with our Competiti
 - [intel-SOC Design Internship](https://unstop.com/internships/soc-design-internship-intel-1001096)
 - [Qualcomm Internship - Interim Engineer](https://careers.qualcomm.com/careers/job/446693743471)
 
-
 # Highlights
+
 <img src="https://ci5.googleusercontent.com/proxy/QFP5iQmIZboKOAaU4pagSmFQpSe6RugGmix7PhNbZ8OoxTdV6vBd99fvULHdbCp5O6MPzdBkTe6ol9d_5AJ5CzKhXa4Rg1RgA2SkMDZSqAQNObB-GQHW8uPauAlcUTtUtr34P9XdL88Drp4rm0o6qTnTu4DDHg=s0-d-e1-ft#https://mcusercontent.com/4ffd2fefe72dbd0f20196f8f7/images/6fc90ba5-4362-6db0-8585-23579dd13621.jpg" style="display: block;
   margin-left: auto;
   margin-right: auto; 
@@ -47,7 +48,5 @@ Here are some problems for summer practice: [CP_Practice.](https://www.hackerran
 Here's the link to a wonderful question that you should check out: [problem link](https://codeforces.com/contest/1972/problem/C).
 
 Do you have any opportunities, articles or experiences you would like to share? Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfdaR5IK8B9RZx-5G3cd4_G4RMsLIaHRMWpGWzTwMyuMdCeWg/viewform) for a chance to be featured in our next newsletter.
-
-
 
 Thanks to T Aniketh, Akshaya and Shailesh for contributing to the newsletter
