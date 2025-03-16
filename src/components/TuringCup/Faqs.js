@@ -5,14 +5,13 @@ import {
   Accordion,
   AccordionSummary,
   AccordionDetails,
-  Button
+  Button,
+  Box
 } from "@mui/material";
-import { ExpandMore } from "@mui/icons-material";
 import { useState } from "react";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import EmailIcon from "@mui/icons-material/Email";
-import CallIcon from "@mui/icons-material/Call";
+import { ExpandMore, WhatsApp, Email, Call } from "@mui/icons-material";
 import "./turingcup.css";
+
 
 export default function Faqs() {
   const faqs = [
@@ -122,31 +121,17 @@ export default function Faqs() {
       >
         For further queries, feel free to reach out to us via Email, WhatsApp or
         Phone <br />
-        <Button href="mailto: kurudisreekar@gmail.com" target="_blank">
-          <EmailIcon
-            fontSize="large"
-            sx={{ bgcolor: "", color: "rgb(117, 117, 117)" }}
-          />
-        </Button>
-        <Button
-          href="https://api.whatsapp.com/send?phone=8121170046"
-          target="_blank"
-        >
-          <WhatsAppIcon
-            fontSize="large"
-            sx={{
-              bgcolor: "",
-              color: "rgb(117, 117, 117)",
-              borderRadius: "20%"
-            }}
-          />
-        </Button>
-        <Button href="tel:8121170046">
-          <CallIcon
-            fontSize="large"
-            sx={{ bgcolor: "", color: "rgb(117, 117, 117)" }}
-          />
-        </Button>
+        <Box sx={{ display: "flex", justifyContent: "center", gap: 3 }}>
+          <Button href="mailto:koushik00500@gmail.com" target="_blank" sx={{ color: "#F2AA4CFF", transition: "0.3s", "&:hover": { color: "#ff8c1a" } }}>
+            <Email sx={{ fontSize: 40 }} />
+          </Button>
+          <Button href="https://api.whatsapp.com/send?phone=7396910024" target="_blank" sx={{ color: "#F2AA4CFF", transition: "0.3s", "&:hover": { color: "#25D366" } }}>
+            <WhatsApp sx={{ fontSize: 40 }} />
+          </Button>
+          <Button href="tel:7396910024" sx={{ color: "#F2AA4CFF", transition: "0.3s", "&:hover": { color: "#005ce6" } }}>
+            <Call sx={{ fontSize: 40 }} />
+          </Button>
+        </Box>
       </Typography>
     </>
   );

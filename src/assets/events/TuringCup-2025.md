@@ -43,7 +43,7 @@ Round-2 (Onsite) will be held at the **VNRVJIET Campus, Bachupally, Hyderabad** 
 
 
 The competition welcomes undergraduate students nationwide who have a passion for coding - join in and demonstrate your skills! To participate in the contest, you need to register via Unstop. The registration for the first round will be open until 2:00 PM, March 9th, 2024.<br/>
-To register for the contest kindly check this link here: [Registration Form](https://unstop.com/o/CrlhSpi?lb=btnY88sc)
+To register for the contest kindly check this link here: [Registration Form](#)
 
 There will be strict plagarism check after the contest, don't try to seek help from your friends or try to help your friends, doing so both of you will get caught.
 
