@@ -46,7 +46,12 @@ export default function TuringCupPrizePool() {
         PRIZE POOL WORTH Rs. 75K 💰
       </Typography>
 
-      <Box display="flex" flexDirection={{ xs: "column", md: "row" }} mt={4} gap={8}>
+      <Box
+        display="flex"
+        flexDirection={{ xs: "column", md: "row" }}
+        mt={4}
+        gap={8}
+      >
         <PrizeCard sx={{ width: { xs: "90%", md: "40%" } }}>
           <EmojiEvents sx={{ fontSize: 60, color: "#F2AA4CFF" }} />
           <CardContent>

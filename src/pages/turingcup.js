@@ -24,7 +24,6 @@ function Turingcup() {
   // const [isRegistering, setIsRegistering] = useState(false);
 
   return (
-
     <Layout sx={{ margin: 0 }}>
       <div style={divStyle}>
         <Box

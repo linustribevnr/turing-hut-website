@@ -70,7 +70,6 @@ function Timers() {
       const intervalId = interval.current;
       clearInterval(intervalId);
     };
-
   });
 
   const isLargeScreen = useMediaQuery(theme => theme.breakpoints.up("lg"));

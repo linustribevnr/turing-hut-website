@@ -12,7 +12,6 @@ import { useState } from "react";
 import { ExpandMore, WhatsApp, Email, Call } from "@mui/icons-material";
 import "./turingcup.css";
 
-
 export default function Faqs() {
   const faqs = [
     {
@@ -122,13 +121,36 @@ export default function Faqs() {
         For further queries, feel free to reach out to us via Email, WhatsApp or
         Phone <br />
         <Box sx={{ display: "flex", justifyContent: "center", gap: 3 }}>
-          <Button href="mailto:koushik00500@gmail.com" target="_blank" sx={{ color: "#F2AA4CFF", transition: "0.3s", "&:hover": { color: "#ff8c1a" } }}>
+          <Button
+            href="mailto:koushik00500@gmail.com"
+            target="_blank"
+            sx={{
+              color: "#F2AA4CFF",
+              transition: "0.3s",
+              "&:hover": { color: "#ff8c1a" }
+            }}
+          >
             <Email sx={{ fontSize: 40 }} />
           </Button>
-          <Button href="https://api.whatsapp.com/send?phone=7396910024" target="_blank" sx={{ color: "#F2AA4CFF", transition: "0.3s", "&:hover": { color: "#25D366" } }}>
+          <Button
+            href="https://api.whatsapp.com/send?phone=7396910024"
+            target="_blank"
+            sx={{
+              color: "#F2AA4CFF",
+              transition: "0.3s",
+              "&:hover": { color: "#25D366" }
+            }}
+          >
             <WhatsApp sx={{ fontSize: 40 }} />
           </Button>
-          <Button href="tel:7396910024" sx={{ color: "#F2AA4CFF", transition: "0.3s", "&:hover": { color: "#005ce6" } }}>
+          <Button
+            href="tel:7396910024"
+            sx={{
+              color: "#F2AA4CFF",
+              transition: "0.3s",
+              "&:hover": { color: "#005ce6" }
+            }}
+          >
             <Call sx={{ fontSize: 40 }} />
           </Button>
         </Box>

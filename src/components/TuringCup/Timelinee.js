@@ -40,10 +40,11 @@ function Timelinee() {
           >
             Registration details:
             <br />
-            Eligibility: All undergraduate students,
-            pursuing a full-time degree in any branch <br />
+            Eligibility: All undergraduate students, pursuing a full-time degree
+            in any branch <br />
             Team size : 1-2 <br />
-            Registration fee: FREE for Round-1 ; Rs 300/- for Round-2 (Lunch and goodies will be provided).
+            Registration fee: FREE for Round-1 ; Rs 300/- for Round-2 (Lunch and
+            goodies will be provided).
             <br />
             Registration for online round will close on 5th April 2:00 PM <br />
           </h4>

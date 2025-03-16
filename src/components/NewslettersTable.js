@@ -15,7 +15,7 @@ import {
   TableFooter
 } from "@mui/material";
 import { visuallyHidden } from "@mui/utils";
-import ManageSearchIcon from '@mui/icons-material/ManageSearch';
+import ManageSearchIcon from "@mui/icons-material/ManageSearch";
 
 import { Link, graphql, useStaticQuery } from "gatsby";
 
@@ -102,12 +102,30 @@ export default function NewslettersTable() {
         sx={{ pb: 2 }}
         justifyContent={"space-between"}
       >
-        <Typography variant="h6" color="primary" align="center" sx={{fontWeight:"bold",fontSize:"1.7rem"}}>
+        <Typography
+          variant="h6"
+          color="primary"
+          align="center"
+          sx={{ fontWeight: "bold", fontSize: "1.7rem" }}
+        >
           Directory of Newsletters
         </Typography>
-        <div style={{ display: 'flex', alignItems: 'center'}}>
-          <TextField label="Search" type="search" variant="standard" onChange={(e) => setSearch(e.target.value.toLowerCase())} />
-          <ManageSearchIcon label="Search" sx={{ fontSize: 38, color: "primary",marginBottom:-3,marginLeft:0.5}} />        
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <TextField
+            label="Search"
+            type="search"
+            variant="standard"
+            onChange={e => setSearch(e.target.value.toLowerCase())}
+          />
+          <ManageSearchIcon
+            label="Search"
+            sx={{
+              fontSize: 38,
+              color: "primary",
+              marginBottom: -3,
+              marginLeft: 0.5
+            }}
+          />
         </div>
       </Box>
       <TableContainer component={Paper}>

@@ -24,10 +24,7 @@ function Landingpage2() {
   };
 
   return (
-    <Grid
-      className="fullpage"
-      style={{ fontFamily: "'Gruppo', cursive" }}
-    >
+    <Grid className="fullpage" style={{ fontFamily: "'Gruppo', cursive" }}>
       <svg viewBox="0 0 1300 300">
         <text
           x="50%"
@@ -86,7 +83,7 @@ function Landingpage2() {
             "&:hover": {
               backgroundColor: "#F2AA4CFF",
               color: "#fff"
-            } 
+            }
           }}
           id="add-to-calendar-btn"
           onClick={handleClick}
@@ -94,7 +91,7 @@ function Landingpage2() {
           endIcon={<InsertInvitationRoundedIcon />}
         >
           Add to Calendar
-        </Button> 
+        </Button>
       </Stack>
     </Grid>
   );

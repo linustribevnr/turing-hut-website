@@ -112,11 +112,17 @@ export default function UpcomingEvents() {
                   />
 
                   <CardContent>
-                    <Box display="flex" alignItems="center" justifyContent="flex-end">
+                    <Box
+                      display="flex"
+                      alignItems="center"
+                      justifyContent="flex-end"
+                    >
                       <Typography variant="body2" color="#ff1a1a" gutterBottom>
                         {event.frontmatter.date}
                       </Typography>
-                      <AccessTimeIcon sx={{ color: "#ff1a1a", fontSize: 18, ml: 0.5 }} />
+                      <AccessTimeIcon
+                        sx={{ color: "#ff1a1a", fontSize: 18, ml: 0.5 }}
+                      />
                     </Box>
                     <Typography variant="h6" color="#00452F" fontWeight="bold">
                       {event.frontmatter.title}

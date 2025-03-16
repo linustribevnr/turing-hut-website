@@ -10,17 +10,16 @@ recording: NA
 markdownType: event
 ---
 
-
 **Turing Cup** is a National level Programming Contest conducted by Turing Hut for all the undergraduate students from across the country who are passionate about coding.This is a competition that will test your coding prowess, speed and problem solving skills.
 <br/>
 The Turing Cup will be held in two rounds :<br/>
 
 ### Round 1
-The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will be held online on **CodeForces**. Short-listed candidates will be notified for the further rounds. 
+
+The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will be held online on **CodeForces**. Short-listed candidates will be notified for the further rounds.
 
 **Start:** 05 April 2025, 07:00 PM  
-**End:** 05 April 2025, 09:00 PM   
-
+**End:** 05 April 2025, 09:00 PM
 
 **Registration:** The first round is **FREE**, and further details will be communicated to the participants via email
 <br/>
@@ -33,20 +32,19 @@ To register, visit **[Registration Form](#)** .
 ---
 
 ### Round 2
+
 Round-2 (Onsite) will be held at the **VNRVJIET Campus, Bachupally, Hyderabad** on **19th April 2025**. Shortlisted teams for this round will be notified via email or contacted after Round 1.
 
 **Start:** 19 April 2025, 10:00 AM  
-**End:** 19 April 2025, 01:00 PM 
+**End:** 19 April 2025, 01:00 PM
 
 **Registration Fee:** ₹300 per team (Includes lunch and goodies).  
 **Accommodation:** Available for teams from colleges outside Hyderabad.
-
 
 The competition welcomes undergraduate students nationwide who have a passion for coding - join in and demonstrate your skills! To participate in the contest, you need to register via Unstop. The registration for the first round will be open until 2:00 PM, March 9th, 2024.<br/>
 To register for the contest kindly check this link here: [Registration Form](#)
 
 There will be strict plagarism check after the contest, don't try to seek help from your friends or try to help your friends, doing so both of you will get caught.
-
 
 ## Guidelines:
 
@@ -56,14 +54,13 @@ There will be strict plagarism check after the contest, don't try to seek help f
 - **Plagiarism Check:** All submissions will run through a plagiarism detector, and any team involved in plagiarism will be eliminated.
 - **CodeForces Requirement:**
   - Qualification round will be conducted on **CodeForces**.
-  - *Teams of 2* must create a **team account** on CodeForces.
-  - For *solo participants*, this step is optional.
+  - _Teams of 2_ must create a **team account** on CodeForces.
+  - For _solo participants_, this step is optional.
   - Once you’ve registered as a team for the contest, submissions can be done from either of the teammate’s accounts, they’ll be counted as the team’s submissions.
   - Contest invitation will be sent to the teammate’s CodeForces profiles, 3 hours before the commencement of the round..
 - **Dispute Resolution:** In case of any issues, **Turing Hut** will make a fair judgment based on the impact of the issue and the principle of fairness.
 
 > **Follow the steps mentioned <a href="https://drive.google.com/file/d/1RpcqU_O9EDTgddWsoL5DgCvPtn8TXktu/view" target="_blank">here</a> to create a team on CodeForces.**
-
 
 ---
 
@@ -75,13 +72,12 @@ The total prize pool for this contest is **₹75,000**:
 🥈 **2nd Place:** ₹20,000  
 🥉 **3rd Place:** ₹13,000  
 🏅 **Consolation Prizes:** ₹7,000 and ₹5,000  
-🎓 **Certificates:**  
-- *Participation Certificates* for all **Final Round** participants.  
-- *Merit Certificates* for top-performing teams.
+🎓 **Certificates:**
 
+- _Participation Certificates_ for all **Final Round** participants.
+- _Merit Certificates_ for top-performing teams.
 
 If you have any queries, contact:
 
 - Koushik: 7396910024
 - Divya: 9704606266
-

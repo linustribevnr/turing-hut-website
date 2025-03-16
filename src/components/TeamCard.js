@@ -1,7 +1,7 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LanguageIcon from '@mui/icons-material/Language';
+import LanguageIcon from "@mui/icons-material/Language";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import CodeIcon from '@mui/icons-material/Code';
+import CodeIcon from "@mui/icons-material/Code";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { Box, Card, CardContent, IconButton, Typography } from "@mui/material";
 import { GatsbyImage } from "gatsby-plugin-image";
@@ -15,7 +15,7 @@ export default function TeamCard({
   github,
   linkedin,
   website,
-  cpprofile,
+  cpprofile
 }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
