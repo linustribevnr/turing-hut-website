@@ -1,6 +1,7 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkIcon from "@mui/icons-material/Link";
+import LanguageIcon from '@mui/icons-material/Language';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import CodeIcon from '@mui/icons-material/Code';
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { Box, Card, CardContent, IconButton, Typography } from "@mui/material";
 import { GatsbyImage } from "gatsby-plugin-image";
@@ -13,7 +14,8 @@ export default function TeamCard({
   twitter,
   github,
   linkedin,
-  website
+  website,
+  cpprofile,
 }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
@@ -54,15 +56,24 @@ export default function TeamCard({
             </a>
           </Box>
         )}
-        <Box sx={{ p: 1 }}>
-          {website && (
+        {website && (
+          <Box sx={{ p: 1 }}>
             <a href={website} target="_blank" rel="noreferrer">
               <IconButton aria-label="link" size="small">
-                <LinkIcon fontSize="inherit" />
+                <LanguageIcon fontSize="inherit" />
               </IconButton>
             </a>
-          )}
-        </Box>
+          </Box>
+        )}
+        {cpprofile && (
+          <Box sx={{ p: 1 }}>
+            <a href={cpprofile} target="_blank" rel="noreferrer">
+              <IconButton aria-label="link" size="small">
+                <CodeIcon fontSize="inherit" />
+              </IconButton>
+            </a>
+          </Box>
+        )}
       </Box>
     </Card>
   );

@@ -16,7 +16,7 @@ markdownType: event
 The Turing Cup will be held in two rounds :<br/>
 
 ### Round 1
-The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will be held online on **CodeForces**. Short-listed candidates will be notified for the further rounds. The contest link will be sent to the participants’ CodeForces profiles **3 hours before** the commencement of the round.
+The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will be held online on **CodeForces**. Short-listed candidates will be notified for the further rounds. 
 
 **Start:** 05 April 2025, 07:00 PM  
 **End:** 05 April 2025, 09:00 PM   

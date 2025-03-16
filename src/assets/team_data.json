@@ -472,7 +472,8 @@
         "name": "K Shailesh Reddy",
         "image": "shailesh_2025.jpg",
         "designation": "Teaching and Problem setting",
-        "linkedin": "https://www.linkedin.com/in/shailesh-reddy-kanchanakuntla-a9b4502a0/"
+        "linkedin": "https://www.linkedin.com/in/shailesh-reddy-kanchanakuntla-a9b4502a0/",
+        "cpprofile":"da"
       },
       {
         "name": "Tummala Naveen",
@@ -480,23 +481,24 @@
         "designation": "Teaching and Problem setting",
         "linkedin": "https://www.linkedin.com/in/t-naveen-161161229/",
         "twitter": "https://twitter.com/TNaveen2308",
-        "github": "https://github.com/T-Naveen-2308"
+        "github": "https://github.com/T-Naveen-2308",
+        "cpprofile":"https://leetcode.com/u/tnaveen2308/"
       },
       {
         "name": "Adithya Sai Ram",
         "image": "adithya_2025.jpg",
         "designation": "Teaching and Problem setting",
         "linkedin": "https://www.linkedin.com/in/adithya-sai-ram-ab409b250/",
-        "website":"https://codeforces.com/profile/adithya19",
         "twitter": "https://twitter.com/Adithyasairam54",
-        "github": "https://github.com/adithyasai28"
+        "github": "https://github.com/adithyasai28",
+        "cpprofile":"https://codeforces.com/profile/adithya19"
       },
       {
         "name": "Madikuntawar Srikar",
         "image": "srikar_2025.jpg",
         "designation": "Teaching and Problem setting",
-        "website":"https://codeforces.com/profile/srikar3010",
-        "linkedin": "https://www.linkedin.com/in/srikar-madikuntawar-030b69266/"
+        "linkedin": "https://www.linkedin.com/in/srikar-madikuntawar-030b69266/",
+        "cpprofile":"https://codeforces.com/profile/srikar3010"
       },
       {
         "name": " Venkata Giridhar ",
