@@ -9,6 +9,8 @@ import {
   CardActions,
   Button
 } from "@mui/material";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
+
 
 export default function UpcomingEvents() {
   const data = useStaticQuery(graphql`
@@ -85,37 +87,47 @@ export default function UpcomingEvents() {
                 }}
               >
                 <Card
+                sx={{
+                  boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)",
+                  transition: "transform 0.3s",
+                  '&:hover': { transform: "scale(1.05)" }
+                }}
                   style={{
                     backgroundColor: "#f4f4f5"
                   }}
                 >
-                  <CardContent>
-                    <Typography
-                      sx={{ fontSize: 14 }}
-                      color="text.secondary"
-                      gutterBottom
-                    >
+                <CardContent>
+                  <Box display="flex" alignItems="center" justifyContent="flex-end">
+                    <Typography variant="body2" color="#ff1a1a" gutterBottom>
                       {event.frontmatter.date}
                     </Typography>
-                    <Typography variant="h6">
-                      {event.frontmatter.title}
-                    </Typography>
-                    <Typography variant="body2">
-                      {event.frontmatter.type}
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Link
-                      to={
-                        `${event.frontmatter.slug}`.includes("turing-cup-2023")
-                          ? "/turingcup"
-                          : `/events/${event.frontmatter.slug}`
-                      }
-                      style={{ textDecoration: "none" }}
+                    <AccessTimeIcon sx={{ color: "#ff1a1a", fontSize: 18, ml: 0.5 }} />
+                  </Box>
+                  <Typography variant="h6" color="#00452F" fontWeight="bold">
+                    {event.frontmatter.title}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    {event.frontmatter.type}
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Link
+                    to={event.frontmatter.slug.includes("turing-cup-2023") ? "/turingcup" : `/events/${event.frontmatter.slug}`}
+                    style={{ textDecoration: "none", width: "100%" }}
+                  >
+                    <Button
+                      fullWidth
+                      sx={{
+                        textTransform: "none",
+                        backgroundColor: "#16654F",
+                        color: "white",
+                        '&:hover': { backgroundColor: "#00452F" }
+                      }}
                     >
-                      <Button sx={{ textTransform: "none" }}>Learn More</Button>
-                    </Link>
-                  </CardActions>
+                      Learn More
+                    </Button>
+                  </Link>
+                </CardActions>
                 </Card>
               </div>
             </Grid>

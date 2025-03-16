@@ -25,6 +25,7 @@
     "add-to-calendar-button": "^2.7.3",
     "dotenv": "^16.4.5",
     "firebase": "^11.0.1",
+    "fs-extra": "^11.3.0",
     "gatsby": "^5.14.0",
     "gatsby-plugin-env-variables": "^2.3.0",
     "gatsby-plugin-image": "^3.14.0",
