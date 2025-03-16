@@ -31,7 +31,7 @@
     {
       "name": "Pinnamani Venkat",
       "image": "venkat_2018.jpg",
-      "designation": "Secretary cum Tempe-Treasurer",
+      "designation": "Secretary & Temp-Treasurer",
       "linkedin": "https://www.linkedin.com/in/venkat-pinnamani-29a870b8/"
     },
     {
@@ -472,8 +472,7 @@
         "name": "K Shailesh Reddy",
         "image": "shailesh_2025.jpg",
         "designation": "Teaching and Problem setting",
-        "linkedin": "https://www.linkedin.com/in/shailesh-reddy-kanchanakuntla-a9b4502a0/",
-        "cpprofile":"da"
+        "linkedin": "https://www.linkedin.com/in/shailesh-reddy-kanchanakuntla-a9b4502a0/"
       },
       {
         "name": "Tummala Naveen",
@@ -504,7 +503,8 @@
         "name": " Venkata Giridhar ",
         "image": "giridhar_2025.jpg",
         "designation": "Teaching and Problem setting",
-        "linkedin": "https://www.linkedin.com/in/venkata-giridhar-a9093a277"
+        "linkedin": "https://www.linkedin.com/in/venkata-giridhar-a9093a277",
+        "cpprofile":"https://www.codechef.com/users/giridhar123456"
       },
       {
         "name": "Salsabil Shehnaz",

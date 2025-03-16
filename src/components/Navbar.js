@@ -44,9 +44,9 @@ const navItems = [
     path: "/team"
   },
   {
-    text: "About",
-    icon: <InfoIcon />,
-    path: "/about"
+    text: "Turing Cup",
+    icon: <EmojiEventsIcon />,
+    path: "/turingcup"
   },
   {
     text: "Contact",
@@ -54,14 +54,14 @@ const navItems = [
     path: "/contact"
   },
   {
-    text: "Turing Cup",
-    icon: <EmojiEventsIcon />,
-    path: "/turingcup"
-  },
-  {
     text: "Newsletters",
     icon: <EmailOutlinedIcon />,
     path: "/newsletters"
+  },
+  {
+    text: "About",
+    icon: <InfoIcon />,
+    path: "/about"
   }
 ];
 

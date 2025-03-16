@@ -62,6 +62,9 @@ There will be strict plagarism check after the contest, don't try to seek help f
   - Contest invitation will be sent to the teammate’s CodeForces profiles, 3 hours before the commencement of the round..
 - **Dispute Resolution:** In case of any issues, **Turing Hut** will make a fair judgment based on the impact of the issue and the principle of fairness.
 
+> **Follow the steps mentioned <a href="https://drive.google.com/file/d/1RpcqU_O9EDTgddWsoL5DgCvPtn8TXktu/view" target="_blank">here</a> to create a team on CodeForces.**
+
+
 ---
 
 ## Prizes & Perks:

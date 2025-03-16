@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
 import "../components/TuringCup/turingcup.css";
 import PastContests from "../components/TuringCup/PastContests";
 import Timers from "../components/TuringCup/Timers";
-// import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
-import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
-import { Box, Button } from "@mui/material";
+import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
+// import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
+import { Box } from "@mui/material";
 // import { createTheme } from "@mui/material/styles";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
 import Timelinee from "../components/TuringCup/Timelinee";
-import HowToRegRoundedIcon from "@mui/icons-material/HowToRegRounded";
-import RegisterForm from "./register";
+// import HowToRegRoundedIcon from "@mui/icons-material/HowToRegRounded";
+// import RegisterForm from "./register";
 import Faqs from "../components/TuringCup/Faqs";
 
 import About from "../components/TuringCup/About";
@@ -21,10 +21,9 @@ var divStyle = {
   margin: 0
 };
 function Turingcup() {
-  const [isRegistering, setIsRegistering] = useState(false);
+  // const [isRegistering, setIsRegistering] = useState(false);
 
   return (
-    //
 
     <Layout sx={{ margin: 0 }}>
       <div style={divStyle}>
@@ -44,7 +43,7 @@ function Turingcup() {
             }}
           />
 
-          <div
+          {/* <div
             style={{
               display: "flex",
               flexDirection: "column",
@@ -53,7 +52,7 @@ function Turingcup() {
               marginBottom: "50px"
             }}
           >
-            {/* <Typography
+            <Typography
               variant="h5"
               fontWeight="bold"
               sx={{
@@ -65,7 +64,7 @@ function Turingcup() {
               }}
             >
               REGISTRATION FOR ROUND-2
-            </Typography> */}
+            </Typography>
             <Button
               sx={{
                 fontFamily: ['"Gruppo"', "cursive"].join(","),
@@ -85,15 +84,14 @@ function Turingcup() {
               {isRegistering ? "Close Form" : "Register For Round-2 Here"}
             </Button>
             {isRegistering && <RegisterForm />}
-          </div>
+          </div> */}
 
           <About />
           <Timers />
           <Timelinee />
-          {/* <TuringCupPrizePool /> */}
-          <TuringCupSponsors />
+          <TuringCupPrizePool />
+          {/* <TuringCupSponsors /> */}
           <PastContests />
-
           <Faqs />
         </Box>
       </div>

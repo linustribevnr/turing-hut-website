@@ -28,7 +28,7 @@ export default function Faqs() {
     {
       question: "Will accomodation be provided?",
       answer:
-        "The accomodation will be provided for teams whose college is based outside Hyderabad."
+        "The accomodation will be provided for teams whose college is based outside Hyderabad during the onsite round."
     },
     // {
     //   question: "Will transport be provided?",

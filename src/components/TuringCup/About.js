@@ -25,7 +25,7 @@ export default function About() {
           the nation participate in teams of 2, to win exciting cash prizes.
           <br />
           The shortlisted participants get to experience a visit to the
-          institute where they again compete in an Off-site round under
+          institute where they again compete in an Off-site round under the
           stipulated time limits.
           <br />
         </p>
