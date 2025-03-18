@@ -55,7 +55,7 @@ function Landingpage2() {
         direction={{ xs: "column", md: "row" }}
         spacing={2}
       >
-        {/* <Button
+        <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             backgroundColor: "#101820FF",
@@ -67,12 +67,12 @@ function Landingpage2() {
             }
           }}
           variant="contained"
-          href="https://unstop.com/p/turing-cup-2k24-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-898184"
+          href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"
           target="__blank"
           startIcon={<HowToRegRoundedIcon />}
         >
-          Register For Round-2
-        </Button> */}
+          Register
+        </Button>
 
         <Button
           sx={{

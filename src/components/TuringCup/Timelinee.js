@@ -74,7 +74,7 @@ function Timelinee() {
             Date : 05/04/2025 - Saturday <br />
             Time : 07:00 PM - 09:00 PM (IST)
             <br />
-            Platform : CodeForces <br />
+            Platform : Hackerrank <br />
             Location : Online <br />
             Duration : 02h 00m <br />
             {/* (No penalty for wrong submissions and tie breaks are based on time

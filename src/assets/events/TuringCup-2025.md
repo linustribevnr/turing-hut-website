@@ -5,7 +5,7 @@ time: 07:00 PM to 09:00 PM
 type: Contest
 slug: turing-cup-2025
 image: ../images/events/turingcup2025.png
-registration: NA
+registration: https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278
 recording: NA
 markdownType: event
 ---
@@ -16,7 +16,7 @@ The Turing Cup will be held in two rounds :<br/>
 
 ### Round 1
 
-The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will be held online on **CodeForces**. Short-listed candidates will be notified for the further rounds.
+The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will be held online on **Hackerrank**. Short-listed candidates will be notified for the further rounds.
 
 **Start:** 05 April 2025, 07:00 PM  
 **End:** 05 April 2025, 09:00 PM
@@ -25,15 +25,15 @@ The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will
 <br/>
 **Registration deadline:** 2:00 PM, April 5th, 2025  
 <br/>
-To register, visit **[Registration Form](#)** .
+To register, visit <a href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"  target="_blank" >Registration Form</a>.
 
-> **Note:** There will be a strict plagiarism check after the contest. Don't try to seek help from your friends or try to help your friends, doing so both of you will get caught.
+>**Note:** There will be a strict plagiarism check after the contest. Don't try to seek help from your friends or try to help your friends, doing so both of you will get caught.
 
 ---
 
 ### Round 2
 
-Round-2 (Onsite) will be held at the **VNRVJIET Campus, Bachupally, Hyderabad** on **19th April 2025**. Shortlisted teams for this round will be notified via email or contacted after Round 1.
+Round-2 (Onsite) will be held at the **VNRVJIET Campus, Bachupally, Hyderabad** on **19th April 2025**. Shortlisted teams for this round will be notified via email or contacted after Round 1. This round will be held on **Codeforces** with one's team account (for teams of size 2). 
 
 **Start:** 19 April 2025, 10:00 AM  
 **End:** 19 April 2025, 01:00 PM
@@ -41,10 +41,10 @@ Round-2 (Onsite) will be held at the **VNRVJIET Campus, Bachupally, Hyderabad** 
 **Registration Fee:** ₹300 per team (Includes lunch and goodies).  
 **Accommodation:** Available for teams from colleges outside Hyderabad.
 
-The competition welcomes undergraduate students nationwide who have a passion for coding - join in and demonstrate your skills! To participate in the contest, you need to register via Unstop. The registration for the first round will be open until 2:00 PM, March 9th, 2024.<br/>
-To register for the contest kindly check this link here: [Registration Form](#)
+The competition welcomes undergraduate students nationwide who have a passion for coding - join in and demonstrate your skills! To participate in the contest, you need to register via Unstop. <br/>
+To register for the contest kindly check this link here: 
+<a href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"  target="_blank" >Registration Form</a>
 
-There will be strict plagarism check after the contest, don't try to seek help from your friends or try to help your friends, doing so both of you will get caught.
 
 ## Guidelines:
 
@@ -53,7 +53,6 @@ There will be strict plagarism check after the contest, don't try to seek help f
 - **Unique Participation:** Each participant may only be part of one team; violating this rule will lead to disqualification of both teams.
 - **Plagiarism Check:** All submissions will run through a plagiarism detector, and any team involved in plagiarism will be eliminated.
 - **CodeForces Requirement:**
-  - Qualification round will be conducted on **CodeForces**.
   - _Teams of 2_ must create a **team account** on CodeForces.
   - For _solo participants_, this step is optional.
   - Once you’ve registered as a team for the contest, submissions can be done from either of the teammate’s accounts, they’ll be counted as the team’s submissions.
