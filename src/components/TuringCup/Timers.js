@@ -33,7 +33,7 @@ function Timers() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("April 19, 2025 10:00:00").getTime();
+    const countdownDate = new Date("April 5, 2025 19:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -83,16 +83,17 @@ function Timers() {
         background: "#101820FF",
         borderRadius: "5px",
         paddingTop: "20px",
+        paddingX:"5px",
         "@media (min-width: 960px)": {
           width: "75%"
         }
       }}
     >
       <h2 style={{ color: "#F2AA4CFF", fontFamily: "'Gruppo', cursive" }}>
-        ROUND-2 STARTS IN
+        ROUND-1 STARTS IN
       </h2>
 
-      <Grid container justifyContent={"space-evenly"} spacing={4} mt={3} mb={5}>
+      <Grid container justifyContent={"space-evenly"} spacing={3} paddingX={2} mt={3} mb={5}>
         {[
           { label: "DAYS", value: daysLeft },
           { label: "HOURS", value: hoursLeft },
