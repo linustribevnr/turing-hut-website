@@ -17,11 +17,11 @@ export default function Faqs() {
     {
       question: "Is the registration free?",
       answer:
-        "The registration is free for the first round. However, to take part in further rounds you need to pay a fee of Rs.300 per team."
+        "The registration is free for the first round. However, to take part in final round you need to pay a fee of Rs.300/- per team."
     },
     {
-      question: "Will lunch/snacks be provided on the day of onsite rounds?",
-      answer: "Yes, Lunch will be provided on the day of onsite rounds."
+      question: "Will lunch/snacks be provided on the day of onsite round?",
+      answer: "Yes, Lunch will be provided on the day of onsite round."
     },
     {
       question: "Will accomodation be provided?",
@@ -39,11 +39,11 @@ export default function Faqs() {
       answer:
         "Yes, swags will be provided for the participants who appear for the onsite round."
     },
-    {
-      question: "When and where will the link to round 1 be published?",
-      answer:
-        "Round 1 participation link will be mailed to respective team leader's mail ID 3 hours before the commencement of the contest."
-    },
+    // {
+    //   question: "When and where will the link to round 1 be published?",
+    //   answer:
+    //     "Round 1 participation link will be mailed to respective team leader's mail ID 3 hours before the commencement of the contest."
+    // },
     {
       question: "What is the eligibility criteria? ",
       answer:

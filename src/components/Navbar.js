@@ -114,7 +114,7 @@ export default function Navbar() {
                   }}
                 >
                   <ListItemIcon>{item.icon}</ListItemIcon>
-                  <ListItemText  primary={item.text} />
+                  <ListItemText primary={item.text} />
                 </ListItemButton>
               </ListItem>
             </Link>
@@ -244,7 +244,8 @@ export default function Navbar() {
                           location.pathname === item.path.concat("/")
                             ? "#e0e0e0"
                             : "#fff",
-                          fontWeight: location.pathname === item.path ||
+                        fontWeight:
+                          location.pathname === item.path ||
                           location.pathname === item.path.concat("/")
                             ? "bold"
                             : "normal",

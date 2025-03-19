@@ -43,7 +43,7 @@ function Timelinee() {
             Eligibility: All undergraduate students, pursuing a full-time degree
             in any branch <br />
             Team size : 1-2 <br />
-            Registration fee: FREE for Round-1 ; Rs 300/- for Round-2 (Lunch and
+            Registration fee: FREE for Round-1 ; Rs 300/- per team for Round-2 (Lunch and
             goodies will be provided).
             <br />
             Registration for online round will close on 5th April 2:00 PM <br />
@@ -69,13 +69,13 @@ function Timelinee() {
               lineHeight: "20px"
             }}
           >
-            The qualifier round 1 for the Turing Cup 2025 coding contest. <br />
+            The qualifier round for the Turing Cup 2K25 coding contest. <br />
             <br />
             Date : 05/04/2025 - Saturday <br />
             Time : 07:00 PM - 09:00 PM (IST)
             <br />
             Platform : Hackerrank <br />
-            Location : Online <br />
+            Mode : Online <br />
             Duration : 02h 00m <br />
             {/* (No penalty for wrong submissions and tie breaks are based on time
             of submission(Last AC)) <br /> */}
@@ -102,13 +102,14 @@ function Timelinee() {
               lineHeight: "20px"
             }}
           >
-            The onsite round for the Turing Cup 2025 for the qualified teams of
+            The onsite round for the Turing Cup 2K25 for the qualified teams of
             Round-1. <br />
             <br />
             Date : 19/04/2025 - Saturday <br />
             Time : 10:00 AM - 1:00 PM (IST)
             <br />
             Platform : CodeForces <br />
+            Mode : Offline <br/>
             Location : VNR VJIET Campus, Bachupally, Hyderabad <br />
             Duration : 03h 00m <br />
             {/* (Penalty of 1 for wrong submissions and the leaderboard will be
