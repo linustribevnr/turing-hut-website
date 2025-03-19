@@ -1,7 +1,7 @@
 ---
 title: Turing Cup 2k24
 date: 2024-03-09
-time: 6:00 PM to 08:00 PM
+time: 06:00 PM to 08:00 PM
 type: Contest
 slug: turing-cup-2024
 image: ../images/events/turingcup2024.png

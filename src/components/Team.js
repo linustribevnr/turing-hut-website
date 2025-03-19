@@ -62,6 +62,7 @@ export default function Team() {
           github={val.github}
           linkedin={val.linkedin}
           website={val.website}
+          cpprofile={val.cpprofile}
         />
       </Grid>
     ));

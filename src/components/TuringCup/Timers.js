@@ -10,9 +10,18 @@ const Item = styled(Paper)(({ theme }) => ({
   background: "#101820FF",
   height: 100,
   color: "#F2AA4CFF",
-  border: "1px solid #F2AA4CFF",
-  borderRadius: "5px",
-  width: "100%"
+  border: "2px solid #F2AA4CFF",
+  borderRadius: "12px",
+  width: "100%",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  transition: "0.3s ease-in-out",
+  boxShadow: "0 4px 15px rgba(242, 170, 76, 0.3)",
+  "&:hover": {
+    boxShadow: "0 0 20px rgba(242, 170, 76, 0.8)"
+  }
 }));
 
 function Timers() {
@@ -24,7 +33,7 @@ function Timers() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("March 28, 2024 10:30:00").getTime();
+    const countdownDate = new Date("April 19, 2025 10:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -61,10 +70,6 @@ function Timers() {
       const intervalId = interval.current;
       clearInterval(intervalId);
     };
-
-    return () => {
-      clearInterval(interval.current);
-    };
   });
 
   const isLargeScreen = useMediaQuery(theme => theme.breakpoints.up("lg"));
@@ -87,58 +92,38 @@ function Timers() {
         ROUND-2 STARTS IN
       </h2>
 
-      <Grid container justifyContent={"space-evenly"}>
-        <Grid item xs={6} md={3} sx={{ p: 2 }}>
-          <Item
-            elevation={0}
-            sx={{
-              backgroundColor: "#101820FF",
-              border: "1px solid #F2AA4CFF"
-            }}
-          >
-            <h1>{daysLeft}</h1>
-            <h4 style={{ fontFamily: "'Gruppo', cursive" }}>DAYS</h4>
-          </Item>
-        </Grid>
-
-        <Grid item xs={6} md={3} sx={{ p: 2 }}>
-          <Item
-            elevation={0}
-            sx={{
-              backgroundColor: "#101820FF",
-              border: "1px solid #F2AA4CFF"
-            }}
-          >
-            <h1>{hoursLeft}</h1>
-            <h4 style={{ fontFamily: "'Gruppo', cursive" }}>HOURS</h4>
-          </Item>
-        </Grid>
-
-        <Grid item xs={6} md={3} sx={{ p: 2 }}>
-          <Item
-            elevation={0}
-            sx={{
-              backgroundColor: "#101820FF",
-              border: "1px solid #F2AA4CFF"
-            }}
-          >
-            <h1>{minutesLeft}</h1>
-            <h4 style={{ fontFamily: "'Gruppo', cursive" }}>MINUTES</h4>
-          </Item>
-        </Grid>
-
-        <Grid item xs={6} md={3} sx={{ p: 2 }}>
-          <Item
-            elevation={0}
-            sx={{
-              backgroundColor: "#101820FF",
-              border: "1px solid #F2AA4CFF"
-            }}
-          >
-            <h1>{secondsLeft}</h1>
-            <h4 style={{ fontFamily: "'Gruppo', cursive" }}>SECONDS</h4>
-          </Item>
-        </Grid>
+      <Grid container justifyContent={"space-evenly"} spacing={4} mt={3} mb={5}>
+        {[
+          { label: "DAYS", value: daysLeft },
+          { label: "HOURS", value: hoursLeft },
+          { label: "MINUTES", value: minutesLeft },
+          { label: "SECONDS", value: secondsLeft }
+        ].map((item, index) => (
+          <Grid item xs={6} md={3} key={index}>
+            <Item elevation={3}>
+              <h1
+                style={{
+                  fontSize: "2.5rem",
+                  fontWeight: "bold",
+                  margin: "0",
+                  textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
+                }}
+              >
+                {item.value}
+              </h1>
+              <h4
+                style={{
+                  fontFamily: "'Gruppo', cursive",
+                  letterSpacing: "1px",
+                  fontSize: "1.2rem",
+                  margin: "0"
+                }}
+              >
+                {item.label}
+              </h4>
+            </Item>
+          </Grid>
+        ))}
       </Grid>
     </Grid>
   );

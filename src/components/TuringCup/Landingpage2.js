@@ -6,16 +6,16 @@ import { atcb_action } from "add-to-calendar-button";
 
 import React from "react";
 import "./LandingPage2.css";
-import TuringCupSponsors from "./TuringCupSponsors";
+// import TuringCupSponsors from "./TuringCupSponsors";
 function Landingpage2() {
   // console.log("PROCESS>ENV  : ", process.env.API_KEY)
 
   const config = {
-    name: "[Reminder] Turing Cup 2K24 Round - 1",
+    name: "[Reminder] Turing Cup 2K25 Round - 1",
     description: "Check your mail for the Contest Links",
-    startDate: "2024-03-09",
-    startTime: "18:00",
-    endTime: "20:00",
+    startDate: "2025-04-05",
+    startTime: "19:00",
+    endTime: "21:00",
     options: ["Google", "Apple", "Outlook.com"],
     timeZone: "Asia/Calcutta"
   };
@@ -24,10 +24,7 @@ function Landingpage2() {
   };
 
   return (
-    <Grid
-      className="fullpage"
-      style={{ fontFamily: "'Gruppo', cursive", marginBottom: "16px" }}
-    >
+    <Grid className="fullpage" style={{ fontFamily: "'Gruppo', cursive" }}>
       <svg viewBox="0 0 1300 300">
         <text
           x="50%"
@@ -53,12 +50,12 @@ function Landingpage2() {
 
       {/* <h1>hi</h1> */}
       <Stack
-        style={{ marginTop: "-40px" }}
+        style={{ marginTop: "-90px" }}
         sx={{ p: 5, justifyContent: "center" }}
         direction={{ xs: "column", md: "row" }}
         spacing={2}
       >
-        {/* <Button
+        <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             backgroundColor: "#101820FF",
@@ -70,14 +67,14 @@ function Landingpage2() {
             }
           }}
           variant="contained"
-          href="https://unstop.com/p/turing-cup-2k24-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-898184"
+          href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"
           target="__blank"
           startIcon={<HowToRegRoundedIcon />}
         >
-          Register For Round-2
-        </Button> */}
+          Register
+        </Button>
 
-        {/* <Button
+        <Button
           sx={{
             fontFamily: ['"Gruppo"', "cursive"].join(","),
             backgroundColor: "#101820FF",
@@ -86,7 +83,7 @@ function Landingpage2() {
             "&:hover": {
               backgroundColor: "#F2AA4CFF",
               color: "#fff"
-            } 
+            }
           }}
           id="add-to-calendar-btn"
           onClick={handleClick}
@@ -94,7 +91,7 @@ function Landingpage2() {
           endIcon={<InsertInvitationRoundedIcon />}
         >
           Add to Calendar
-        </Button>  */}
+        </Button>
       </Stack>
     </Grid>
   );

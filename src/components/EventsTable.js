@@ -11,21 +11,37 @@ import {
   Typography,
   Paper,
   TablePagination,
+  TableFooter,
   TextField,
-  TableFooter
+  ToggleButton,
+  ToggleButtonGroup,
+  Card,
+  CardContent,
+  Grid,
+  Chip,
+  CardActionArea,
+  alpha,
+  Button,
+  Grow
 } from "@mui/material";
-import { blue, green } from "@mui/material/colors";
+import { green, red } from "@mui/material/colors";
+import EventIcon from "@mui/icons-material/Event";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { visuallyHidden } from "@mui/utils";
-
 import { Link, graphql, useStaticQuery } from "gatsby";
+import TableRowsIcon from "@mui/icons-material/TableRows";
+import GridViewIcon from "@mui/icons-material/GridView";
+import ManageSearchIcon from "@mui/icons-material/ManageSearch";
 
-export default function EventsTable() {
-  const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(10);
+export default function EventsPage() {
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(10);
   const [search, setSearch] = useState("");
   const [order, setOrder] = useState("asc");
   const [orderBy, setOrderBy] = useState("Date");
-  const header = ["Name", "Date", "Type", "Status"];
+  const [view, setView] = useState("table");
+
+  const header = ["Name", "Date", "Type"];
   const data = useStaticQuery(graphql`
     query Events {
       allMarkdownRemark {
@@ -61,29 +77,26 @@ export default function EventsTable() {
           givendate === event.today
             ? "Today"
             : today > givendate
-            ? "Past Event"
-            : "Upcoming Event",
+              ? "Past Event"
+              : "Upcoming Event",
         slug: event.frontmatter.slug,
         markdown_type: event.frontmatter.markdownType
       };
     })
     .filter(event => event.markdown_type === "event");
 
-  const emptyRows =
-    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - events.length) : 0;
-
-  const handleChangePage = (event, newPage) => {
-    setPage(newPage);
-  };
-
+  const handleChangePage = (event, newPage) => setPage(newPage);
   const handleChangeRowsPerPage = event => {
     setRowsPerPage(parseInt(event.target.value, 10));
     setPage(0);
   };
-
-  const createSortHandler = property => event => {
+  const createSortHandler = property => () => {
     setOrderBy(property);
     setOrder(order === "asc" ? "desc" : "asc");
+  };
+
+  const handleViewChange = (event, newView) => {
+    if (newView) setView(newView);
   };
 
   function getSortedEvents(events) {
@@ -93,7 +106,6 @@ export default function EventsTable() {
       if (orderBy === "Date") {
         const ad = new Date(a);
         const bd = new Date(b);
-        console.log("ehyy", a, b);
         if (ad > bd) return order === "asc" ? -1 : 1;
         else if (ad < bd) return order === "asc" ? 1 : -1;
         return 0;
@@ -105,117 +117,349 @@ export default function EventsTable() {
   }
 
   return (
-    <Box sx={{ my: 4 }}>
+    <Box sx={{ my: 4, mx: 4 }}>
       <Box
-        display={{ sm: "flex" }}
+        display="flex"
+        justifyContent="space-between"
+        alignItems="center"
         sx={{ pb: 2 }}
-        justifyContent={"space-between"}
       >
-        <Typography variant="h6" color="primary">
-          Directory of events
+        <Typography
+          variant="h6"
+          color="primary"
+          sx={{ fontWeight: "bold", fontSize: "1.7rem" }}
+        >
+          Directory of Events
         </Typography>
-        <TextField
-          id="standard-search"
-          label="Search field"
-          type="search"
-          variant="standard"
-          onChange={e => setSearch(e.target.value.toLowerCase())}
-        />
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <TextField
+            label="Search"
+            type="search"
+            variant="standard"
+            onChange={e => setSearch(e.target.value.toLowerCase())}
+          />
+          <ManageSearchIcon
+            label="Search"
+            sx={{
+              fontSize: 38,
+              color: "primary",
+              marginBottom: -3,
+              marginLeft: 0.5
+            }}
+          />
+        </div>
       </Box>
-      <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 300 }} aria-label="event table">
-          <TableHead>
-            <TableRow>
-              {header.map((val, i) => (
+      <ToggleButtonGroup
+        value={view}
+        exclusive
+        onChange={handleViewChange}
+        sx={{
+          mb: 2,
+          "& .MuiToggleButton-root": { px: 1.5, py: 0.5, fontSize: "0.875rem" }
+        }}
+      >
+        <ToggleButton value="table">
+          <TableRowsIcon sx={{ fontSize: 18, mr: 0.5 }} /> Table
+        </ToggleButton>
+        <ToggleButton value="grid">
+          <GridViewIcon sx={{ fontSize: 18, mr: 0.5 }} /> Grid
+        </ToggleButton>
+      </ToggleButtonGroup>
+
+      {view === "table" ? (
+        <TableContainer component={Paper}>
+          <Table>
+            <TableHead sx={{ backgroundColor: "#92d3c0" }}>
+              <TableRow>
+                {header.map((val, i) => (
+                  <TableCell key={i} align={val === "Name" ? "left" : "right"}>
+                    <TableSortLabel
+                      active={orderBy === val}
+                      direction={order}
+                      onClick={createSortHandler(val)}
+                      sx={{ fontWeight: "bold", fontSize: "1.05rem" }}
+                    >
+                      {val}
+                      {orderBy === val && (
+                        <Box component="span" sx={visuallyHidden}>
+                          {order === "desc"
+                            ? "sorted descending"
+                            : "sorted ascending"}
+                        </Box>
+                      )}
+                    </TableSortLabel>
+                  </TableCell>
+                ))}
+
                 <TableCell
-                  key={i}
-                  align={
-                    ["Date", "Type", "Status"].includes(val) ? "right" : "left"
-                  }
-                  onClick={createSortHandler(val)}
-                  sortDirection={orderBy === val ? order : false}
+                  align="right"
+                  sx={{ fontWeight: "bold", fontSize: "1.05rem" }}
                 >
-                  <TableSortLabel
-                    active={orderBy === val}
-                    direction={orderBy === val ? order : "asc"}
-                  >
-                    {val}
-                    {orderBy === val ? (
-                      <Box component="span" sx={visuallyHidden}>
-                        {order === "desc"
-                          ? "sorted descending"
-                          : "sorted ascending"}
-                      </Box>
-                    ) : null}
-                  </TableSortLabel>
+                  Status
                 </TableCell>
-              ))}
-              <TableCell align="right">See More</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {(rowsPerPage > 0
-              ? getSortedEvents(events).slice(
-                  page * rowsPerPage,
-                  page * rowsPerPage + rowsPerPage
-                )
-              : getSortedEvents(events)
-            ).map(
-              event =>
-                event.name.toLowerCase().includes(search) && (
+                <TableCell
+                  align="right"
+                  sx={{ fontWeight: "bold", fontSize: "1.05rem" }}
+                >
+                  See More
+                </TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {getSortedEvents(events)
+                .filter(event => event.name.toLowerCase().includes(search))
+                .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+                .map(event => (
                   <TableRow
                     key={event.id}
-                    sx={{
-                      "&:last-child td, &:last-child th": { border: 0 }
-                    }}
+                    sx={{ "&:hover": { backgroundColor: "rgba(0,0,0,0.1)" } }}
                   >
-                    <TableCell component="th" scope="row">
-                      {event.name}
-                    </TableCell>
+                    <TableCell>{event.name}</TableCell>
                     <TableCell align="right">{event.date}</TableCell>
                     <TableCell align="right">{event.type}</TableCell>
-                    <TableCell align="right">
-                      <Typography
-                        variant="body2"
-                        color={
-                          event.status === "Today"
-                            ? blue[500]
-                            : event.status.includes("Past")
-                            ? "error"
-                            : green["A700"]
-                        }
-                      >
-                        {event.status}
-                      </Typography>
+                    <TableCell
+                      align="right"
+                      sx={{
+                        color: event.status.includes("Past")
+                          ? red[500]
+                          : green[600]
+                      }}
+                    >
+                      {event.status}
                     </TableCell>
                     <TableCell align="right">
                       <Link to={`/events/${event.slug}`}>See more</Link>
                     </TableCell>
                   </TableRow>
-                )
-            )}
-
-            {emptyRows > 0 && (
-              <TableRow style={{ height: 53 * emptyRows }}>
-                <TableCell colSpan={6} />
+                ))}
+            </TableBody>
+            <TableFooter>
+              <TableRow>
+                <TablePagination
+                  rowsPerPageOptions={[10, 15, 20]}
+                  count={events.length}
+                  rowsPerPage={rowsPerPage}
+                  page={page}
+                  onPageChange={handleChangePage}
+                  onRowsPerPageChange={handleChangeRowsPerPage}
+                />
               </TableRow>
-            )}
-          </TableBody>
-          <TableFooter>
-            <TableRow>
-              <TablePagination
-                rowsPerPageOptions={[10, 15, 20]}
-                colSpan={4}
-                count={events.length}
-                rowsPerPage={rowsPerPage}
-                page={page}
-                onPageChange={handleChangePage}
-                onRowsPerPageChange={handleChangeRowsPerPage}
-              />
-            </TableRow>
-          </TableFooter>
-        </Table>
-      </TableContainer>
+            </TableFooter>
+          </Table>
+        </TableContainer>
+      ) : (
+        <Grid container spacing={3}>
+          {getSortedEvents(events)
+            .filter(event =>
+              event.name.toLowerCase().includes(search.toLowerCase())
+            )
+            .map((event, index) => (
+              <Grid item xs={12} sm={6} md={4} key={event.id}>
+                <Grow
+                  in={true}
+                  timeout={(index + 1) * 200}
+                  style={{ transformOrigin: "0 0 0" }}
+                >
+                  <Card
+                    sx={{
+                      border: "1px solid",
+                      borderColor: "transparent",
+                      borderRadius: 2,
+                      boxShadow: "0 8px 24px rgba(0, 0, 0, 0.12)",
+                      overflow: "hidden",
+                      position: "relative",
+                      height: "100%",
+                      display: "flex",
+                      flexDirection: "column",
+                      transition: "all 0.3s ease-in-out",
+                      "&:hover": {
+                        transform: "translateY(-4px) scale(1.02)",
+                        borderColor: alpha("#16654F", 0.3),
+                        boxShadow: "0 12px 28px rgba(0, 0, 0, 0.18)",
+                        "& .see-details-btn": {
+                          backgroundColor: "#00452F"
+                        },
+                        "& .arrow-icon": {
+                          transform: "translateX(4px)",
+                          opacity: 1
+                        }
+                      },
+                      "&:before": {
+                        content: '""',
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "4px",
+                        background:
+                          "linear-gradient(90deg,rgb(4, 71, 52) 0%, #36856F 100%)"
+                      }
+                    }}
+                  >
+                    <CardActionArea
+                      component={Link}
+                      to={`/events/${event.slug}`}
+                      sx={{
+                        height: "100%",
+                        textDecoration: "none"
+                      }}
+                    >
+                      <CardContent
+                        sx={{
+                          p: 3,
+                          height: "100%",
+                          display: "flex",
+                          flexDirection: "column"
+                        }}
+                      >
+                        <Box sx={{ mb: 2 }}>
+                          <Box
+                            sx={{
+                              display: "flex",
+                              justifyContent: "space-between",
+                              mb: 1
+                            }}
+                          >
+                            <Chip
+                              label={event.status}
+                              size="small"
+                              sx={{
+                                color: "white",
+                                fontWeight: "medium",
+                                backgroundColor: event.status.includes("Past")
+                                  ? red[500]
+                                  : event.status.includes("Upcoming")
+                                    ? "#16654F"
+                                    : green[500]
+                              }}
+                            />
+                            <Chip
+                              label={event.type}
+                              size="small"
+                              variant="outlined"
+                              sx={{
+                                borderColor: "#36856F",
+                                color: "#26755F"
+                              }}
+                            />
+                          </Box>
+                          <Typography
+                            variant="h6"
+                            component="h2"
+                            sx={{
+                              fontWeight: "bold",
+                              color: "#00452F",
+                              lineHeight: 1.2
+                            }}
+                          >
+                            {event.name}
+                          </Typography>
+                        </Box>
+
+                        <Box sx={{ mt: "auto" }}>
+                          <Box
+                            sx={{
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "space-between",
+                              mb: 1
+                            }}
+                          >
+                            <div
+                              style={{ display: "flex", alignItems: "center" }}
+                            >
+                              <EventIcon
+                                sx={{ color: "#36856F", fontSize: 18, mr: 1 }}
+                              />
+                              <Typography
+                                variant="body2"
+                                color="text.secondary"
+                              >
+                                {event.date}
+                              </Typography>
+                            </div>
+
+                            <Button
+                              className="see-more-btn"
+                              disableRipple
+                              size="small"
+                              sx={{
+                                backgroundColor: "#16654F",
+                                color: "white",
+                                borderRadius: "20px",
+                                px: 2,
+                                py: 0.5,
+                                fontSize: "0.75rem",
+                                fontWeight: "medium",
+                                textTransform: "none",
+                                transition: "all 0.3s ease",
+                                "&:hover": {
+                                  backgroundColor: "#00452F"
+                                }
+                              }}
+                            >
+                              See Details
+                              <ArrowForwardIcon
+                                className="arrow-icon"
+                                sx={{
+                                  ml: 0.5,
+                                  fontSize: 16,
+                                  transition: "all 0.3s ease",
+                                  transform: "translateX(0)",
+                                  opacity: 0.7
+                                }}
+                              />
+                            </Button>
+                          </Box>
+
+                          <Box
+                            sx={{
+                              display: "flex",
+                              justifyContent: "flex-end",
+                              alignItems: "center",
+                              mt: 2,
+                              pt: 2,
+                              borderTop: "1px solid",
+                              borderTopColor: alpha("#000", 0.06)
+                            }}
+                          >
+                            <Box
+                              className="see-details-btn"
+                              sx={{
+                                backgroundColor: "#16654F",
+                                color: "white",
+                                borderRadius: "20px",
+                                px: 2,
+                                py: 0.5,
+                                fontSize: "0.75rem",
+                                fontWeight: "medium",
+                                display: "flex",
+                                alignItems: "center",
+                                transition: "all 0.3s ease"
+                              }}
+                            >
+                              See Details
+                              <ArrowForwardIcon
+                                className="arrow-icon"
+                                sx={{
+                                  ml: 0.5,
+                                  fontSize: 16,
+                                  transition: "all 0.3s ease",
+                                  transform: "translateX(0)",
+                                  opacity: 0.7
+                                }}
+                              />
+                            </Box>
+                          </Box>
+                        </Box>
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grow>
+              </Grid>
+            ))}
+        </Grid>
+      )}
     </Box>
   );
 }

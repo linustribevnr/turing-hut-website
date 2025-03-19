@@ -44,9 +44,9 @@ const navItems = [
     path: "/team"
   },
   {
-    text: "About",
-    icon: <InfoIcon />,
-    path: "/about"
+    text: "Turing Cup",
+    icon: <EmojiEventsIcon />,
+    path: "/turingcup"
   },
   {
     text: "Contact",
@@ -54,14 +54,14 @@ const navItems = [
     path: "/contact"
   },
   {
-    text: "Turing Cup",
-    icon: <EmojiEventsIcon />,
-    path: "/turingcup"
-  },
-  {
     text: "Newsletters",
     icon: <EmailOutlinedIcon />,
     path: "/newsletters"
+  },
+  {
+    text: "About",
+    icon: <InfoIcon />,
+    path: "/about"
   }
 ];
 
@@ -114,7 +114,7 @@ export default function Navbar() {
                   }}
                 >
                   <ListItemIcon>{item.icon}</ListItemIcon>
-                  <ListItemText primary={item.text} />
+                  <ListItemText  primary={item.text} />
                 </ListItemButton>
               </ListItem>
             </Link>
@@ -244,6 +244,10 @@ export default function Navbar() {
                           location.pathname === item.path.concat("/")
                             ? "#e0e0e0"
                             : "#fff",
+                          fontWeight: location.pathname === item.path ||
+                          location.pathname === item.path.concat("/")
+                            ? "bold"
+                            : "normal",
                         textTransform: "none",
                         textDecoration: "none",
                         px: 3,

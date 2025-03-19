@@ -31,7 +31,7 @@ export default function Faqs() {
     {
       question: "Are we restricted to certain branches?",
       answer:
-        "No. We welcome students from all branches who are interested in coding."
+        "No. We welcome students from all branches who are really interested in coding."
     },
     {
       question: "Is there a membership fees?",

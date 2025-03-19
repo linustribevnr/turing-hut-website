@@ -1,7 +1,8 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkIcon from "@mui/icons-material/Link";
+import LanguageIcon from "@mui/icons-material/Language";
+import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import CodeIcon from "@mui/icons-material/Code";
 import { Box, Card, CardContent, IconButton, Typography } from "@mui/material";
 import { GatsbyImage } from "gatsby-plugin-image";
 import React from "react";
@@ -13,57 +14,77 @@ export default function TeamCard({
   twitter,
   github,
   linkedin,
-  website
+  website,
+  cpprofile
 }) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      {img && <GatsbyImage alt={name} image={img} />}
-      <CardContent>
-        <Typography gutterBottom variant="body1" component="div">
+    <Card
+      sx={{
+        maxWidth: 360,
+        borderRadius: 3,
+        boxShadow: 3,
+        transition: "transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+        "&:hover": {
+          transform: "scale(1.03)",
+          boxShadow: 6,
+        },
+      }}
+    >
+      {img && (
+        <Box sx={{ borderTopLeftRadius: 12, borderTopRightRadius: 12, overflow: "hidden" }}>
+          <GatsbyImage alt={name} image={img} />
+        </Box>
+      )}
+      <CardContent sx={{ textAlign: "center" }}>
+        <Typography gutterBottom variant="h6" component="div" fontWeight={600} >
           {name}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" >
           {description}
         </Typography>
       </CardContent>
-      <Box display={"flex"} justifyContent={"center"}>
+      <Box display="flex" justifyContent="center" gap={1} pb={2}>
         {twitter && (
-          <Box sx={{ p: 1 }}>
-            <a href={twitter} target="_blank" rel="noreferrer">
-              <IconButton aria-label="twitter" size="small" mr={2}>
-                <TwitterIcon fontSize="body1" />
-              </IconButton>
-            </a>
-          </Box>
+          <IconButton component="a" href={twitter} target="_blank" rel="noopener noreferrer"  sx={iconStyle}>
+            <XIcon />
+          </IconButton>
         )}
         {github && (
-          <Box sx={{ p: 1 }}>
-            <a href={github} target="_blank" rel="noreferrer">
-              <IconButton aria-label="github" size="small" mr={2}>
-                <GitHubIcon fontSize="inherit" />
-              </IconButton>
-            </a>
-          </Box>
+          <IconButton component="a" href={github} target="_blank" rel="noopener noreferrer"  sx={{...iconStyle,
+              color: "#262626",
+          }}>
+            <GitHubIcon />
+          </IconButton>
         )}
         {linkedin && (
-          <Box sx={{ p: 1 }}>
-            <a href={linkedin} target="_blank" rel="noreferrer">
-              <IconButton aria-label="linkedin" size="small" mr={2}>
-                <LinkedInIcon fontSize="body1" />
-              </IconButton>
-            </a>
-          </Box>
+          <IconButton component="a" href={linkedin} target="_blank" rel="noopener noreferrer"  sx={{ ...iconStyle,
+              color: "#0A66C2",
+            }}>
+            <LinkedInIcon />
+          </IconButton>
         )}
-        <Box sx={{ p: 1 }}>
-          {website && (
-            <a href={website} target="_blank" rel="noreferrer">
-              <IconButton aria-label="link" size="small">
-                <LinkIcon fontSize="inherit" />
-              </IconButton>
-            </a>
-          )}
-        </Box>
+        {website && (
+          <IconButton component="a" href={website} target="_blank" rel="noopener noreferrer"  sx={{...iconStyle,
+              color: "#595959",
+          }}>
+            <LanguageIcon />
+          </IconButton>
+        )}
+        {cpprofile && (
+          <IconButton component="a" href={cpprofile} target="_blank"  rel="noopener noreferrer" sx={{...iconStyle,
+              color: "#262626",
+          }}>
+            <CodeIcon />
+          </IconButton>
+        )}
       </Box>
     </Card>
   );
 }
+
+const iconStyle = {
+  transition: "background 0.2s ease-in-out, transform 0.2s ease-in-out",
+  "&:hover": {
+    transform: "scale(1.1)",
+  },
+};

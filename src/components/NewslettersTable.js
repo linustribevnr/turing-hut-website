@@ -14,8 +14,8 @@ import {
   TextField,
   TableFooter
 } from "@mui/material";
-import { blue, green } from "@mui/material/colors";
 import { visuallyHidden } from "@mui/utils";
+import ManageSearchIcon from "@mui/icons-material/ManageSearch";
 
 import { Link, graphql, useStaticQuery } from "gatsby";
 
@@ -45,8 +45,6 @@ export default function NewslettersTable() {
 
   const newsletters = data.allMarkdownRemark.nodes
     .map(newsletter => {
-      const givendate = new Date(newsletter.frontmatter.date);
-      const today = new Date();
       const options = { year: "numeric", month: "short", day: "numeric" };
 
       return {
@@ -86,7 +84,7 @@ export default function NewslettersTable() {
       if (orderBy === "Date") {
         const ad = new Date(a);
         const bd = new Date(b);
-        console.log("ehyy", a, b);
+        // console.log("ehyy", a, b);
         if (ad > bd) return order === "asc" ? -1 : 1;
         else if (ad < bd) return order === "asc" ? 1 : -1;
         return 0;
@@ -104,16 +102,31 @@ export default function NewslettersTable() {
         sx={{ pb: 2 }}
         justifyContent={"space-between"}
       >
-        <Typography variant="h6" color="primary" align="center">
+        <Typography
+          variant="h6"
+          color="primary"
+          align="center"
+          sx={{ fontWeight: "bold", fontSize: "1.7rem" }}
+        >
           Directory of Newsletters
         </Typography>
-        <TextField
-          id="standard-search"
-          label="Search field"
-          type="search"
-          variant="standard"
-          onChange={e => setSearch(e.target.value.toLowerCase())}
-        />
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <TextField
+            label="Search"
+            type="search"
+            variant="standard"
+            onChange={e => setSearch(e.target.value.toLowerCase())}
+          />
+          <ManageSearchIcon
+            label="Search"
+            sx={{
+              fontSize: 38,
+              color: "primary",
+              marginBottom: -3,
+              marginLeft: 0.5
+            }}
+          />
+        </div>
       </Box>
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 200 }} aria-label="newsletter table">
