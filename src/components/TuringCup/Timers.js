@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Grid, Paper } from "@mui/material";
+import { Grid, Paper, Typography } from "@mui/material";
 import "./headingstyles.css";
 import { styled } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -83,17 +83,32 @@ function Timers() {
         background: "#101820FF",
         borderRadius: "5px",
         paddingTop: "20px",
-        paddingX:"5px",
+        paddingX: "5px",
         "@media (min-width: 960px)": {
           width: "75%"
         }
       }}
     >
-      <h2 style={{ color: "#F2AA4CFF", fontFamily: "'Gruppo', cursive" }}>
+      <Typography
+        variant="h3"
+        sx={{
+          textAlign: "center",
+          fontFamily: "'Gruppo', cursive",
+          fontWeight: "bold",
+          letterSpacing: "1px",
+          textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
+        }}
+      >
         ROUND-1 STARTS IN
-      </h2>
-
-      <Grid container justifyContent={"space-evenly"} spacing={3} paddingX={2} mt={3} mb={5}>
+      </Typography>
+      <Grid
+        container
+        justifyContent={"space-evenly"}
+        spacing={3}
+        paddingX={2}
+        mt={3}
+        mb={5}
+      >
         {[
           { label: "DAYS", value: daysLeft },
           { label: "HOURS", value: hoursLeft },

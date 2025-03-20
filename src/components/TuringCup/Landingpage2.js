@@ -50,7 +50,8 @@ function Landingpage2() {
 
       {/* <h1>hi</h1> */}
       <Stack
-        style={{ marginTop: "-90px",marginTop:1 }}
+        className="StackBtns"
+        style={{ marginTop: "-70px" }}
         sx={{ p: 5, justifyContent: "center" }}
         direction={{ xs: "column", md: "row" }}
         spacing={2}

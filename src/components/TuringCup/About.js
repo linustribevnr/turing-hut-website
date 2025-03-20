@@ -1,16 +1,22 @@
 import React from "react";
+import { Typography } from "@mui/material";
 
 export default function About() {
   return (
     <div>
-      <h2
-        style={{
-          display: "flex",
-          justifyContent: "center"
+      <Typography
+        variant="h3"
+        mt={5}
+        sx={{
+          textAlign: "center",
+          fontFamily: "'Gruppo', cursive",
+          fontWeight: "bold",
+          letterSpacing: "1px",
+          textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
         }}
       >
-        ABOUT
-      </h2>
+        About
+      </Typography>
       <p
         style={{
           fontSize: "1.5rem",
