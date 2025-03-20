@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Grid, Paper,Typography } from "@mui/material";
+import { Grid, Paper, Typography } from "@mui/material";
 import "./headingstyles.css";
 import { styled } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -84,7 +83,7 @@ function Timers() {
         background: "#101820FF",
         borderRadius: "5px",
         paddingTop: "20px",
-        paddingX:"5px",
+        paddingX: "5px",
         "@media (min-width: 960px)": {
           width: "75%"
         }
@@ -93,7 +92,7 @@ function Timers() {
       <Typography
         variant="h3"
         sx={{
-          textAlign:"center",
+          textAlign: "center",
           fontFamily: "'Gruppo', cursive",
           fontWeight: "bold",
           letterSpacing: "1px",
@@ -102,7 +101,14 @@ function Timers() {
       >
         ROUND-1 STARTS IN
       </Typography>
-      <Grid container justifyContent={"space-evenly"} spacing={3} paddingX={2} mt={3} mb={5}>
+      <Grid
+        container
+        justifyContent={"space-evenly"}
+        spacing={3}
+        paddingX={2}
+        mt={3}
+        mb={5}
+      >
         {[
           { label: "DAYS", value: daysLeft },
           { label: "HOURS", value: hoursLeft },

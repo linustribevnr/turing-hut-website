@@ -9,7 +9,7 @@ import {
   Box
 } from "@mui/material";
 import { useState } from "react";
-import { ExpandMore, WhatsApp, Email, Call} from "@mui/icons-material";
+import { ExpandMore, WhatsApp, Email, Call } from "@mui/icons-material";
 import "./turingcup.css";
 
 export default function Faqs() {
@@ -70,7 +70,7 @@ export default function Faqs() {
           <Typography
             variant="h3"
             sx={{
-              textAlign:"center",
+              textAlign: "center",
               fontFamily: "'Gruppo', cursive",
               fontWeight: "bold",
               letterSpacing: "1px",

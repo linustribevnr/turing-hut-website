@@ -39,39 +39,40 @@ const activities = [
 
 export default function Activities() {
   return (
-      <Grid
-        container
-        sx={{
-          mt: 1,
-          p: 2
-        }}
-        spacing={4}
-      >
-        {activities.map((item) => (
-          <Grid item key={item.title} xs={12} sm={6} md={3}>
-            <Card
-              sx={{
-                textAlign: "center",
-                p: 3,
-                borderRadius: "12px",
-                transition: "transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
-                "&:hover": {
-                  transform: "scale(1.05)",
-                  boxShadow: 4,
-                  bgcolor: "#e3f2fd"
-                }
-              }}
-            >
-              {item.icon}
-              <Typography variant="h6" fontWeight={600} sx={{ mt: 1 }}>
-                {item.title}
-              </Typography>
-              <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
-                {item.body}
-              </Typography>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
+    <Grid
+      container
+      sx={{
+        mt: 1,
+        p: 2
+      }}
+      spacing={4}
+    >
+      {activities.map(item => (
+        <Grid item key={item.title} xs={12} sm={6} md={3}>
+          <Card
+            sx={{
+              textAlign: "center",
+              p: 3,
+              borderRadius: "12px",
+              transition:
+                "transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+              "&:hover": {
+                transform: "scale(1.05)",
+                boxShadow: 4,
+                bgcolor: "#e3f2fd"
+              }
+            }}
+          >
+            {item.icon}
+            <Typography variant="h6" fontWeight={600} sx={{ mt: 1 }}>
+              {item.title}
+            </Typography>
+            <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
+              {item.body}
+            </Typography>
+          </Card>
+        </Grid>
+      ))}
+    </Grid>
   );
 }

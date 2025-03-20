@@ -1,7 +1,6 @@
 import React from "react";
 import { Typography } from "@mui/material";
 
-
 export default function About() {
   return (
     <div>
@@ -9,7 +8,7 @@ export default function About() {
         variant="h3"
         mt={5}
         sx={{
-          textAlign:"center",
+          textAlign: "center",
           fontFamily: "'Gruppo', cursive",
           fontWeight: "bold",
           letterSpacing: "1px",

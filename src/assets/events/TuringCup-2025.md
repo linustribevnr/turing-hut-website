@@ -53,7 +53,6 @@ To register for the contest kindly check this link here:
 - **Plagiarism Check:** All submissions will run through a plagiarism detector, and any team involved in plagiarism will be eliminated.
 - **Dispute Resolution:** In case of any issues, **Turing Hut** will make a fair judgement based on the impact of the issue and the principle of fairness.
 
-
 ---
 
 ## Prizes & Perks:
@@ -63,10 +62,11 @@ The total prize pool for this contest is **₹75,000**:
 🥇 **1st Place:** ₹30,000  
 🥈 **2nd Place:** ₹20,000  
 🥉 **3rd Place:** ₹13,000  
-🏅 **Consolation Prizes:** 
-  - Consolation 1 : ₹7000  
-  - Consolation 2 : ₹5000  
-🎓 **Certificates:**
+🏅 **Consolation Prizes:**
+
+- Consolation 1 : ₹7000
+- Consolation 2 : ₹5000  
+  🎓 **Certificates:**
 
 - _Participation Certificates_ for all **Final Round** participants.
 - _Merit Certificates_ for top-performing teams.

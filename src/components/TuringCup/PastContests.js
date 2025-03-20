@@ -219,7 +219,7 @@ function PastContests() {
         variant="h3"
         mt={2}
         sx={{
-          textAlign:"center",
+          textAlign: "center",
           fontFamily: "'Gruppo', cursive",
           fontWeight: "bold",
           letterSpacing: "1px",
