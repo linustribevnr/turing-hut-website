@@ -215,11 +215,19 @@ function PastContests() {
 
   return (
     <>
-      <h2
-        style={{ textAlign: "center", color: "#F2AA4CFF", marginTop: "50px" }}
+      <Typography
+        variant="h3"
+        mt={2}
+        sx={{
+          textAlign:"center",
+          fontFamily: "'Gruppo', cursive",
+          fontWeight: "bold",
+          letterSpacing: "1px",
+          textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
+        }}
       >
         PREVIOUS EDITIONS
-      </h2>
+      </Typography>
       <Grid style={styles.container} m={8}>
         {contestdetails.map((item, key) => (
           <Accordion style={styles.accordion} m={8}>

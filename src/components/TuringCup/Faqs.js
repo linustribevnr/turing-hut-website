@@ -9,7 +9,7 @@ import {
   Box
 } from "@mui/material";
 import { useState } from "react";
-import { ExpandMore, WhatsApp, Email, Call } from "@mui/icons-material";
+import { ExpandMore, WhatsApp, Email, Call} from "@mui/icons-material";
 import "./turingcup.css";
 
 export default function Faqs() {
@@ -50,7 +50,7 @@ export default function Faqs() {
         "All undergraduate students, pursuing a full-time degree in any branch."
     },
     {
-      question: "when the round-1 results will be published?",
+      question: "When the round-1 results will be published?",
       answer:
         "The shortlisted teams will receive notification via email after the contest concludes."
     }
@@ -67,15 +67,18 @@ export default function Faqs() {
       <Grid container sx={{ my: 3, p: 3, w: 1, bgcolor: "#101820FF" }}>
         <Grid md={2}></Grid>
         <Grid xs={12} md={8} sx={{ my: "auto" }}>
-          <h2
-            style={{
-              textAlign: "center",
-              color: "#F2AA4CFF",
-              marginTop: "50px"
+          <Typography
+            variant="h3"
+            sx={{
+              textAlign:"center",
+              fontFamily: "'Gruppo', cursive",
+              fontWeight: "bold",
+              letterSpacing: "1px",
+              textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
             }}
           >
             FAQs
-          </h2>
+          </Typography>
           {faqs.map((item, ind) => (
             <Accordion
               disableGutters

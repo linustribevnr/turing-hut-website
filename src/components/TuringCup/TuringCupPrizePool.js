@@ -30,10 +30,10 @@ export default function TuringCupPrizePool() {
         background: "#101820FF",
         color: "#F2AA4CFF",
         py: 6,
+        px:5,
         borderRadius: "15px"
       }}
     >
-      {/* Main Prize Heading */}
       <Typography
         variant="h3"
         sx={{
