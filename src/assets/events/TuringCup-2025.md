@@ -1,7 +1,7 @@
 ---
 title: Turing Cup 2K25
-date: 2025-04-05
-time: 07:00 PM to 09:00 PM
+date: 2025-04-07
+time: 08:00 PM to 10:00 PM
 type: Contest
 slug: turing-cup-2025
 image: ../images/events/turingcup2025.png
@@ -18,8 +18,8 @@ The Turing Cup will be held in two rounds :<br/>
 
 The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will be held online on **Hackerrank**. Short-listed candidates will be notified for the further rounds.
 
-**Start:** 05 April 2025, 07:00 PM  
-**End:** 05 April 2025, 09:00 PM
+**Start:** 07 April 2025, 08:00 PM  
+**End:** 07 April 2025, 10:00 PM
 
 **Registration:** The first round is **FREE**, and further details will be communicated to the participants via email
 <br/>
@@ -66,8 +66,9 @@ The total prize pool for this contest is **₹75,000**:
 
 - Consolation 1 : ₹7000
 - Consolation 2 : ₹5000  
-  🎓 **Certificates:**
 
+
+🎓 **Certificates:**
 - _Participation Certificates_ for all **Final Round** participants.
 - _Merit Certificates_ for top-performing teams.
 

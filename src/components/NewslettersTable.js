@@ -96,16 +96,16 @@ export default function NewslettersTable() {
   }
 
   return (
-    <Box sx={{ my: 4 }}>
+    <Box sx={{ m: 4 }}>
       <Box
-        display={{ sm: "flex" }}
+        display="flex"
+        justifyContent="space-between"
+        alignItems="center"
         sx={{ pb: 2 }}
-        justifyContent={"space-between"}
       >
         <Typography
           variant="h6"
           color="primary"
-          align="center"
           sx={{ fontWeight: "bold", fontSize: "1.7rem" }}
         >
           Directory of Newsletters
