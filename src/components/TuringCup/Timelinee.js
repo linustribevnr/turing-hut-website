@@ -56,7 +56,7 @@ function Timelinee() {
             in any branch <br />
             Team size : 1-2 <br />
             Registration fee: FREE for Round-1 ; Rs 300/- per team for Round-2
-            (Lunch and goodies will be provided).
+            (Lunch and goodies will be provided)
             <br />
             Registration for online round will close on 5th April 2:00 PM <br />
           </h4>
@@ -70,7 +70,7 @@ function Timelinee() {
           }}
           contentArrowStyle={{ borderRight: "7px solid  #F2AA4CFF" }}
           iconStyle={{ background: "#F2AA4CFF", color: "#101820FF" }}
-          date="05-04-2025"
+          date="07-04-2025"
           dateClassName={"timeline"}
           icon={<LooksTwoOutlinedIcon />}
         >
@@ -83,8 +83,8 @@ function Timelinee() {
           >
             The qualifier round for the Turing Cup 2K25 coding contest. <br />
             <br />
-            Date : 05/04/2025 - Saturday <br />
-            Time : 07:00 PM - 09:00 PM (IST)
+            Date : 07/04/2025 - Monday <br />
+            Time : 08:00 PM - 10:00 PM (IST)
             <br />
             Platform : Hackerrank <br />
             Mode : Online <br />
