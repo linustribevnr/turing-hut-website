@@ -80,10 +80,11 @@ function OurSponsors({ name, img, desc, link }) {
               alt={name}
               image={img}
               style={{
+                padding: "0px",
                 maxWidth: "100%",
                 height: "100%",
-                borderRadius: "30px"
-                // border: "2px solid #F2AA4CFF",
+                borderRadius: "30px",
+                border: "2px solid #F2AA4CFF",
                 // padding: "5px"
               }}
             />
@@ -92,7 +93,7 @@ function OurSponsors({ name, img, desc, link }) {
             <div>
               <h3>{name}</h3>
               <p>{desc}</p>
-              <a href={link} target="_blank">Learn More</a>
+              <a href={link} target="_blank" rel="noopener noreferrer" >Learn More</a>
             </div>
           </div>
         </div>

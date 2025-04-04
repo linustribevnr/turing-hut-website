@@ -18,7 +18,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function TuringCupSponsors() {
   const data = useStaticQuery(graphql`
     query SponsorQuery {
-      allFile(filter: { relativeDirectory: { eq: "sponsors24" } }) {
+      allFile(filter: { relativeDirectory: { eq: "sponsors25" } }) {
         edges {
           node {
             childImageSharp {
