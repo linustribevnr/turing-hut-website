@@ -5,7 +5,7 @@ import "../components/TuringCup/turingcup.css";
 import PastContests from "../components/TuringCup/PastContests";
 import Timers from "../components/TuringCup/Timers";
 import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
-// import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
+import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
 import { Box } from "@mui/material";
 // import { createTheme } from "@mui/material/styles";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
@@ -89,7 +89,7 @@ function Turingcup() {
           <Timers />
           <Timelinee />
           <TuringCupPrizePool />
-          {/* <TuringCupSponsors /> */}
+          <TuringCupSponsors />
           <PastContests />
           <Faqs />
         </Box>

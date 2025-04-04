@@ -61,7 +61,7 @@ function OurSponsors({ name, img, desc, link }) {
             }}
             variant="contained"
             href={link}
-            target="__blank"
+            target="_blank"
           >
             Know more!
           </Button>
@@ -92,7 +92,7 @@ function OurSponsors({ name, img, desc, link }) {
             <div>
               <h3>{name}</h3>
               <p>{desc}</p>
-              <a href={link}>Learn More</a>
+              <a href={link} target="_blank">Learn More</a>
             </div>
           </div>
         </div>
