@@ -3,12 +3,11 @@ import Paper from "@mui/material/Paper";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import { styled } from "@mui/material/styles";
-// import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { Typography } from "@mui/material";
+
 import { graphql, useStaticQuery } from "gatsby";
-// /turingcupSponsors
-import sponsordata from "../../assets/sponsors24.json";
+import sponsordata from "../../assets/sponsors25.json";
 import SponsorCard from "../../components/TuringCup/OurSponsors";
-// import Logo from "../components/TuringCupPrizePool"
 
 const Item = styled(Paper)(({ theme }) => ({
   textAlign: "center",
@@ -18,7 +17,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function TuringCupSponsors() {
   const data = useStaticQuery(graphql`
     query SponsorQuery {
-      allFile(filter: { relativeDirectory: { eq: "sponsors24" } }) {
+      allFile(filter: { relativeDirectory: { eq: "sponsors25" } }) {
         edges {
           node {
             childImageSharp {
@@ -35,15 +34,27 @@ export default function TuringCupSponsors() {
       }
     }
   `);
+
   const nodes = data.allFile.edges;
-  // console.log("nodes :",nodes);
   return (
     <Box
       sx={{
         margin: "50px auto"
       }}
     >
-      <h2 style={{ textAlign: "center", color: "#F2AA4CFF" }}>OUR SPONSORS </h2>
+      <Typography
+        variant="h3"
+        sx={{
+          textAlign: "center",
+          fontFamily: "'Gruppo', cursive",
+          fontWeight: "bold",
+          letterSpacing: "1px",
+          textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
+        }}
+      >
+        OUR SPONSORS
+      </Typography>
+
       <Stack
         direction={{ xs: "column", sm: "row" }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
@@ -55,16 +66,13 @@ export default function TuringCupSponsors() {
             const src =
               item?.node?.childImageSharp?.gatsbyImageData.images.fallback.src;
             var filepath = /[^/]*$/.exec(src)[0];
-            // console.log(src, filepath, sponsor.image);
             return filepath === sponsor.image;
           });
-          // console.log('result :',result);
           let image;
           if (result.length === 1) {
             image = result[0].node.childImageSharp.gatsbyImageData;
-            // console.log(image)
           } else {
-            console.log("Something is wrong in TurinCupSponsors.js");
+            console.log("Something is wrong in TuringCupSponsors.js");
           }
           return (
             <Item key={i}>

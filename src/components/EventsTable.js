@@ -221,13 +221,11 @@ export default function EventsPage() {
                       align="right"
                       sx={{
                         color: event.status.includes("Past")
-                        ? red[500]
-                        : event.status.includes("Upcoming")
-                          ? 
-                          green[500]
-                          :
-                          "#1a8cff",
-                          fontWeight:500
+                          ? red[500]
+                          : event.status.includes("Upcoming")
+                            ? green[500]
+                            : "#1a8cff",
+                        fontWeight: 500
                       }}
                     >
                       {event.status}
@@ -334,10 +332,8 @@ export default function EventsPage() {
                                 backgroundColor: event.status.includes("Past")
                                   ? red[500]
                                   : event.status.includes("Upcoming")
-                                    ? 
-                                    green[500]
-                                    :
-                                    "#1a8cff"
+                                    ? green[500]
+                                    : "#1a8cff"
                               }}
                             />
                             <Chip

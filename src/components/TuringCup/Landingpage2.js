@@ -6,9 +6,12 @@ import { atcb_action } from "add-to-calendar-button";
 
 import React from "react";
 import "./LandingPage2.css";
-// import TuringCupSponsors from "./TuringCupSponsors";
+
 function Landingpage2() {
   // console.log("PROCESS>ENV  : ", process.env.API_KEY)
+
+  const deadline = new Date("April 7, 2025 15:10:00");
+  const now = new Date();
 
   const config = {
     name: "[Reminder] Turing Cup 2K25 Round - 1",
@@ -48,52 +51,53 @@ function Landingpage2() {
         </text>
       </svg>
 
-      {/* <h1>hi</h1> */}
-      <Stack
-        className="StackBtns"
-        style={{ marginTop: "-70px" }}
-        sx={{ p: 5, justifyContent: "center" }}
-        direction={{ xs: "column", md: "row" }}
-        spacing={2}
-      >
-        <Button
-          sx={{
-            fontFamily: ['"Gruppo"', "cursive"].join(","),
-            backgroundColor: "#101820FF",
-            color: "#F2AA4CFF",
-            border: "1px solid #F2AA4CFF",
-            "&:hover": {
-              backgroundColor: "#F2AA4CFF",
-              color: "#fff"
-            }
-          }}
-          variant="contained"
-          href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"
-          target="__blank"
-          startIcon={<HowToRegRoundedIcon />}
+      {now < deadline && (
+        <Stack
+          className="StackBtns"
+          style={{ marginTop: "-70px" }}
+          sx={{ p: 5, justifyContent: "center" }}
+          direction={{ xs: "column", md: "row" }}
+          spacing={2}
         >
-          Register
-        </Button>
+          <Button
+            sx={{
+              fontFamily: ['"Gruppo"', "cursive"].join(","),
+              backgroundColor: "#101820FF",
+              color: "#F2AA4CFF",
+              border: "1px solid #F2AA4CFF",
+              "&:hover": {
+                backgroundColor: "#F2AA4CFF",
+                color: "#fff"
+              }
+            }}
+            variant="contained"
+            href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"
+            target="__blank"
+            startIcon={<HowToRegRoundedIcon />}
+          >
+            Register
+          </Button>
 
-        <Button
-          sx={{
-            fontFamily: ['"Gruppo"', "cursive"].join(","),
-            backgroundColor: "#101820FF",
-            color: "#F2AA4CFF",
-            border: "1px solid #F2AA4CFF",
-            "&:hover": {
-              backgroundColor: "#F2AA4CFF",
-              color: "#fff"
-            }
-          }}
-          id="add-to-calendar-btn"
-          onClick={handleClick}
-          variant="contained"
-          endIcon={<InsertInvitationRoundedIcon />}
-        >
-          Add to Calendar
-        </Button>
-      </Stack>
+          <Button
+            sx={{
+              fontFamily: ['"Gruppo"', "cursive"].join(","),
+              backgroundColor: "#101820FF",
+              color: "#F2AA4CFF",
+              border: "1px solid #F2AA4CFF",
+              "&:hover": {
+                backgroundColor: "#F2AA4CFF",
+                color: "#fff"
+              }
+            }}
+            id="add-to-calendar-btn"
+            onClick={handleClick}
+            variant="contained"
+            endIcon={<InsertInvitationRoundedIcon />}
+          >
+            Add to Calendar
+          </Button>
+        </Stack>
+      )}
     </Grid>
   );
 }

@@ -65,10 +65,10 @@ The total prize pool for this contest is **₹75,000**:
 🏅 **Consolation Prizes:**
 
 - Consolation 1 : ₹7000
-- Consolation 2 : ₹5000  
-
+- Consolation 2 : ₹5000
 
 🎓 **Certificates:**
+
 - _Participation Certificates_ for all **Final Round** participants.
 - _Merit Certificates_ for top-performing teams.
 
