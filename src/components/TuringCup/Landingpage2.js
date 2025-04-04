@@ -12,7 +12,7 @@ function Landingpage2() {
 
   const deadline = new Date("April 7, 2025 15:10:00");
   const now = new Date();
-  
+
   const config = {
     name: "[Reminder] Turing Cup 2K25 Round - 1",
     description: "Check your mail for the Contest Links",

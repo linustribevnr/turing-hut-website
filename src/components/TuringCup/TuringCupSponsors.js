@@ -1,4 +1,3 @@
-
 import React from "react";
 import Paper from "@mui/material/Paper";
 import Stack from "@mui/material/Stack";
@@ -53,7 +52,7 @@ export default function TuringCupSponsors() {
           textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
         }}
       >
-        OUR SPONSORS 
+        OUR SPONSORS
       </Typography>
 
       <Stack
