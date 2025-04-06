@@ -16,9 +16,9 @@ function Landingpage2() {
   const config = {
     name: "[Reminder] Turing Cup 2K25 Round - 1",
     description: "Check your mail for the Contest Links",
-    startDate: "2025-04-05",
-    startTime: "19:00",
-    endTime: "21:00",
+    startDate: "2025-04-07",
+    startTime: "20:00",
+    endTime: "22:00",
     options: ["Google", "Apple", "Outlook.com"],
     timeZone: "Asia/Calcutta"
   };
