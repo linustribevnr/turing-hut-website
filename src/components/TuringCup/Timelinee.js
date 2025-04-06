@@ -37,7 +37,7 @@ function Timelinee() {
           }}
           contentArrowStyle={{ borderRight: "7px solid  #F2AA4CFF" }}
           iconStyle={{ background: "#F2AA4CFF", color: "#101820FF" }}
-          date="05-04-2025"
+          date="07-04-2025"
           dateClassName={"timeline"}
           icon={<LooksOneOutlinedIcon />}
         >
@@ -58,7 +58,7 @@ function Timelinee() {
             Registration fee: FREE for Round-1 ; Rs 300/- per team for Round-2
             (Lunch and goodies will be provided)
             <br />
-            Registration for online round will close on 5th April 2:00 PM <br />
+            Registration for online round will close on 7th April,2025 3:00 PM <br />
           </h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
