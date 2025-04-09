@@ -51,7 +51,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-XZ518XKB2K" // Personal Mail: Measurement ID of vighnesh vangari
+          "G-SVFWPTKWZ6" // Personal Mail: Measurement ID of vighnesh vangari
         ],
         gtagConfig: {
           anonymize_ip: true,
