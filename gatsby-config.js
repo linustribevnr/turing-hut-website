@@ -46,6 +46,22 @@ module.exports = {
         name: `newsletters`,
         path: `${__dirname}/src/assets/newsletters`
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-XZ518XKB2K" // Personal Mail: Measurement ID of vighnesh vangari
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0
+        },
+        pluginConfig: {
+          head: true,
+          respectDNT: true
+        }
+      }
     }
     // {
     //   resolve: `gatsby-plugin-env-variables`,

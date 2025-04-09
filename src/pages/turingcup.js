@@ -6,12 +6,12 @@ import PastContests from "../components/TuringCup/PastContests";
 import Timers from "../components/TuringCup/Timers";
 import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
 import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 // import { createTheme } from "@mui/material/styles";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
 import Timelinee from "../components/TuringCup/Timelinee";
-// import HowToRegRoundedIcon from "@mui/icons-material/HowToRegRounded";
-// import RegisterForm from "./register";
+import HowToRegRoundedIcon from "@mui/icons-material/HowToRegRounded";
+import RegisterForm from "./register";
 import Faqs from "../components/TuringCup/Faqs";
 
 import About from "../components/TuringCup/About";
@@ -21,7 +21,7 @@ var divStyle = {
   margin: 0
 };
 function Turingcup() {
-  // const [isRegistering, setIsRegistering] = useState(false);
+  // const [isRegistering, setIsRegistering] = useState(true);
 
   return (
     <Layout sx={{ margin: 0 }}>
@@ -42,29 +42,29 @@ function Turingcup() {
             }}
           />
 
-          {/* <div
+          <div
             style={{
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              alignItems: "center",
-              marginBottom: "50px"
+              alignItems: "center"
+              // marginBottom: "20px"
             }}
           >
             <Typography
-              variant="h5"
-              fontWeight="bold"
+              variant="h3"
               sx={{
-                pb: 2,
-                fontFamily: ['"Gruppo"', "cursive"].join(","),
-                color: "#F2AA4CFF",
-                fontSize: "1.5rem",
-                width:'70%'
+                mb: 2,
+                textAlign: "left",
+                fontFamily: "'Gruppo', cursive",
+                fontWeight: "bold",
+                letterSpacing: "1px",
+                textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
               }}
             >
               REGISTRATION FOR ROUND-2
             </Typography>
-            <Button
+            {/* <Button
               sx={{
                 fontFamily: ['"Gruppo"', "cursive"].join(","),
                 backgroundColor: "#101820FF",
@@ -81,9 +81,9 @@ function Turingcup() {
               startIcon={<HowToRegRoundedIcon />}
             >
               {isRegistering ? "Close Form" : "Register For Round-2 Here"}
-            </Button>
-            {isRegistering && <RegisterForm />}
-          </div> */}
+            </Button> */}
+            <RegisterForm />
+          </div>
 
           <About />
           <Timers />
