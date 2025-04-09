@@ -6,7 +6,7 @@ export default function About() {
     <div>
       <Typography
         variant="h3"
-        mt={5}
+        mt={1}
         sx={{
           textAlign: "center",
           fontFamily: "'Gruppo', cursive",
