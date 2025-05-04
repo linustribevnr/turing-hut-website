@@ -86,10 +86,11 @@ function Turingcup() {
           </div>
 
           <About />
-          <Timers />
+          {/* <Timers /> */}
           <Timelinee />
           <TuringCupPrizePool />
-          <TuringCupSponsors />
+          {/* <TuringCupSponsors /> */}
+          <Box sx={{ height: "50px" }} />
           <PastContests />
           <Faqs />
         </Box>

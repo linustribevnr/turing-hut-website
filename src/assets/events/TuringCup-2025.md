@@ -27,6 +27,8 @@ The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will
 <br/>
 To register, visit <a href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"  target="_blank" >Registration Form</a>.
 
+**Round 1 Contest Link:** <a href="https://www.hackerrank.com/turing-cup-2k25-round-1-qualifier"  target="_blank" >Click Here</a>.
+
 > **Note:** There will be a strict plagiarism check after the contest. Don't try to seek help from your friends or try to help your friends, doing so both of you will get caught.
 
 ---
@@ -45,6 +47,7 @@ The competition welcomes undergraduate students nationwide who have a passion fo
 To register for the contest kindly check this link here:
 <a href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"  target="_blank" >Registration Form</a>
 
+**Round 2 Contest Link:** <a href="https://codeforces.com/contests/604555"  target="_blank" >Click Here</a>.
 ## Guidelines:
 
 - **Eligibility:** Participation is restricted to undergraduate students only.
@@ -62,10 +65,9 @@ The total prize pool for this contest is **₹75,000**:
 🥇 **1st Place:** ₹30,000  
 🥈 **2nd Place:** ₹20,000  
 🥉 **3rd Place:** ₹13,000  
-🏅 **Consolation Prizes:**
+🏅 **Consolation 1:** ₹7000  
+🏅 **Consolation 2:** ₹5000
 
-- Consolation 1 : ₹7000
-- Consolation 2 : ₹5000
 
 🎓 **Certificates:**
 
