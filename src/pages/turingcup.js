@@ -62,7 +62,7 @@ function Turingcup() {
                 textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
               }}
             >
-              REGISTRATION FOR ROUND-2
+              {/* REGISTRATION FOR ROUND-2 */}
             </Typography>
             {/* <Button
               sx={{
@@ -82,14 +82,15 @@ function Turingcup() {
             >
               {isRegistering ? "Close Form" : "Register For Round-2 Here"}
             </Button> */}
-            <RegisterForm />
+            {/* <RegisterForm /> */}
           </div>
 
           <About />
-          <Timers />
-          <Timelinee />
-          <TuringCupPrizePool />
-          <TuringCupSponsors />
+          {/* <Timers /> */}
+          {/* <Timelinee /> */}
+          {/* <TuringCupPrizePool /> */}
+          {/* <TuringCupSponsors /> */}
+          <Box sx={{ height: "50px" }} />
           <PastContests />
           <Faqs />
         </Box>

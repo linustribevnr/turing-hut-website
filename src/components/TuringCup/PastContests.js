@@ -2,6 +2,8 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Looks3OutlinedIcon from "@mui/icons-material/Looks3Outlined";
 import LooksOneOutlinedIcon from "@mui/icons-material/LooksOneOutlined";
 import LooksTwoOutlinedIcon from "@mui/icons-material/LooksTwoOutlined";
+import Looks4OutlinedIcon from "@mui/icons-material/Looks4Outlined";
+import Looks5OutlinedIcon from "@mui/icons-material/Looks5Outlined";
 import { Box, Grid } from "@mui/material";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -40,6 +42,46 @@ const styles = {
 };
 
 const contestdetails = [
+  {
+    "year": "2025",
+    "image": "TC_Winners2025.jpg",
+    "report":
+      "",
+    "info":
+      "Students from all colleges across the nation can participate by forming a team of up to 1-2 members. The contest has 2 rounds. 1449 teams from 140 different colleges across the nation have registered for the contest,out of which 60 teams have been invited to the Final round (Onsite), From which top 5 teams were rewarded with cash prizes.",
+    "winners": {
+      "first": {
+        "mem1": "Arjun Moravekar",
+        "mem2": "Saketh Ramkumar Dondapati",
+        "mem3": "",
+        "college": "Indian Institute of Technology (IIT), Hyderabad"
+      },
+      "second": {
+        "mem1": "Sushil Raaja U",
+        "mem2": "",
+        "mem3": "",
+        "college": "International Institute of Information Technology (IIIT), Hyderabad"
+      },
+      "third": {
+        "mem1": "Venkata Mahesh Reddy Yeruva",
+        "mem2": "Sree Charan Reddy Pacharla",
+        "mem3": "",
+        "college": "Indian Institute of Information Technology, Design and Manufacturing (IIITDM), Kurnool"
+      },
+      "fourth": {
+        "mem1": "Kodam Nithin",
+        "mem2": "Rajavardhan Kommala",
+        "mem3": "",
+        "college": "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering & Technology, Telangana"
+      },
+      "fifth": {
+        "mem1": "Karthik Kondaveeti",
+        "mem2": "Aanshik Sadh",
+        "mem3": "",
+        "college": "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering & Technology, Telangana"
+      }
+    }
+  },
   {
     "year": "2024",
     "image": "TC_Winners2024.jpg",
@@ -213,6 +255,13 @@ function PastContests() {
       : null;
   };
 
+  const placeIcons = {
+    first: <LooksOneOutlinedIcon sx={{ color: "white", marginTop: "10px" }} fontSize="large" />,
+    second: <LooksTwoOutlinedIcon sx={{ color: "white", marginTop: "10px" }} fontSize="large" />,
+    third: <Looks3OutlinedIcon sx={{ color: "white", marginTop: "10px" }} fontSize="large" />,
+    fourth: <Looks4OutlinedIcon sx={{ color: "white", marginTop: "10px" }} fontSize="large" />,
+    fifth: <Looks5OutlinedIcon sx={{ color: "white", marginTop: "10px" }} fontSize="large" />
+  };
   return (
     <>
       <Typography
@@ -249,13 +298,12 @@ function PastContests() {
               </Typography>
             </AccordionSummary>
             <AccordionDetails style={styles.details}>
-              <Typography
-                sx={{ fontFamily: "'Gruppo', cursive", color: "white" }}
-              >
+              <Typography sx={{ fontFamily: "'Gruppo', cursive", color: "white" }}>
                 {item.info}
               </Typography>
+
               {item.image !== "NA" && (
-                <Box sx={{ width: "60%", margin: "0 auto" }}>
+                <Box sx={{ width: "60%", margin: "0 auto", }}>
                   <GatsbyImage
                     alt="winners here"
                     style={{ borderRadius: "10px" }}
@@ -263,85 +311,34 @@ function PastContests() {
                   />
                 </Box>
               )}
-              <LooksOneOutlinedIcon
-                sx={{ color: "white", marginTop: "10px" }}
-                fontSize="large"
-              />
-              {item.winners.first.mem1.length > 0 && (
-                <Typography sx={{ fontFamily: "'Gruppo', cursive" }}>
-                  {item.winners.first.mem1}
-                </Typography>
-              )}
-              {item.winners.first.mem2.length > 0 && (
-                <Typography sx={{ fontFamily: "'Gruppo', cursive" }}>
-                  {item.winners.first.mem2}
-                </Typography>
-              )}
-              {item.winners.first.mem3.length > 0 && (
-                <Typography sx={{ fontFamily: "'Gruppo', cursive" }}>
-                  {item.winners.first.mem3}
-                </Typography>
-              )}
-              <Typography
-                sx={{ fontFamily: "'Gruppo', cursive", color: "white" }}
-              >
-                <i>{item.winners.first.college}</i>
-              </Typography>
 
-              <LooksTwoOutlinedIcon
-                sx={{ color: "white", marginTop: "10px" }}
-                fontSize="large"
-              />
-              {item.winners.second.mem1.length > 0 && (
-                <Typography sx={{ fontFamily: "'Gruppo', cursive" }}>
-                  {item.winners.second.mem1}
-                </Typography>
-              )}
-              {item.winners.second.mem2.length > 0 && (
-                <Typography sx={{ fontFamily: "'Gruppo', cursive" }}>
-                  {item.winners.second.mem2}
-                </Typography>
-              )}
-              {item.winners.second.mem3.length > 0 && (
-                <Typography sx={{ fontFamily: "'Gruppo', cursive" }}>
-                  {item.winners.second.mem3}
-                </Typography>
-              )}
-              <Typography
-                sx={{ fontFamily: "'Gruppo', cursive", color: "white" }}
-              >
-                <i>{item.winners.second.college}</i>
-              </Typography>
+              {Object.entries(item.winners).map(([place, winner], index) => (
+                <React.Fragment key={place}>
+                  {placeIcons[place] || (
+                    <Typography
+                      sx={{ fontFamily: "'Gruppo', cursive", color: "white", marginTop: "10px" }}
+                    >
+                      {place.charAt(0).toUpperCase() + place.slice(1)} Place
+                    </Typography>
+                  )}
 
-              <Looks3OutlinedIcon
-                sx={{ color: "white", marginTop: "10px" }}
-                fontSize="large"
-              />
-              {item.winners.third.mem1.length > 0 && (
-                <Typography sx={{ fontFamily: "'Gruppo', cursive" }}>
-                  {item.winners.third.mem1}
-                </Typography>
-              )}
-              {item.winners.third.mem2.length > 0 && (
-                <Typography sx={{ fontFamily: "'Gruppo', cursive" }}>
-                  {item.winners.third.mem2}
-                </Typography>
-              )}
-              {item.winners.third.mem3.length > 0 && (
-                <Typography sx={{ fontFamily: "'Gruppo', cursive" }}>
-                  {item.winners.third.mem3}
-                </Typography>
-              )}
-              <Typography
-                sx={{ fontFamily: "'Gruppo', cursive", color: "white" }}
-              >
-                <i>{item.winners.third.college}</i>
-              </Typography>
+                  {[winner.mem1, winner.mem2, winner.mem3]
+                    .filter(mem => mem && mem.length > 0)
+                    .map((mem, i) => (
+                      <Typography key={i} sx={{ fontFamily: "'Gruppo', cursive" }}>
+                        {mem}
+                      </Typography>
+                    ))}
+
+                  <Typography sx={{ fontFamily: "'Gruppo', cursive", color: "white" }}>
+                    <i>{winner.college}</i>
+                  </Typography>
+                </React.Fragment>
+              ))}
+
               {item.report !== "NA" && (
-                <Typography
-                  sx={{ fontFamily: "'Gruppo', cursive", color: "red" }}
-                >
-                  For more details&nbsp;{" "}
+                <Typography sx={{ fontFamily: "'Gruppo', cursive", color: "red" }}>
+                  For more details&nbsp;
                   <a target="_blank" rel="noreferrer" href={item.report}>
                     <Typography
                       sx={{
