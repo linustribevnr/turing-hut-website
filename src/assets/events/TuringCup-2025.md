@@ -14,7 +14,7 @@ markdownType: event
 <br/>
 The Turing Cup will be held in two rounds :<br/>
 
-### Round 1
+## Round 1
 
 The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will be held online on **Hackerrank**. Short-listed candidates will be notified for the further rounds.
 
@@ -33,7 +33,7 @@ To register, visit <a href="https://unstop.com/hackathons/turing-cup-2k25-vallur
 
 ---
 
-### Round 2
+## Round 2
 
 Round-2 (Onsite) will be held at the **VNRVJIET Campus, Bachupally, Hyderabad** on **19th April 2025**. Shortlisted teams for this round will be notified via email or contacted after Round 1. This round will be held on **Codeforces** with one's team account (for teams of size 2).
 
@@ -47,7 +47,10 @@ The competition welcomes undergraduate students nationwide who have a passion fo
 To register for the contest kindly check this link here:
 <a href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"  target="_blank" >Registration Form</a>
 
-**Round 2 Contest Link:** <a href="https://codeforces.com/contests/604555"  target="_blank" >Click Here</a>.
+**Round 2 Contest Link:** <a href="https://codeforces.com/contests/604555"  target="_blank" >Click Here</a>.  
+**Problem Set Link:** <a href="https://events.turinghut.org/events/turingcup-2k25/dashboard"  target="_blank" >Click Here</a>.
+
+
 ## Guidelines:
 
 - **Eligibility:** Participation is restricted to undergraduate students only.
@@ -68,8 +71,29 @@ The total prize pool for this contest is **₹75,000**:
 🏅 **Consolation 1:** ₹7000  
 🏅 **Consolation 2:** ₹5000
 
+## Winners
 
-🎓 **Certificates:**
+### 🥇 First Place 
+- **Members:** Arjun Moravekar, Saketh Ramkumar Dondapati  
+- **College:** Indian Institute of Technology (IIT), Hyderabad
+### 🥈 Second Place 
+- **Member:** Sushil Raaja U
+- **College:** International Institute of Information Technology (IIIT), Hyderabad
+
+### 🥉 Third Place
+- **Members:** Venkata Mahesh Reddy Yeruva, Sree Charan Reddy Pacharla  
+- **College:** Indian Institute of Information Technology, Design and Manufacturing (IIITDM), Kurnool
+
+### 🏅 Fourth Place
+- **Members:** Kodam Nithin, Rajavardhan Kommala  
+- **College:** Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering & Technology, Telangana
+
+### 🏅 Fifth Place
+- **Members:** Karthik Kondaveeti, Aanshik Sadh  
+- **College:** Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering & Technology, Telangana
+
+
+## 🎓 Certificates:
 
 - _Participation Certificates_ for all **Final Round** participants.
 - _Merit Certificates_ for top-performing teams.
