@@ -47,7 +47,6 @@ The competition welcomes undergraduate students nationwide who have a passion fo
 To register for the contest kindly check this link here:
 <a href="https://unstop.com/hackathons/turing-cup-2k25-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1433278"  target="_blank" >Registration Form</a>
 
-**Round 2 Contest Link:** <a href="https://codeforces.com/contests/604555"  target="_blank" >Click Here</a>.  
 **Problem Set Link:** <a href="https://events.turinghut.org/events/turingcup-2k25/dashboard"  target="_blank" >Click Here</a>.
 
 
