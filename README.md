@@ -14,4 +14,4 @@ npm install
 npm run start
 ```
 
-### Open port 8000 
+### Open port 8000

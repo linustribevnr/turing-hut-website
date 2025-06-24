@@ -49,7 +49,6 @@ To register for the contest kindly check this link here:
 
 **Problem Set Link:** <a href="https://events.turinghut.org/events/turingcup-2k25/dashboard"  target="_blank" >Click Here</a>.
 
-
 ## Guidelines:
 
 - **Eligibility:** Participation is restricted to undergraduate students only.
@@ -72,25 +71,30 @@ The total prize pool for this contest is **₹75,000**:
 
 ## Winners
 
-### 🥇 First Place 
-- **Members:** Arjun Moravekar, Saketh Ramkumar Dondapati  
+### 🥇 First Place
+
+- **Members:** Arjun Moravekar, Saketh Ramkumar Dondapati
 - **College:** Indian Institute of Technology (IIT), Hyderabad
-### 🥈 Second Place 
+
+### 🥈 Second Place
+
 - **Member:** Sushil Raaja U
 - **College:** International Institute of Information Technology (IIIT), Hyderabad
 
 ### 🥉 Third Place
-- **Members:** Venkata Mahesh Reddy Yeruva, Sree Charan Reddy Pacharla  
+
+- **Members:** Venkata Mahesh Reddy Yeruva, Sree Charan Reddy Pacharla
 - **College:** Indian Institute of Information Technology, Design and Manufacturing (IIITDM), Kurnool
 
 ### 🏅 Fourth Place
-- **Members:** Kodam Nithin, Rajavardhan Kommala  
+
+- **Members:** Kodam Nithin, Rajavardhan Kommala
 - **College:** Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering & Technology, Telangana
 
 ### 🏅 Fifth Place
-- **Members:** Karthik Kondaveeti, Aanshik Sadh  
-- **College:** Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering & Technology, Telangana
 
+- **Members:** Karthik Kondaveeti, Aanshik Sadh
+- **College:** Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering & Technology, Telangana
 
 ## 🎓 Certificates:
 
