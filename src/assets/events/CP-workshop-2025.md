@@ -9,7 +9,7 @@ type: Workshop
 slug: cp-workshop-2025
 image: ../images/events/CP_Workshop.jpeg
 registration: https://docs.google.com/forms/d/e/1FAIpQLSeKp2FB5M8of088o7lVENLjmiqCa2bk6OQMHGC780LXxbEbBA/viewform
-recording: NA
+recording: https://www.youtube.com/watch?v=4gl-KiJWfSQ&list=PLJUqxQro1e1osK9W4IY1wIBCmQHMYhDlr&pp=gAQB
 markdownType: event
 ---
 
