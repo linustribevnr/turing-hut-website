@@ -48,19 +48,15 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-posthog`,
       options: {
-        trackingIds: [
-          "G-XZ518XKB2K" // Personal Mail: Measurement ID of vighnesh vangari
-        ],
-        gtagConfig: {
-          anonymize_ip: true,
-          cookie_expires: 0
-        },
-        pluginConfig: {
-          head: true,
-          respectDNT: true
-        }
+        apiKey: process.env.GATSBY_POSTHOG_API_KEY,
+        // Specify the app host if self-hosting (optional, default: https://us.i.posthog.com)
+        apiHost: "https://us.i.posthog.com",
+        // Puts tracking script in the head instead of the body (optional, default: true)
+        head: true,
+        // Enable posthog analytics tracking during development (optional, default: false)
+        isEnabledDevMode: false
       }
     }
     // {
