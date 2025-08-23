@@ -7,7 +7,6 @@ on:
   # Run workflow manually
   workflow_dispatch:
 
-
 jobs:
   build:
     name: Build
@@ -15,12 +14,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@main
+
       - name: Set config
         run: npm config set legacy-peer-deps true
+
       - name: Install dependencies
         run: npm ci
-      - name: Build dependencies
-        run: npm run build
+
+      - name: Build with PostHog env
+        run: |
+          echo "GATSBY_POSTHOG_API_KEY=${{ secrets.GATSBY_POSTHOG_API_KEY }}" >> $GITHUB_ENV
+          npm run build
+        env:
+          GATSBY_POSTHOG_API_KEY: ${{ secrets.GATSBY_POSTHOG_API_KEY }}
+
       - name: Archive production artifact
         uses: actions/upload-artifact@main
         with:
@@ -34,16 +41,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@main
+
       - name: Download artifact
         uses: actions/download-artifact@main
         with:
           name: public
           path: public
+
       - name: Deploy to firebase
         uses: w9jds/firebase-action@master
         with:
           args: deploy
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        
-              
