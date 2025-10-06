@@ -62,6 +62,11 @@ const navItems = [
     text: "About",
     icon: <InfoIcon />,
     path: "/about"
+  },
+  {
+    text: "ICPC",
+    icon: <EmojiEventsIcon />,
+    path: "/icpc"
   }
 ];
 
