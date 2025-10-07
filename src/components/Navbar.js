@@ -49,6 +49,11 @@ const navItems = [
     path: "/turingcup"
   },
   {
+    text: "ICPC",
+    icon: <EmojiEventsIcon />,
+    path: "/icpc"
+  },
+  {
     text: "Contact",
     icon: <LocalPhoneIcon />,
     path: "/contact"
@@ -63,11 +68,7 @@ const navItems = [
     icon: <InfoIcon />,
     path: "/about"
   },
-  {
-    text: "ICPC",
-    icon: <EmojiEventsIcon />,
-    path: "/icpc"
-  }
+
 ];
 
 const drawerWidth = 300;

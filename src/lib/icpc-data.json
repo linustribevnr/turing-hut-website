@@ -1,0 +1,113 @@
+{
+  "_instructions": {
+    "howToAddNewEvent": "To add a new ICPC event, simply add a new object to the achievements array with the following fields: id (unique), title, emoji, description, imagePath (filename from src/assets/images/icpc/), and year. The system will automatically display it in the correct year section with the same UI.",
+    "imagePath_example": "Put your image in src/assets/images/icpc/ folder and use just the filename like 'my-event-2024.jpg'",
+    "year_sorting": "Events are automatically grouped and sorted by year in descending order",
+    "required_fields": ["id", "title", "description", "imagePath", "year"],
+    "optional_fields": ["emoji"]
+  },
+  "header": {
+    "title": "ICPC Legacy",
+    "emoji": "🏆",
+    "description": [
+      "The International Collegiate Programming Contest (ICPC) is the world's most prestigious algorithmic competition for university students.",
+      "Over the years, Turing Hut members have consistently proven their excellence in ICPC and other competitive programming events across India."
+    ]
+  },
+  "achievements": [
+    {
+      "id": "icpc2018",
+      "title": "ICPC Kolkata–Kanpur Regionals, 2018",
+      "emoji": "🧩",
+      "description": "Team d0nt_$leep represented IIIT Sri City after topping all other college teams and qualified for the ICPC Kolkata–Kanpur Regionals 2018.",
+      "imagePath": "2018.jpg",
+      "year": "2018"
+    },
+    {
+      "id": "icpc2019", 
+      "title": "ICPC Amritapuri Regionals, 2019",
+      "emoji": "🧠",
+      "description": "Team #include python — Gnana Deepak Juvva, Abhigyan Kola, and Nimmi Agarwal — qualified for the ICPC Amritapuri 2019 Regionals in their second year.",
+      "imagePath": "2019.jpg",
+      "year": "2019"
+    },
+    {
+      "id": "codefury2020",
+      "title": "Code Fury (OU), 2020", 
+      "emoji": "💻",
+      "description": "Juvva Gnana Deepak secured 3rd position in Code Fury, Infinity-2020 (Osmania University).",
+      "imagePath": "codefury-2020.jpg",
+      "year": "2020"
+    },
+    {
+      "id": "codeking2020",
+      "title": "Code King (JNTUH), 2020",
+      "emoji": "👑", 
+      "description": "Juvva Gnana Deepak bagged 1st place in Code King 2020 conducted by JNTUH.",
+      "imagePath": "codeking-2020.jpg",
+      "year": "2020"
+    },
+    {
+      "id": "codeleague",
+      "title": "Code League (CMRCET)",
+      "emoji": "⚙️",
+      "description": "Sindhuja and Abignan emerged as winners of Code League – CMRCET.",
+      "imagePath": "codeleague.jpg",
+      "year": "2020"
+    },
+    {
+      "id": "icpc2021",
+      "title": "ICPC Amritapuri Regionals, 2021",
+      "emoji": "🧩",
+      "description": "Team Code Avengers 2.0 — Guru Bhargava, Yathin Rasineni, and Neeraj Ashish — qualified for the ICPC Amritapuri 2021 Regionals, finishing as the top team from the institute.",
+      "imagePath": "2021.jpg",
+      "year": "2021"
+    },
+    {
+      "id": "megathon2022",
+      "title": "IIIT Hyderabad Megathon, 2022",
+      "emoji": "🚀",
+      "description": "Sai Ram, M. Bharath Reddy, Harshita Ch, Sai Neha Ch, and KHS Supriya represented Turing Hut in Megathon 2022 organized by IIIT-Hyderabad and received a special prize.",
+      "imagePath": "megathon-2022.jpg",
+      "year": "2022"
+    },
+    {
+      "id": "ieeethinpad",
+      "title": "IEEE Think Pad",
+      "emoji": "⚡",
+      "description": "Naram Tapan Ganesh, Kommineni Srinivasa Deepesh, Gautham Mallipeddi, and Akhilesh Kumandan secured 3rd place in IEEE Think Pad.",
+      "imagePath": "ieee-thinkpad.jpg",
+      "year": "2022"
+    },
+    {
+      "id": "icpc2022",
+      "title": "ICPC Kanpur–Mathura Regionals, 2022", 
+      "emoji": "🧠",
+      "description": "Team ICPC-2022 — Guru Sai Nandan Avvaru, Prabhas Koya, and Sreekar Vyas — were selected for the ICPC Mathura 2022 Regionals, after leading all other college teams.",
+      "imagePath": "2022.jpg",
+      "year": "2022"
+    },
+    {
+      "id": "wmn2023",
+      "title": "wmn; Hackathon, 2023",
+      "emoji": "💡", 
+      "description": "KHS Supriya, Harshita Ch, Tejaswini V, and Neha Ch were among the top 30 teams in wmn; 2023 Hackathon.",
+      "imagePath": "wmn-2023.jpg",
+      "year": "2023"
+    }
+  ],
+  "about": {
+    "title": "About ICPC",
+    "emoji": "💬",
+    "description": [
+      "The International Collegiate Programming Contest (ICPC) is a global competition that challenges students to solve algorithmic problems efficiently under time constraints.",
+      "It encourages teamwork, problem-solving, and logical thinking — skills at the heart of Turing Hut's mission to cultivate technical excellence."
+    ],
+    "quote": "🚀 Every algorithm solved, every line debugged — adds a brick to the Turing Hut ICPC legacy.",
+    "cta": {
+      "text": "🧑‍💻 Want to represent Turing Hut in ICPC?",
+      "linkText": "Join our Competitive Programming Wing today → turinghut.org/join",
+      "url": "https://turinghut.org/join"
+    }
+  }
+}
