@@ -1,0 +1,153 @@
+{
+  "_instructions": {
+    "howToAddNewEvent": "To add a new ICPC timeline entry, simply add a new object to the timeline array with the following fields: year (academic year), entries (array of team participations). Each entry should have: id (unique), team, members (array), event, rank, description, imagePath (filename from src/assets/images/icpc/), and optional linkedinPost.",
+    "imagePath_example": "Put your image in src/assets/images/icpc/ folder and use just the filename like '2024-team.jpg'",
+    "year_sorting": "Timeline items are displayed in reverse chronological order (newest first)",
+    "required_fields": ["id", "team", "members", "event", "rank", "description"],
+    "optional_fields": ["imagePath", "linkedinPost"]
+  },
+  "aboutICPC": {
+    "title": "About ICPC",
+    "description": [
+      "The International Collegiate Programming Contest (ICPC) is the world's most prestigious algorithmic competition for university students.",
+      "Over the years, Turing Hut members have consistently proven their excellence in ICPC and other competitive programming events across India.",
+      "Each year, our teams compete against the best programmers from colleges nationwide, showcasing the depth of competitive programming culture at VNRVJIET."
+    ]
+  },
+  "timeline": [
+    {
+      "year": "2024-2025",
+      "entries": [
+        {
+          "id": "2024-wrong-angled-triangle-amritapuri",
+          "team": "Wrong Angled Triangle",
+          "members": ["Sreekar Vyas Kurudi", "Nisritha Reddy Dampuru", "Shashank Varma Indukuri"],
+          "event": "ICPC Amritapuri Regionals 2024",
+          "rank": "All India Rank 90",
+          "description": "After topping all other college teams in RankList2, the team qualified and appeared for ICPC Amritapuri Regionals 2024.",
+          "imagePath": null
+        },
+        {
+          "id": "2024-wrong-angled-triangle-chennai",
+          "team": "Wrong Angled Triangle",
+          "members": ["Sreekar Vyas Kurudi", "Nisritha Reddy Dampuru", "Shashank Varma Indukuri"],
+          "event": "ICPC Chennai Regionals 2024",
+          "rank": "All India Rank 42",
+          "description": "After topping all other college teams in RankList2, the team qualified and appeared for ICPC Chennai Regionals 2024.",
+          "imagePath": null
+        },
+        {
+          "id": "2024-strawhatz-amritapuri",
+          "team": "StrawHatz",
+          "members": ["Prabhas Koya", "D. Manorath Reddy", "Arvind Sai R"],
+          "event": "ICPC Amritapuri Regionals 2024",
+          "rank": "All India Rank 137",
+          "description": "After topping all other college teams in RankList1, the team qualified and appeared for ICPC Amritapuri Regionals 2024.",
+          "imagePath": null
+        },
+        {
+          "id": "2024-strawhatz-chennai",
+          "team": "StrawHatz",
+          "members": ["Prabhas Koya", "D. Manorath Reddy", "Arvind Sai R"],
+          "event": "ICPC Chennai Regionals 2024",
+          "rank": "All India Rank 73",
+          "description": "After topping all other college teams in RankList1, the team qualified and appeared for ICPC Chennai Regionals 2024.",
+          "imagePath": "2024-strawhatz-chennai.png"
+        }
+      ]
+    },
+    {
+      "year": "2023-2024",
+      "entries": [
+        {
+          "id": "2023-unprofessional-coders",
+          "team": "Unprofessional Coders",
+          "members": ["Shailesh Reddy Kanchanakuntla", "Tummala Naveen", "Adithya Sai Ram Tadikamalla"],
+          "event": "ICPC Kanpur Regionals 2023",
+          "rank": "All India Rank 51",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Kanpur Regionals 2023 in their second year and secured All India Rank 51.",
+          "imagePath": null
+        },
+        {
+          "id": "2023-wrong-angled-triangle",
+          "team": "Wrong Angled Triangle",
+          "members": ["Sreekar Vyas Kurudi", "Nisritha Reddy Dampuru", "Shashank Varma Indukuri"],
+          "event": "ICPC Amritapuri Regionals 2023",
+          "rank": "All India Rank 42",
+          "description": "After topping all other college teams for Amritapuri Site, the team qualified and appeared for ICPC Amritapuri Regionals 2023 and secured All India Rank 42 - missing the cut for the Asia West Continent Finals by just 4 spots, with the last qualifying team at Rank 38.",
+          "imagePath": null
+        }
+      ]
+    },
+    {
+      "year": "2022-2023",
+      "entries": [
+        {
+          "id": "2022-team-of-11",
+          "team": "Team of 11",
+          "members": ["Sreekar Vyas Kurudi", "Prabhas Koya", "Guru Sai Nandan Avvaru"],
+          "event": "ICPC Kanpur-Mathura Regionals 2022",
+          "rank": "Qualified",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Kanpur-Mathura Regionals 2022 in their second year.",
+          "imagePath": "2022.jpg"
+        }
+      ]
+    },
+    {
+      "year": "2021-2022",
+      "entries": [
+        {
+          "id": "2021-code-avengers",
+          "team": "Code Avengers 2.0",
+          "members": ["Guru Bhargava", "Yathin Rasineni", "Neeraj Ashish"],
+          "event": "ICPC Amritapuri Regionals 2021",
+          "rank": "Qualified",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Amritapuri Regionals 2021 in their third year.",
+          "imagePath": "2021.jpg"
+        }
+      ]
+    },
+    {
+      "year": "2020-2021",
+      "entries": [
+        {
+          "id": "2020-error404",
+          "team": "error404.py",
+          "members": ["Vikram Chiluka", "Arjun Karthikeya", "Lakshmi Sravya Thota"],
+          "event": "ICPC Amritapuri Regionals 2020",
+          "rank": "Qualified",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Amritapuri Regionals 2020. ",
+          "imagePath": null
+        }
+      ]
+    },
+    {
+      "year": "2019-2020",
+      "entries": [
+        {
+          "id": "2019-include-python",
+          "team": "#include<python>",
+          "members": ["Gnana Deepak Juvva", "Abhigyan Kola", "Nimmi Agarwal"],
+          "event": "ICPC Amritapuri Regionals 2019",
+          "rank": "Qualified",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Amritapuri Regionals 2019 in their second year.",
+          "imagePath": "2019.jpg"
+        }
+      ]
+    },
+    {
+      "year": "2018-2019",
+      "entries": [
+        {
+          "id": "2018-dont-sleep",
+          "team": "d0nt_$leep",
+          "members": ["Team from VNRVJIET"],
+          "event": "ICPC Kolkata Kanpur Regionals 2018",
+          "rank": "Qualified",
+          "description": "With the establishment of Turing Hut in 2017, CP culture has started growing rapidly, that a team from VNRVJIET has qualified for ICPC Kolkata Kanpur Regionals in 2018. After topping all other college teams, the team qualified and appeared for ICPC Kolkata Kanpur Regionals 2018.",
+          "imagePath": "2018.jpg"
+        }
+      ]
+    }
+  ]
+}

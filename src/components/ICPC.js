@@ -1,347 +1,315 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import {
   Box,
-  Grid,
   Typography,
   Card,
-  Divider
+  CardContent,
+  CardMedia,
+  Divider,
+  Container
 } from "@mui/material";
-import ICPCImage from "./ICPCImage";
-import icpcData from "../lib/icpc-data.json";
 
-export default function ICPC() {
-  const { header, achievements, about } = icpcData;
-  const [activeYear, setActiveYear] = useState("2023");
-  const sectionRefs = useRef({});
-  
-  // Get unique years and sort them
-  const years = [...new Set(achievements.map(a => a.year))].sort((a, b) => parseInt(b) - parseInt(a));
-  
-  // Group achievements by year
-  const achievementsByYear = years.reduce((acc, year) => {
-    acc[year] = achievements.filter(a => a.year === year);
-    return acc;
-  }, {});
+// Import timeline data
+import timelineDataFile from "../lib/icpc-timeline-data.json";
 
-  useEffect(() => {
-    const handleScroll = () => {
-      // Find which year section is currently in view
-      const windowHeight = window.innerHeight;
-      const scrollTop = window.scrollY;
-      
-      for (const year of years) {
-        const element = sectionRefs.current[year];
-        if (element) {
-          const rect = element.getBoundingClientRect();
-          const elementTop = rect.top + scrollTop;
-          const elementBottom = elementTop + rect.height;
-          
-          if (scrollTop + windowHeight / 2 >= elementTop && scrollTop + windowHeight / 2 <= elementBottom) {
-            setActiveYear(year);
-            break;
-          }
-        }
-      }
-    };
+// Import existing ICPC images
+import icpc2018 from "../assets/images/icpc/2018.jpg";
+import icpc2019 from "../assets/images/icpc/2019.jpg";
+import icpc2021 from "../assets/images/icpc/2021.jpg";
+import icpc2022 from "../assets/images/icpc/2022.jpg";
+import strawhatzChennai2024 from "../assets/images/icpc/2024-strawhatz-chennai.png";
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [years]);
+// Image mapping for reliable access
+const images = {
+  "2018.jpg": icpc2018,
+  "2019.jpg": icpc2019,
+  "2021.jpg": icpc2021,
+  "2022.jpg": icpc2022,
+  "2024-strawhatz-chennai.png": strawhatzChennai2024
+};
 
-  const scrollToYear = (year) => {
-    const element = sectionRefs.current[year];
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-  };
-  
+// Get data from imported file
+const { aboutICPC, timeline: icpcTimelineData } = timelineDataFile;
+
+
+// Timeline Item Component
+const TimelineItem = ({ year, entries, isLast = false }) => {
   return (
-    <Box sx={{ position: "relative" }}>
-      {/* Timeline Sidebar */}
-      <Box sx={{
-        position: "fixed",
-        left: { xs: 10, md: 20 },
-        top: "50%",
-        transform: "translateY(-50%)",
-        zIndex: 1000,
-        display: { xs: "none", md: "block" }
+    <Box sx={{ display: "flex", mb: { xs: 4, md: 8 }, position: "relative" }}>
+      {/* Timeline Point and Line */}
+      <Box sx={{ 
+        display: { xs: "none", md: "flex" }, 
+        flexDirection: "column", 
+        alignItems: "center", 
+        mr: 4,
+        minWidth: "60px"
       }}>
-        <Box sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center"
-        }}>
-          {/* Timeline Line */}
-          <Box sx={{
-            position: "absolute",
-            left: "50%",
-            top: 0,
-            bottom: 0,
-            width: "2px",
+        {/* Point */}
+        <Box 
+          sx={{ 
+            width: 20, 
+            height: 20, 
+            borderRadius: "50%", 
             bgcolor: "primary.main",
-            transform: "translateX(-50%)"
-          }} />
-          
-          {/* Year Nodes */}
-          {years.map((year, index) => (
-            <Box
-              key={year}
-              onClick={() => scrollToYear(year)}
-              sx={{
-                position: "relative",
-                mb: 4,
-                cursor: "pointer",
-                transition: "all 0.3s ease"
-              }}
-            >
-              {/* Node Circle */}
-              <Box sx={{
-                width: activeYear === year ? 20 : 16,
-                height: activeYear === year ? 20 : 16,
-                borderRadius: "50%",
-                bgcolor: activeYear === year ? "primary.main" : "grey.400",
-                border: "3px solid white",
-                boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
-                transition: "all 0.3s ease",
-                transform: activeYear === year ? "scale(1.2)" : "scale(1)"
-              }} />
-              
-              {/* Year Label */}
-              <Typography
-                variant="body2"
-                sx={{
-                  position: "absolute",
-                  left: 35,
-                  top: "50%",
-                  transform: "translateY(-50%)",
-                  fontWeight: activeYear === year ? "bold" : "normal",
-                  color: activeYear === year ? "primary.main" : "text.secondary",
-                  transition: "all 0.3s ease",
-                  whiteSpace: "nowrap",
-                  fontSize: activeYear === year ? "0.9rem" : "0.8rem"
-                }}
-              >
-                {year}
-              </Typography>
-            </Box>
-          ))}
-        </Box>
+            border: "3px solid white",
+            boxShadow: "0 0 0 3px rgba(0,0,0,0.1)",
+            mb: 2,
+            flexShrink: 0,
+            mt: 1
+          }} 
+        />
+        {/* Line */}
+        {!isLast && (
+          <Box 
+            sx={{ 
+              width: "2px", 
+              flexGrow: 1, 
+              bgcolor: "grey.300",
+              minHeight: "100px"
+            }} 
+          />
+        )}
       </Box>
 
-      <Box sx={{ px: { xs: 2, sm: 4, md: 6 }, py: 4, ml: { md: 8 } }}>
-        {/* Header Section */}
-        <Grid container justifyContent="center" sx={{ mb: 6 }}>
-          <Grid item xs={12} sm={10} md={8} lg={6}>
-            <Box sx={{ textAlign: "center" }}>
-              <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center", mb: 3 }}>
-                <Typography
-                  variant="h4"
-                  sx={{ fontSize: "2rem", mr: 2 }}
-                >
-                  {header.emoji}
-                </Typography>
-                <Box>
-                  <Typography
-                    variant="h4"
-                    color="secondary"
-                    fontWeight="bold"
-                    sx={{ display: "inline" }}
-                  >
-                    ICPC&nbsp;
-                  </Typography>
-                  <Typography
-                    variant="h4"
-                    color="primary"
-                    fontWeight="bold"
-                    sx={{ display: "inline" }}
-                  >
-                    Legacy
-                  </Typography>
-                </Box>
-              </Box>
-              
-              <Divider sx={{ my: 3, bgcolor: "primary.main", height: 2, mx: "auto", width: "60%" }} />
-              
-              {header.description.map((desc, index) => (
-                <Typography 
-                  key={index}
-                  variant="body1" 
-                  color="secondary" 
-                  sx={{ my: 2, textAlign: "justify", lineHeight: 1.7 }}
-                >
-                  {desc}
-                </Typography>
-              ))}
-            </Box>
-          </Grid>
-        </Grid>
+      {/* Content */}
+      <Box sx={{ flexGrow: 1 }}>
+        {/* Year Header */}
+        <Typography 
+          variant="h4" 
+          fontWeight="bold"
+          sx={{ 
+            mb: 4, 
+            fontSize: { xs: "1.5rem", md: "2rem" },
+            position: "relative"
+          }}
+        >
+          {year}
+          <Box sx={{ 
+            display: { xs: "block", md: "none" },
+            width: "40px",
+            height: "3px",
+            bgcolor: "primary.main",
+            mt: 1
+          }} />
+        </Typography>
 
-        {/* Achievements Timeline */}
-        <Box sx={{ mb: 6 }}>
-          <Box sx={{ textAlign: "center", mb: 4 }}>
-            <Typography
-              variant="h5"
-              fontWeight="bold"
-              color="primary"
-              sx={{ display: "inline-flex", alignItems: "center" }}
-            >
-              <span style={{ fontSize: "1.5rem", marginRight: "12px" }}>🏅</span>
-              Achievements Timeline
-            </Typography>
-          </Box>
-
-          {/* Year Sections */}
-          {years.map((year) => (
-            <Box
-              key={year}
-              ref={el => sectionRefs.current[year] = el}
-              sx={{
-                mb: 8,
-                opacity: activeYear === year ? 1 : 0.3,
-                filter: activeYear === year ? "blur(0px)" : "blur(2px)",
-                transition: "all 0.5s ease-in-out",
-                transform: activeYear === year ? "scale(1)" : "scale(0.95)"
+        {/* Teams in this year - Responsive Layout */}
+        <Box sx={{ 
+          display: "flex",
+          flexDirection: "column",
+          gap: { xs: 3, md: 4 }
+        }}>
+          {entries.map((entry, index) => (
+            <Card 
+              key={entry.id}
+              sx={{ 
+                display: "flex",
+                flexDirection: { xs: "column", sm: "row" },
+                maxWidth: "800px",
+                mx: "auto",
+                border: "1px solid rgba(0,0,0,0.08)",
+                borderRadius: 3,
+                overflow: "hidden",
+                transition: "all 0.2s ease",
+                "&:hover": {
+                  transform: "translateY(-2px)",
+                  boxShadow: "0 8px 24px rgba(0,0,0,0.12)"
+                }
               }}
             >
-              <Typography
-                variant="h4"
-                fontWeight="bold"
-                color="primary"
-                sx={{ textAlign: "center", mb: 4 }}
-              >
-                {year}
-              </Typography>
-              
-              <Grid container spacing={3} justifyContent="center" sx={{ mx: "auto", maxWidth: "1400px" }}>
-                {achievementsByYear[year].map((achievement, index) => {
-                  return (
-                    <Grid item xs={12} sm={6} md={4} key={achievement.id}>
-                      <Card 
-                        sx={{ 
-                          height: "350px",
-                          display: "flex",
-                          flexDirection: "column",
-                          transition: "all 0.3s ease-in-out",
-                          borderRadius: 2,
-                          boxShadow: "0 2px 12px rgba(0,0,0,0.1)",
-                          overflow: "hidden",
-                          "&:hover": {
-                            transform: "translateY(-6px)",
-                            boxShadow: "0 12px 32px rgba(22, 101, 79, 0.2)"
-                          }
-                        }}
-                      >
-                        {/* Dynamic Achievement Image */}
-                        <ICPCImage
-                          imagePath={achievement.imagePath}
-                          alt={achievement.title}
-                          title={achievement.title}
-                          description={achievement.description}
-                        />
-                      </Card>
-                    </Grid>
-                  );
-                })}
-              </Grid>
-            </Box>
-          ))}
-        </Box>
-
-        {/* About ICPC Section */}
-        <Box sx={{ mt: 8 }}>
-          <Grid container justifyContent="center">
-            <Grid item xs={12} md={10} lg={8}>
-              <Card sx={{ 
-                p: 4, 
-                bgcolor: "rgba(22, 101, 79, 0.02)",
-                borderRadius: 3,
-                boxShadow: "0 4px 20px rgba(0,0,0,0.08)"
-              }}>
-                <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
-                  <Typography
-                    variant="h4"
-                    sx={{ fontSize: "2rem", mr: 2 }}
-                  >
-                    {about.emoji}
-                  </Typography>
-                  <Typography
-                    variant="h5"
-                    fontWeight="bold"
-                    color="secondary"
-                  >
-                    {about.title}
-                  </Typography>
-                </Box>
-                
-                <Divider sx={{ mb: 3, bgcolor: "primary.main", height: 1 }} />
-                
-                {about.description.map((desc, index) => (
-                  <Typography
-                    key={index}
-                    variant="body1"
-                    color="secondary"
-                    sx={{ textAlign: "justify", mb: 2, lineHeight: 1.7 }}
-                  >
-                    {desc}
-                  </Typography>
-                ))}
-                
+              {/* Image Container */}
+              {entry.imagePath && images[entry.imagePath] && (
                 <Box sx={{ 
-                  p: 3, 
-                  bgcolor: "rgba(22, 101, 79, 0.1)", 
-                  borderRadius: 2,
-                  borderLeft: "6px solid",
-                  borderColor: "primary.main",
-                  my: 3
+                  position: "relative",
+                  width: { xs: "100%", sm: "280px" },
+                  height: { xs: 200, sm: "auto" },
+                  minHeight: { sm: 180 },
+                  overflow: "hidden",
+                  bgcolor: "grey.50",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center"
                 }}>
-                  <Typography 
-                    variant="body1" 
-                    color="primary" 
-                    fontStyle="italic"
-                    fontWeight="medium"
-                    sx={{ textAlign: "center", lineHeight: 1.6 }}
-                  >
-                    {about.quote}
-                  </Typography>
-                </Box>
-
-                <Box sx={{ 
-                  p: 3, 
-                  bgcolor: "rgba(76, 77, 79, 0.05)", 
-                  borderRadius: 2,
-                  textAlign: "center",
-                  border: "1px solid rgba(22, 101, 79, 0.1)"
-                }}>
-                  <Typography 
-                    variant="body1" 
-                    color="secondary" 
-                    sx={{ mb: 2, fontWeight: "medium" }}
-                  >
-                    {about.cta.text}
-                  </Typography>
-                  <Typography 
-                    variant="body1" 
-                    color="primary"
-                    component="a"
-                    href={about.cta.url}
+                  <CardMedia
+                    component="img"
                     sx={{ 
-                      textDecoration: "none",
-                      fontWeight: "bold",
-                      fontSize: "1.05rem",
-                      "&:hover": { 
-                        textDecoration: "underline",
-                        color: "primary.dark"
-                      }
+                      maxWidth: "100%", 
+                      maxHeight: "100%",
+                      width: "auto",
+                      height: "auto",
+                      objectFit: "contain",
+                      objectPosition: "center"
+                    }}
+                    image={images[entry.imagePath]}
+                    alt={`${entry.team} - ${entry.event}`}
+                  />
+                </Box>
+              )}
+
+              {/* Content */}
+              <CardContent sx={{ 
+                flex: 1, 
+                p: { xs: 2, md: 3 },
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+                minWidth: 0 // Prevents flex item from overflowing
+              }}>
+                {/* Event Title */}
+                <Typography 
+                  variant="h6" 
+                  fontWeight="bold"
+                  sx={{ 
+                    mb: 2,
+                    fontSize: { xs: "1.1rem", md: "1.25rem" },
+                    lineHeight: 1.3
+                  }}
+                >
+                  {entry.event}
+                </Typography>
+                
+                {/* Team Info Box */}
+                <Box sx={{ 
+                  p: { xs: 1.5, md: 2 }, 
+                  bgcolor: "grey.50", 
+                  borderRadius: 2, 
+                  mb: 2,
+                  border: "1px solid rgba(0,0,0,0.05)"
+                }}>
+                  <Typography 
+                    variant="subtitle2" 
+                    fontWeight="600"
+                    sx={{ mb: 1, fontSize: { xs: "0.85rem", md: "0.9rem" } }}
+                  >
+                    Team: {entry.team}
+                  </Typography>
+
+                  <Typography 
+                    variant="body2" 
+                    color="text.secondary"
+                    sx={{ 
+                      fontSize: { xs: "0.8rem", md: "0.85rem" }, 
+                      lineHeight: 1.4,
+                      wordBreak: "break-word"
                     }}
                   >
-                    {about.cta.linkText}
+                    {Array.isArray(entry.members) ? entry.members.join(" • ") : entry.members}
                   </Typography>
                 </Box>
-              </Card>
-            </Grid>
-          </Grid>
+
+                {/* Rank Badge */}
+                {entry.rank && (
+                  <Box sx={{ 
+                    display: "inline-flex",
+                    alignItems: "center",
+                    bgcolor: "primary.light",
+                    color: "primary.contrastText",
+                    px: 2,
+                    py: 0.5,
+                    borderRadius: 2,
+                    mb: 2,
+                    alignSelf: "flex-start",
+                    fontSize: "0.85rem",
+                    fontWeight: "600"
+                  }}>
+                    🏆 {entry.rank}
+                  </Box>
+                )}
+
+                {/* Description */}
+                <Typography 
+                  variant="body2" 
+                  color="text.primary"
+                  sx={{ 
+                    lineHeight: 1.6,
+                    flex: 1,
+                    fontSize: "0.9rem"
+                  }}
+                >
+                  {entry.description}
+                </Typography>
+
+                {/* LinkedIn Link */}
+                {entry.linkedinPost && (
+                  <Box sx={{ mt: 2, pt: 2, borderTop: "1px solid rgba(0,0,0,0.05)" }}>
+                    <Typography 
+                      variant="body2" 
+                      color="primary"
+                      component="a"
+                      href={entry.linkedinPost}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      sx={{ 
+                        textDecoration: "none",
+                        fontSize: "0.85rem",
+                        fontWeight: "500",
+                        "&:hover": { textDecoration: "underline" }
+                      }}
+                    >
+                      📎 View LinkedIn Post →
+                    </Typography>
+                  </Box>
+                )}
+              </CardContent>
+            </Card>
+          ))}
         </Box>
       </Box>
     </Box>
+  );
+};
+
+export default function ICPC() {
+  return (
+    <Container maxWidth="lg" sx={{ py: 4 }}>
+      {/* About ICPC Section - Embedded in page */}
+      <Box sx={{ mb: 6 }}>
+        <Typography 
+          variant="h4" 
+          color="primary" 
+          fontWeight="bold"
+          sx={{ textAlign: "center", mb: 4 }}
+        >
+          🏆 About ICPC
+        </Typography>
+        
+        <Box sx={{ mb: 4 }}>
+          {aboutICPC.description.map((desc, index) => (
+            <Typography
+              key={index}
+              variant="body1"
+              color="text.primary"
+              sx={{ mb: 2, lineHeight: 1.7, textAlign: "justify" }}
+            >
+              {desc}
+            </Typography>
+          ))}
+        </Box>
+
+        <Divider sx={{ bgcolor: "primary.main", height: 2, mb: 6 }} />
+      </Box>
+
+      {/* Timeline Header */}
+      <Typography 
+        variant="h4" 
+        color="primary" 
+        fontWeight="bold"
+        sx={{ textAlign: "center", mb: 6 }}
+      >
+        ICPC Journey Timeline
+      </Typography>
+
+      {/* Timeline */}
+      <Box sx={{ maxWidth: "900px", mx: "auto" }}>
+        {icpcTimelineData.map((timelineItem, index) => (
+          <TimelineItem
+            key={timelineItem.year}
+            year={timelineItem.year}
+            entries={timelineItem.entries}
+            isLast={index === icpcTimelineData.length - 1}
+          />
+        ))}
+      </Box>
+    </Container>
   );
 }
