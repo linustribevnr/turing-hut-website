@@ -97,19 +97,19 @@ const contestdetails = [
         "mem1": "Kishore Kumar",
         "mem2": "Vidit Jain",
         "mem3": "",
-        "college": "Indian Institute of Information Technology, Hyderabad"
+        "college": "International Institute of Information Technology, Hyderabad"
       },
       "second": {
         "mem1": "Shiven Sinha",
         "mem2": "",
         "mem3": "",
-        "college": "Indian Institute of Information Technology, Hyderabad"
+        "college": "International Institute of Information Technology, Hyderabad"
       },
       "third": {
         "mem1": "Anant Ojha",
         "mem2": "Harsh Kumar",
         "mem3": "",
-        "college": "Indian Institute of Information Technology, Bangalore"
+        "college": "International Institute of Information Technology, Bangalore"
       }
     }
   },
@@ -126,13 +126,13 @@ const contestdetails = [
         "mem1": "Shiven Sinha",
         "mem2": "",
         "mem3": "",
-        "college": "Indian Institute of Information Technology, Hyderabad"
+        "college": "International Institute of Information Technology, Hyderabad"
       },
       "second": {
         "mem1": "Kishore Kumar",
         "mem2": "Vidit Jain",
         "mem3": "",
-        "college": "Indian Institute of Information Technology, Hyderabad"
+        "college": "International Institute of Information Technology, Hyderabad"
       },
       "third": {
         "mem1": "Pranab Singh",
