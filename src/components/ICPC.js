@@ -198,7 +198,7 @@ const TimelineItem = ({ year, entries, isLast = false }) => {
                 </Box>
 
                 {/* Rank Badge */}
-                {entry.rank && (
+                {entry.rank && entry.rank !== "Qualified" && (
                   <Box sx={{ 
                     display: "inline-flex",
                     alignItems: "center",
