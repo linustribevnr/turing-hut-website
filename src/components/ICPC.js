@@ -18,6 +18,11 @@ import icpc2019 from "../assets/images/icpc/2019.jpg";
 import icpc2021 from "../assets/images/icpc/2021.jpg";
 import icpc2022 from "../assets/images/icpc/2022.jpg";
 import strawhatzChennai2024 from "../assets/images/icpc/2024-strawhatz-chennai.png";
+import wrongAngledTriangle2 from "../assets/images/icpc/wrong-angled-triangle2.jpeg";
+import wrongAngledTriangle3 from "../assets/images/icpc/wrong-angled-triangle3.jpeg";
+import strawhatz2 from "../assets/images/icpc/strawhatz2.jpeg";
+import unprofessionalCoders from "../assets/images/icpc/2023-unprofessional-coders.jpeg";
+import wrongAngledTriangle from "../assets/images/icpc/wrong-angled-triangle.jpeg";
 
 // Image mapping for reliable access
 const images = {
@@ -25,8 +30,13 @@ const images = {
   "2019.jpg": icpc2019,
   "2021.jpg": icpc2021,
   "2022.jpg": icpc2022,
-  "2024-strawhatz-chennai.png": strawhatzChennai2024
-};
+  "2024-strawhatz-chennai.png": strawhatzChennai2024,
+  "wrong-angled-triangle2.jpeg": wrongAngledTriangle2,
+  "wrong-angled-triangle3.jpeg": wrongAngledTriangle3,
+  "strawhatz2.jpeg": strawhatz2,
+  "2023-unprofessional-coders.jpeg": unprofessionalCoders,
+  "wrong-angled-triangle.jpeg": wrongAngledTriangle
+  };
 
 // Get data from imported file
 const { aboutICPC, timeline: icpcTimelineData } = timelineDataFile;

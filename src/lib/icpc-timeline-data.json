@@ -25,7 +25,7 @@
           "event": "ICPC Amritapuri Regionals 2024",
           "rank": "All India Rank 90",
           "description": "After topping all other college teams in RankList2, the team qualified and appeared for ICPC Amritapuri Regionals 2024.",
-          "imagePath": null
+          "imagePath": "wrong-angled-triangle2.jpeg"
         },
         {
           "id": "2024-wrong-angled-triangle-chennai",
@@ -34,7 +34,7 @@
           "event": "ICPC Chennai Regionals 2024",
           "rank": "All India Rank 42",
           "description": "After topping all other college teams in RankList2, the team qualified and appeared for ICPC Chennai Regionals 2024.",
-          "imagePath": null
+          "imagePath": "wrong-angled-triangle3.jpeg"
         },
         {
           "id": "2024-strawhatz-amritapuri",
@@ -43,7 +43,7 @@
           "event": "ICPC Amritapuri Regionals 2024",
           "rank": "All India Rank 137",
           "description": "After topping all other college teams in RankList1, the team qualified and appeared for ICPC Amritapuri Regionals 2024.",
-          "imagePath": null
+          "imagePath": "strawhatz2.jpeg"
         },
         {
           "id": "2024-strawhatz-chennai",
@@ -66,7 +66,7 @@
           "event": "ICPC Kanpur Regionals 2023",
           "rank": "All India Rank 51",
           "description": "After topping all other college teams, the team qualified and appeared for ICPC Kanpur Regionals 2023 in their second year and secured All India Rank 51.",
-          "imagePath": null
+          "imagePath": "2023-unprofessional-coders.jpeg"
         },
         {
           "id": "2023-wrong-angled-triangle",
@@ -75,7 +75,7 @@
           "event": "ICPC Amritapuri Regionals 2023",
           "rank": "All India Rank 42",
           "description": "After topping all other college teams for Amritapuri Site, the team qualified and appeared for ICPC Amritapuri Regionals 2023 and secured All India Rank 42 - missing the cut for the Asia West Continent Finals by just 4 spots, with the last qualifying team at Rank 38.",
-          "imagePath": null
+          "imagePath": "wrong-angled-triangle.jpeg"
         }
       ]
     },
