@@ -284,16 +284,29 @@ export default function ICPC() {
         </Typography>
         
         <Box sx={{ mb: 4 }}>
-          {aboutICPC.description.map((desc, index) => (
-            <Typography
-              key={index}
-              variant="body1"
-              color="text.primary"
-              sx={{ mb: 2, lineHeight: 1.7, textAlign: "justify" }}
-            >
-              {desc}
-            </Typography>
-          ))}
+          <Typography
+            variant="body1"
+            color="text.primary"
+            sx={{ mb: 2, lineHeight: 1.7, textAlign: "justify" }}
+          >
+            The International Collegiate Programming Contest (ICPC) is the world's oldest and most esteemed programming competition and is the ultimate stage for students passionate about coding and problem-solving. It is referred as the Olympics of Competitive Programming. ICPC sharpens creativity, teamwork, and resilience - qualities that make a real difference in your day to day and professional life.
+          </Typography>
+
+          <Typography
+            variant="body1"
+            color="text.primary"
+            sx={{ mb: 4, lineHeight: 1.7, textAlign: "justify" }}
+          >
+            Every year, only a few teams qualify to participate in the regionals, which are held at the national level. In this regard, we at Turing Hut take pride in consistently earning our place at the regionals since 2018.
+          </Typography>
+
+          <Typography
+            variant="body1"
+            color="text.primary"
+            sx={{ mb: 4, lineHeight: 1.7, textAlign: "justify" }}
+          >
+            With the establishment of Turing Hut in 2017, the CP culture started growing rapidly, and by 2018, a team from VNRVJIET had qualified for the ICPC Regionals !
+          </Typography>
         </Box>
 
         <Divider sx={{ bgcolor: "primary.main", height: 2, mb: 6 }} />
