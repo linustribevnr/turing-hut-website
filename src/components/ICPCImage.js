@@ -29,12 +29,19 @@ const images = {
 
 const ICPCImage = ({ imagePath, alt, title, description }) => {
   const imageSrc = images[imagePath];
-  
+
   // Debug logging
-  console.log('ICPCImage debug:', { imagePath, imageSrc, availableKeys: Object.keys(images) });
-  
+  console.log("ICPCImage debug:", {
+    imagePath,
+    imageSrc,
+    availableKeys: Object.keys(images)
+  });
+
   if (!imageSrc) {
-    console.warn(`Image not found: ${imagePath}. Available images:`, Object.keys(images));
+    console.warn(
+      `Image not found: ${imagePath}. Available images:`,
+      Object.keys(images)
+    );
     return (
       <Box
         sx={{
@@ -47,7 +54,9 @@ const ICPCImage = ({ imagePath, alt, title, description }) => {
           borderRadius: "8px"
         }}
       >
-        <Typography color="text.secondary">Image not found: {imagePath}</Typography>
+        <Typography color="text.secondary">
+          Image not found: {imagePath}
+        </Typography>
       </Box>
     );
   }
@@ -87,7 +96,7 @@ const ICPCImage = ({ imagePath, alt, title, description }) => {
           display: "block"
         }}
       />
-      
+
       <Box
         className="titleOverlay"
         sx={{
@@ -121,7 +130,7 @@ const ICPCImage = ({ imagePath, alt, title, description }) => {
         >
           {title}
         </Typography>
-        
+
         <Typography
           className="description"
           variant="body2"

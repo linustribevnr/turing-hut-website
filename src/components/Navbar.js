@@ -67,8 +67,7 @@ const navItems = [
     text: "About",
     icon: <InfoIcon />,
     path: "/about"
-  },
-
+  }
 ];
 
 const drawerWidth = 300;
