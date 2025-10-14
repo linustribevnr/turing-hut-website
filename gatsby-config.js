@@ -23,9 +23,27 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
+
+    // MDX plugin
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
+
+    // Source filesystem for pages (required for MDX pages)
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -51,26 +69,10 @@ module.exports = {
       resolve: `gatsby-plugin-posthog`,
       options: {
         apiKey: process.env.GATSBY_POSTHOG_API_KEY,
-        // Specify the app host if self-hosting (optional, default: https://us.i.posthog.com)
         apiHost: "https://us.i.posthog.com",
-        // Puts tracking script in the head instead of the body (optional, default: true)
         head: true,
-        // Enable posthog analytics tracking during development (optional, default: false)
         isEnabledDevMode: false
       }
     }
-    // {
-    //   resolve: `gatsby-plugin-env-variables`,
-    //   options: {
-    //     // Define your environment variables here
-    //     API_KEY: process.env.API_KEY,
-    //     AUTH_DOMAIN: process.env.AUTH_DOMAIN,
-    //     PROJECT_ID: process.env.PROJECT_ID,
-    //     STORAGE_BUCKET: process.env.STORAGE_BUCKET,
-    //     MESSAGING_SENDER_ID: process.env.MESSAGING_SENDER_ID,
-    //     APP_ID: process.env.APP_ID,
-    //     // Add more variables if needed
-    //   },
-    // },
   ]
 };
