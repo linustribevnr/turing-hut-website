@@ -5,7 +5,7 @@ time: 1:40 PM (onwards)
 type: Contest
 slug: codeverse-2025
 image: ../images/events/codeverse.jpeg
-registration: NA
+registration: https://forms.gle/CymVtoYQDXRUpo5M9
 recording: NA
 markdownType: event
 ---
@@ -39,24 +39,21 @@ With every round, new surprises and twists unfold to thrill you like that one sn
 
    - **Date**: October 28, 2025
    - **Time**: 1:40 PM - 2:00 PM
-   - **Type**: Eliminatory Round
 
 2. **Round 2: Codefinity War**
 
    - **Date**: October 28, 2025
    - **Time**: 2:30 PM - 4:30 PM
-   - **Type**: Eliminatory Round
 
 3. **Round 3: End Game - The Final Battle**
    - **Date**: October 29, 2025
    - **Time**: 12:30 PM - 4:30 PM
-   - **Type**: Final Round
 
 **Note**: Each round is eliminatory and conducted on-site.
 
 ---
 
-## What's in Store
+## Event Details
 
 - Three action-packed rounds designed to challenge your problem-solving and coding skills
 - Team-based competition (1–3 members)
@@ -69,15 +66,11 @@ With every round, new surprises and twists unfold to thrill you like that one sn
 
 **Top 5 teams will conquer the CODEVERSE and win ₹15,000!**
 
-_Prize distribution details to be announced_
-
 ---
 
 ## Registration
 
 **Deadline to Register**: October 26, 2025, 11:59 PM
-
-_Registration link to be updated_
 
 ---
 
