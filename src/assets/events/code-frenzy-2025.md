@@ -27,12 +27,13 @@ Turing Hut is excited to bring you **Code Frenzy 2K25**, the official selection 
 - **Venue:** E-Block Labs
 - **Mode:** Offline
 
-## Registration:
-
-To register for the contest, please fill out the Google form:
-[Registration Form](https://forms.gle/ZtNq5yJUiTBPsk7p8)
-
 Please note that there will be a strict plagiarism check after the contest. Seeking or providing assistance during the contest is prohibited and will result in disqualification for both parties involved.
+
+## Top 3 Winners
+
+- 🥇 Sadhu Abhilash (CSE-C) – 1st Rank
+- 🥈 Karthik Ch (CSE-B) – 2nd Rank
+- 🥉 Anirudh Sajja (CSE-A) – 3rd Rank
 
 If you have any questions, feel free to reach out to us:
 
