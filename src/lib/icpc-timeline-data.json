@@ -3,7 +3,14 @@
     "howToAddNewEvent": "To add a new ICPC timeline entry, simply add a new object to the timeline array with the following fields: year (academic year), entries (array of team participations). Each entry should have: id (unique), team, members (array), event, rank, description, imagePath (filename from src/assets/images/icpc/), and optional linkedinPost.",
     "imagePath_example": "Put your image in src/assets/images/icpc/ folder and use just the filename like '2024-team.jpg'",
     "year_sorting": "Timeline items are displayed in reverse chronological order (newest first)",
-    "required_fields": ["id", "team", "members", "event", "rank", "description"],
+    "required_fields": [
+      "id",
+      "team",
+      "members",
+      "event",
+      "rank",
+      "description"
+    ],
     "optional_fields": ["imagePath", "linkedinPost"]
   },
   "aboutICPC": {
@@ -21,7 +28,11 @@
         {
           "id": "2024-wrong-angled-triangle-amritapuri",
           "team": "Wrong Angled Triangle",
-          "members": ["Sreekar Vyas Kurudi", "Nisritha Reddy Dampuru", "Shashank Varma Indukuri"],
+          "members": [
+            "Sreekar Vyas Kurudi",
+            "Nisritha Reddy Dampuru",
+            "Shashank Varma Indukuri"
+          ],
           "event": "ICPC Amritapuri Regionals 2024",
           "rank": "All India Rank 90",
           "description": "After topping all other college teams in RankList2, the team qualified and appeared for ICPC Amritapuri Regionals 2024.",
@@ -30,7 +41,11 @@
         {
           "id": "2024-wrong-angled-triangle-chennai",
           "team": "Wrong Angled Triangle",
-          "members": ["Sreekar Vyas Kurudi", "Nisritha Reddy Dampuru", "Shashank Varma Indukuri"],
+          "members": [
+            "Sreekar Vyas Kurudi",
+            "Nisritha Reddy Dampuru",
+            "Shashank Varma Indukuri"
+          ],
           "event": "ICPC Chennai Regionals 2024",
           "rank": "All India Rank 42",
           "description": "After topping all other college teams in RankList2, the team qualified and appeared for ICPC Chennai Regionals 2024.",
@@ -62,7 +77,11 @@
         {
           "id": "2023-unprofessional-coders",
           "team": "Unprofessional Coders",
-          "members": ["Shailesh Reddy Kanchanakuntla", "Tummala Naveen", "Adithya Sai Ram Tadikamalla"],
+          "members": [
+            "Shailesh Reddy Kanchanakuntla",
+            "Tummala Naveen",
+            "Adithya Sai Ram Tadikamalla"
+          ],
           "event": "ICPC Kanpur Regionals 2023",
           "rank": "All India Rank 51",
           "description": "After topping all other college teams, the team qualified and appeared for ICPC Kanpur Regionals 2023 in their second year and secured All India Rank 51.",
@@ -71,7 +90,11 @@
         {
           "id": "2023-wrong-angled-triangle",
           "team": "Wrong Angled Triangle",
-          "members": ["Sreekar Vyas Kurudi", "Nisritha Reddy Dampuru", "Shashank Varma Indukuri"],
+          "members": [
+            "Sreekar Vyas Kurudi",
+            "Nisritha Reddy Dampuru",
+            "Shashank Varma Indukuri"
+          ],
           "event": "ICPC Amritapuri Regionals 2023",
           "rank": "All India Rank 42",
           "description": "After topping all other college teams for Amritapuri Site, the team qualified and appeared for ICPC Amritapuri Regionals 2023 and secured All India Rank 42 - missing the cut for the Asia West Continent Finals by just 4 spots, with the last qualifying team at Rank 38.",
@@ -85,7 +108,11 @@
         {
           "id": "2022-team-of-11",
           "team": "Team of 11",
-          "members": ["Sreekar Vyas Kurudi", "Prabhas Koya", "Guru Sai Nandan Avvaru"],
+          "members": [
+            "Sreekar Vyas Kurudi",
+            "Prabhas Koya",
+            "Guru Sai Nandan Avvaru"
+          ],
           "event": "ICPC Kanpur-Mathura Regionals 2022",
           "rank": "Qualified",
           "description": "After topping all other college teams, the team qualified and appeared for ICPC Kanpur-Mathura Regionals 2022 in their second year.",
@@ -113,7 +140,11 @@
         {
           "id": "2020-error404",
           "team": "error404.py",
-          "members": ["Vikram Chiluka", "Arjun Karthikeya", "Lakshmi Sravya Thota"],
+          "members": [
+            "Vikram Chiluka",
+            "Arjun Karthikeya",
+            "Lakshmi Sravya Thota"
+          ],
           "event": "ICPC Amritapuri Regionals 2020",
           "rank": "Qualified",
           "description": "After topping all other college teams, the team qualified and appeared for ICPC Amritapuri Regionals 2020. ",

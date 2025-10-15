@@ -36,47 +36,48 @@ const images = {
   "strawhatz2.jpeg": strawhatz2,
   "2023-unprofessional-coders.jpeg": unprofessionalCoders,
   "wrong-angled-triangle.jpeg": wrongAngledTriangle
-  };
+};
 
 // Get data from imported file
 const { aboutICPC, timeline: icpcTimelineData } = timelineDataFile;
-
 
 // Timeline Item Component
 const TimelineItem = ({ year, entries, isLast = false }) => {
   return (
     <Box sx={{ display: "flex", mb: { xs: 4, md: 8 }, position: "relative" }}>
       {/* Timeline Point and Line */}
-      <Box sx={{ 
-        display: { xs: "none", md: "flex" }, 
-        flexDirection: "column", 
-        alignItems: "center", 
-        mr: 4,
-        minWidth: "60px"
-      }}>
+      <Box
+        sx={{
+          display: { xs: "none", md: "flex" },
+          flexDirection: "column",
+          alignItems: "center",
+          mr: 4,
+          minWidth: "60px"
+        }}
+      >
         {/* Point */}
-        <Box 
-          sx={{ 
-            width: 20, 
-            height: 20, 
-            borderRadius: "50%", 
+        <Box
+          sx={{
+            width: 20,
+            height: 20,
+            borderRadius: "50%",
             bgcolor: "primary.main",
             border: "3px solid white",
             boxShadow: "0 0 0 3px rgba(0,0,0,0.1)",
             mb: 2,
             flexShrink: 0,
             mt: 1
-          }} 
+          }}
         />
         {/* Line */}
         {!isLast && (
-          <Box 
-            sx={{ 
-              width: "2px", 
-              flexGrow: 1, 
+          <Box
+            sx={{
+              width: "2px",
+              flexGrow: 1,
               bgcolor: "grey.300",
               minHeight: "100px"
-            }} 
+            }}
           />
         )}
       </Box>
@@ -84,35 +85,39 @@ const TimelineItem = ({ year, entries, isLast = false }) => {
       {/* Content */}
       <Box sx={{ flexGrow: 1 }}>
         {/* Year Header */}
-        <Typography 
-          variant="h4" 
+        <Typography
+          variant="h4"
           fontWeight="bold"
-          sx={{ 
-            mb: 4, 
+          sx={{
+            mb: 4,
             fontSize: { xs: "1.5rem", md: "2rem" },
             position: "relative"
           }}
         >
           {year}
-          <Box sx={{ 
-            display: { xs: "block", md: "none" },
-            width: "40px",
-            height: "3px",
-            bgcolor: "primary.main",
-            mt: 1
-          }} />
+          <Box
+            sx={{
+              display: { xs: "block", md: "none" },
+              width: "40px",
+              height: "3px",
+              bgcolor: "primary.main",
+              mt: 1
+            }}
+          />
         </Typography>
 
         {/* Teams in this year - Responsive Layout */}
-        <Box sx={{ 
-          display: "flex",
-          flexDirection: "column",
-          gap: { xs: 3, md: 4 }
-        }}>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            gap: { xs: 3, md: 4 }
+          }}
+        >
           {entries.map((entry, index) => (
-            <Card 
+            <Card
               key={entry.id}
-              sx={{ 
+              sx={{
                 display: "flex",
                 flexDirection: { xs: "column", sm: "row" },
                 maxWidth: "800px",
@@ -129,21 +134,23 @@ const TimelineItem = ({ year, entries, isLast = false }) => {
             >
               {/* Image Container */}
               {entry.imagePath && images[entry.imagePath] && (
-                <Box sx={{ 
-                  position: "relative",
-                  width: { xs: "100%", sm: "280px" },
-                  height: { xs: 200, sm: "auto" },
-                  minHeight: { sm: 180 },
-                  overflow: "hidden",
-                  bgcolor: "grey.50",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center"
-                }}>
+                <Box
+                  sx={{
+                    position: "relative",
+                    width: { xs: "100%", sm: "280px" },
+                    height: { xs: 200, sm: "auto" },
+                    minHeight: { sm: 180 },
+                    overflow: "hidden",
+                    bgcolor: "grey.50",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
                   <CardMedia
                     component="img"
-                    sx={{ 
-                      maxWidth: "100%", 
+                    sx={{
+                      maxWidth: "100%",
                       maxHeight: "100%",
                       width: "auto",
                       height: "auto",
@@ -157,19 +164,21 @@ const TimelineItem = ({ year, entries, isLast = false }) => {
               )}
 
               {/* Content */}
-              <CardContent sx={{ 
-                flex: 1, 
-                p: { xs: 2, md: 3 },
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "space-between",
-                minWidth: 0 // Prevents flex item from overflowing
-              }}>
+              <CardContent
+                sx={{
+                  flex: 1,
+                  p: { xs: 2, md: 3 },
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
+                  minWidth: 0 // Prevents flex item from overflowing
+                }}
+              >
                 {/* Event Title */}
-                <Typography 
-                  variant="h6" 
+                <Typography
+                  variant="h6"
                   fontWeight="bold"
-                  sx={{ 
+                  sx={{
                     mb: 2,
                     fontSize: { xs: "1.1rem", md: "1.25rem" },
                     lineHeight: 1.3
@@ -177,60 +186,66 @@ const TimelineItem = ({ year, entries, isLast = false }) => {
                 >
                   {entry.event}
                 </Typography>
-                
+
                 {/* Team Info Box */}
-                <Box sx={{ 
-                  p: { xs: 1.5, md: 2 }, 
-                  bgcolor: "grey.50", 
-                  borderRadius: 2, 
-                  mb: 2,
-                  border: "1px solid rgba(0,0,0,0.05)"
-                }}>
-                  <Typography 
-                    variant="subtitle2" 
+                <Box
+                  sx={{
+                    p: { xs: 1.5, md: 2 },
+                    bgcolor: "grey.50",
+                    borderRadius: 2,
+                    mb: 2,
+                    border: "1px solid rgba(0,0,0,0.05)"
+                  }}
+                >
+                  <Typography
+                    variant="subtitle2"
                     fontWeight="600"
                     sx={{ mb: 1, fontSize: { xs: "0.85rem", md: "0.9rem" } }}
                   >
                     Team: {entry.team}
                   </Typography>
 
-                  <Typography 
-                    variant="body2" 
+                  <Typography
+                    variant="body2"
                     color="text.secondary"
-                    sx={{ 
-                      fontSize: { xs: "0.8rem", md: "0.85rem" }, 
+                    sx={{
+                      fontSize: { xs: "0.8rem", md: "0.85rem" },
                       lineHeight: 1.4,
                       wordBreak: "break-word"
                     }}
                   >
-                    {Array.isArray(entry.members) ? entry.members.join(" • ") : entry.members}
+                    {Array.isArray(entry.members)
+                      ? entry.members.join(" • ")
+                      : entry.members}
                   </Typography>
                 </Box>
 
                 {/* Rank Badge */}
                 {entry.rank && entry.rank !== "Qualified" && (
-                  <Box sx={{ 
-                    display: "inline-flex",
-                    alignItems: "center",
-                    bgcolor: "primary.light",
-                    color: "primary.contrastText",
-                    px: 2,
-                    py: 0.5,
-                    borderRadius: 2,
-                    mb: 2,
-                    alignSelf: "flex-start",
-                    fontSize: "0.85rem",
-                    fontWeight: "600"
-                  }}>
+                  <Box
+                    sx={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      bgcolor: "primary.light",
+                      color: "primary.contrastText",
+                      px: 2,
+                      py: 0.5,
+                      borderRadius: 2,
+                      mb: 2,
+                      alignSelf: "flex-start",
+                      fontSize: "0.85rem",
+                      fontWeight: "600"
+                    }}
+                  >
                     🏆 {entry.rank}
                   </Box>
                 )}
 
                 {/* Description */}
-                <Typography 
-                  variant="body2" 
+                <Typography
+                  variant="body2"
                   color="text.primary"
-                  sx={{ 
+                  sx={{
                     lineHeight: 1.6,
                     flex: 1,
                     fontSize: "0.9rem"
@@ -241,15 +256,21 @@ const TimelineItem = ({ year, entries, isLast = false }) => {
 
                 {/* LinkedIn Link */}
                 {entry.linkedinPost && (
-                  <Box sx={{ mt: 2, pt: 2, borderTop: "1px solid rgba(0,0,0,0.05)" }}>
-                    <Typography 
-                      variant="body2" 
+                  <Box
+                    sx={{
+                      mt: 2,
+                      pt: 2,
+                      borderTop: "1px solid rgba(0,0,0,0.05)"
+                    }}
+                  >
+                    <Typography
+                      variant="body2"
                       color="primary"
                       component="a"
                       href={entry.linkedinPost}
                       target="_blank"
                       rel="noopener noreferrer"
-                      sx={{ 
+                      sx={{
                         textDecoration: "none",
                         fontSize: "0.85rem",
                         fontWeight: "500",
@@ -274,22 +295,28 @@ export default function ICPC() {
     <Container maxWidth="lg" sx={{ py: 4 }}>
       {/* About ICPC Section - Embedded in page */}
       <Box sx={{ mb: 6 }}>
-        <Typography 
-          variant="h4" 
-          color="primary" 
+        <Typography
+          variant="h4"
+          color="primary"
           fontWeight="bold"
           sx={{ textAlign: "center", mb: 4 }}
         >
           🏆 About ICPC
         </Typography>
-        
+
         <Box sx={{ mb: 4 }}>
           <Typography
             variant="body1"
             color="text.primary"
             sx={{ mb: 2, lineHeight: 1.7, textAlign: "justify" }}
           >
-            The International Collegiate Programming Contest (ICPC) is the world's oldest and most esteemed programming competition and is the ultimate stage for students passionate about coding and problem-solving. It is referred as the Olympics of Competitive Programming. ICPC sharpens creativity, teamwork, and resilience - qualities that make a real difference in your day to day and professional life.
+            The International Collegiate Programming Contest (ICPC) is the
+            world's oldest and most esteemed programming competition and is the
+            ultimate stage for students passionate about coding and
+            problem-solving. It is referred as the Olympics of Competitive
+            Programming. ICPC sharpens creativity, teamwork, and resilience -
+            qualities that make a real difference in your day to day and
+            professional life.
           </Typography>
 
           <Typography
@@ -297,7 +324,10 @@ export default function ICPC() {
             color="text.primary"
             sx={{ mb: 4, lineHeight: 1.7, textAlign: "justify" }}
           >
-            Every year, only a few teams qualify to participate in the regionals, which are held at the national level. In this regard, we at Turing Hut take pride in consistently earning our place at the regionals since 2018.
+            Every year, only a few teams qualify to participate in the
+            regionals, which are held at the national level. In this regard, we
+            at Turing Hut take pride in consistently earning our place at the
+            regionals since 2018.
           </Typography>
 
           <Typography
@@ -305,7 +335,9 @@ export default function ICPC() {
             color="text.primary"
             sx={{ mb: 4, lineHeight: 1.7, textAlign: "justify" }}
           >
-            With the establishment of Turing Hut in 2017, the CP culture started growing rapidly, and by 2018, a team from VNRVJIET had qualified for the ICPC Regionals !
+            With the establishment of Turing Hut in 2017, the CP culture started
+            growing rapidly, and by 2018, a team from VNRVJIET had qualified for
+            the ICPC Regionals !
           </Typography>
         </Box>
 
@@ -313,9 +345,9 @@ export default function ICPC() {
       </Box>
 
       {/* Timeline Header */}
-      <Typography 
-        variant="h4" 
-        color="primary" 
+      <Typography
+        variant="h4"
+        color="primary"
         fontWeight="bold"
         sx={{ textAlign: "center", mb: 6 }}
       >

@@ -31,8 +31,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: [`.mdx`, `.md`],
-      },
+        extensions: [`.mdx`, `.md`]
+      }
     },
 
     // Source filesystem for pages (required for MDX pages)
@@ -40,8 +40,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages`,
-      },
+        path: `${__dirname}/src/pages`
+      }
     },
 
     {
