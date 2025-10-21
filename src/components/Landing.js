@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
-import { Typography, Box, Grid, Button,Divider } from "@mui/material";
+import { Typography, Box, Grid, Button, Divider } from "@mui/material";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function Landing() {
@@ -48,11 +48,11 @@ export default function Landing() {
           </Typography>
         </Box>
         <Typography
-          variant="subtitle1"
-          color="text.secondary"
+          variant="h6"
+          color="#242222ff"
           sx={{ mt: 1, mb: 2, fontWeight: 500, letterSpacing: 0.5 }}
         >
-          Programming Club of VNRVJIET
+          "Programming Club of VNR VJIET"
         </Typography>
         <Divider sx={{ my: 2, borderColor: "#1976d2" }} />
         <Typography
@@ -64,7 +64,7 @@ export default function Landing() {
             fontSize: "1.15rem",
             lineHeight: 1.7,
             textIndent: 16,
-            maxWidth: 600,
+            maxWidth: 1000
           }}
         >
           We work towards promoting the greater cause of Computer Science in the
@@ -77,7 +77,7 @@ export default function Landing() {
             mt: 4,
             display: "flex",
             gap: 2,
-            flexWrap: "wrap",
+            flexWrap: "wrap"
           }}
         >
           <Button
@@ -92,7 +92,7 @@ export default function Landing() {
               fontWeight: 600,
               boxShadow: 2,
               borderRadius: 2,
-              px: 3,
+              px: 3
             }}
           >
             Become a Member
@@ -106,7 +106,7 @@ export default function Landing() {
                 textTransform: "none",
                 fontWeight: 600,
                 borderRadius: 2,
-                px: 3,
+                px: 3
               }}
             >
               Learn More
