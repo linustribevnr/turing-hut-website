@@ -30,11 +30,11 @@ const activities = [
     icon: <QuestionAnswerIcon sx={iconStyle} />,
     body: "Be in the know of new opportunities in tech and beyond through our information sessions."
   },
-  {
-    title: "Hands-on Workshops",
-    icon: <LaptopIcon sx={iconStyle} />,
-    body: "Attend a workshop to pick up new skills and work under the guidance of an instructor."
-  }
+  // {
+  //   title: "Hands-on Workshops",
+  //   icon: <LaptopIcon sx={iconStyle} />,
+  //   body: "Attend a workshop to pick up new skills and work under the guidance of an instructor."
+  // }
 ];
 
 export default function Activities() {
@@ -43,7 +43,11 @@ export default function Activities() {
       container
       sx={{
         mt: 1,
-        p: 2
+        p: 2,
+        mx: "auto",
+        display: "flex",
+        flexWrap: "wrap" ,
+        justifyContent: "center",
       }}
       spacing={4}
     >
@@ -54,12 +58,14 @@ export default function Activities() {
               textAlign: "center",
               p: 3,
               borderRadius: "12px",
+              border: "1px solid",
+              borderColor: "grey.300",
               transition:
                 "transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
               "&:hover": {
                 transform: "scale(1.05)",
                 boxShadow: 4,
-                bgcolor: "#e3f2fd"
+                bgcolor: "#e3f2fd",
               }
             }}
           >

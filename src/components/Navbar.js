@@ -53,11 +53,11 @@ const navItems = [
     icon: <EmojiEventsIcon />,
     path: "/icpc"
   },
-  {
-    text: "Contact",
-    icon: <LocalPhoneIcon />,
-    path: "/contact"
-  },
+  // {
+  //   text: "Contact",
+  //   icon: <LocalPhoneIcon />,
+  //   path: "/contact"
+  // },
   {
     text: "Newsletters",
     icon: <EmailOutlinedIcon />,

@@ -50,13 +50,22 @@ export default function Landing() {
         <Typography variant="h6" color="#000">
           Programming Club of VNRVJIET
         </Typography>
-        <Typography variant="body1" color="secondary" align="justify">
+        <Typography variant="body1" color="secondary" align="justify"
+          sx={{
+            mt:2,
+            textIndent:10
+          }}
+        >
           We work towards promoting the greater cause of Computer Science in the
           community by Orienting freshmen to the nature of Computer Science,
           organizing events, creating awareness about the opportunities to
           expand their knowledge and showcase their skills.
         </Typography>
-        <Box>
+        <Box
+          sx={{
+            mt:5
+          }}
+        >
           <Button
             variant="contained"
             href="https://groups.google.com/g/turing-hut-members"

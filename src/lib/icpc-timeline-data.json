@@ -26,19 +26,6 @@
       "year": "2024-2025",
       "entries": [
         {
-          "id": "2024-wrong-angled-triangle-amritapuri",
-          "team": "Wrong Angled Triangle",
-          "members": [
-            "Sreekar Vyas Kurudi",
-            "Nisritha Reddy Dampuru",
-            "Shashank Varma Indukuri"
-          ],
-          "event": "ICPC Amritapuri Regionals 2024",
-          "rank": "All India Rank 90",
-          "description": "After topping all other college teams in RankList2, the team qualified and appeared for ICPC Amritapuri Regionals 2024.",
-          "imagePath": "wrong-angled-triangle2.jpeg"
-        },
-        {
           "id": "2024-wrong-angled-triangle-chennai",
           "team": "Wrong Angled Triangle",
           "members": [
@@ -52,15 +39,6 @@
           "imagePath": "wrong-angled-triangle3.jpeg"
         },
         {
-          "id": "2024-strawhatz-amritapuri",
-          "team": "StrawHatz",
-          "members": ["Prabhas Koya", "D. Manorath Reddy", "Arvind Sai R"],
-          "event": "ICPC Amritapuri Regionals 2024",
-          "rank": "All India Rank 137",
-          "description": "After topping all other college teams in RankList1, the team qualified and appeared for ICPC Amritapuri Regionals 2024.",
-          "imagePath": "strawhatz2.jpeg"
-        },
-        {
           "id": "2024-strawhatz-chennai",
           "team": "StrawHatz",
           "members": ["Prabhas Koya", "D. Manorath Reddy", "Arvind Sai R"],
@@ -68,6 +46,28 @@
           "rank": "All India Rank 73",
           "description": "After topping all other college teams in RankList1, the team qualified and appeared for ICPC Chennai Regionals 2024.",
           "imagePath": "2024-strawhatz-chennai.png"
+        },
+        {
+          "id": "2024-wrong-angled-triangle-amritapuri",
+          "team": "Wrong Angled Triangle",
+          "members": [
+            "Sreekar Vyas Kurudi",
+            "Nisritha Reddy Dampuru",
+            "Shashank Varma Indukuri"
+          ],
+          "event": "ICPC Amritapuri Regionals 2024",
+          "rank": "All India Rank 90",
+          "description": "After topping all other college teams in RankList2, the team qualified and appeared for ICPC Amritapuri Regionals 2024.",
+          "imagePath": "wrong-angled-triangle2.jpeg"
+        },
+        {
+          "id": "2024-strawhatz-amritapuri",
+          "team": "StrawHatz",
+          "members": ["Prabhas Koya", "D. Manorath Reddy", "Arvind Sai R"],
+          "event": "ICPC Amritapuri Regionals 2024",
+          "rank": "All India Rank 137",
+          "description": "After topping all other college teams in RankList1, the team qualified and appeared for ICPC Amritapuri Regionals 2024.",
+          "imagePath": "strawhatz2.jpeg"
         }
       ]
     },
