@@ -296,29 +296,29 @@ export default function ICPC() {
       <Box sx={{ mb: 6 }}>
         <Box
           sx={{
-            display:"flex",
+            display: "flex",
             justifyContent: "center",
             flexWrap: "wrap",
-            textAlign:"center"
+            textAlign: "center"
           }}
         >
           <Typography
             variant="h4"
             color="secondary"
             fontWeight={"bold"}
-            sx={{ display: "inline",textAlign: "center", mb: 4  }}
-            >
+            sx={{ display: "inline", textAlign: "center", mb: 4 }}
+          >
             About &nbsp;
           </Typography>
           <Typography
             variant="h4"
             color="primary"
             fontWeight={"bold"}
-            sx={{ display: "inline" ,textAlign: "center", mb: 4 }}
-            >
+            sx={{ display: "inline", textAlign: "center", mb: 4 }}
+          >
             ICPC
           </Typography>
-          </Box>
+        </Box>
 
         <Box sx={{ mb: 4 }}>
           <Typography
@@ -361,13 +361,13 @@ export default function ICPC() {
             color="text.primary"
             sx={{ mb: 4, lineHeight: 1.7, textAlign: "justify" }}
           >
-            The best rank ever achieved by a VNRVJIET team at the ICPC Regionals was{" "}
-            <strong>All India Rank 42</strong> in 2023 by team{" "}
+            The best rank ever achieved by a VNRVJIET team at the ICPC Regionals
+            was <strong>All India Rank 42</strong> in 2023 by team{" "}
             <strong>Wrong Angled Triangle</strong> at{" "}
-            <strong>Amritapuri Regionals 2023</strong> — missing the cut for the Asia West
-            Continent Finals by just 4 spots, with the last qualifying team at Rank 38.
+            <strong>Amritapuri Regionals 2023</strong> — missing the cut for the
+            Asia West Continent Finals by just 4 spots, with the last qualifying
+            team at Rank 38.
           </Typography>
-
         </Box>
 
         <Divider sx={{ bgcolor: "primary.main", height: 2, mb: 6 }} />

@@ -29,7 +29,7 @@ const activities = [
     title: "Speaker Sessions",
     icon: <QuestionAnswerIcon sx={iconStyle} />,
     body: "Be in the know of new opportunities in tech and beyond through our information sessions."
-  },
+  }
   // {
   //   title: "Hands-on Workshops",
   //   icon: <LaptopIcon sx={iconStyle} />,
@@ -46,8 +46,8 @@ export default function Activities() {
         p: 2,
         mx: "auto",
         display: "flex",
-        flexWrap: "wrap" ,
-        justifyContent: "center",
+        flexWrap: "wrap",
+        justifyContent: "center"
       }}
       spacing={4}
     >
@@ -65,7 +65,7 @@ export default function Activities() {
               "&:hover": {
                 transform: "scale(1.05)",
                 boxShadow: 4,
-                bgcolor: "#e3f2fd",
+                bgcolor: "#e3f2fd"
               }
             }}
           >

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
-import { Typography, Box, Grid, Button } from "@mui/material";
+import { Typography, Box, Grid, Button,Divider } from "@mui/material";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function Landing() {
@@ -31,52 +31,84 @@ export default function Landing() {
       <Grid item xs={12} md={7} sx={{ my: "auto" }}>
         <Box>
           <Typography
-            variant="h4"
+            variant="h3"
             color="secondary"
-            fontWeight={"bold"}
-            sx={{ display: "inline" }}
+            fontWeight={700}
+            sx={{ display: "inline", letterSpacing: 1 }}
           >
             Programming as a&nbsp;
           </Typography>
           <Typography
-            variant="h4"
+            variant="h3"
             color="primary"
-            fontWeight={"bold"}
-            sx={{ display: "inline" }}
+            fontWeight={700}
+            sx={{ display: "inline", letterSpacing: 1 }}
           >
             Sport.
           </Typography>
         </Box>
-        <Typography variant="h6" color="#000">
+        <Typography
+          variant="subtitle1"
+          color="text.secondary"
+          sx={{ mt: 1, mb: 2, fontWeight: 500, letterSpacing: 0.5 }}
+        >
           Programming Club of VNRVJIET
         </Typography>
-        <Typography variant="body1" color="secondary" align="justify"
+        <Divider sx={{ my: 2, borderColor: "#1976d2" }} />
+        <Typography
+          variant="body1"
+          color="text.primary"
+          align="justify"
           sx={{
-            mt:2,
-            textIndent:10
+            mb: 3,
+            fontSize: "1.15rem",
+            lineHeight: 1.7,
+            textIndent: 16,
+            maxWidth: 600,
           }}
         >
           We work towards promoting the greater cause of Computer Science in the
-          community by Orienting freshmen to the nature of Computer Science,
-          organizing events, creating awareness about the opportunities to
+          community by orienting freshmen to the nature of Computer Science,
+          organizing events, and creating awareness about opportunities to
           expand their knowledge and showcase their skills.
         </Typography>
         <Box
           sx={{
-            mt:5
+            mt: 4,
+            display: "flex",
+            gap: 2,
+            flexWrap: "wrap",
           }}
         >
           <Button
             variant="contained"
+            color="primary"
+            size="large"
             href="https://groups.google.com/g/turing-hut-members"
-            target="__blank"
+            target="_blank"
             rel="noreferrer"
-            sx={{ m: 1, textTransform: "none" }}
+            sx={{
+              textTransform: "none",
+              fontWeight: 600,
+              boxShadow: 2,
+              borderRadius: 2,
+              px: 3,
+            }}
           >
-            Become a member
+            Become a Member
           </Button>
           <Link to="/about" style={{ textDecoration: "none" }}>
-            <Button variant="outlined" sx={{ m: 1, textTransform: "none" }}>
+            <Button
+              variant="outlined"
+              color="secondary"
+              size="large"
+              sx={{
+                textTransform: "none",
+                fontWeight: 600,
+                borderRadius: 2,
+                px: 3,
+              }}
+            >
               Learn More
             </Button>
           </Link>
