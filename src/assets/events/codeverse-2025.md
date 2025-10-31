@@ -4,7 +4,7 @@ date: 2025-10-28
 time: 1:40 PM (onwards)
 type: Contest
 slug: codeverse-2025
-image: ../images/events/codeverse.jpeg
+image: ../images/events/codeverse.png
 registration: https://forms.gle/CymVtoYQDXRUpo5M9
 recording: NA
 markdownType: event
@@ -71,6 +71,45 @@ With every round, new surprises and twists unfold to thrill you like that one sn
 ## Registration
 
 **Deadline to Register**: October 26, 2025, 11:59 PM
+
+---
+
+
+
+## 🏆 Winners 
+
+### 🥇 CHAMPIONS — *Team Triple-N*
+- **Nandakishore Bekkari** [III year CSE]  
+- **Nirup A** [III year CSE]  
+- **Navadeep Duduku** [III year CSE]
+
+
+### 🥈 1st Runner Up — *Team Dominators*
+- **Kosireddy Abhilash Reddy** [III year CSE-AIML]  
+- **Ruthvik Maturu** [III year CSE-AIML]  
+- **Chirra Vijay Bhaskar Reddy** [III year CSE-AIML]
+
+
+### 🥉 2nd Runner Up — *Team LevelUp*
+- **Kandre Navadeep** [IV year IT]  
+- **Sathvik Reddy Karangula** [IV year IT]  
+- **Sangulge Pruthvi Raj** [IV year IT]
+
+
+### 🎖️ Consolation 1 — *Team Arise*
+- **Thalluri Sai Lokesh** [IV year CSE]  
+- **Maka Charan Teja** [IV year CSE]  
+- **Vinay** [IV year CSE]
+
+
+### 🎖️ Consolation 2 — *Team shailesh_2004 fan club*
+- **Rajavardhan Kommala** [IV year CSE-AIML]  
+- **Kodam Nithin** [IV year CSE-AIML]  
+- **Sree Charan** [IV year CSE-AIML]
+
+
+📊 **The final standings have been released!**  
+Check them out here → [Codeverse Leaderboard](https://events.turinghut.org/events/codeverse/leaderboard)
 
 ---
 
