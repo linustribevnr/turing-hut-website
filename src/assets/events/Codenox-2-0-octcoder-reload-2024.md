@@ -33,7 +33,7 @@ Register to participate and grab your chance to shine! ✨
 **Registration Fee**: ₹50 per participant  
 To register, submit the form by **November 3, 2024, 11:59 PM (Sunday)**.
 
-👉 [**Feedback Form**](https://forms.gle/GBwnL6VPcnuhgvSL6)
+<!-- 👉 [**Feedback Form**](https://forms.gle/GBwnL6VPcnuhgvSL6) -->
 
 ---
 
@@ -57,7 +57,7 @@ To register, submit the form by **November 3, 2024, 11:59 PM (Sunday)**.
    - **Date**: November 4 (9:00 PM) - November 5 (7:00 AM)
    - **Platform**: [Codeforces](https://events.turinghut.org/events/codenox-2/dashboard)
    - **Final Winners**: Top 3 teams will be crowned champions!
-
+   
 ---
 
 ## 💰 Prizes:
@@ -98,6 +98,8 @@ To register, submit the form by **November 3, 2024, 11:59 PM (Sunday)**.
 - **IOT**: 15 Students
 
 ---
+
+**Link to Leaderboard:** [https://events.turinghut.org/events/codenox-2/leaderboard](https://events.turinghut.org/events/codenox-2/leaderboard)
 
 ## ℹ️ Need Help
 

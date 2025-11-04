@@ -69,6 +69,8 @@ The total prize pool for this contest is **₹75,000**:
 🏅 **Consolation 1:** ₹7000  
 🏅 **Consolation 2:** ₹5000
 
+---
+
 ## Winners
 
 ### 🥇 First Place
@@ -100,6 +102,13 @@ The total prize pool for this contest is **₹75,000**:
 
 - _Participation Certificates_ for all **Final Round** participants.
 - _Merit Certificates_ for top-performing teams.
+
+---
+
+**Link to Leaderboard:** [https://events.turinghut.org/events/turingcup-2k25/leaderboard](https://events.turinghut.org/events/turingcup-2k25/leaderboard)
+
+
+## Need Help
 
 If you have any queries, contact:
 

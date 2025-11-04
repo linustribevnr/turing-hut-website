@@ -39,15 +39,21 @@ With every round, new surprises and twists unfold to thrill you like that one sn
 
    - **Date**: October 28, 2025
    - **Time**: 1:40 PM - 2:00 PM
+   - **Platform**: Hackerrank
+   - **Contest Link**: [https://www.hackerrank.com/codeverse-coders-assemble-captain/](https://www.hackerrank.com/codeverse-coders-assemble-captain)
 
 2. **Round 2: Codefinity War**
 
    - **Date**: October 28, 2025
    - **Time**: 2:30 PM - 4:30 PM
+   - **Platform**: Hackerrank
+   - **Contest Link**: [https://www.hackerrank.com/codeverse-codefinity-war/](https://www.hackerrank.com/codeverse-codefinity-war/)
 
 3. **Round 3: End Game - The Final Battle**
    - **Date**: October 29, 2025
    - **Time**: 12:30 PM - 4:30 PM
+   - **Platform**: Codeforces
+   - **Problem Set Link**: [https://events.turinghut.org/events/codeverse/dashboard](https://events.turinghut.org/events/codeverse/dashboard)
 
 **Note**: Each round is eliminatory and conducted on-site.
 
@@ -93,7 +99,7 @@ With every round, new surprises and twists unfold to thrill you like that one sn
 ### 🥉 2nd Runner Up — *Team LevelUp*
 - **Kandre Navadeep** [IV year IT]  
 - **Sathvik Reddy Karangula** [IV year IT]  
-- **Sangulge Pruthvi Raj** [IV year IT]
+- **Sangulge Prudhvi Raj** [IV year IT]
 
 
 ### 🎖️ Consolation 1 — *Team Arise*
@@ -108,10 +114,10 @@ With every round, new surprises and twists unfold to thrill you like that one sn
 - **Sree Charan** [IV year CSE-AIML]
 
 
-📊 **The final standings have been released!**  
-Check them out here → [Codeverse Leaderboard](https://events.turinghut.org/events/codeverse/leaderboard)
-
 ---
+
+**Link to Leaderboard:** [https://events.turinghut.org/events/codeverse/leaderboard](https://events.turinghut.org/events/codeverse/leaderboard)
+
 
 ## Need Help
 

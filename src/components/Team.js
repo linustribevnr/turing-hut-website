@@ -128,7 +128,7 @@ export default function Team() {
             fontWeight={"bold"}
             sx={{ display: "inline" }}
           >
-            Coordinators.
+            Coordinators ( {jsondata.team[year].length} )
           </Typography>
         </Box>
         <FormControl sx={{ m: 1, minWidth: 120 }} size="small">

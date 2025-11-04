@@ -519,7 +519,7 @@
         "image": "vighnesh_2025.jpg",
         "designation": "Development",
         "linkedin": "https://www.linkedin.com/in/vighneshvangari/",
-        "website": "https://vighnesh-vangari.vercel.app/",
+        "website": "https://vighnesh-vangari.vercel.app?ref=th",
         "github": "https://github.com/vighnesh-7/"
       },
       {
@@ -538,7 +538,7 @@
         "github": "https://github.com/Nikhilesh002"
       },
       {
-        "name": "Viswa Prateek Tummala ",
+        "name": "Viswa Prateek ",
         "image": "viswa_2025.jpg",
         "designation": "Development",
         "linkedin": "https://www.linkedin.com/in/viswaprateek/",
@@ -550,15 +550,13 @@
         "image": "yashwanth_2025.jpg",
         "designation": "Design and Content",
         "linkedin": "https://www.linkedin.com/in/yashwanth-pothala-419023259/",
-        "twitter": "https://twitter.com/Yash__04__",
-        "github": "https://github.com/Yashwanth-2004"
+        "twitter": "https://twitter.com/Yash__04__"
       },
       {
         "name": "Srikruthi Muthyam",
         "image": "srikruthi_2025.jpg",
         "designation": "Design and Content",
-        "linkedin": "https://www.linkedin.com/in/srikruthi-muthyam-844a04281",
-        "github": "https://github.com/Srikruthi-M"
+        "linkedin": "https://www.linkedin.com/in/srikruthi-muthyam-844a04281"
       },
       {
         "name": "Neeharika gopina",
@@ -570,24 +568,20 @@
         "image": "saiKiran_2025.jpg",
         "designation": "Design and Content",
         "linkedin": "https://www.linkedin.com/in/saikiran-battina",
-        "twitter": "https://twitter.com/kiran_battina",
-        "github": "https://github.com/basedonsai"
+        "twitter": "https://twitter.com/kiran_battina"
       },
       {
         "name": "Tirupate Aniketh",
         "image": "aniketh_2025.jpg",
         "designation": "Social Media",
         "linkedin": "https://www.linkedin.com/in/aniketh-tirupate-36666a296/",
-        "twitter": "https://twitter.com/AnikethT62502",
-        "github": "https://github.com/aniketh25-lmo"
+        "twitter": "https://twitter.com/AnikethT62502"
       },
       {
         "name": "Akshaya Banoth",
         "image": "akshaya_2025.jpg",
         "designation": "Social Media",
-        "linkedin": "https://www.linkedin.com/in/akshaya-banoth",
-        "twitter": "https://twitter.com/akshayaroy_be",
-        "github": "https://github.com/AkshayaBe"
+        "linkedin": "https://www.linkedin.com/in/akshaya-banoth"
       }
     ],
     "2025-2026": [
@@ -596,7 +590,6 @@
         "image": "Balaji_2026.jpg",
         "designation": "Lead",
         "linkedin": "https://www.linkedin.com/in/balaji-jangili-2897a2304/",
-        "github": "https://github.com/BalajiJangili",
         "cpprofile": "https://codeforces.com/profile/Balaji_31"
       },
       {
@@ -604,21 +597,19 @@
         "image": "NagaJahnavi_2026.jpg",
         "designation": "Lead",
         "linkedin": "https://www.linkedin.com/in/naga-jahnavi-dannayak-892b16286/",
-        "github": "https://github.com/NagaJahnaviD",
         "cpprofile": "https://leetcode.com/u/nagajahnavidann/"
       },
       {
         "name": "Karthik Kondaveeti",
         "image": "Karthik_2026.jpg",
-        "designation": "Problem Setting",
+        "designation": "Teaching and Problem Setting",
         "linkedin": "https://www.linkedin.com/in/karthik-kondaveeti",
-        "github": "https://github.com/Karthik-Kondaveeti",
         "cpprofile": "https://codeforces.com/profile/Speedster1010"
       },
       {
         "name": "Mudit Kesharia",
         "image": "Mudit_2026.jpg",
-        "designation": "Problem Setting",
+        "designation": "Teaching and Problem Setting",
         "linkedin": "https://www.linkedin.com/in/mudit-kesharia-168b09289/",
         "github": "https://github.com/keshariamudit24",
         "cpprofile": "https://codeforces.com/profile/muditk_24"
@@ -626,41 +617,29 @@
       {
         "name": "Nishanth Reddy",
         "image": "Nishanth_2026.jpg",
-        "designation": "Problem Setting",
+        "designation": "Teaching and Problem Setting",
         "linkedin": "https://www.linkedin.com/in/komreddy-nishanth-reddy-47ba54295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "github": "https://github.com/komreddynishanthreddy",
         "cpprofile": "https://codeforces.com/profile/knishanthreddy"
-      },
-      {
-        "name": "Pavan Kumar K",
-        "image": "PavanKumar_2026.jpg",
-        "designation": "Problem Setting",
-        "linkedin": "https://www.linkedin.com/in/pavan-kumar-koppuravuri-ab79961b9/",
-        "github": "https://github.com/pavankumar7675",
-        "cpprofile": "https://leetcode.com/u/pavankumar7675/"
       },
       {
         "name": "D.Rishi Varma",
         "image": "RishiVarma_2026.jpg",
-        "designation": "Problem Setting",
+        "designation": "Teaching and Problem Setting",
         "linkedin": "https://www.linkedin.com/in/rishivarma08/",
-        "github": "https://github.com/Rishi4182",
         "cpprofile": "https://leetcode.com/u/rishi_2/"
       },
       {
         "name": "Uday Nadh G",
         "image": "UdayNadh_2026.jpg",
-        "designation": "Problem Setting",
+        "designation": "Teaching and Problem Setting",
         "linkedin": "https://www.linkedin.com/in/uday-nadh-ganimukkula-b29992295/",
-        "github": "https://github.com/UdaynadhG",
         "cpprofile": "https://codeforces.com/profile/Udynamo"
       },
       {
         "name": "V Jeevan Reddy",
         "image": "JeevanReddy_2026.jpg",
-        "designation": "Teaching",
+        "designation": "Teaching and Problem Setting",
         "linkedin": "https://www.linkedin.com/in/jeevan-venuturla/",
-        "github": "https://github.com/Jeevan-36",
         "cpprofile": "https://leetcode.com/u/jeevan_3-6/"
       },
       {
@@ -683,7 +662,7 @@
         "image": "Pavan_2026.jpg",
         "designation": "Development",
         "linkedin": "https://www.linkedin.com/in/pavan-kumar-bathula-b60488299/",
-        "github": "https://github.com/PAVAN507-STAR"
+        "github": "https://github.com/therurouni"
       },
       {
         "name": "Devendra Yalamaddi",
@@ -696,57 +675,49 @@
         "name": "Pavitra Jasti",
         "image": "Pavitra_2026.jpg",
         "designation": "Design & Planning",
-        "linkedin": "https://www.linkedin.com/in/pavitra-jasti-2684b5287/",
-        "github": "https://github.com/pavitra297"
+        "linkedin": "https://www.linkedin.com/in/pavitra-jasti-2684b5287/"
       },
       {
         "name": "Pranati Rao Pinisetti",
         "image": "Pranati_2026.jpg",
         "designation": "Design & Planning",
-        "linkedin": "https://www.linkedin.com/in/pranatiraopinisetti",
-        "github": "https://github.com/pranatirao365"
+        "linkedin": "https://www.linkedin.com/in/pranatiraopinisetti"
       },
       {
         "name": "Gaddale Charmi Bai",
         "image": "Charmi_2026.jpg",
         "designation": "Design & Planning",
-        "linkedin": "https://www.linkedin.com/in/charmi-gaddale-6170a4292",
-        "github": "https://github.com/gaddalecharmi"
+        "linkedin": "https://www.linkedin.com/in/charmi-gaddale-6170a4292"
       },
       {
         "name": "Abhishek Pothanagari",
         "image": "Abhishek_2026.jpg",
         "designation": "Design & Planning",
-        "linkedin": "https://www.linkedin.com/in/abhishek-pothanagari-ba59b5291/",
-        "github": "https://github.com/abhishek112005"
+        "linkedin": "https://www.linkedin.com/in/abhishek-pothanagari-ba59b5291/"
       },
       {
         "name": "Anika Thukuntla",
         "image": "Anika_2026.jpg",
         "designation": "Documentation & PR",
-        "linkedin": "https://www.linkedin.com/in/anika-thukuntla/",
-        "github": "https://github.com/anika-7"
+        "linkedin": "https://www.linkedin.com/in/anika-thukuntla/"
       },
       {
         "name": "Vinati Vege",
         "image": "Vinati_2026.jpg",
         "designation": "Documentation & PR",
-        "linkedin": "https://www.linkedin.com/in/vinati-vege/",
-        "github": "https://github.com/Vinati05"
+        "linkedin": "https://www.linkedin.com/in/vinati-vege/"
       },
       {
         "name": "Shreyas Yandapalli",
         "image": "Shreyas_2026.jpg",
         "designation": "Documentation & PR",
-        "linkedin": "https://www.linkedin.com/in/shreyas-yandapalli-9a712a296",
-        "github": "https://github.com/yandapallishreyas"
+        "linkedin": "https://www.linkedin.com/in/shreyas-yandapalli-9a712a296"
       },
       {
         "name": "B Amogh",
         "image": "Amogh_2026.jpg",
         "designation": "Documentation & PR",
-        "linkedin": "https://www.linkedin.com/in/amogh-vnr/",
-        "github": "https://github.com/amogh-vnr"
+        "linkedin": "https://www.linkedin.com/in/amogh-vnr/"
       }
     ]
   }
