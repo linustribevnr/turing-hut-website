@@ -23,6 +23,55 @@
   },
   "timeline": [
     {
+      "year": "2025-2026",
+      "entries": [
+        {
+          "id": "2025-right-angled-triangle-Amritapuri",
+          "team": "Right Angled Triangle",
+          "members": [
+            "Shailesh Reddy Kanchanakuntla",
+            "Naveen Tummala",
+            "Karthik Kondaveeti"
+          ],
+          "event": "ICPC Asia West Amritapuri Regionals 2025",
+          "rank": "All India Rank 62",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Asia West Amritapuri Regionals 2025.",
+          "imagePath": "rightangledtriangleAmritapuri2025.jpeg"
+        },
+        {
+          "id": "2025-Ackermans-amritapuri",
+          "team": "Ackermans",
+          "members": ["Adithya Sai Ram Tadikamalla", "Vinay Peddinti", "Srikar Madikuntawar"],
+          "event": "ICPC Asia West Amritapuri Regionals 2025",
+          "rank": "All India Rank 113",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Asia West Amritapuri Regionals 2025.",
+          "imagePath": "ackermansAmritapuri2025.jpeg"
+        },
+        {
+          "id": "2025-Delta-amritapuri",
+          "team": "Delta",
+          "members": [
+            "Naga Jahnavi Dannayak",
+            "Keerthi Sri Tettu",
+            "Devendra Yalamaddi"
+          ],
+          "event": "ICPC Asia West Amritapuri Regionals 2025",
+          "rank": "All India Rank 253",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Asia West Amritapuri Regionals 2025 in their third year.",
+          "imagePath": "delta2025.jpeg"
+        },
+        {
+          "id": "2025-right-angled-triangle-chennai",
+          "team": "Right Angled Triangle ",
+          "members": ["Shailesh Reddy Kanchanakuntla", "Naveen Tummala", "Karthik Kondaveeti"],
+          "event": "ICPC Asia West Chennai Regionals 2025",
+          "rank": "All India Rank 75",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Asia West Chennai Regionals 2025.",
+          "imagePath": "ratChennai2025.jpeg"
+        }
+      ]
+    },
+    {
       "year": "2024-2025",
       "entries": [
         {
@@ -177,6 +226,37 @@
           "rank": "Qualified",
           "description": "After topping all other college teams, the team qualified and appeared for ICPC Kolkata Kanpur Regionals 2018.",
           "imagePath": "2018.jpg"
+        }
+      ]
+    },
+    {
+      "year": "2017-2018",
+      "entries": [
+        {
+          "id": "2017-bleh",
+          "team": "Bleh",
+          "members": [
+            "Tarun",
+            "Venkat",
+            "Rachana"
+          ],
+          "event": "ICPC Kolkata-Kanpur Regionals 2017",
+          "rank": "Qualified",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Kolkata-Kanpur Regionals 2017.",
+          "imagePath": "bleh.jpeg"
+        },
+        {
+          "id": "2017-dont-sleep",
+          "team": "Don't Sleep",
+          "members": [
+            "Manik",
+            "Soheb",
+            "Suparaja"
+          ],
+          "event": "ICPC Amritapuri Regionals 2017",
+          "rank": "Qualified",
+          "description": "After topping all other college teams, the team qualified and appeared for ICPC Amritapuri Regionals 2017.",
+          "imagePath": "dontsleep.jpeg"
         }
       ]
     }

@@ -23,6 +23,12 @@ import wrongAngledTriangle3 from "../assets/images/icpc/wrong-angled-triangle3.j
 import strawhatz2 from "../assets/images/icpc/strawhatz2.jpeg";
 import unprofessionalCoders from "../assets/images/icpc/2023-unprofessional-coders.jpeg";
 import wrongAngledTriangle from "../assets/images/icpc/wrong-angled-triangle.jpeg";
+import rightangledtriangleAmritapuri2025 from "../assets/images/icpc/rightangledtriangleAmritapuri2025.jpeg";
+import ackermansAmritapuri2025 from "../assets/images/icpc/ackermansAmritapuri2025.jpeg";
+import delta2025 from "../assets/images/icpc/delta2025.jpeg";
+import ratChennai2025 from "../assets/images/icpc/ratChennai2025.jpeg";
+import dontsleep from "../assets/images/icpc/dontsleep.jpeg";
+import bleh from "../assets/images/icpc/bleh.jpeg";
 
 // Image mapping for reliable access
 const images = {
@@ -35,7 +41,13 @@ const images = {
   "wrong-angled-triangle3.jpeg": wrongAngledTriangle3,
   "strawhatz2.jpeg": strawhatz2,
   "2023-unprofessional-coders.jpeg": unprofessionalCoders,
-  "wrong-angled-triangle.jpeg": wrongAngledTriangle
+  "wrong-angled-triangle.jpeg": wrongAngledTriangle,
+  "rightangledtriangleAmritapuri2025.jpeg": rightangledtriangleAmritapuri2025,
+  "ackermansAmritapuri2025.jpeg": ackermansAmritapuri2025,
+  "delta2025.jpeg": delta2025,
+  "ratChennai2025.jpeg": ratChennai2025,
+  "dontsleep.jpeg": dontsleep,
+  "bleh.jpeg": bleh
 };
 
 // Get data from imported file
