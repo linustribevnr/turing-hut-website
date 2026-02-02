@@ -45,7 +45,8 @@ const contestdetails = [
   {
     "year": "2025",
     "image": "TC_Winners2025.jpg",
-    "report": "https://drive.google.com/file/d/1xW4Frs_H1kv0MPnlqAIdTpNK4zW1-PN3/view?usp=sharing",
+    "report":
+      "https://drive.google.com/file/d/1xW4Frs_H1kv0MPnlqAIdTpNK4zW1-PN3/view?usp=sharing",
     "info":
       "Students from all colleges across the nation can participate by forming a team of up to 1-2 members. The contest has 2 rounds. 1449 teams from 140 different colleges across the nation have registered for the contest,out of which 60 teams have been invited to the Final round (Onsite), From which top 5 teams were rewarded with cash prizes.",
     "winners": {

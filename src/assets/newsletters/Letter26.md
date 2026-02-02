@@ -60,7 +60,7 @@ With **Round 1 online on February 17, 2025**, and the **grand finale offline on 
 
 The flagship national-level coding contest of Turing Hut, **Turing Cup 2K25**, brought together **1400+ top coders** from leading institutes across India.
 
-- Online Qualifier: HackerRank (April 7, 2025)  
+- Online Qualifier: HackerRank (April 7, 2025)
 - Grand Finale: Codeforces at VNRVJIET (April 19, 2025)
 
 The contest showcased unmatched competitive spirit, teamwork, and coding excellence, standing tall as one of the most prestigious nationwide coding battles of the year.
@@ -85,9 +85,10 @@ The contest showcased unmatched competitive spirit, teamwork, and coding excelle
 Turing Hut organized a **two-day online Competitive Programming Workshop** on **July 5–6, 2025**, for first-year students.
 
 The sessions covered:
-- Core algorithms  
-- Problem-solving strategies  
-- Popular coding platforms  
+
+- Core algorithms
+- Problem-solving strategies
+- Popular coding platforms
 
 This was followed by a hands-on contest. Participants showcased great enthusiasm, tackling real-time challenges with passion and skill.
 
@@ -101,7 +102,7 @@ This was followed by a hands-on contest. Participants showcased great enthusiasm
   max-width: 75%;
   height: auto;">
 
-  <img src="https://i.ibb.co/fYJt2WTt/2025nsltr-011.png" alt="CodeFrenzy" style="display: block;
+<img src="https://i.ibb.co/fYJt2WTt/2025nsltr-011.png" alt="CodeFrenzy" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
@@ -122,20 +123,19 @@ Top performers earned a spot in Turing Hut's program, fostering collaboration, m
   margin-right: auto; 
   max-width: 75%;
   height: auto;">
-  <br/>
+<br/>
 
-  <img src="https://i.ibb.co/1YKnN0j6/2025nsltr-013.jpg" alt="Decode ICPC" style="display: block;
+<img src="https://i.ibb.co/1YKnN0j6/2025nsltr-013.jpg" alt="Decode ICPC" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
   height: auto;">
 
-
 Turing Hut hosted **Decode ICPC** on **6th October 2025**, an inspiring online session featuring alumni:
 
-- K. Sreekar Vyas  
-- D. Nisritha Reddy  
-- I. Shashank Varma  
+- K. Sreekar Vyas
+- D. Nisritha Reddy
+- I. Shashank Varma
 
 They shared insights and strategies to help students prepare for the ICPC Regionals and strengthen their problem-solving skills.
 
@@ -158,9 +158,10 @@ They shared insights and strategies to help students prepare for the ICPC Region
 Turing Hut hosted **CODEVERSE**, an Avengers-themed flagship coding competition, on **28th and 29th October 2025** at VNRVJIET.
 
 The competition featured three exciting rounds:
-- Coders Assemble  
-- Codefinity War  
-- End Game: The Final Battle  
+
+- Coders Assemble
+- Codefinity War
+- End Game: The Final Battle
 
 The event culminated in a **4-hour ICPC-style finale on Codeforces**. With **150+ teams** competing for a **₹15,000 prize pool**, CODEVERSE was an electrifying showcase of skill, speed, and strategy.
 
@@ -176,7 +177,7 @@ The event culminated in a **4-hour ICPC-style finale on Codeforces**. With **150
 
   <br/>
 
-  <img src="https://i.ibb.co/d0BDxFwc/2025nsltr-017.jpg" alt="Convergence Contest" style="display: block;
+<img src="https://i.ibb.co/d0BDxFwc/2025nsltr-017.jpg" alt="Convergence Contest" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 100%;
@@ -184,7 +185,7 @@ The event culminated in a **4-hour ICPC-style finale on Codeforces**. With **150
 
   <br/>
 
-  <img src="https://i.ibb.co/2339VT5j/2025nsltr-018.jpg" alt="Convergence Contest" style="display: block;
+<img src="https://i.ibb.co/2339VT5j/2025nsltr-018.jpg" alt="Convergence Contest" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 100%;
@@ -198,29 +199,32 @@ The event culminated in a **4-hour ICPC-style finale on Codeforces**. With **150
   max-width: 75%;
   height: auto;">
 
-  <img src="https://i.ibb.co/vCfbvsvk/2025nsltr-020.jpg" alt="ICPC Chennai" style="display: block;
+<img src="https://i.ibb.co/vCfbvsvk/2025nsltr-020.jpg" alt="ICPC Chennai" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
   height: auto;">
 
 ### Team "Wrong Angled Triangle"
-- Sreekar Vyas Kurudi  
-- Nisritha Reddy Dampuru  
-- Shashank Varma Indukuri  
+
+- Sreekar Vyas Kurudi
+- Nisritha Reddy Dampuru
+- Shashank Varma Indukuri
 
 Achieved **All India Rank 42**, topping all other college teams in RankList2 and qualifying for the **ICPC Chennai Regionals 2024**.
 
 ### Team "StrawHatz"
-- Prabhas Koya  
-- D. Manorath Reddy  
-- Arvind Sai R  
+
+- Prabhas Koya
+- D. Manorath Reddy
+- Arvind Sai R
 
 Secured **All India Rank 73**, topping all other college teams in RankList1 and qualifying for the **ICPC Chennai Regionals 2024**.
 
 <hr/>
 
 ## ICPC Amritapuri Regionals 2024
+
 <img src="https://i.ibb.co/TD4S085R/2025nsltr-022.jpg" alt="ICPC Amritapuri" style="display: block;
   margin-left: auto;
   margin-right: auto; 
@@ -235,9 +239,11 @@ Secured **All India Rank 73**, topping all other college teams in RankList1 and 
   height: auto;">
 
 ### Team "Wrong Angled Triangle"
+
 Achieved **All India Rank 90**, topping all other college teams in RankList2 and representing the college at the **ICPC Amritapuri Regionals 2024**.
 
 ### Team "StrawHatz"
+
 Secured **All India Rank 137**, topping all other college teams in RankList1 and representing the college at the **ICPC Amritapuri Regionals 2024**.
 
 <hr/>
@@ -249,6 +255,7 @@ Now, take a moment to unscramble the words and put your minds to the test!
 <hr/>
 
 ## Game of Code Play
+
 <img src="https://i.ibb.co/tTkWx5tt/2025nsltr-021.jpg" alt="Game of Code Play" style="display: block;
   margin-left: auto;
   margin-right: auto; 
@@ -256,6 +263,7 @@ Now, take a moment to unscramble the words and put your minds to the test!
   height: auto;">
 
 ### Instructions
+
 1. A scrambled word will be provided along with a hint from the world of coding.
 2. Read the hint carefully.
 3. Unscramble the letters to form the correct word.
@@ -271,7 +279,7 @@ f. TRANSCONITS → Limits/rules given in a problem
 g. TURNER → Gives something back  
 h. TACKS → LIFO data structure  
 i. YINABR → Base representation for bit manipulation  
-j. LAYED → What sometimes causes TLE  
+j. LAYED → What sometimes causes TLE
 
 <hr/>
 
@@ -283,7 +291,7 @@ j. LAYED → What sometimes causes TLE
   max-width: 75%;
   height: auto;">
 
-  <img src="https://i.ibb.co/k6JgKt9h/2025nsltr-025.jpg" alt="Interesting Reads" style="display: block;
+<img src="https://i.ibb.co/k6JgKt9h/2025nsltr-025.jpg" alt="Interesting Reads" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
@@ -294,6 +302,7 @@ j. LAYED → What sometimes causes TLE
   <hr/>
 
 - **Beginner's Guide to Competitive Programming** <br/>A beginner's guide to competitive programming covering:
+
   - Languages like **C++** and **Java**
   - Platforms such as **CodeChef** and **AtCoder**
   - Core topics including **Data Structures**, **Algorithms**, and **Dynamic Programming**
@@ -318,4 +327,4 @@ MERGESORT, OPTIMIZE, HASH TABLE, EXCEPTION, CODEFORCES, CONSTRAINTS, RETURN, STA
 
 Thanks to the Turing Hut team for contributing to the newsletter
 
-*From the desk of Turing Hut*
+_From the desk of Turing Hut_
