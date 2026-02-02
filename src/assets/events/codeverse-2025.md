@@ -80,44 +80,41 @@ With every round, new surprises and twists unfold to thrill you like that one sn
 
 ---
 
+## 🏆 Winners
 
+### 🥇 CHAMPIONS — _Team Triple-N_
 
-## 🏆 Winners 
-
-### 🥇 CHAMPIONS — *Team Triple-N*
-- **Nandakishore Bekkari** [III year CSE]  
-- **Nirup A** [III year CSE]  
+- **Nandakishore Bekkari** [III year CSE]
+- **Nirup A** [III year CSE]
 - **Navadeep Duduku** [III year CSE]
 
+### 🥈 1st Runner Up — _Team Dominators_
 
-### 🥈 1st Runner Up — *Team Dominators*
-- **Kosireddy Abhilash Reddy** [III year CSE-AIML]  
-- **Ruthvik Maturu** [III year CSE-AIML]  
+- **Kosireddy Abhilash Reddy** [III year CSE-AIML]
+- **Ruthvik Maturu** [III year CSE-AIML]
 - **Chirra Vijay Bhaskar Reddy** [III year CSE-AIML]
 
+### 🥉 2nd Runner Up — _Team LevelUp_
 
-### 🥉 2nd Runner Up — *Team LevelUp*
-- **Kandre Navadeep** [IV year IT]  
-- **Sathvik Reddy Karangula** [IV year IT]  
+- **Kandre Navadeep** [IV year IT]
+- **Sathvik Reddy Karangula** [IV year IT]
 - **Sangulge Prudhvi Raj** [IV year IT]
 
+### 🎖️ Consolation 1 — _Team Arise_
 
-### 🎖️ Consolation 1 — *Team Arise*
-- **Thalluri Sai Lokesh** [IV year CSE]  
-- **Maka Charan Teja** [IV year CSE]  
+- **Thalluri Sai Lokesh** [IV year CSE]
+- **Maka Charan Teja** [IV year CSE]
 - **Vinay** [IV year CSE]
 
+### 🎖️ Consolation 2 — _Team shailesh_2004 fan club_
 
-### 🎖️ Consolation 2 — *Team shailesh_2004 fan club*
-- **Rajavardhan Kommala** [IV year CSE-AIML]  
-- **Kodam Nithin** [IV year CSE-AIML]  
+- **Rajavardhan Kommala** [IV year CSE-AIML]
+- **Kodam Nithin** [IV year CSE-AIML]
 - **Sree Charan** [IV year CSE-AIML]
-
 
 ---
 
 **Link to Leaderboard:** [https://events.turinghut.org/events/codeverse/leaderboard](https://events.turinghut.org/events/codeverse/leaderboard)
-
 
 ## Need Help
 

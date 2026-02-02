@@ -57,7 +57,7 @@ To register, submit the form by **November 3, 2024, 11:59 PM (Sunday)**.
    - **Date**: November 4 (9:00 PM) - November 5 (7:00 AM)
    - **Platform**: [Codeforces](https://events.turinghut.org/events/codenox-2/dashboard)
    - **Final Winners**: Top 3 teams will be crowned champions!
-   
+
 ---
 
 ## 💰 Prizes:

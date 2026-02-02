@@ -107,7 +107,6 @@ The total prize pool for this contest is **₹75,000**:
 
 **Link to Leaderboard:** [https://events.turinghut.org/events/turingcup-2k25/leaderboard](https://events.turinghut.org/events/turingcup-2k25/leaderboard)
 
-
 ## Need Help
 
 If you have any queries, contact:
