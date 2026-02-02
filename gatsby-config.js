@@ -25,13 +25,39 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+              quality: 90,
+              linkImagesToOriginal: false,
+              backgroundColor: 'transparent'
+            }
+          }
+        ]
+      }
+    },
 
     // MDX plugin
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: [`.mdx`, `.md`]
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+              quality: 90,
+              linkImagesToOriginal: false,
+              backgroundColor: 'transparent'
+            }
+          }
+        ]
       }
     },
 
