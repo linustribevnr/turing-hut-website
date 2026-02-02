@@ -18,7 +18,7 @@ This relaunch edition takes you through **Turing Hut's journey in 2025**, a year
 
 ## CodeRush – Fastest Fingers First
 
-<img src="https://i.ibb.co/QjvHS7w7/2025nsltr-002.jpg" alt="CodeRush Event" style="display: block;
+<img src="../images/newsletter/2025nsltr-002.jpg" alt="CodeRush Event" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 100%;
@@ -30,7 +30,7 @@ Exclusively for **1st and 2nd-year students**, this C programming showdown teste
 
 ## Convergence Coding Contest 2K25
 
-<img src="https://i.ibb.co/jPftmRSc/2025nsltr-001.jpg" alt="Convergence Contest" style="display: block;
+<img src="../images/newsletter/2025nsltr-001.jpg" alt="Convergence Contest" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 100%;
@@ -44,7 +44,7 @@ With **Round 1 online on February 17, 2025**, and the **grand finale offline on 
 
 ## Turing Cup 2K25 – One Team. One Dream
 
-<img src="https://i.ibb.co/B2ZxvkTb/2025nsltr-006.jpg" alt="Turing Cup 2K25" style="display: block;
+<img src="../images/newsletter/2025nsltr-006.jpg" alt="Turing Cup 2K25" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 100%;
@@ -53,7 +53,7 @@ With **Round 1 online on February 17, 2025**, and the **grand finale offline on 
 
   <br/>
   
-<img src="https://i.ibb.co/XxLHxBDW/2025nsltr-007.jpg" alt="Turing Cup 2K25" style="display: block;
+<img src="../images/newsletter/2025nsltr-007.jpg" alt="Turing Cup 2K25" style="display: block;
  margin-left: auto;
   margin-right: auto; 
   width: 75%;">
@@ -69,14 +69,14 @@ The contest showcased unmatched competitive spirit, teamwork, and coding excelle
 
 ## Competitive Programming Workshop – Where Curiosity Meets Code
 
-<img src="https://i.ibb.co/z32yxdj/2025nsltr-008.jpg" alt="CP Workshop" style="display: block;
+<img src="../images/newsletter/2025nsltr-008.jpg" alt="CP Workshop" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
   height: auto;">
 
   <br/>
-  <img src="https://i.ibb.co/Y4fSj18J/2025nsltr-009.jpg" alt="CP Workshop" style="display: block;
+  <img src="../images/newsletter/2025nsltr-009.jpg" alt="CP Workshop" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
@@ -96,13 +96,13 @@ This was followed by a hands-on contest. Participants showcased great enthusiasm
 
 ## CodeFrenzy 2K25 – Selection Contest for 2nd Years
 
-<img src="https://i.ibb.co/s991yvk8/2025nsltr-010.jpg" alt="CodeFrenzy" style="display: block;
+<img src="../images/newsletter/2025nsltr-010.jpg" alt="CodeFrenzy" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
   height: auto;">
 
-<img src="https://i.ibb.co/fYJt2WTt/2025nsltr-011.png" alt="CodeFrenzy" style="display: block;
+<img src="../images/newsletter/2025nsltr-011.png" alt="CodeFrenzy" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
@@ -118,14 +118,14 @@ Top performers earned a spot in Turing Hut's program, fostering collaboration, m
 
 ## Decode ICPC
 
-<img src="https://i.ibb.co/SXgWYBNd/2025nsltr-012.jpg" alt="Decode ICPC" style="display: block;
+<img src="../images/newsletter/2025nsltr-012.jpg" alt="Decode ICPC" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
   height: auto;">
 <br/>
 
-<img src="https://i.ibb.co/1YKnN0j6/2025nsltr-013.jpg" alt="Decode ICPC" style="display: block;
+<img src="../images/newsletter/2025nsltr-013.jpg" alt="Decode ICPC" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
@@ -143,13 +143,13 @@ They shared insights and strategies to help students prepare for the ICPC Region
 
 ## CODEVERSE – The Battle for the Perfect Algorithm Begins
 
-<img src="https://i.ibb.co/hJKbMYhk/2025nsltr-014.jpg" alt="CODEVERSE" style="display: block;
+<img src="../images/newsletter/2025nsltr-014.jpg" alt="CODEVERSE" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
   height: auto;">
 <br/>
-<img src="https://i.ibb.co/LDm90FF3/2025nsltr-015.jpg" alt="CODEVERSE" style="display: block;
+<img src="../images/newsletter/2025nsltr-015.jpg" alt="CODEVERSE" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
@@ -169,7 +169,7 @@ The event culminated in a **4-hour ICPC-style finale on Codeforces**. With **150
 
 ## Convergence Coding Contest 2K25
 
-<img src="https://i.ibb.co/fGtZmhXJ/2025nsltr-016.jpg" alt="Convergence Contest" style="display: block;
+<img src="../images/newsletter/2025nsltr-016.jpg" alt="Convergence Contest" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 100%;
@@ -177,7 +177,7 @@ The event culminated in a **4-hour ICPC-style finale on Codeforces**. With **150
 
   <br/>
 
-<img src="https://i.ibb.co/d0BDxFwc/2025nsltr-017.jpg" alt="Convergence Contest" style="display: block;
+<img src="../images/newsletter/2025nsltr-017.jpg" alt="Convergence Contest" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 100%;
@@ -185,7 +185,7 @@ The event culminated in a **4-hour ICPC-style finale on Codeforces**. With **150
 
   <br/>
 
-<img src="https://i.ibb.co/2339VT5j/2025nsltr-018.jpg" alt="Convergence Contest" style="display: block;
+<img src="../images/newsletter/2025nsltr-018.jpg" alt="Convergence Contest" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 100%;
@@ -193,13 +193,13 @@ The event culminated in a **4-hour ICPC-style finale on Codeforces**. With **150
 
 ## ICPC Shoutout – Chennai Regionals 2024
 
-<img src="https://i.ibb.co/0VjsZWSx/2025nsltr-019.jpg" alt="ICPC Chennai" style="display: block;
+<img src="../images/newsletter/2025nsltr-019.jpg" alt="ICPC Chennai" style="display: block;
   margin-left: auto;
   margin-right: auto; 
-  max-width: 75%;
+  max-width: 65%;
   height: auto;">
 
-<img src="https://i.ibb.co/vCfbvsvk/2025nsltr-020.jpg" alt="ICPC Chennai" style="display: block;
+<img src="../images/newsletter/2025nsltr-020.jpg" alt="ICPC Chennai" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
@@ -225,14 +225,14 @@ Secured **All India Rank 73**, topping all other college teams in RankList1 and 
 
 ## ICPC Amritapuri Regionals 2024
 
-<img src="https://i.ibb.co/TD4S085R/2025nsltr-022.jpg" alt="ICPC Amritapuri" style="display: block;
+<img src="../images/newsletter/2025nsltr-022.jpg" alt="ICPC Amritapuri" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
   height: auto;">
 <br/>
 
-<img src="https://i.ibb.co/skNVvtd/2025nsltr-023.jpg" alt="ICPC Amritapuri" style="display: block;
+<img src="../images/newsletter/2025nsltr-023.jpg" alt="ICPC Amritapuri" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
@@ -256,7 +256,7 @@ Now, take a moment to unscramble the words and put your minds to the test!
 
 ## Game of Code Play
 
-<img src="https://i.ibb.co/tTkWx5tt/2025nsltr-021.jpg" alt="Game of Code Play" style="display: block;
+<img src="../images/newsletter/2025nsltr-021.jpg" alt="Game of Code Play" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
@@ -285,13 +285,13 @@ j. LAYED → What sometimes causes TLE
 
 ## Interesting Reads
 
-<img src="https://i.ibb.co/NdSb87y0/2025nsltr-024.jpg" alt="Interesting Reads" style="display: block;
+<img src="../images/newsletter/2025nsltr-024.jpg" alt="Interesting Reads" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
   height: auto;">
 
-<img src="https://i.ibb.co/k6JgKt9h/2025nsltr-025.jpg" alt="Interesting Reads" style="display: block;
+<img src="../images/newsletter/2025nsltr-025.jpg" alt="Interesting Reads" style="display: block;
   margin-left: auto;
   margin-right: auto; 
   max-width: 75%;
