@@ -35,7 +35,7 @@
           ],
           "event": "ICPC Asia West Amritapuri Regionals 2025",
           "rank": "All India Rank 62",
-          "description": "After topping all other college teams, the team qualified and appeared for ICPC Asia West Amritapuri Regionals 2025.",
+          "description": "After securing All India Rank 24 among nearly 3,000 teams in the ICPC India 2025 Prelims, the team Right Angled Triangle qualified for the ICPC Asia West Amritapuri Regionals 2025. At the regional contest, the team solved 6 out of 11 problems and achieved an All India Rank of 62 out of 309 teams, narrowly missing qualification for the Asia West Continentals, with the last qualifying team placed at Rank 49.",
           "imagePath": "rightangledtriangleAmritapuri2025.jpeg"
         },
         {
@@ -44,7 +44,7 @@
           "members": ["Adithya Sai Ram Tadikamalla", "Vinay Peddinti", "Srikar Madikuntawar"],
           "event": "ICPC Asia West Amritapuri Regionals 2025",
           "rank": "All India Rank 113",
-          "description": "After topping all other college teams, the team qualified and appeared for ICPC Asia West Amritapuri Regionals 2025.",
+          "description": "The team Ackermans qualified for the ICPC Asia West Amritapuri Regionals 2025. At the regional contest, the team solved 5 out of 11 problems and achieved an All India Rank of 113 out of 309 teams.",
           "imagePath": "ackermansAmritapuri2025.jpeg"
         },
         {
@@ -57,7 +57,7 @@
           ],
           "event": "ICPC Asia West Amritapuri Regionals 2025",
           "rank": "All India Rank 253",
-          "description": "After topping all other college teams, the team qualified and appeared for ICPC Asia West Amritapuri Regionals 2025 in their third year.",
+          "description": "The team Delta qualified for the ICPC Asia West Amritapuri Regionals 2025. At the regional contest, the team solved 3 out of 11 problems and achieved an All India Rank of 253.",
           "imagePath": "delta2025.jpeg"
         },
         {
@@ -66,7 +66,7 @@
           "members": ["Shailesh Reddy Kanchanakuntla", "Naveen Tummala", "Karthik Kondaveeti"],
           "event": "ICPC Asia West Chennai Regionals 2025",
           "rank": "All India Rank 75",
-          "description": "After topping all other college teams, the team qualified and appeared for ICPC Asia West Chennai Regionals 2025.",
+          "description": "After securing All India Rank 24 among nearly 3,000 teams in the ICPC India 2025 Prelims, the team Right Angled Triangle qualified for the ICPC Asia West Chennai Regionals 2025. At the regional contest, the team solved 3 problems and secured an All India Rank of 75.",
           "imagePath": "ratChennai2025.jpeg"
         }
       ]
@@ -221,7 +221,11 @@
         {
           "id": "2018-dont-sleep",
           "team": "d0nt_$leep",
-          "members": ["Team from VNRVJIET"],
+          "members": [
+            "Soheb Moin",
+            "Manik Soni",
+            "Rachana Bhimavarapu"
+          ],
           "event": "ICPC Kolkata Kanpur Regionals 2018",
           "rank": "Qualified",
           "description": "After topping all other college teams, the team qualified and appeared for ICPC Kolkata Kanpur Regionals 2018.",
@@ -236,9 +240,9 @@
           "id": "2017-bleh",
           "team": "Bleh",
           "members": [
-            "Tarun",
-            "Venkat",
-            "Rachana"
+            "Pinnamani Venkat",
+            "Rachana Bhimavarapu",
+            "Tarun Jairam"
           ],
           "event": "ICPC Kolkata-Kanpur Regionals 2017",
           "rank": "Qualified",
@@ -249,9 +253,9 @@
           "id": "2017-dont-sleep",
           "team": "Don't Sleep",
           "members": [
-            "Manik",
-            "Soheb",
-            "Suparaja"
+            "Soheb Moin",
+            "Manik Soni",
+            "Supraja Vadlamudi"
           ],
           "event": "ICPC Amritapuri Regionals 2017",
           "rank": "Qualified",
