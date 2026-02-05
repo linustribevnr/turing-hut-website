@@ -37,7 +37,7 @@ function Timelinee() {
           }}
           contentArrowStyle={{ borderRight: "7px solid  #F2AA4CFF" }}
           iconStyle={{ background: "#F2AA4CFF", color: "#101820FF" }}
-          date="07-04-2025"
+          date="24-02-2026"
           dateClassName={"timeline"}
           icon={<LooksOneOutlinedIcon />}
         >
@@ -58,7 +58,7 @@ function Timelinee() {
             Registration fee: FREE for Round-1 ; Rs 300/- per team for Round-2
             (Lunch and goodies will be provided)
             <br />
-            Registration for online round will close on 7th April,2025 3:00 PM{" "}
+            Registration for online round will close on 24th February,2026 11:59 PM{" "}
             <br />
           </h4>
         </VerticalTimelineElement>
@@ -71,7 +71,7 @@ function Timelinee() {
           }}
           contentArrowStyle={{ borderRight: "7px solid  #F2AA4CFF" }}
           iconStyle={{ background: "#F2AA4CFF", color: "#101820FF" }}
-          date="07-04-2025"
+          date="26-02-2026"
           dateClassName={"timeline"}
           icon={<LooksTwoOutlinedIcon />}
         >
@@ -82,14 +82,13 @@ function Timelinee() {
               lineHeight: "20px"
             }}
           >
-            The qualifier round for the Turing Cup 2K25 coding contest. <br />
+            The qualifier round for the Turing Cup 2K26 coding contest. <br />
             <br />
-            Date : 07/04/2025 - Monday <br />
-            Time : 08:00 PM - 10:00 PM (IST)
+            Date : 26/02/2026 - Thursday <br />
+            Time : 08:30 PM - 10:00 PM (IST)
             <br />
-            Platform : Hackerrank <br />
             Mode : Online <br />
-            Duration : 02h 00m <br />
+            Duration : 01h 30m <br />
             {/* (No penalty for wrong submissions and tie breaks are based on time
             of submission(Last AC)) <br /> */}
             Ranklist will be finalized after plagiarism check. <br />
@@ -104,7 +103,7 @@ function Timelinee() {
           }}
           contentArrowStyle={{ borderRight: "7px solid  #F2AA4CFF" }}
           iconStyle={{ background: "#F2AA4CFF", color: "#101820FF" }}
-          date="19-04-2025"
+          date="16-03-2026"
           dateClassName={"timeline"}
           icon={<Looks3OutlinedIcon />}
         >
@@ -114,14 +113,14 @@ function Timelinee() {
               opacity: 0.8,
               lineHeight: "20px"
             }}
+            
           >
-            The onsite round for the Turing Cup 2K25 for the qualified teams of
+            The onsite round for the Turing Cup 2K26 for the qualified teams of
             Round-1. <br />
             <br />
-            Date : 19/04/2025 - Saturday <br />
+            Date : 16/03/2026 - Monday <br />
             Time : 10:00 AM - 1:00 PM (IST)
             <br />
-            Platform : CodeForces <br />
             Mode : Offline <br />
             Location : VNR VJIET Campus, Bachupally, Hyderabad <br />
             Duration : 03h 00m <br />
