@@ -86,7 +86,7 @@ function Turingcup() {
           </div>
 
           <About />
-          {/* <Timers /> */}
+          <Timers /> 
           <Timelinee />
           <TuringCupPrizePool />
           {/* <TuringCupSponsors /> */}

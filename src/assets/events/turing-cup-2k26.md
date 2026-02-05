@@ -15,8 +15,7 @@ markdownType: event
 **Not just a contest.  
 A battlefield for coders.**
 
-Presented by **Turing Hut**, the official Competitive Programming Club of  
-**VNR Vignana Jyothi Institute of Engineering and Technology**.
+Presented by **Turing Hut**, the official Competitive Programming Club of **VNR Vignana Jyothi Institute of Engineering and Technology**.
 
 Two intense rounds.  
 Real challenges.  
@@ -62,4 +61,4 @@ For any queries, reach out to:
 
 ---
 
-**Code. Compete. Conquer. 🔥**
+

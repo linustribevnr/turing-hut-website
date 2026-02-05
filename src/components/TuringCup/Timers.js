@@ -33,7 +33,7 @@ function Timers() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("April 19, 2025 10:00:00").getTime();
+    const countdownDate = new Date("February 26, 2026 20:30:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -99,7 +99,7 @@ function Timers() {
           textShadow: "0 0 15px rgba(242, 170, 76, 0.8)"
         }}
       >
-        ROUND-2 STARTS IN
+        ROUND-1 STARTS IN
       </Typography>
       <Grid
         container
