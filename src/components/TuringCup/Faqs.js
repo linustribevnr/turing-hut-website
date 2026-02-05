@@ -125,7 +125,7 @@ export default function Faqs() {
         Phone <br />
         <Box sx={{ display: "flex", justifyContent: "center", gap: 3 }}>
           <Button
-            href="mailto:koushik00500@gmail.com"
+            href="mailto:balajiashok018@gmail.com"
             target="_blank"
             sx={{
               color: "#F2AA4CFF",
@@ -136,7 +136,7 @@ export default function Faqs() {
             <Email sx={{ fontSize: 40 }} />
           </Button>
           <Button
-            href="https://api.whatsapp.com/send?phone=7396910024"
+            href="https://api.whatsapp.com/send?phone=9642296219"
             target="_blank"
             sx={{
               color: "#F2AA4CFF",
@@ -147,7 +147,7 @@ export default function Faqs() {
             <WhatsApp sx={{ fontSize: 40 }} />
           </Button>
           <Button
-            href="tel:7396910024"
+            href="tel:9642296219"
             sx={{
               color: "#F2AA4CFF",
               transition: "0.3s",

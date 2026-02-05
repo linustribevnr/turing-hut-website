@@ -23,6 +23,12 @@ import wrongAngledTriangle3 from "../assets/images/icpc/wrong-angled-triangle3.j
 import strawhatz2 from "../assets/images/icpc/strawhatz2.jpeg";
 import unprofessionalCoders from "../assets/images/icpc/2023-unprofessional-coders.jpeg";
 import wrongAngledTriangle from "../assets/images/icpc/wrong-angled-triangle.jpeg";
+import rightangledtriangleAmritapuri2025 from "../assets/images/icpc/rightangledtriangleAmritapuri2025.jpeg";
+import ackermansAmritapuri2025 from "../assets/images/icpc/ackermansAmritapuri2025.jpeg";
+import delta2025 from "../assets/images/icpc/delta2025.jpeg";
+import ratChennai2025 from "../assets/images/icpc/ratChennai2025.jpeg";
+import dontsleep from "../assets/images/icpc/dontsleep.jpeg";
+import bleh from "../assets/images/icpc/bleh.jpeg";
 
 // Image mapping for reliable access
 const images = {
@@ -35,7 +41,13 @@ const images = {
   "wrong-angled-triangle3.jpeg": wrongAngledTriangle3,
   "strawhatz2.jpeg": strawhatz2,
   "2023-unprofessional-coders.jpeg": unprofessionalCoders,
-  "wrong-angled-triangle.jpeg": wrongAngledTriangle
+  "wrong-angled-triangle.jpeg": wrongAngledTriangle,
+  "rightangledtriangleAmritapuri2025.jpeg": rightangledtriangleAmritapuri2025,
+  "ackermansAmritapuri2025.jpeg": ackermansAmritapuri2025,
+  "delta2025.jpeg": delta2025,
+  "ratChennai2025.jpeg": ratChennai2025,
+  "dontsleep.jpeg": dontsleep,
+  "bleh.jpeg": bleh
 };
 
 // Get data from imported file
@@ -326,13 +338,11 @@ export default function ICPC() {
             color="text.primary"
             sx={{ mb: 2, lineHeight: 1.7, textAlign: "justify" }}
           >
-            The International Collegiate Programming Contest (ICPC) is the
-            world's oldest and most esteemed programming competition and is the
-            ultimate stage for students passionate about coding and
-            problem-solving. It is referred as the Olympics of Competitive
-            Programming. ICPC sharpens creativity, teamwork, and resilience -
-            qualities that make a real difference in your day to day and
-            professional life.
+            The International Collegiate Programming Contest (ICPC) is the world’s oldest and most 
+            prestigious programming competition, representing the ultimate stage for students passionate 
+            about coding and problem-solving. Often referred to as the Olympics of Competitive Programming, 
+            ICPC fosters creativity, teamwork, and resilience—skills that have a lasting impact on both 
+            everyday life and professional careers.
           </Typography>
 
           <Typography
@@ -340,10 +350,9 @@ export default function ICPC() {
             color="text.primary"
             sx={{ mb: 4, lineHeight: 1.7, textAlign: "justify" }}
           >
-            Every year, only a few teams qualify to participate in the
-            regionals, which are held at the national level. In this regard, we
-            at Turing Hut take pride in consistently earning our place at the
-            regionals since 2018.
+            Each year, only a select number of teams qualify to compete at the regional level, which is 
+            conducted nationally. In this context, Turing Hut takes pride in consistently securing
+             qualification for the regionals every year since 2017.
           </Typography>
 
           <Typography
@@ -351,9 +360,10 @@ export default function ICPC() {
             color="text.primary"
             sx={{ mb: 4, lineHeight: 1.7, textAlign: "justify" }}
           >
-            With the establishment of Turing Hut in 2017, the CP culture started
-            growing rapidly, and by 2018, a team from VNRVJIET had qualified for
-            the ICPC Regionals !
+            With the establishment of Turing Hut in 2017, the competitive programming culture at 
+            VNRVJIET began to grow rapidly, and in the very same year, two teams from VNRVJIET qualified 
+            for the ICPC Regionals.
+
           </Typography>
 
           <Typography
@@ -361,12 +371,25 @@ export default function ICPC() {
             color="text.primary"
             sx={{ mb: 4, lineHeight: 1.7, textAlign: "justify" }}
           >
-            The best rank ever achieved by a VNRVJIET team at the ICPC Regionals
-            was <strong>All India Rank 42</strong> in 2023 by team{" "}
-            <strong>Wrong Angled Triangle</strong> at{" "}
-            <strong>Amritapuri Regionals 2023</strong> — missing the cut for the
-            Asia West Continent Finals by just 4 spots, with the last qualifying
-            team at Rank 38.
+            The best performance by a VNRVJIET team at the ICPC Regionals was an 
+            <strong> All India Rank 42 </strong> achieved in 2023 by team 
+            <strong> Wrong Angled Triangle </strong>
+            at the <strong>ICPC Asia West Amritapuri Regionals 2023 </strong>, narrowly missing 
+            qualification for the Asia West Continent Finals by just four ranks, with the last qualifying 
+            team placed at Rank 38.
+          </Typography>
+
+          <Typography
+            variant="body1"
+            color="text.primary"
+            sx={{ mb: 4, lineHeight: 1.7, textAlign: "justify" }}
+          >
+            The best rank ever achieved by a VNRVJIET team in the ICPC Prelims
+             was an <strong>All India Rank 24</strong> among nearly 3,000 teams, secured by 
+             team <strong>Right Angled Triangle</strong> in 2025. The team further achieved an 
+             <strong> All India Rank 62</strong> at the <strong>ICPC Asia West Amritapuri Regionals 2025</strong>,
+              narrowly missing qualification for the Asia West Continentals, 
+              where the final qualifying position stood at Rank 49.
           </Typography>
         </Box>
 

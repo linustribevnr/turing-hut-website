@@ -6,7 +6,7 @@ import PastContests from "../components/TuringCup/PastContests";
 import Timers from "../components/TuringCup/Timers";
 import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
 import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 // import { createTheme } from "@mui/material/styles";
 import Landingpage2 from "../components/TuringCup/Landingpage2";
 import Timelinee from "../components/TuringCup/Timelinee";
@@ -21,7 +21,7 @@ var divStyle = {
   margin: 0
 };
 function Turingcup() {
-  // const [isRegistering, setIsRegistering] = useState(true);
+  //const [isRegistering, setIsRegistering] = useState(true);
 
   return (
     <Layout sx={{ margin: 0 }}>
@@ -64,7 +64,7 @@ function Turingcup() {
             >
               {/* REGISTRATION FOR ROUND-2 */}
             </Typography>
-            {/* <Button
+             <Button
               sx={{
                 fontFamily: ['"Gruppo"', "cursive"].join(","),
                 backgroundColor: "#101820FF",
@@ -76,17 +76,17 @@ function Turingcup() {
                 }
               }}
               variant="contained"
-              // href="/register"
-              onClick={() => setIsRegistering(!isRegistering)}
+              href="https://unstop.com/hackathons/turing-cup-2k26-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-technology-telangana-1634555"
+              target="_blank"
               startIcon={<HowToRegRoundedIcon />}
             >
-              {isRegistering ? "Close Form" : "Register For Round-2 Here"}
-            </Button> */}
+              Register
+            </Button>
             {/* <RegisterForm /> */}
           </div>
 
           <About />
-          {/* <Timers /> */}
+          <Timers /> 
           <Timelinee />
           <TuringCupPrizePool />
           {/* <TuringCupSponsors /> */}
