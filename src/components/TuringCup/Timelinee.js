@@ -71,7 +71,7 @@ function Timelinee() {
           }}
           contentArrowStyle={{ borderRight: "7px solid  #F2AA4CFF" }}
           iconStyle={{ background: "#F2AA4CFF", color: "#101820FF" }}
-          date="26-02-2026"
+          date="28-02-2026"
           dateClassName={"timeline"}
           icon={<LooksTwoOutlinedIcon />}
         >
@@ -84,7 +84,7 @@ function Timelinee() {
           >
             The qualifier round for the Turing Cup 2K26 coding contest. <br />
             <br />
-            Date : 26/02/2026 - Thursday <br />
+            Date : 28/02/2026 - Saturday <br />
             Time : 08:30 PM - 10:00 PM (IST)
             <br />
             Mode : Online <br />

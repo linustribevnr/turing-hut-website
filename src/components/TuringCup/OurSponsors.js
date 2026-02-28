@@ -79,6 +79,10 @@ function OurSponsors({ name, img, desc, link }) {
               className="Sponsorimg"
               alt={name}
               image={img}
+              imgStyle={{
+                objectFit: "contain",
+                objectPosition: "center"
+              }}
               style={{
                 padding: "0px",
                 maxWidth: "100%",

@@ -33,7 +33,7 @@ function Timers() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("February 26, 2026 20:30:00").getTime();
+    const countdownDate = new Date("February 28, 2026 20:30:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

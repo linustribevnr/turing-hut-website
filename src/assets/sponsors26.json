@@ -1,0 +1,22 @@
+{
+  "sponsors": [
+    {
+      "name": "CVCORP",
+      "image": "CVCORP.png",
+      "details": "CVCORP is a Hyderabad-based professional training and coaching initiative focused on improving employability through targeted training, career guidance, HR services, and recruitment support.",
+      "link": "https://www.cvcorp.in/home"
+    },
+    {
+      "name": "Edu Connect India",
+      "image": "EDUCONNECT.png",
+      "details": "Edu Connect India helps bridge the information gap in education by giving students and parents up-to-date institute information, while helping institutions reach and engage prospective applicants.",
+      "link": "https://educonnectindia.com/"
+    },
+    {
+      "name": "Smart Interviews",
+      "image": "SmartInterviews.png",
+      "details": "Smart Interviews is an ed-tech platform that bridges academia and industry by training students in coding and DSA with industry-vetted curriculum to improve hiring outcomes at top tech companies.",
+      "link": "https://smartinterviews.in/"
+    }
+  ]
+}
