@@ -1,6 +1,6 @@
 ---
 title: Turing Cup 2K26
-date: 2026-02-26
+date: 2026-02-28
 time: 8:30 PM – 10:00 PM IST
 type: Contest
 slug: turing-cup-2k26
@@ -29,7 +29,7 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 
 ### 🔹 Round 1 — Online (Qualifier Round)
 - **Registration Fee**: Free  
-- **Date**: 26th February 2026  
+- **Date**: 28th February 2026  
 - **Time**: 08:30 PM – 10:00 PM IST  
 - **Platform**: Online  
 - Contest link will be shared via email **3 hours before the contest**
