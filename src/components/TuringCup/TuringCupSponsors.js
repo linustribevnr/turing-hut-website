@@ -6,7 +6,7 @@ import { styled } from "@mui/material/styles";
 import { Typography } from "@mui/material";
 
 import { graphql, useStaticQuery } from "gatsby";
-import sponsordata from "../../assets/sponsors25.json";
+import sponsordata from "../../assets/sponsors26.json";
 import SponsorCard from "../../components/TuringCup/OurSponsors";
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -17,7 +17,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function TuringCupSponsors() {
   const data = useStaticQuery(graphql`
     query SponsorQuery {
-      allFile(filter: { relativeDirectory: { eq: "sponsors25" } }) {
+      allFile(filter: { relativeDirectory: { eq: "sponsors26" } }) {
         edges {
           node {
             childImageSharp {
@@ -26,7 +26,7 @@ export default function TuringCupSponsors() {
                 height: 1000
                 blurredOptions: { width: 100 }
                 placeholder: BLURRED
-                transformOptions: { fit: COVER }
+                transformOptions: { fit: CONTAIN }
               )
             }
           }

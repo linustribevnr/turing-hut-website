@@ -35,7 +35,7 @@ module.exports = {
               maxWidth: 1200,
               quality: 90,
               linkImagesToOriginal: false,
-              backgroundColor: 'transparent'
+              backgroundColor: "transparent"
             }
           }
         ]
@@ -54,7 +54,7 @@ module.exports = {
               maxWidth: 1200,
               quality: 90,
               linkImagesToOriginal: false,
-              backgroundColor: 'transparent'
+              backgroundColor: "transparent"
             }
           }
         ]

@@ -84,7 +84,7 @@ function Timelinee() {
           >
             The qualifier round for the Turing Cup 2K26 coding contest. <br />
             <br />
-            Date : 28/02/2026 - Thursday <br />
+            Date : 28/02/2026 - Saturday <br />
             Time : 08:30 PM - 10:00 PM (IST)
             <br />
             Mode : Online <br />
