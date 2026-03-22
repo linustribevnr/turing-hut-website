@@ -44,6 +44,7 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 - **Venue**: VNR VJIET Campus, Bachupally, Hyderabad
 - **Registration Fee**: ₹300 per team
 - **Contest link**:https://codeforces.com/contests/679415
+- **Problem Set and editorial Link:** <a href="https://events.turinghut.org/events/turingcup-2k26/dashboard"  target="_blank" >Click Here</a>.
 
 ---
 
