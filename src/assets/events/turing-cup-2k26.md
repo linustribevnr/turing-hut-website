@@ -33,7 +33,7 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 - **Date**: 28th February 2026
 - **Time**: 08:30 PM – 10:00 PM IST
 - **Platform**: Online
-- Contest link will be shared via email **3 hours before the contest**
+- **Contest link**:https://www.hackerrank.com/contests/turing-cup-2k26-first-round/challenges
 
 ---
 
@@ -43,7 +43,8 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 - **Time**: 10:00 AM – 01:00 PM
 - **Venue**: VNR VJIET Campus, Bachupally, Hyderabad
 - **Registration Fee**: ₹300 per team
-- Shortlisted teams will be notified via email
+- **Contest link**:https://codeforces.com/contests/679415
+- **Problem Set and editorial Link:** <a href="https://events.turinghut.org/events/turingcup-2k26/dashboard"  target="_blank" >Click Here</a>.
 
 ---
 
@@ -53,6 +54,38 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 📅 **24th February 2026 — 11:59 PM**
 
 ---
+## Winners
+
+🥇 First Place
+
+- Members: Arjun Moravekar, Saketh Ramkumar Dondapati
+- College: Indian Institute of Technology (IIT), Hyderabad
+
+
+🥈 Second Place
+
+- Member: Sushil Raaja U
+- College: International Institute of Information Technology (IIIT), Hyderabad
+
+
+🥉 Third Place
+
+- Members: Harshil Singh, Aryan Maskara
+- College: IIIT Hyderabad
+
+
+🏅 Fourth Place
+
+- Members: Aditya Priyadarshi, Vasu Aggarwal
+- College: IIIT Bangalore
+
+
+🏅 Fifth Place
+
+- Members: Edward Nathan Varghese, Mani Hemanth Reddy Bonthu
+- College: IIT Hyderabad
+---
+**Link to Leaderboard**: https://events.turinghut.org/events/turingcup-2k26/leaderboard
 
 ## ☎️ Need Help?
 

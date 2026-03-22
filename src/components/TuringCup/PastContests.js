@@ -43,6 +43,46 @@ const styles = {
 
 const contestdetails = [
   {
+  "year": "2026",
+  "image": "tc_winners2026.JPG",
+  "report": "NA",
+  "info":
+    "Students from all colleges across the nation participated by forming teams of up to 1–2 members. The contest had 2 rounds. 1667 teams from 365 different colleges across the nation registered for the contest, out of which 60 teams were invited to the Final round (Onsite), from which the top 5 teams were rewarded with cash prizes.",
+
+  "winners": {
+    "first": {
+      "mem1": "Arjun Moravekar",
+      "mem2": "Saketh Ramkumar Dondapati",
+      "mem3": "",
+      "college": "Indian Institute of Technology (IIT), Hyderabad"
+    },
+    "second": {
+      "mem1": "Sushil Raaja U",
+      "mem2": "",
+      "mem3": "",
+      "college": "International Institute of Information Technology (IIIT), Hyderabad"
+    },
+    "third": {
+      "mem1": "Harshil Singh",
+      "mem2": "Aryan Maskara",
+      "mem3": "",
+      "college": "IIIT Hyderabad"
+    },
+    "fourth": {
+      "mem1": "Aditya Priyadarshi",
+      "mem2": "Vasu Aggarwal",
+      "mem3": "",
+      "college": "IIIT Bangalore"
+    },
+    "fifth": {
+      "mem1": "Edward Nathan Varghese",
+      "mem2": "Mani Hemanth Reddy Bonthu",
+      "mem3": "",
+      "college": "IIT Hyderabad"
+    }
+  }
+  },
+  {
     "year": "2025",
     "image": "TC_Winners2025.jpg",
     "report":
