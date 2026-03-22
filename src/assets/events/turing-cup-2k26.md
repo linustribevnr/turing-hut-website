@@ -84,6 +84,8 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 - Members: Edward Nathan Varghese, Mani Hemanth Reddy Bonthu
 - College: IIT Hyderabad
 ---
+**Link to Leaderboard**: https://events.turinghut.org/events/turingcup-2k26/leaderboard
+
 ## ☎️ Need Help?
 
 For any queries, reach out to:
