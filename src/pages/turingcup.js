@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import { Seo } from "../components/Seo";
 import "../components/TuringCup/turingcup.css";
 import PastContests from "../components/TuringCup/PastContests";
-import Timers from "../components/TuringCup/Timers";
+//import Timers from "../components/TuringCup/Timers";
 import TuringCupPrizePool from "../components/TuringCup/TuringCupPrizePool";
 import TuringCupSponsors from "../components/TuringCup/TuringCupSponsors";
 import { Box, Typography, Button } from "@mui/material";
@@ -64,6 +64,7 @@ function Turingcup() {
             >
               {/* REGISTRATION FOR ROUND-2 */}
             </Typography>
+            {/*}
              <Button
               sx={{
                 fontFamily: ['"Gruppo"', "cursive"].join(","),
@@ -86,7 +87,7 @@ function Turingcup() {
           </div>
 
           <About />
-          <Timers /> 
+          {/*<Timers />*/}
           <Timelinee />
           <TuringCupPrizePool />
           <TuringCupSponsors />

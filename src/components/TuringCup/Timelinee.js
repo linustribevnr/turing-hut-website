@@ -103,7 +103,7 @@ function Timelinee() {
           }}
           contentArrowStyle={{ borderRight: "7px solid  #F2AA4CFF" }}
           iconStyle={{ background: "#F2AA4CFF", color: "#101820FF" }}
-          date="16-03-2026"
+          date="18-03-2026"
           dateClassName={"timeline"}
           icon={<Looks3OutlinedIcon />}
         >
@@ -118,7 +118,7 @@ function Timelinee() {
             The onsite round for the Turing Cup 2K26 for the qualified teams of
             Round-1. <br />
             <br />
-            Date : 16/03/2026 - Monday <br />
+            Date : 18/03/2026 - Wednesday <br />
             Time : 10:00 AM - 1:00 PM (IST)
             <br />
             Mode : Offline <br />
