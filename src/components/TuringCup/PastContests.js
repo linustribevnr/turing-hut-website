@@ -64,21 +64,21 @@ const contestdetails = [
     },
     "third": {
       "mem1": "Harshil Singh",
-      "mem2": "Aryan Maskara",
+      "mem2": "",
       "mem3": "",
-      "college": "IIIT Hyderabad"
+      "college": "International Institute of Information Technology (IIIT), Hyderabad"
     },
     "fourth": {
       "mem1": "Aditya Priyadarshi",
       "mem2": "Vasu Aggarwal",
       "mem3": "",
-      "college": "IIIT Bangalore"
+      "college": "International Institute of Information Technology (IIIT), Bangalore"
     },
     "fifth": {
       "mem1": "Edward Nathan Varghese",
       "mem2": "Mani Hemanth Reddy Bonthu",
       "mem3": "",
-      "college": "IIT Hyderabad"
+      "college": "Indian Institute of Technology (IIT), Hyderabad"
     }
   }
   },

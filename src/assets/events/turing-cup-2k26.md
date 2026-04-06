@@ -1,5 +1,5 @@
 ---
-title: Turing Cup 2K26
+title: Turing Cup 2k26
 date: 2026-02-28
 time: 8:30 PM – 10:00 PM IST
 type: Contest
@@ -10,7 +10,7 @@ recording: NA
 markdownType: event
 ---
 
-# 🏆 Turing Cup 2K26
+# 🏆 Turing Cup 2k26
 
 **Not just a contest.  
 A battlefield for coders.**
@@ -33,7 +33,7 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 - **Date**: 28th February 2026
 - **Time**: 08:30 PM – 10:00 PM IST
 - **Platform**: Online
-- **Contest link**:https://www.hackerrank.com/contests/turing-cup-2k26-first-round/challenges
+- **Contest link**: https://www.hackerrank.com/contests/turing-cup-2k26-first-round/challenges
 
 ---
 
@@ -43,7 +43,8 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 - **Time**: 10:00 AM – 01:00 PM
 - **Venue**: VNR VJIET Campus, Bachupally, Hyderabad
 - **Registration Fee**: ₹300 per team
-- **Contest link**:https://codeforces.com/contests/679415
+- **Contest link**: https://codeforces.com/contestInvitation/12d1d02f9a07dd271abab02af191be8adbf689fe
+
 - **Problem Set and editorial Link:** <a href="https://events.turinghut.org/events/turingcup-2k26/dashboard"  target="_blank" >Click Here</a>.
 
 ---
@@ -70,20 +71,20 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 
 🥉 Third Place
 
-- Members: Harshil Singh, Aryan Maskara
-- College: IIIT Hyderabad
+- Members: Harshil Singh
+- College: International Institute of Information Technology (IIIT), Hyderabad
 
 
 🏅 Fourth Place
 
 - Members: Aditya Priyadarshi, Vasu Aggarwal
-- College: IIIT Bangalore
+- College: International Institute of Information Technology (IIIT), Bangalore
 
 
 🏅 Fifth Place
 
 - Members: Edward Nathan Varghese, Mani Hemanth Reddy Bonthu
-- College: IIT Hyderabad
+- College: Indian Institute of Technology (IIT), Hyderabad
 ---
 **Link to Leaderboard**: https://events.turinghut.org/events/turingcup-2k26/leaderboard
 
