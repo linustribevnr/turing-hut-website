@@ -88,9 +88,9 @@ function Turingcup() {
 
           <About />
           {/*<Timers />*/}
-          <Timelinee />
-          <TuringCupPrizePool />
-          <TuringCupSponsors />
+          {/*<Timelinee />*/}
+          {/*<TuringCupPrizePool />*/}
+          {/* <TuringCupSponsors /> */}
           <Box sx={{ height: "50px" }} />
           <PastContests />
           <Faqs />

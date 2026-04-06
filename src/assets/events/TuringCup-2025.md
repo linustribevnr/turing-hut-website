@@ -1,5 +1,5 @@
 ---
-title: Turing Cup 2K25
+title: Turing Cup 2k25
 date: 2025-04-07
 time: 08:00 PM to 10:00 PM
 type: Contest
@@ -16,7 +16,7 @@ The Turing Cup will be held in two rounds :<br/>
 
 ## Round 1
 
-The qualifier round for Turing Cup 2K25 is a **2-hour coding contest** that will be held online on **Hackerrank**. Short-listed candidates will be notified for the further rounds.
+The qualifier round for Turing Cup 2k25 is a **2-hour coding contest** that will be held online on **Hackerrank**. Short-listed candidates will be notified for the further rounds.
 
 **Start:** 07 April 2025, 08:00 PM  
 **End:** 07 April 2025, 10:00 PM
