@@ -2,7 +2,7 @@
 title: Competitive Programming Workshop 2026
 date: 2026-05-02
 time: |
-  Workshop: 2nd May 2026, 10:00 AM – 1:00 PM (Offline)
+  Workshop: 2nd May 2026, 10:00 AM – 3:40 PM (Offline)
   Practice Contest: 2nd May 2026, 8:30 PM – 10:30 PM (Online)
 type: Workshop
 slug: cp-workshop-2026
@@ -58,7 +58,3 @@ Don't just learn Competitive Programming—experience it firsthand. Attend the w
 Department of CSE, Turing Hut, Programming Club of VNR VJIET
 
 **Exclusively for 1st years, all branches!**
-
-**For queries:**  
-Balaji: 9642296219  
-Jahnavi: 7207062311
