@@ -22,7 +22,7 @@ Turing Hut is excited to bring you **Code Frenzy 2K26**, the official selection 
 
 ## Event Details:
 
-- **Date:** 18th July 2025
+- **Date:** 18th July 2026
 - **Time:** 1:40 PM – 4:00 PM
 - **Venue:** E-Block Labs
 - **Mode:** Offline
