@@ -11,11 +11,11 @@ registration:
 markdownType: event
 ---
 
-🚀 **Greetings Juniors!**
+**Greetings Juniors!**
 
 Turing Hut is excited to welcome you to our exclusive:
 
-# 🔥 Competitive Programming Workshop 🔥
+# Competitive Programming Workshop
 
 **📅 Date:** 2nd May 2026 (Saturday)  
 **🕙 Workshop Time:** 10:00 AM – 3:40 PM  
@@ -35,7 +35,7 @@ During the workshop, you'll learn about:
 
 ---
 
-## 💻 Practice Contest – 2nd May 2026, 8:30 PM – 10:30 PM
+## Practice Contest – 2nd May 2026, 8:30 PM – 10:30 PM
 
 Put your learning into action through a real coding contest experience on **HackerRank**.
 
