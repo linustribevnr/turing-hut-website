@@ -7,7 +7,6 @@ time: |
 type: Workshop
 slug: cp-workshop-2026
 image: ../images/events/CP_Workshop.jpeg
-registration: 
 markdownType: event
 ---
 
@@ -52,9 +51,16 @@ Put your learning into action through a real coding contest experience on **Hack
 
 Don't just learn Competitive Programming—experience it firsthand. Attend the workshop, participate in the contest, and take the first step towards becoming a better problem solver.
 
+**Exclusively for 1st years, all branches!**
+
 ---
 
-**Organised by:**  
-Department of CSE, Turing Hut, Programming Club of VNR VJIET
+### Update#1
 
-**Exclusively for 1st years, all branches!**
+Here is the link to the contest and editorial:</br>
+Practice Contest: https://www.hackerrank.com/turing-hut-workshop-practice-2k26</br>
+
+### Update#2
+
+Here is the link to summer practice problems: </br>
+Practice Problems: https://drive.google.com/file/d/14jPu2xAaAEAQE8ivARs3myhvIKaDFXFi/view</br>
