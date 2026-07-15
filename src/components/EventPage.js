@@ -10,7 +10,6 @@ export default function EventPage({ html, event_details }) {
     options
   );
 
-  // Helper function to check if a link is available
   const isLinkAvailable = link => {
     return link && link !== "NA" && link.trim() !== "";
   };
