@@ -1,20 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Typography, Button, Box } from "@mui/material";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default function EventPage({ html, event_details }) {
   const options = { year: "numeric", month: "long", day: "numeric" };
+  const [formattedDate, setFormattedDate] = useState(event_details.date);
 
-  event_details.date = new Date(event_details.date).toLocaleDateString(
-    "en-US",
-    options
-  );
+  useEffect(() => {
+    setFormattedDate(
+      new Date(event_details.date).toLocaleDateString("en-US", options)
+    );
+  }, [event_details.date]);
 
   const isLinkAvailable = link => {
     return link && link !== "NA" && link.trim() !== "";
   };
 
   const hasRegistration = isLinkAvailable(event_details.registration);
+  const hasContestLink = isLinkAvailable(event_details.contestlink);
   const hasRecording = isLinkAvailable(event_details.recording);
 
   // console.log(getImage(event_details.image));
@@ -33,7 +36,8 @@ export default function EventPage({ html, event_details }) {
           variant="h4"
           color="black"
           fontWeight={"bold"}
-          marginBottom={"10px"}>
+          marginBottom={"10px"}
+        >
           {event_details.title}
         </Typography>
         <div style={{ marginBottom: "10px" }}>
@@ -41,11 +45,12 @@ export default function EventPage({ html, event_details }) {
             variant="body1"
             color="black"
             fontWeight={"bold"}
-            sx={{ display: "inline" }}>
+            sx={{ display: "inline" }}
+          >
             Date:&nbsp;
           </Typography>
           <Typography variant="body1" sx={{ display: "inline" }}>
-            {event_details.date}
+            {formattedDate}
           </Typography>
         </div>
         <div style={{ marginBottom: "10px" }}>
@@ -53,7 +58,8 @@ export default function EventPage({ html, event_details }) {
             variant="body1"
             color="black"
             fontWeight={"bold"}
-            sx={{ display: "inline" }}>
+            sx={{ display: "inline" }}
+          >
             Time:&nbsp;
           </Typography>
           <Typography variant="body1" sx={{ display: "inline" }}>
@@ -65,7 +71,8 @@ export default function EventPage({ html, event_details }) {
             variant="body1"
             color="black"
             fontWeight={"bold"}
-            sx={{ display: "inline" }}>
+            sx={{ display: "inline" }}
+          >
             Type:&nbsp;
           </Typography>
           <Typography variant="body1" sx={{ display: "inline" }}>
@@ -75,12 +82,13 @@ export default function EventPage({ html, event_details }) {
         <Typography variant="body1" marginBottom={"10px"} textAlign={"justify"}>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </Typography>
-        {(hasRegistration || hasRecording) && (
+        {(hasRegistration || hasContestLink || hasRecording) && (
           <Typography
             variant="body1"
             color="black"
             fontWeight={"bold"}
-            marginBottom={"10px"}>
+            marginBottom={"10px"}
+          >
             Important Links
           </Typography>
         )}
@@ -91,8 +99,21 @@ export default function EventPage({ html, event_details }) {
             size="small"
             style={{ textTransform: "none", marginRight: "10px" }}
             href={event_details.registration}
-            target="_blank">
+            target="_blank"
+          >
             Registration Form
+          </Button>
+        )}
+        {hasContestLink && (
+          <Button
+            variant="contained"
+            color="info"
+            size="small"
+            style={{ textTransform: "none", marginRight: "10px" }}
+            href={event_details.contestlink}
+            target="_blank"
+          >
+            Contest Link
           </Button>
         )}
         {hasRecording && (
@@ -102,7 +123,8 @@ export default function EventPage({ html, event_details }) {
             size="small"
             style={{ textTransform: "none", marginRight: "10px" }}
             href={event_details.recording}
-            target="_blank">
+            target="_blank"
+          >
             Recording
           </Button>
         )}

@@ -5,8 +5,9 @@ time: 1:40 PM to 4:00 PM
 type: Contest
 slug: code-frenzy-26
 image: ../images/events/code_frenzy2k26.jpg
-registration: https://forms.gle/ZtNq5yJUiTBPsk7p8
+registration: NA
 recording: NA
+contestlink: https://www.hackerrank.com/code-frenzy-2k26-selection
 markdownType: event
 ---
 
@@ -26,13 +27,15 @@ Turing Hut is excited to bring you **Code Frenzy 2K26**, the official selection 
 - **Time:** 1:40 PM – 4:00 PM
 - **Venue:** E-Block Labs
 - **Mode:** Offline
-
-## Registration:
-
-To register for the contest, please fill out the Google form:
-[Registration Form](https://forms.gle/5D6JF8m8WEsQWWwJ8)
+- **Contest Link:** [Code Frenzy 2K26 Selection Contest](https://www.hackerrank.com/code-frenzy-2k26-selection)
 
 Please note that there will be a strict plagiarism check after the contest. Seeking or providing assistance during the contest is prohibited and will result in disqualification for both parties involved.
+
+## Top 3 Winners
+
+- 🥇 Sunkesula Sai Likhith (CSE-D) – 1st Rank
+- 🥈 Pullela Lakshmi Gayatri Meghana (CSE-A) – 2nd Rank
+- 🥉 Krishna Chaitanya Reddy N (CSE-A) – 3rd Rank
 
 If you have any questions, feel free to reach out to us:
 

@@ -383,9 +383,9 @@ class TextSparks {
 
 export default function LandingPage1() {
   useEffect(() => {
-    const a = new TextSparks();
-    a.run();
-  });
+    const sparks = new TextSparks();
+    sparks.run();
+  }, []);
   return (
     <div>
       <Helmet>
@@ -413,8 +413,8 @@ export default function LandingPage1() {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
         {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> */}
       </Helmet>
-      <section id="home" class="home-cover">
-        <div class="sparkle">
+      <section id="home" className="home-cover">
+        <div className="sparkle">
           <ul data-time="1500">
             <li data-saturation="0" data-lightness="100">
               ONE TEAM.

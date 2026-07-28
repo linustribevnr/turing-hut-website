@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import {
   Grid,
@@ -30,21 +30,35 @@ export default function UpcomingEvents() {
     }
   `);
 
-  var events = data.allMarkdownRemark.nodes;
-  const today = new Date();
-  var options = { year: "numeric", month: "long", day: "numeric" };
+  const [events, setEvents] = useState([]);
 
-  events = events.filter(e => new Date(e.frontmatter.date) >= today);
-  events.sort(
-    (a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date)
-  );
-  events.map(
-    e =>
-      (e.frontmatter.date = new Date(e.frontmatter.date).toLocaleDateString(
-        "en-US",
-        options
-      ))
-  );
+  useEffect(() => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const options = { year: "numeric", month: "long", day: "numeric" };
+
+    const upcoming = data.allMarkdownRemark.nodes
+      .filter(e => {
+        const eventDate = new Date(e.frontmatter.date);
+        eventDate.setHours(0, 0, 0, 0);
+        return eventDate >= today;
+      })
+      .sort(
+        (a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date)
+      )
+      .map(e => ({
+        ...e,
+        frontmatter: {
+          ...e.frontmatter,
+          date: new Date(e.frontmatter.date).toLocaleDateString(
+            "en-US",
+            options
+          )
+        }
+      }));
+
+    setEvents(upcoming);
+  }, [data.allMarkdownRemark.nodes]);
 
   return (
     <Box sx={{ my: 4 }}>
