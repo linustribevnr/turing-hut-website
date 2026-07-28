@@ -55,6 +55,7 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 📅 **24th February 2026 — 11:59 PM**
 
 ---
+
 ## Winners
 
 🥇 First Place
@@ -62,30 +63,28 @@ Whether you’re a beginner or a pro — step in, compete, and prove your skills
 - Members: Arjun Moravekar, Saketh Ramkumar Dondapati
 - College: Indian Institute of Technology (IIT), Hyderabad
 
-
 🥈 Second Place
 
 - Member: Sushil Raaja U
 - College: International Institute of Information Technology (IIIT), Hyderabad
-
 
 🥉 Third Place
 
 - Members: Harshil Singh
 - College: International Institute of Information Technology (IIIT), Hyderabad
 
-
 🏅 Fourth Place
 
 - Members: Aditya Priyadarshi, Vasu Aggarwal
 - College: International Institute of Information Technology (IIIT), Bangalore
 
-
 🏅 Fifth Place
 
 - Members: Edward Nathan Varghese, Mani Hemanth Reddy Bonthu
 - College: Indian Institute of Technology (IIT), Hyderabad
+
 ---
+
 **Link to Leaderboard**: https://events.turinghut.org/events/turingcup-2k26/leaderboard
 
 ## ☎️ Need Help?

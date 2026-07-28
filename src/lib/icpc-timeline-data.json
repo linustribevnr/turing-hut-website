@@ -41,7 +41,11 @@
         {
           "id": "2025-Ackermans-amritapuri",
           "team": "Ackermans",
-          "members": ["Adithya Sai Ram Tadikamalla", "Vinay Peddinti", "Srikar Madikuntawar"],
+          "members": [
+            "Adithya Sai Ram Tadikamalla",
+            "Vinay Peddinti",
+            "Srikar Madikuntawar"
+          ],
           "event": "ICPC Asia West Amritapuri Regionals 2025",
           "rank": "All India Rank 113",
           "description": "The team Ackermans qualified for the ICPC Asia West Amritapuri Regionals 2025. At the regional contest, the team solved 5 out of 11 problems and achieved an All India Rank of 113 out of 309 teams.",
@@ -63,7 +67,11 @@
         {
           "id": "2025-right-angled-triangle-chennai",
           "team": "Right Angled Triangle ",
-          "members": ["Shailesh Reddy Kanchanakuntla", "Naveen Tummala", "Karthik Kondaveeti"],
+          "members": [
+            "Shailesh Reddy Kanchanakuntla",
+            "Naveen Tummala",
+            "Karthik Kondaveeti"
+          ],
           "event": "ICPC Asia West Chennai Regionals 2025",
           "rank": "All India Rank 75",
           "description": "After securing All India Rank 24 among nearly 3,000 teams in the ICPC India 2025 Prelims, the team Right Angled Triangle qualified for the ICPC Asia West Chennai Regionals 2025. At the regional contest, the team solved 3 problems and secured an All India Rank of 75.",
@@ -221,11 +229,7 @@
         {
           "id": "2018-dont-sleep",
           "team": "d0nt_$leep",
-          "members": [
-            "Soheb Moin",
-            "Manik Soni",
-            "Rachana Bhimavarapu"
-          ],
+          "members": ["Soheb Moin", "Manik Soni", "Rachana Bhimavarapu"],
           "event": "ICPC Kolkata Kanpur Regionals 2018",
           "rank": "Qualified",
           "description": "After topping all other college teams, the team qualified and appeared for ICPC Kolkata Kanpur Regionals 2018.",
@@ -252,11 +256,7 @@
         {
           "id": "2017-dont-sleep",
           "team": "Don't Sleep",
-          "members": [
-            "Soheb Moin",
-            "Manik Soni",
-            "Supraja Vadlamudi"
-          ],
+          "members": ["Soheb Moin", "Manik Soni", "Supraja Vadlamudi"],
           "event": "ICPC Amritapuri Regionals 2017",
           "rank": "Qualified",
           "description": "After topping all other college teams, the team qualified and appeared for ICPC Amritapuri Regionals 2017.",

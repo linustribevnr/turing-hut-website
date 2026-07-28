@@ -49,8 +49,8 @@ with a high-quality platform to compete, learn, and grow in problem-solving and 
 
 </p>
 
-
 ---
+
 <div style="text-align:center; margin-top:20px; margin-bottom:20px;">
   <img
     src="../images/newsletter/2025nsltr-021.jpg"
@@ -92,6 +92,7 @@ e. <b>MOCXELIPTYTI</b> → Measures efficiency of an algorithm
 </div>
 
 ---
+
 # Interesting Reads
 
 <table style="width:100%;">
@@ -109,7 +110,6 @@ style="width:100%; height:300px; object-fit:cover;"
 Tata Consultancy Services announced the winners of the <b>2026 edition of its global coding competition, TCS CodeVita™</b>. Zhou Jingkai secured the top honour. Vicente Opazo and Jorge Valdivia emerged as runners-up. This year’s edition marked a benchmark with <b>146,922 participants</b>, earning TCS a new Guinness World Record...<a href="https://cxotoday.com/media-coverage/tcs-codevita-2026-hits-guinness-world-record-as-china-wins-top-prize/" target="_blank">read more</a>
 
 </td>
-
 
 <td style="width:50%; vertical-align:top; padding-left:25px;">
 
@@ -133,7 +133,6 @@ That wraps up our list of interesting reads. Now, it’s time to put your skills
 </p>
 
 <br/>
-
 
 ---
 

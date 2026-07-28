@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Box, Divider, Typography, Tooltip, IconButton } from "@mui/material";
+import { useLocation } from "@reach/router";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -30,17 +31,12 @@ const socialMediaItems = [
 ];
 
 export default function Footer() {
-  const [bgcol, setbgcol] = useState("white");
-
-  useEffect(() => {
-    if (
-      window.location.pathname.includes("/turingcup") ||
-      window.location.pathname.includes("/turingcup/") ||
-      window.location.pathname.includes("/register")
-    ) {
-      setbgcol("#101820FF");
-    } else setbgcol("white");
-  }, []);
+  const location = useLocation();
+  const bgcol =
+    location.pathname.includes("/turingcup") ||
+    location.pathname.includes("/register")
+      ? "#101820FF"
+      : "white";
 
   return (
     <Box sx={{ my: 2, bgcolor: bgcol }}>

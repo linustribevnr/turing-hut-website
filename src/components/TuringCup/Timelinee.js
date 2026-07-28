@@ -58,8 +58,8 @@ function Timelinee() {
             Registration fee: FREE for Round-1 ; Rs 300/- per team for Round-2
             (Lunch and goodies will be provided)
             <br />
-            Registration for online round will close on 24th February,2026 11:59 PM{" "}
-            <br />
+            Registration for online round will close on 24th February,2026 11:59
+            PM <br />
           </h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -113,7 +113,6 @@ function Timelinee() {
               opacity: 0.8,
               lineHeight: "20px"
             }}
-            
           >
             The onsite round for the Turing Cup 2K26 for the qualified teams of
             Round-1. <br />

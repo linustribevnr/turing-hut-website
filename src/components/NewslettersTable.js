@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Box,
   Table,
@@ -43,11 +43,12 @@ export default function NewslettersTable() {
     }
   `);
 
-  const newsletters = data.allMarkdownRemark.nodes
-    .map(newsletter => {
-      const options = { year: "numeric", month: "short", day: "numeric" };
+  const [newsletters, setNewsletters] = useState([]);
 
-      return {
+  useEffect(() => {
+    const options = { year: "numeric", month: "short", day: "numeric" };
+    const mapped = data.allMarkdownRemark.nodes
+      .map(newsletter => ({
         id: newsletter.id,
         name: newsletter.frontmatter.title,
         date: new Date(newsletter.frontmatter.date).toLocaleDateString(
@@ -56,9 +57,10 @@ export default function NewslettersTable() {
         ),
         slug: newsletter.frontmatter.slug,
         markdown_type: newsletter.frontmatter.markdownType
-      };
-    })
-    .filter(newsletter => newsletter.markdown_type === "newsletter");
+      }))
+      .filter(n => n.markdown_type === "newsletter");
+    setNewsletters(mapped);
+  }, [data.allMarkdownRemark.nodes]);
 
   const emptyRows =
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - newsletters.length) : 0;

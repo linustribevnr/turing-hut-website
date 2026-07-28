@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { Grid, Paper, Typography } from "@mui/material";
 import "./headingstyles.css";
 import { styled } from "@mui/material/styles";
-import useMediaQuery from "@mui/material/useMediaQuery";
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -67,12 +66,10 @@ function Timers() {
     startTimer();
 
     return () => {
-      const intervalId = interval.current;
-      clearInterval(intervalId);
+      clearInterval(interval.current);
     };
-  });
+  }, []);
 
-  const isLargeScreen = useMediaQuery(theme => theme.breakpoints.up("lg"));
   return (
     <Grid
       sx={{
