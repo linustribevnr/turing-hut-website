@@ -22,6 +22,7 @@ export default function Team() {
               gatsbyImageData(
                 width: 350
                 height: 400
+                quality: 90
                 blurredOptions: { width: 100 }
                 placeholder: BLURRED
                 transformOptions: { fit: COVER }
