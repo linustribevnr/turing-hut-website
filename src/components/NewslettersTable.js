@@ -55,15 +55,14 @@ export default function NewslettersTable() {
           "en-US",
           options
         ),
+        rawDate: newsletter.frontmatter.date,
         slug: newsletter.frontmatter.slug,
+        newsletterNumber: parseInt(newsletter.frontmatter.slug, 10) || 0,
         markdown_type: newsletter.frontmatter.markdownType
       }))
       .filter(n => n.markdown_type === "newsletter");
     setNewsletters(mapped);
   }, [data.allMarkdownRemark.nodes]);
-
-  const emptyRows =
-    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - newsletters.length) : 0;
 
   const handleChangePage = (newsletter, newPage) => {
     setPage(newPage);
@@ -79,23 +78,46 @@ export default function NewslettersTable() {
     setOrder(order === "asc" ? "desc" : "asc");
   };
 
-  function getSortednewsletters(newsletters) {
-    return newsletters.sort((x, y) => {
-      const a = x[orderBy.toLowerCase()];
-      const b = y[orderBy.toLowerCase()];
+  function getSortednewsletters(newslettersList) {
+    return [...newslettersList].sort((x, y) => {
       if (orderBy === "Date") {
-        const ad = new Date(a);
-        const bd = new Date(b);
-        // console.log("ehyy", a, b);
+        const ad = new Date(x.rawDate || x.date).getTime();
+        const bd = new Date(y.rawDate || y.date).getTime();
         if (ad > bd) return order === "asc" ? -1 : 1;
-        else if (ad < bd) return order === "asc" ? 1 : -1;
+        if (ad < bd) return order === "asc" ? 1 : -1;
+
+        const an = x.newsletterNumber || parseInt(x.slug, 10) || 0;
+        const bn = y.newsletterNumber || parseInt(y.slug, 10) || 0;
+        if (an > bn) return order === "asc" ? -1 : 1;
+        if (an < bn) return order === "asc" ? 1 : -1;
         return 0;
       }
-      if (a > b) return order === "asc" ? -1 : 1;
-      else if (a < b) return order === "asc" ? 1 : -1;
-      return 0;
+
+      const an = x.newsletterNumber || parseInt(x.slug, 10) || 0;
+      const bn = y.newsletterNumber || parseInt(y.slug, 10) || 0;
+      if (an && bn && an !== bn) {
+        if (an > bn) return order === "asc" ? -1 : 1;
+        if (an < bn) return order === "asc" ? 1 : -1;
+      }
+
+      const cmp = x.name.localeCompare(y.name, undefined, {
+        numeric: true,
+        sensitivity: "base"
+      });
+      return order === "asc" ? -cmp : cmp;
     });
   }
+
+  const filteredNewsletters = getSortednewsletters(newsletters).filter(
+    newsletter =>
+      newsletter.name.toLowerCase().includes(search) ||
+      newsletter.date.toLowerCase().includes(search)
+  );
+
+  const emptyRows =
+    page > 0
+      ? Math.max(0, (1 + page) * rowsPerPage - filteredNewsletters.length)
+      : 0;
 
   return (
     <Box sx={{ m: 4 }}>
@@ -117,7 +139,10 @@ export default function NewslettersTable() {
             label="Search"
             type="search"
             variant="standard"
-            onChange={e => setSearch(e.target.value.toLowerCase())}
+            onChange={e => {
+              setSearch(e.target.value.toLowerCase());
+              setPage(0);
+            }}
           />
           <ManageSearchIcon
             label="Search"
@@ -161,33 +186,28 @@ export default function NewslettersTable() {
           </TableHead>
           <TableBody>
             {(rowsPerPage > 0
-              ? getSortednewsletters(newsletters).slice(
+              ? filteredNewsletters.slice(
                   page * rowsPerPage,
                   page * rowsPerPage + rowsPerPage
                 )
-              : getSortednewsletters(newsletters)
-            ).map(
-              newsletter =>
-                newsletter.name.toLowerCase().includes(search) && (
-                  <TableRow
-                    key={newsletter.id}
-                    sx={{
-                      "&:last-child td, &:last-child th": { border: 0 }
-                    }}
-                  >
-                    <TableCell component="th" scope="row" align="center">
-                      {newsletter.name}
-                    </TableCell>
-                    <TableCell align="center">{newsletter.date}</TableCell>
+              : filteredNewsletters
+            ).map(newsletter => (
+              <TableRow
+                key={newsletter.id}
+                sx={{
+                  "&:last-child td, &:last-child th": { border: 0 }
+                }}
+              >
+                <TableCell component="th" scope="row" align="center">
+                  {newsletter.name}
+                </TableCell>
+                <TableCell align="center">{newsletter.date}</TableCell>
 
-                    <TableCell align="center">
-                      <Link to={`/newsletters/${newsletter.slug}`}>
-                        See more
-                      </Link>
-                    </TableCell>
-                  </TableRow>
-                )
-            )}
+                <TableCell align="center">
+                  <Link to={`/newsletters/${newsletter.slug}`}>See more</Link>
+                </TableCell>
+              </TableRow>
+            ))}
 
             {emptyRows > 0 && (
               <TableRow style={{ height: 53 * emptyRows }}>
@@ -200,7 +220,7 @@ export default function NewslettersTable() {
               <TablePagination
                 rowsPerPageOptions={[10, 15, 20]}
                 colSpan={4}
-                count={newsletters.length}
+                count={filteredNewsletters.length}
                 rowsPerPage={rowsPerPage}
                 page={page}
                 onPageChange={handleChangePage}
