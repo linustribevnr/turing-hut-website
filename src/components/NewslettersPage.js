@@ -30,7 +30,12 @@ export default function NewslettersPage({ html, newletter_details }) {
           {newletter_details.title}
         </Typography>
 
-        <Typography variant="body1" marginBottom={"10px"} textAlign={"justify"}>
+        <Typography
+          component="div"
+          variant="body1"
+          marginBottom={"10px"}
+          textAlign={"justify"}
+        >
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </Typography>
       </Box>
